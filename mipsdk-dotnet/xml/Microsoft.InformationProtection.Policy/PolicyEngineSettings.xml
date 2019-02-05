@@ -1,0 +1,181 @@
+﻿<Type Name="PolicyEngineSettings" FullName="Microsoft.InformationProtection.Policy.PolicyEngineSettings">
+  <TypeSignature Language="C#" Value="public class PolicyEngineSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PolicyEngineSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.PolicyEngineSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class PolicyEngineSettings" />
+  <TypeSignature Language="F#" Value="type PolicyEngineSettings = class" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            An instance of this class with the appropriate parameters should be provide to initiate an engine. 
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PolicyEngineSettings (string id, string clientData, string locale);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string clientData, string locale) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.PolicyEngineSettings.#ctor(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, clientData As String, locale As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.PolicyEngineSettings : string * string * string -&gt; Microsoft.InformationProtection.Policy.PolicyEngineSettings" Usage="new Microsoft.InformationProtection.Policy.PolicyEngineSettings (id, clientData, locale)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="clientData" Type="System.String" />
+        <Parameter Name="locale" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.Id" />. When loading an existing engine re-use the id else a new engine will be created.</param>
+        <param name="clientData">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.ClientData" /></param>
+        <param name="locale">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.Locale" /></param>
+        <summary>
+            Construct an instance with the given parameters. Use this to create Settings to call LoadEngineAsync to load an existing engine.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClientData">
+      <MemberSignature Language="C#" Value="public string ClientData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ClientData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.ClientData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClientData As String" />
+      <MemberSignature Language="F#" Value="member this.ClientData : string" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.ClientData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Client Data set in the settings.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomSettings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; CustomSettings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; CustomSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.CustomSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomSettings As List(Of KeyValuePair(Of String, String))" />
+      <MemberSignature Language="F#" Value="member this.CustomSettings : System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt; with get, set" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.CustomSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             The custom settings, used for feature gating and testing.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The unique engine id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadSensitivityTypes">
+      <MemberSignature Language="C#" Value="public bool LoadSensitivityTypes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool LoadSensitivityTypes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.LoadSensitivityTypes" />
+      <MemberSignature Language="VB.NET" Value="Public Property LoadSensitivityTypes As Boolean" />
+      <MemberSignature Language="F#" Value="member this.LoadSensitivityTypes : bool with get, set" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.LoadSensitivityTypes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Indicates if should pull the sensitivity types with the policy.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Locale">
+      <MemberSignature Language="C#" Value="public string Locale { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Locale" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.Locale" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Locale As String" />
+      <MemberSignature Language="F#" Value="member this.Locale : string" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.Locale" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the Locale set in the settings.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SessionId">
+      <MemberSignature Language="C#" Value="public string SessionId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SessionId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.SessionId" />
+      <MemberSignature Language="VB.NET" Value="Public Property SessionId As String" />
+      <MemberSignature Language="F#" Value="member this.SessionId : string with get, set" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.SessionId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The session id, used for client defined telemetry. 
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

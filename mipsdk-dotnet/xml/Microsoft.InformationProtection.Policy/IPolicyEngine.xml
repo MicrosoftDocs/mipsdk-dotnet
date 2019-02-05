@@ -1,0 +1,255 @@
+﻿<Type Name="IPolicyEngine" FullName="Microsoft.InformationProtection.Policy.IPolicyEngine">
+  <TypeSignature Language="C#" Value="public interface IPolicyEngine : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPolicyEngine implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.IPolicyEngine" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPolicyEngine&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type IPolicyEngine = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            This class provides an interface for all engine functions.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreatePolicyHandler">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Policy.IPolicyHandler CreatePolicyHandler (bool isAuditDiscoveryEnabled);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.Policy.IPolicyHandler CreatePolicyHandler(bool isAuditDiscoveryEnabled) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyEngine.CreatePolicyHandler(System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreatePolicyHandler (isAuditDiscoveryEnabled As Boolean) As IPolicyHandler" />
+      <MemberSignature Language="F#" Value="abstract member CreatePolicyHandler : bool -&gt; Microsoft.InformationProtection.Policy.IPolicyHandler" Usage="iPolicyEngine.CreatePolicyHandler isAuditDiscoveryEnabled" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.IPolicyHandler</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="isAuditDiscoveryEnabled">To be added.</param>
+        <summary>
+            Create a Policy Handler to execute policy related functions on a file's execution state
+            <param name="isAuditDiscoveryEnabled">Bool to denote if audit discovery is enabled.</param></summary>
+        <returns> Policy Handler </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomSettings">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; CustomSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; CustomSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.CustomSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomSettings As ReadOnlyCollection(Of KeyValuePair(Of String, String))" />
+      <MemberSignature Language="F#" Value="member this.CustomSettings : System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.CustomSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             The custom policy settings. set by the tenant admin.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DefaultSensitivityLabel">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Label DefaultSensitivityLabel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Label DefaultSensitivityLabel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.DefaultSensitivityLabel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DefaultSensitivityLabel As Label" />
+      <MemberSignature Language="F#" Value="member this.DefaultSensitivityLabel : Microsoft.InformationProtection.Label" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.DefaultSensitivityLabel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the default sensitivity label. 
+            </summary>
+        <value>Default sensitivy label if exists, <c>null</c>if there is no default label set.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLabelingRequired">
+      <MemberSignature Language="C#" Value="public bool IsLabelingRequired { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLabelingRequired" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.IsLabelingRequired" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLabelingRequired As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsLabelingRequired : bool" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.IsLabelingRequired" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Checks whether or not the policy dictates that a document must be labeled.
+            </summary>
+        <value>True if labelling is mandatory, else false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoreInfoUrl">
+      <MemberSignature Language="C#" Value="public string MoreInfoUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MoreInfoUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.MoreInfoUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MoreInfoUrl As String" />
+      <MemberSignature Language="F#" Value="member this.MoreInfoUrl : string" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.MoreInfoUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provide a url for looking up more information regarding the policy/labels.
+            </summary>
+        <value>A url in string format.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyDataXml">
+      <MemberSignature Language="C#" Value="public string PolicyDataXml { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PolicyDataXml" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.PolicyDataXml" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyDataXml As String" />
+      <MemberSignature Language="F#" Value="member this.PolicyDataXml : string" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.PolicyDataXml" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets policy data XML which describes the settings, labels, and rules associated with this policy
+            </summary>
+        <value>Policy data XML</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendApplicationAuditEvent">
+      <MemberSignature Language="C#" Value="public void SendApplicationAuditEvent (string level, string eventType, string eventData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendApplicationAuditEvent(string level, string eventType, string eventData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyEngine.SendApplicationAuditEvent(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendApplicationAuditEvent (level As String, eventType As String, eventData As String)" />
+      <MemberSignature Language="F#" Value="abstract member SendApplicationAuditEvent : string * string * string -&gt; unit" Usage="iPolicyEngine.SendApplicationAuditEvent (level, eventType, eventData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="level" Type="System.String" />
+        <Parameter Name="eventType" Type="System.String" />
+        <Parameter Name="eventData" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="level">a string representing the log level : Info/Error/Warning.</param>
+        <param name="eventType">a string representing the type of event.</param>
+        <param name="eventData">a string representing the data associated with the event.</param>
+        <summary>
+            Logs an application specific event to the audit pipeline.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SensitivityLabels">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt; SensitivityLabels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.InformationProtection.Label&gt; SensitivityLabels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.SensitivityLabels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SensitivityLabels As ReadOnlyCollection(Of Label)" />
+      <MemberSignature Language="F#" Value="member this.SensitivityLabels : System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.SensitivityLabels" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            List the sensitivity labels associated with the policy engine.
+            </summary>
+        <value>A list of sensitivity labels.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SensitivityTypes">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt; SensitivityTypes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt; SensitivityTypes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.SensitivityTypes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SensitivityTypes As ReadOnlyCollection(Of SensitivityTypesRulePackage)" />
+      <MemberSignature Language="F#" Value="member this.SensitivityTypes : System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt;" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.SensitivityTypes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            List the sensitivity types associated with the policy engine.
+            </summary>
+        <value>A list of sensitivity labels. empty if LoadSensitivityTypesEnabled was false</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Policy.PolicyEngineSettings Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Policy.PolicyEngineSettings Settings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.Settings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As PolicyEngineSettings" />
+      <MemberSignature Language="F#" Value="member this.Settings : Microsoft.InformationProtection.Policy.PolicyEngineSettings" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.Settings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.PolicyEngineSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the policy engine Settings. 
+            </summary>
+        <value>The policy engine Settings. </value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

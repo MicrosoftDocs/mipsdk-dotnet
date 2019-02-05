@@ -1,0 +1,86 @@
+﻿<Type Name="AssignmentMethod" FullName="Microsoft.InformationProtection.AssignmentMethod">
+  <TypeSignature Language="C#" Value="public enum AssignmentMethod" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AssignmentMethod extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.AssignmentMethod" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AssignmentMethod" />
+  <TypeSignature Language="F#" Value="type AssignmentMethod = " />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The assignment method of the label on the document. Whether the Assignment of the label was done  automatically,
+            standard or as a privileged operation(The equivalent to an administrator operation). 
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Auto">
+      <MemberSignature Language="C#" Value="Auto" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.AssignmentMethod Auto = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.AssignmentMethod.Auto" />
+      <MemberSignature Language="VB.NET" Value="Auto" />
+      <MemberSignature Language="F#" Value="Auto = 2" Usage="Microsoft.InformationProtection.AssignmentMethod.Auto" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.AssignmentMethod</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Label assignment method is automatic
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Privileged">
+      <MemberSignature Language="C#" Value="Privileged" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.AssignmentMethod Privileged = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.AssignmentMethod.Privileged" />
+      <MemberSignature Language="VB.NET" Value="Privileged" />
+      <MemberSignature Language="F#" Value="Privileged = 1" Usage="Microsoft.InformationProtection.AssignmentMethod.Privileged" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.AssignmentMethod</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Label assignment method is privileged
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Standard">
+      <MemberSignature Language="C#" Value="Standard" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.AssignmentMethod Standard = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.AssignmentMethod.Standard" />
+      <MemberSignature Language="VB.NET" Value="Standard" />
+      <MemberSignature Language="F#" Value="Standard = 0" Usage="Microsoft.InformationProtection.AssignmentMethod.Standard" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.AssignmentMethod</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Label assignment method is standard
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,249 @@
+﻿<Type Name="IFileEngine" FullName="Microsoft.InformationProtection.File.IFileEngine">
+  <TypeSignature Language="C#" Value="public interface IFileEngine : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileEngine implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.IFileEngine" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileEngine&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type IFileEngine = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Interface for all engine functions.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateFileHandlerAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt; CreateFileHandlerAsync (string inputFilePath, string contentIdentifier, Microsoft.InformationProtection.ContentState contentState, bool isAuditDiscoveryEnabled, Microsoft.InformationProtection.File.IFileExecutionState fileExecutionState = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.File.IFileHandler&gt; CreateFileHandlerAsync(string inputFilePath, string contentIdentifier, valuetype Microsoft.InformationProtection.ContentState contentState, bool isAuditDiscoveryEnabled, class Microsoft.InformationProtection.File.IFileExecutionState fileExecutionState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileEngine.CreateFileHandlerAsync(System.String,System.String,Microsoft.InformationProtection.ContentState,System.Boolean,Microsoft.InformationProtection.File.IFileExecutionState)" />
+      <MemberSignature Language="F#" Value="abstract member CreateFileHandlerAsync : string * string * Microsoft.InformationProtection.ContentState * bool * Microsoft.InformationProtection.File.IFileExecutionState -&gt; System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;" Usage="iFileEngine.CreateFileHandlerAsync (inputFilePath, contentIdentifier, contentState, isAuditDiscoveryEnabled, fileExecutionState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputFilePath" Type="System.String" />
+        <Parameter Name="contentIdentifier" Type="System.String" />
+        <Parameter Name="contentState" Type="Microsoft.InformationProtection.ContentState" />
+        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" />
+        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.IFileExecutionState" />
+      </Parameters>
+      <Docs>
+        <param name="inputFilePath">To be added.</param>
+        <param name="contentIdentifier">To be added.</param>
+        <param name="contentState">To be added.</param>
+        <param name="isAuditDiscoveryEnabled">To be added.</param>
+        <param name="fileExecutionState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateFileHandlerAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt; CreateFileHandlerAsync (System.IO.Stream inputStream, string inputFileName, string contentIdentifier, Microsoft.InformationProtection.ContentState contentState, bool isAuditDiscoveryEnabled, Microsoft.InformationProtection.File.IFileExecutionState fileExecutionState = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.File.IFileHandler&gt; CreateFileHandlerAsync(class System.IO.Stream inputStream, string inputFileName, string contentIdentifier, valuetype Microsoft.InformationProtection.ContentState contentState, bool isAuditDiscoveryEnabled, class Microsoft.InformationProtection.File.IFileExecutionState fileExecutionState) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileEngine.CreateFileHandlerAsync(System.IO.Stream,System.String,System.String,Microsoft.InformationProtection.ContentState,System.Boolean,Microsoft.InformationProtection.File.IFileExecutionState)" />
+      <MemberSignature Language="F#" Value="abstract member CreateFileHandlerAsync : System.IO.Stream * string * string * Microsoft.InformationProtection.ContentState * bool * Microsoft.InformationProtection.File.IFileExecutionState -&gt; System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;" Usage="iFileEngine.CreateFileHandlerAsync (inputStream, inputFileName, contentIdentifier, contentState, isAuditDiscoveryEnabled, fileExecutionState)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputStream" Type="System.IO.Stream" />
+        <Parameter Name="inputFileName" Type="System.String" />
+        <Parameter Name="contentIdentifier" Type="System.String" />
+        <Parameter Name="contentState" Type="Microsoft.InformationProtection.ContentState" />
+        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" />
+        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.IFileExecutionState" />
+      </Parameters>
+      <Docs>
+        <param name="inputStream">To be added.</param>
+        <param name="inputFileName">To be added.</param>
+        <param name="contentIdentifier">To be added.</param>
+        <param name="contentState">To be added.</param>
+        <param name="isAuditDiscoveryEnabled">To be added.</param>
+        <param name="fileExecutionState">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomSettings">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; CustomSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; CustomSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileEngine.CustomSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomSettings As ReadOnlyCollection(Of KeyValuePair(Of String, String))" />
+      <MemberSignature Language="F#" Value="member this.CustomSettings : System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="Microsoft.InformationProtection.File.IFileEngine.CustomSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             The custom policy settings. set by the tenant admin.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLabelingRequired">
+      <MemberSignature Language="C#" Value="public bool IsLabelingRequired { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLabelingRequired" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileEngine.IsLabelingRequired" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsLabelingRequired As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsLabelingRequired : bool" Usage="Microsoft.InformationProtection.File.IFileEngine.IsLabelingRequired" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Checks whether or not the policy dictates that a document must be labeled.
+            </summary>
+        <value>True if labelling is mandatory, else false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MoreInfoUrl">
+      <MemberSignature Language="C#" Value="public string MoreInfoUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MoreInfoUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileEngine.MoreInfoUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MoreInfoUrl As String" />
+      <MemberSignature Language="F#" Value="member this.MoreInfoUrl : string" Usage="Microsoft.InformationProtection.File.IFileEngine.MoreInfoUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provide a url for looking up more information regarding the policy/labels.
+            </summary>
+        <value>A url in string format.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SendApplicationAuditEvent">
+      <MemberSignature Language="C#" Value="public void SendApplicationAuditEvent (string level, string eventType, string eventData);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SendApplicationAuditEvent(string level, string eventType, string eventData) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileEngine.SendApplicationAuditEvent(System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SendApplicationAuditEvent (level As String, eventType As String, eventData As String)" />
+      <MemberSignature Language="F#" Value="abstract member SendApplicationAuditEvent : string * string * string -&gt; unit" Usage="iFileEngine.SendApplicationAuditEvent (level, eventType, eventData)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="level" Type="System.String" />
+        <Parameter Name="eventType" Type="System.String" />
+        <Parameter Name="eventData" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="level">a string representing the log level : Info/Error/Warning.</param>
+        <param name="eventType">a string representing the type of event.</param>
+        <param name="eventData">a string representing the data associated with the event.</param>
+        <summary>
+            Logs an application specific event to the audit pipeline.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SensitivityLabels">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt; SensitivityLabels { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.InformationProtection.Label&gt; SensitivityLabels" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileEngine.SensitivityLabels" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SensitivityLabels As ReadOnlyCollection(Of Label)" />
+      <MemberSignature Language="F#" Value="member this.SensitivityLabels : System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;" Usage="Microsoft.InformationProtection.File.IFileEngine.SensitivityLabels" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Returns a list of sensitivity labels.
+            </summary>
+        <value>The sensitivity labels.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SensitivityTypes">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt; SensitivityTypes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt; SensitivityTypes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileEngine.SensitivityTypes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SensitivityTypes As ReadOnlyCollection(Of SensitivityTypesRulePackage)" />
+      <MemberSignature Language="F#" Value="member this.SensitivityTypes : System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt;" Usage="Microsoft.InformationProtection.File.IFileEngine.SensitivityTypes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            List the sensitivity types associated with the policy engine.
+            </summary>
+        <value>A list of sensitivity labels. empty if LoadSensitivityTypesEnabled was false</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.File.FileEngineSettings Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.File.FileEngineSettings Settings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileEngine.Settings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As FileEngineSettings" />
+      <MemberSignature Language="F#" Value="member this.Settings : Microsoft.InformationProtection.File.FileEngineSettings" Usage="Microsoft.InformationProtection.File.IFileEngine.Settings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.FileEngineSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Returns the engine settings.
+            </summary>
+        <value />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

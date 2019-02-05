@@ -1,0 +1,127 @@
+﻿<Type Name="ActionSource" FullName="Microsoft.InformationProtection.ActionSource">
+  <TypeSignature Language="C#" Value="public enum ActionSource" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ActionSource extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.ActionSource" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ActionSource" />
+  <TypeSignature Language="F#" Value="type ActionSource = " />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines what initiated the SetLabel event
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Automatic">
+      <MemberSignature Language="C#" Value="Automatic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.ActionSource Automatic = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.ActionSource.Automatic" />
+      <MemberSignature Language="VB.NET" Value="Automatic" />
+      <MemberSignature Language="F#" Value="Automatic = 1" Usage="Microsoft.InformationProtection.ActionSource.Automatic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ActionSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Set by policy conditions
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.ActionSource Default = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.ActionSource.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 3" Usage="Microsoft.InformationProtection.ActionSource.Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ActionSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Set by default in policy
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Mandatory">
+      <MemberSignature Language="C#" Value="Mandatory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.ActionSource Mandatory = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.ActionSource.Mandatory" />
+      <MemberSignature Language="VB.NET" Value="Mandatory" />
+      <MemberSignature Language="F#" Value="Mandatory = 4" Usage="Microsoft.InformationProtection.ActionSource.Mandatory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ActionSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Set by user after policy enforced to set a label
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Manual">
+      <MemberSignature Language="C#" Value="Manual" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.ActionSource Manual = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.ActionSource.Manual" />
+      <MemberSignature Language="VB.NET" Value="Manual" />
+      <MemberSignature Language="F#" Value="Manual = 0" Usage="Microsoft.InformationProtection.ActionSource.Manual" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ActionSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Selected manually by user
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Recommended">
+      <MemberSignature Language="C#" Value="Recommended" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.ActionSource Recommended = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.ActionSource.Recommended" />
+      <MemberSignature Language="VB.NET" Value="Recommended" />
+      <MemberSignature Language="F#" Value="Recommended = 2" Usage="Microsoft.InformationProtection.ActionSource.Recommended" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ActionSource</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Set by user after label was recommended by policy conditions
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

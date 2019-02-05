@@ -1,0 +1,64 @@
+﻿<Type Name="ContentFormat" FullName="Microsoft.InformationProtection.Policy.ContentFormat">
+  <TypeSignature Language="C#" Value="public enum ContentFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContentFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.ContentFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContentFormat" />
+  <TypeSignature Language="F#" Value="type ContentFormat = " />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Content format.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.ContentFormat Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.ContentFormat.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.InformationProtection.Policy.ContentFormat.Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.ContentFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Content format is standard file format
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EMail">
+      <MemberSignature Language="C#" Value="EMail" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.ContentFormat EMail = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.ContentFormat.EMail" />
+      <MemberSignature Language="VB.NET" Value="EMail" />
+      <MemberSignature Language="F#" Value="EMail = 1" Usage="Microsoft.InformationProtection.Policy.ContentFormat.EMail" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.ContentFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Content format is email format
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

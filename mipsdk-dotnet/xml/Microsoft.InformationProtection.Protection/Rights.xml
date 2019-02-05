@@ -1,0 +1,293 @@
+﻿<Type Name="Rights" FullName="Microsoft.InformationProtection.Protection.Rights">
+  <TypeSignature Language="C#" Value="public static class Rights" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Rights extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.Rights" />
+  <TypeSignature Language="VB.NET" Value="Public Class Rights" />
+  <TypeSignature Language="F#" Value="type Rights = class" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AuditedExtract">
+      <MemberSignature Language="C#" Value="public const string AuditedExtract;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string AuditedExtract" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.AuditedExtract" />
+      <MemberSignature Language="VB.NET" Value="Public Const AuditedExtract As String " />
+      <MemberSignature Language="F#" Value="val mutable AuditedExtract : string" Usage="Microsoft.InformationProtection.Protection.Rights.AuditedExtract" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Comment">
+      <MemberSignature Language="C#" Value="public const string Comment;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Comment" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.Comment" />
+      <MemberSignature Language="VB.NET" Value="Public Const Comment As String " />
+      <MemberSignature Language="F#" Value="val mutable Comment : string" Usage="Microsoft.InformationProtection.Protection.Rights.Comment" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommonRights">
+      <MemberSignature Language="C#" Value="public static System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt; CommonRights ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;string&gt; CommonRights() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.Rights.CommonRights" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CommonRights () As ReadOnlyCollection(Of String)" />
+      <MemberSignature Language="F#" Value="static member CommonRights : unit -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt;" Usage="Microsoft.InformationProtection.Protection.Rights.CommonRights " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Edit">
+      <MemberSignature Language="C#" Value="public const string Edit;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Edit" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.Edit" />
+      <MemberSignature Language="VB.NET" Value="Public Const Edit As String " />
+      <MemberSignature Language="F#" Value="val mutable Edit : string" Usage="Microsoft.InformationProtection.Protection.Rights.Edit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EditableDocumentRights">
+      <MemberSignature Language="C#" Value="public static System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt; EditableDocumentRights ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;string&gt; EditableDocumentRights() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.Rights.EditableDocumentRights" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EditableDocumentRights () As ReadOnlyCollection(Of String)" />
+      <MemberSignature Language="F#" Value="static member EditableDocumentRights : unit -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt;" Usage="Microsoft.InformationProtection.Protection.Rights.EditableDocumentRights " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EmailRights">
+      <MemberSignature Language="C#" Value="public static System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt; EmailRights ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;string&gt; EmailRights() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.Rights.EmailRights" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EmailRights () As ReadOnlyCollection(Of String)" />
+      <MemberSignature Language="F#" Value="static member EmailRights : unit -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt;" Usage="Microsoft.InformationProtection.Protection.Rights.EmailRights " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Export">
+      <MemberSignature Language="C#" Value="public const string Export;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Export" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.Export" />
+      <MemberSignature Language="VB.NET" Value="Public Const Export As String " />
+      <MemberSignature Language="F#" Value="val mutable Export : string" Usage="Microsoft.InformationProtection.Protection.Rights.Export" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Extract">
+      <MemberSignature Language="C#" Value="public const string Extract;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Extract" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.Extract" />
+      <MemberSignature Language="VB.NET" Value="Public Const Extract As String " />
+      <MemberSignature Language="F#" Value="val mutable Extract : string" Usage="Microsoft.InformationProtection.Protection.Rights.Extract" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Forward">
+      <MemberSignature Language="C#" Value="public const string Forward;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Forward" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.Forward" />
+      <MemberSignature Language="VB.NET" Value="Public Const Forward As String " />
+      <MemberSignature Language="F#" Value="val mutable Forward : string" Usage="Microsoft.InformationProtection.Protection.Rights.Forward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="public const string Owner;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Owner" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public Const Owner As String " />
+      <MemberSignature Language="F#" Value="val mutable Owner : string" Usage="Microsoft.InformationProtection.Protection.Rights.Owner" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Print">
+      <MemberSignature Language="C#" Value="public const string Print;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Print" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.Print" />
+      <MemberSignature Language="VB.NET" Value="Public Const Print As String " />
+      <MemberSignature Language="F#" Value="val mutable Print : string" Usage="Microsoft.InformationProtection.Protection.Rights.Print" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reply">
+      <MemberSignature Language="C#" Value="public const string Reply;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Reply" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.Reply" />
+      <MemberSignature Language="VB.NET" Value="Public Const Reply As String " />
+      <MemberSignature Language="F#" Value="val mutable Reply : string" Usage="Microsoft.InformationProtection.Protection.Rights.Reply" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReplyAll">
+      <MemberSignature Language="C#" Value="public const string ReplyAll;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ReplyAll" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.ReplyAll" />
+      <MemberSignature Language="VB.NET" Value="Public Const ReplyAll As String " />
+      <MemberSignature Language="F#" Value="val mutable ReplyAll : string" Usage="Microsoft.InformationProtection.Protection.Rights.ReplyAll" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="View">
+      <MemberSignature Language="C#" Value="public const string View;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string View" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.View" />
+      <MemberSignature Language="VB.NET" Value="Public Const View As String " />
+      <MemberSignature Language="F#" Value="val mutable View : string" Usage="Microsoft.InformationProtection.Protection.Rights.View" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

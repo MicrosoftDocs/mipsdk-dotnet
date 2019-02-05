@@ -1,0 +1,342 @@
+﻿<Type Name="IFileHandler" FullName="Microsoft.InformationProtection.File.IFileHandler">
+  <TypeSignature Language="C#" Value="public interface IFileHandler : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileHandler implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.IFileHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileHandler&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type IFileHandler = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Interface for all file handling functions.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ClassifyAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.Actions.Action&gt;&gt; ClassifyAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.InformationProtection.Policy.Actions.Action&gt;&gt; ClassifyAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.ClassifyAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function ClassifyAsync () As Task(Of ReadOnlyCollection(Of Action))" />
+      <MemberSignature Language="F#" Value="abstract member ClassifyAsync : unit -&gt; System.Threading.Tasks.Task&lt;System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.Actions.Action&gt;&gt;" Usage="iFileHandler.ClassifyAsync " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.Actions.Action&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Executes the rules in the engine based on the provided state and returns the list of actions to be executed.
+            </summary>
+        <returns>list of automatic and recommanded actions that should be applied on the content.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommitAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; CommitAsync (System.IO.Stream outputStream);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; CommitAsync(class System.IO.Stream outputStream) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.CommitAsync(System.IO.Stream)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CommitAsync (outputStream As Stream) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member CommitAsync : System.IO.Stream -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="iFileHandler.CommitAsync outputStream" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="outputStream" Type="System.IO.Stream" />
+      </Parameters>
+      <Docs>
+        <param name="outputStream">The stream to write the changes to.</param>
+        <summary>
+            Writes the changes to a file stream.
+            </summary>
+        <returns>A task that represents the asynchronous commit operation. The value of the <c>TResult</c> parameter contains the whether there were changes to commit to the output file.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CommitAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;bool&gt; CommitAsync (string outputFilePath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;bool&gt; CommitAsync(string outputFilePath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.CommitAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CommitAsync (outputFilePath As String) As Task(Of Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member CommitAsync : string -&gt; System.Threading.Tasks.Task&lt;bool&gt;" Usage="iFileHandler.CommitAsync outputFilePath" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="outputFilePath" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="outputFilePath">The file to write the changes to.</param>
+        <summary>
+            Writes the changes to the file.
+            </summary>
+        <returns>A task that represents the asynchronous commit operation. The value of the <c>TResult</c> parameter contains the whether there were changes to commit to the output file.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteLabel">
+      <MemberSignature Language="C#" Value="public void DeleteLabel (Microsoft.InformationProtection.File.LabelingOptions labelingOptions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteLabel(class Microsoft.InformationProtection.File.LabelingOptions labelingOptions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.DeleteLabel(Microsoft.InformationProtection.File.LabelingOptions)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteLabel : Microsoft.InformationProtection.File.LabelingOptions -&gt; unit" Usage="iFileHandler.DeleteLabel labelingOptions" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="labelingOptions" Type="Microsoft.InformationProtection.File.LabelingOptions" />
+      </Parameters>
+      <Docs>
+        <param name="labelingOptions">To be added.</param>
+        <summary>
+            Deletes the sensitivity label from the file.
+            </summary>
+        <remarks>Changes will not be written to the file until CommitAsync will be called.
+            <para>Will throw a JustificationRequiredError when setting the label
+            requires the operation to be justified (via the labelingOptions parameter).</para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDecryptedTemporaryFileAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetDecryptedTemporaryFileAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;string&gt; GetDecryptedTemporaryFileAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.GetDecryptedTemporaryFileAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetDecryptedTemporaryFileAsync () As Task(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member GetDecryptedTemporaryFileAsync : unit -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="iFileHandler.GetDecryptedTemporaryFileAsync " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Create a decrypted temporary file
+            </summary>
+        <returns>The decrypted file file path</returns>
+        <remarks>To be added.</remarks>
+        <exception cref="T:System.NotSupportedException">If the file is not protected</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ContentLabel Label { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.ContentLabel Label" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileHandler.Label" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Label As ContentLabel" />
+      <MemberSignature Language="F#" Value="member this.Label : Microsoft.InformationProtection.ContentLabel" Usage="Microsoft.InformationProtection.File.IFileHandler.Label" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ContentLabel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Retrieve the sensitivity label from the file.
+            </summary>
+        <value>The sensitivity label from the file.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotifyCommitSuccessful">
+      <MemberSignature Language="C#" Value="public void NotifyCommitSuccessful (string contentIdentifier);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NotifyCommitSuccessful(string contentIdentifier) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.NotifyCommitSuccessful(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NotifyCommitSuccessful (contentIdentifier As String)" />
+      <MemberSignature Language="F#" Value="abstract member NotifyCommitSuccessful : string -&gt; unit" Usage="iFileHandler.NotifyCommitSuccessful contentIdentifier" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contentIdentifier" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="contentIdentifier">The content identifier.!-- For a file, the file path, for a mail the subject.</param>
+        <summary>
+             To be called when the changes have been committed to disk
+             </summary>
+        <remarks>Fires an Audit event.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OutputFileName">
+      <MemberSignature Language="C#" Value="public string OutputFileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string OutputFileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileHandler.OutputFileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OutputFileName As String" />
+      <MemberSignature Language="F#" Value="member this.OutputFileName : string" Usage="Microsoft.InformationProtection.File.IFileHandler.OutputFileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Calculates the output file name and extension based on the original file name and the accumulated changes.
+            </summary>
+        <value>The file name under which changes would be saved.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Protection">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.IProtectionHandler Protection { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Protection.IProtectionHandler Protection" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileHandler.Protection" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Protection As IProtectionHandler" />
+      <MemberSignature Language="F#" Value="member this.Protection : Microsoft.InformationProtection.Protection.IProtectionHandler" Usage="Microsoft.InformationProtection.File.IFileHandler.Protection" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Starts retrieving the protection handler from the file.
+            </summary>
+        <value>The protection handler.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveProtection">
+      <MemberSignature Language="C#" Value="public void RemoveProtection ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RemoveProtection() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.RemoveProtection" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveProtection ()" />
+      <MemberSignature Language="F#" Value="abstract member RemoveProtection : unit -&gt; unit" Usage="iFileHandler.RemoveProtection " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Removes protection from the file. If the file is labeled, the label will be lost.
+            </summary>
+        <remarks>Changes will not be written to the file until CommitAsync will be called.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetLabel">
+      <MemberSignature Language="C#" Value="public void SetLabel (string labelId, Microsoft.InformationProtection.File.LabelingOptions labelingOptions);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetLabel(string labelId, class Microsoft.InformationProtection.File.LabelingOptions labelingOptions) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.SetLabel(System.String,Microsoft.InformationProtection.File.LabelingOptions)" />
+      <MemberSignature Language="F#" Value="abstract member SetLabel : string * Microsoft.InformationProtection.File.LabelingOptions -&gt; unit" Usage="iFileHandler.SetLabel (labelId, labelingOptions)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="labelId" Type="System.String" />
+        <Parameter Name="labelingOptions" Type="Microsoft.InformationProtection.File.LabelingOptions" />
+      </Parameters>
+      <Docs>
+        <param name="labelId">To be added.</param>
+        <param name="labelingOptions">To be added.</param>
+        <summary>
+            Sets the sensitivity label to the file.
+            </summary>
+        <remarks>
+            Changes will not be written to the file until CommitAsync will be called.
+            <para>Will throw a JustificationRequiredError when setting the label
+            requires the operation to be justified (via the labelingOptions parameter).</para></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProtection">
+      <MemberSignature Language="C#" Value="public void SetProtection (Microsoft.InformationProtection.ProtectionDescriptor protectionDescriptor);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetProtection(class Microsoft.InformationProtection.ProtectionDescriptor protectionDescriptor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.SetProtection(Microsoft.InformationProtection.ProtectionDescriptor)" />
+      <MemberSignature Language="F#" Value="abstract member SetProtection : Microsoft.InformationProtection.ProtectionDescriptor -&gt; unit" Usage="iFileHandler.SetProtection protectionDescriptor" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="protectionDescriptor" Type="Microsoft.InformationProtection.ProtectionDescriptor" />
+      </Parameters>
+      <Docs>
+        <param name="protectionDescriptor">To be added.</param>
+        <summary>
+            Sets custom permissions to the file.
+            </summary>
+        <remarks>Changes will not be written to the file until CommitAsync will be called.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProtection">
+      <MemberSignature Language="C#" Value="public void SetProtection (byte[] serializedPublishingLicense, byte[] serializedProtectionInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetProtection(unsigned int8[] serializedPublishingLicense, unsigned int8[] serializedProtectionInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.SetProtection(System.Byte[],System.Byte[])" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetProtection (serializedPublishingLicense As Byte(), serializedProtectionInfo As Byte())" />
+      <MemberSignature Language="F#" Value="abstract member SetProtection : byte[] * byte[] -&gt; unit" Usage="iFileHandler.SetProtection (serializedPublishingLicense, serializedProtectionInfo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serializedPublishingLicense" Type="System.Byte[]" />
+        <Parameter Name="serializedProtectionInfo" Type="System.Byte[]" />
+      </Parameters>
+      <Docs>
+        <param name="serializedPublishingLicense">To be added.</param>
+        <param name="serializedProtectionInfo">To be added.</param>
+        <summary>
+            Sets custom permissions to the file.
+            </summary>
+        <remarks>Changes will not be written to the file until CommitAsync will be called.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

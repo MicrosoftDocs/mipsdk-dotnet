@@ -1,0 +1,213 @@
+﻿<Type Name="AddContentFooterAction" FullName="Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction">
+  <TypeSignature Language="C#" Value="public class AddContentFooterAction : Microsoft.InformationProtection.Policy.Actions.Action" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AddContentFooterAction extends Microsoft.InformationProtection.Policy.Actions.Action" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction" />
+  <TypeSignature Language="VB.NET" Value="Public Class AddContentFooterAction&#xA;Inherits Action" />
+  <TypeSignature Language="F#" Value="type AddContentFooterAction = class&#xA;    inherit Action" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.InformationProtection.Policy.Actions.Action</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            An action class which specifies adding a content footer to the document.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AddContentFooterAction (string id, string uiElementName, string text, string fontName, int fontSize, string fontColor, Microsoft.InformationProtection.Policy.ContentMarkAlignment alignment, int margin);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string uiElementName, string text, string fontName, int32 fontSize, string fontColor, valuetype Microsoft.InformationProtection.Policy.ContentMarkAlignment alignment, int32 margin) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.#ctor(System.String,System.String,System.String,System.String,System.Int32,System.String,Microsoft.InformationProtection.Policy.ContentMarkAlignment,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, uiElementName As String, text As String, fontName As String, fontSize As Integer, fontColor As String, alignment As ContentMarkAlignment, margin As Integer)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction : string * string * string * string * int * string * Microsoft.InformationProtection.Policy.ContentMarkAlignment * int -&gt; Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction" Usage="new Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction (id, uiElementName, text, fontName, fontSize, fontColor, alignment, margin)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="uiElementName" Type="System.String" />
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="fontName" Type="System.String" />
+        <Parameter Name="fontSize" Type="System.Int32" />
+        <Parameter Name="fontColor" Type="System.String" />
+        <Parameter Name="alignment" Type="Microsoft.InformationProtection.Policy.ContentMarkAlignment" />
+        <Parameter Name="margin" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="id">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.Action.Id" /></param>
+        <param name="uiElementName">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.UIElementName" /></param>
+        <param name="text">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.Text" /></param>
+        <param name="fontName">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.FontName" /></param>
+        <param name="fontSize">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.FontSize" /></param>
+        <param name="fontColor">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.FontColor" /></param>
+        <param name="alignment">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.Alignment" /></param>
+        <param name="margin">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.Margin" /></param>
+        <summary>
+            Creates a new AddContentFooterAction. This constructor is only public to allow using this class in code testing
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Alignment">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Policy.ContentMarkAlignment Alignment { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.Policy.ContentMarkAlignment Alignment" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.Alignment" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Alignment As ContentMarkAlignment" />
+      <MemberSignature Language="F#" Value="member this.Alignment : Microsoft.InformationProtection.Policy.ContentMarkAlignment" Usage="Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.Alignment" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.ContentMarkAlignment</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            the <see cref="T:Microsoft.InformationProtection.Policy.ContentMarkAlignment" /> of the footer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontColor">
+      <MemberSignature Language="C#" Value="public string FontColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FontColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.FontColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontColor As String" />
+      <MemberSignature Language="F#" Value="member this.FontColor : string" Usage="Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.FontColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The font color, used to display the content footer, as a string (e.g."#000000").
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontName">
+      <MemberSignature Language="C#" Value="public string FontName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FontName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.FontName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontName As String" />
+      <MemberSignature Language="F#" Value="member this.FontName : string" Usage="Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.FontName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             The font name, used to display the content footer, default value if not set by policy Calibri.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontSize">
+      <MemberSignature Language="C#" Value="public int FontSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FontSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.FontSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontSize As Integer" />
+      <MemberSignature Language="F#" Value="member this.FontSize : int" Usage="Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.FontSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The font size, used to display the content footer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Margin">
+      <MemberSignature Language="C#" Value="public int Margin { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Margin" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.Margin" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Margin As Integer" />
+      <MemberSignature Language="F#" Value="member this.Margin : int" Usage="Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.Margin" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The margin of the footer from the bottom of the document.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.Text" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Text As String" />
+      <MemberSignature Language="F#" Value="member this.Text : string" Usage="Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.Text" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The text that's meant to go into the content footer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UIElementName">
+      <MemberSignature Language="C#" Value="public string UIElementName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UIElementName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.UIElementName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UIElementName As String" />
+      <MemberSignature Language="F#" Value="member this.UIElementName : string" Usage="Microsoft.InformationProtection.Policy.Actions.AddContentFooterAction.UIElementName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            An API used to mark the content footer element. This should be the name that should be used for the UI element that holds the content footer.
+            </summary>
+        <value>To be added.</value>
+        <remarks>The same name will be returned in <see cref="T:Microsoft.InformationProtection.Policy.Actions.RemoveContentFooterAction" /> in case the content footer needs to be removed.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,68 @@
+﻿<Type Name="IFileExecutionState" FullName="Microsoft.InformationProtection.File.IFileExecutionState">
+  <TypeSignature Language="C#" Value="public interface IFileExecutionState" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileExecutionState" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.IFileExecutionState" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileExecutionState" />
+  <TypeSignature Language="F#" Value="type IFileExecutionState = interface" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetClassificationResults">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,Microsoft.InformationProtection.Policy.ClassificationResult&gt; GetClassificationResults (Microsoft.InformationProtection.File.IFileHandler fileHandler, System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt; classificationIds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, class Microsoft.InformationProtection.Policy.ClassificationResult&gt; GetClassificationResults(class Microsoft.InformationProtection.File.IFileHandler fileHandler, class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Policy.ClassificationRequest&gt; classificationIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileExecutionState.GetClassificationResults(Microsoft.InformationProtection.File.IFileHandler,System.Collections.Generic.List{Microsoft.InformationProtection.Policy.ClassificationRequest})" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetClassificationResults (fileHandler As IFileHandler, classificationIds As List(Of ClassificationRequest)) As Dictionary(Of String, ClassificationResult)" />
+      <MemberSignature Language="F#" Value="abstract member GetClassificationResults : Microsoft.InformationProtection.File.IFileHandler * System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt; -&gt; System.Collections.Generic.Dictionary&lt;string, Microsoft.InformationProtection.Policy.ClassificationResult&gt;" Usage="iFileExecutionState.GetClassificationResults (fileHandler, classificationIds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.InformationProtection.Policy.ClassificationResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileHandler" Type="Microsoft.InformationProtection.File.IFileHandler" />
+        <Parameter Name="classificationIds" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="fileHandler">The file handler of the file riquired classification</param>
+        <param name="classificationIds">A list of classification id's</param>
+        <summary>
+            Return a map of classification results.
+            </summary>
+        <returns>A list of classification result</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerializedProtectionInfo">
+      <MemberSignature Language="C#" Value="public byte[] SerializedProtectionInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int8[] SerializedProtectionInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileExecutionState.SerializedProtectionInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SerializedProtectionInfo As Byte()" />
+      <MemberSignature Language="F#" Value="member this.SerializedProtectionInfo : byte[]" Usage="Microsoft.InformationProtection.File.IFileExecutionState.SerializedProtectionInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Return a buffer of protection info.
+            </summary>
+        <value>A buffer of protection info</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

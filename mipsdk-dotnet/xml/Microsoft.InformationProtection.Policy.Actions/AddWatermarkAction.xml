@@ -1,0 +1,186 @@
+﻿<Type Name="AddWatermarkAction" FullName="Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction">
+  <TypeSignature Language="C#" Value="public class AddWatermarkAction : Microsoft.InformationProtection.Policy.Actions.Action" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AddWatermarkAction extends Microsoft.InformationProtection.Policy.Actions.Action" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction" />
+  <TypeSignature Language="VB.NET" Value="Public Class AddWatermarkAction&#xA;Inherits Action" />
+  <TypeSignature Language="F#" Value="type AddWatermarkAction = class&#xA;    inherit Action" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.InformationProtection.Policy.Actions.Action</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            An action class that specifies adding watermark.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AddWatermarkAction (string id, string uiElementName, Microsoft.InformationProtection.Policy.WatermarkLayout watermarkLayout, string text, string fontName, int fontSize, string fontColor);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string uiElementName, valuetype Microsoft.InformationProtection.Policy.WatermarkLayout watermarkLayout, string text, string fontName, int32 fontSize, string fontColor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.#ctor(System.String,System.String,Microsoft.InformationProtection.Policy.WatermarkLayout,System.String,System.String,System.Int32,System.String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction : string * string * Microsoft.InformationProtection.Policy.WatermarkLayout * string * string * int * string -&gt; Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction" Usage="new Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction (id, uiElementName, watermarkLayout, text, fontName, fontSize, fontColor)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="uiElementName" Type="System.String" />
+        <Parameter Name="watermarkLayout" Type="Microsoft.InformationProtection.Policy.WatermarkLayout" />
+        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="fontName" Type="System.String" />
+        <Parameter Name="fontSize" Type="System.Int32" />
+        <Parameter Name="fontColor" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id">The id of the action</param>
+        <param name="uiElementName">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.UIElementName" /></param>
+        <param name="watermarkLayout">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.WatermarkLayout" /></param>
+        <param name="text">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.Text" /></param>
+        <param name="fontName">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.FontName" /></param>
+        <param name="fontSize">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.FontSize" /></param>
+        <param name="fontColor">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.FontColor" /></param>
+        <summary>
+            Creates a new AddWatermarkAction. This constructor is only public to allow using this class in code testing
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontColor">
+      <MemberSignature Language="C#" Value="public string FontColor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FontColor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.FontColor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontColor As String" />
+      <MemberSignature Language="F#" Value="member this.FontColor : string" Usage="Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.FontColor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The font color, used to display the watermark, as a string (e.g."#000000").
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontName">
+      <MemberSignature Language="C#" Value="public string FontName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FontName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.FontName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontName As String" />
+      <MemberSignature Language="F#" Value="member this.FontName : string" Usage="Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.FontName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             The font name, used to display the watermark, default value if not set by policy Calibri.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FontSize">
+      <MemberSignature Language="C#" Value="public int FontSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 FontSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.FontSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FontSize As Integer" />
+      <MemberSignature Language="F#" Value="member this.FontSize : int" Usage="Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.FontSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The font size, used to display the watermark.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Text">
+      <MemberSignature Language="C#" Value="public string Text { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Text" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.Text" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Text As String" />
+      <MemberSignature Language="F#" Value="member this.Text : string" Usage="Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.Text" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The text that's meant to go into the watermark.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UIElementName">
+      <MemberSignature Language="C#" Value="public string UIElementName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string UIElementName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.UIElementName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UIElementName As String" />
+      <MemberSignature Language="F#" Value="member this.UIElementName : string" Usage="Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.UIElementName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            An API used to mark the watermark element. This should be the name that should be used for the UI element that holds the watermark.
+            </summary>
+        <value>To be added.</value>
+        <remarks>The same name will be returned in <see cref="T:Microsoft.InformationProtection.Policy.Actions.RemoveWatermarkAction" /> in case the watermark needs to be removed.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WatermarkLayout">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Policy.WatermarkLayout WatermarkLayout { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.Policy.WatermarkLayout WatermarkLayout" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.WatermarkLayout" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WatermarkLayout As WatermarkLayout" />
+      <MemberSignature Language="F#" Value="member this.WatermarkLayout : Microsoft.InformationProtection.Policy.WatermarkLayout" Usage="Microsoft.InformationProtection.Policy.Actions.AddWatermarkAction.WatermarkLayout" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.WatermarkLayout</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

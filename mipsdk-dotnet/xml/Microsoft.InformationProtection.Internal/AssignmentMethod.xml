@@ -1,0 +1,77 @@
+﻿<Type Name="AssignmentMethod" FullName="Microsoft.InformationProtection.Internal.AssignmentMethod">
+  <TypeSignature Language="C#" Value="public enum AssignmentMethod" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed AssignmentMethod extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Internal.AssignmentMethod" />
+  <TypeSignature Language="VB.NET" Value="Public Enum AssignmentMethod" />
+  <TypeSignature Language="F#" Value="type AssignmentMethod = " />
+  <AssemblyInfo>
+    <AssemblyName>dotnet_wrapper</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AUTO">
+      <MemberSignature Language="C#" Value="AUTO" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.AssignmentMethod AUTO = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.AssignmentMethod.AUTO" />
+      <MemberSignature Language="VB.NET" Value="AUTO" />
+      <MemberSignature Language="F#" Value="AUTO = 2" Usage="Microsoft.InformationProtection.Internal.AssignmentMethod.AUTO" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.AssignmentMethod</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PRIVILEGED">
+      <MemberSignature Language="C#" Value="PRIVILEGED" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.AssignmentMethod PRIVILEGED = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.AssignmentMethod.PRIVILEGED" />
+      <MemberSignature Language="VB.NET" Value="PRIVILEGED" />
+      <MemberSignature Language="F#" Value="PRIVILEGED = 1" Usage="Microsoft.InformationProtection.Internal.AssignmentMethod.PRIVILEGED" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.AssignmentMethod</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="STANDARD">
+      <MemberSignature Language="C#" Value="STANDARD" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.AssignmentMethod STANDARD = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.AssignmentMethod.STANDARD" />
+      <MemberSignature Language="VB.NET" Value="STANDARD" />
+      <MemberSignature Language="F#" Value="STANDARD = 0" Usage="Microsoft.InformationProtection.Internal.AssignmentMethod.STANDARD" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.AssignmentMethod</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,83 @@
+﻿<Type Name="ClassificationRequest" FullName="Microsoft.InformationProtection.Policy.ClassificationRequest">
+  <TypeSignature Language="C#" Value="public class ClassificationRequest" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ClassificationRequest extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.ClassificationRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Class ClassificationRequest" />
+  <TypeSignature Language="F#" Value="type ClassificationRequest = class" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Classification request for running cycle on document.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ClassificationRequest ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ClassificationRequest.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ClassificationId">
+      <MemberSignature Language="C#" Value="public string ClassificationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ClassificationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.ClassificationRequest.ClassificationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ClassificationId As String" />
+      <MemberSignature Language="F#" Value="member this.ClassificationId : string with get, set" Usage="Microsoft.InformationProtection.Policy.ClassificationRequest.ClassificationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Classification id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RulePackageId">
+      <MemberSignature Language="C#" Value="public string RulePackageId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string RulePackageId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.ClassificationRequest.RulePackageId" />
+      <MemberSignature Language="VB.NET" Value="Public Property RulePackageId As String" />
+      <MemberSignature Language="F#" Value="member this.RulePackageId : string with get, set" Usage="Microsoft.InformationProtection.Policy.ClassificationRequest.RulePackageId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Rule package id. 
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

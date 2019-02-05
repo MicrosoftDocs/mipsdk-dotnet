@@ -1,0 +1,58 @@
+﻿<Type Name="ContentFormat" FullName="Microsoft.InformationProtection.Internal.ContentFormat">
+  <TypeSignature Language="C#" Value="public enum ContentFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContentFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Internal.ContentFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContentFormat" />
+  <TypeSignature Language="F#" Value="type ContentFormat = " />
+  <AssemblyInfo>
+    <AssemblyName>dotnet_wrapper</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DEFAULT">
+      <MemberSignature Language="C#" Value="DEFAULT" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ContentFormat DEFAULT = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ContentFormat.DEFAULT" />
+      <MemberSignature Language="VB.NET" Value="DEFAULT" />
+      <MemberSignature Language="F#" Value="DEFAULT = 0" Usage="Microsoft.InformationProtection.Internal.ContentFormat.DEFAULT" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ContentFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EMAIL">
+      <MemberSignature Language="C#" Value="EMAIL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ContentFormat EMAIL = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ContentFormat.EMAIL" />
+      <MemberSignature Language="VB.NET" Value="EMAIL" />
+      <MemberSignature Language="F#" Value="EMAIL = 1" Usage="Microsoft.InformationProtection.Internal.ContentFormat.EMAIL" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ContentFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

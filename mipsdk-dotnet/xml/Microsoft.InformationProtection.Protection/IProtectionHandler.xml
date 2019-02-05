@@ -1,0 +1,267 @@
+﻿<Type Name="IProtectionHandler" FullName="Microsoft.InformationProtection.Protection.IProtectionHandler">
+  <TypeSignature Language="C#" Value="public interface IProtectionHandler : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IProtectionHandler implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.IProtectionHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IProtectionHandler&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type IProtectionHandler = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AccessCheck">
+      <MemberSignature Language="C#" Value="public bool AccessCheck (string right);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool AccessCheck(string right) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionHandler.AccessCheck(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AccessCheck (right As String) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member AccessCheck : string -&gt; bool" Usage="iProtectionHandler.AccessCheck right" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="right" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="right">Right to check</param>
+        <summary>
+            Checks if protection handler grants user access to the specified right
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AuditedExtractAllowed">
+      <MemberSignature Language="C#" Value="public bool AuditedExtractAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AuditedExtractAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.IProtectionHandler.AuditedExtractAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AuditedExtractAllowed As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AuditedExtractAllowed : bool" Usage="Microsoft.InformationProtection.Protection.IProtectionHandler.AuditedExtractAllowed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not protection handler grants user 'audited extract' right
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="BlockSize">
+      <MemberSignature Language="C#" Value="public long BlockSize { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int64 BlockSize" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.IProtectionHandler.BlockSize" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BlockSize As Long" />
+      <MemberSignature Language="F#" Value="member this.BlockSize : int64" Usage="Microsoft.InformationProtection.Protection.IProtectionHandler.BlockSize" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int64</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The block size (in bytes) for the cipher mode used by this ProtectionHandler
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentId">
+      <MemberSignature Language="C#" Value="public string ContentId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.IProtectionHandler.ContentId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentId As String" />
+      <MemberSignature Language="F#" Value="member this.ContentId : string" Usage="Microsoft.InformationProtection.Protection.IProtectionHandler.ContentId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The unique identifier for the document/content
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSerializedProtectionInfo">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;byte&gt; GetSerializedProtectionInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;unsigned int8&gt; GetSerializedProtectionInfo() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionHandler.GetSerializedProtectionInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSerializedProtectionInfo () As List(Of Byte)" />
+      <MemberSignature Language="F#" Value="abstract member GetSerializedProtectionInfo : unit -&gt; System.Collections.Generic.List&lt;byte&gt;" Usage="iProtectionHandler.GetSerializedProtectionInfo " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Return Serialized Protection Key
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsIssuedToOwner">
+      <MemberSignature Language="C#" Value="public bool IsIssuedToOwner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsIssuedToOwner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.IProtectionHandler.IsIssuedToOwner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsIssuedToOwner As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsIssuedToOwner : bool" Usage="Microsoft.InformationProtection.Protection.IProtectionHandler.IsIssuedToOwner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not the current user is the content owner
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IssuedTo">
+      <MemberSignature Language="C#" Value="public string IssuedTo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string IssuedTo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.IProtectionHandler.IssuedTo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IssuedTo As String" />
+      <MemberSignature Language="F#" Value="member this.IssuedTo : string" Usage="Microsoft.InformationProtection.Protection.IProtectionHandler.IssuedTo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="public string Owner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Owner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.IProtectionHandler.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Owner As String" />
+      <MemberSignature Language="F#" Value="member this.Owner : string" Usage="Microsoft.InformationProtection.Protection.IProtectionHandler.Owner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Email address of content owner
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectionDescriptor">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ProtectionDescriptor ProtectionDescriptor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.ProtectionDescriptor ProtectionDescriptor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.IProtectionHandler.ProtectionDescriptor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProtectionDescriptor As ProtectionDescriptor" />
+      <MemberSignature Language="F#" Value="member this.ProtectionDescriptor : Microsoft.InformationProtection.ProtectionDescriptor" Usage="Microsoft.InformationProtection.Protection.IProtectionHandler.ProtectionDescriptor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ProtectionDescriptor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The protection descriptor for an ad hoc protection handler or <c>null</c> otherwise
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rights">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt; Rights { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;string&gt; Rights" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.IProtectionHandler.Rights" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Rights As ReadOnlyCollection(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Rights : System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt;" Usage="Microsoft.InformationProtection.Protection.IProtectionHandler.Rights" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the rights granted to the user/identity associated with this ProtectionHandler
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseDeprecatedAlgorithms">
+      <MemberSignature Language="C#" Value="public bool UseDeprecatedAlgorithms { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseDeprecatedAlgorithms" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.IProtectionHandler.UseDeprecatedAlgorithms" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UseDeprecatedAlgorithms As Boolean" />
+      <MemberSignature Language="F#" Value="member this.UseDeprecatedAlgorithms : bool" Usage="Microsoft.InformationProtection.Protection.IProtectionHandler.UseDeprecatedAlgorithms" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not protection handler uses deprecated crypto algorithms (ECB) for backward compatibility
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

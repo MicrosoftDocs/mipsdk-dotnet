@@ -1,0 +1,328 @@
+﻿<Type Name="IExecutionState" FullName="Microsoft.InformationProtection.Policy.IExecutionState">
+  <TypeSignature Language="C#" Value="public interface IExecutionState" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IExecutionState" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.IExecutionState" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IExecutionState" />
+  <TypeSignature Language="F#" Value="type IExecutionState = interface" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Interface for all the state needed to execute the engine.
+            </summary>
+    <remarks>
+            Clients should only call the methods to obtain the state that is needed.
+            Hence, for efficiency, clients may want to implement this interface
+            such that the corresponding state is computed dynamically instead of computing in advance.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AuditMetadata">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; AuditMetadata { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; AuditMetadata" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IExecutionState.AuditMetadata" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AuditMetadata As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.AuditMetadata : System.Collections.Generic.Dictionary&lt;string, string&gt;" Usage="Microsoft.InformationProtection.Policy.IExecutionState.AuditMetadata" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Return a map of application specific audit key-value pairs. Registered Key:Value pairs
+            Sender: Email Id for the sender
+            Recipients: Represents a JSON array of recipients for an email 
+            LastModifiedBy: Email Id for the user who last modified the content 
+            LastModifiedDate: Date the content was last modified 
+            </summary>
+        <value>A list of audit metadata</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentFormat">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Policy.ContentFormat ContentFormat { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.Policy.ContentFormat ContentFormat" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IExecutionState.ContentFormat" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentFormat As ContentFormat" />
+      <MemberSignature Language="F#" Value="member this.ContentFormat : Microsoft.InformationProtection.Policy.ContentFormat" Usage="Microsoft.InformationProtection.Policy.IExecutionState.ContentFormat" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.ContentFormat</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The content format.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentIdentifier">
+      <MemberSignature Language="C#" Value="public string ContentIdentifier { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentIdentifier" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IExecutionState.ContentIdentifier" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentIdentifier As String" />
+      <MemberSignature Language="F#" Value="member this.ContentIdentifier : string" Usage="Microsoft.InformationProtection.Policy.IExecutionState.ContentIdentifier" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The content identifier.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentState">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ContentState ContentState { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.ContentState ContentState" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IExecutionState.ContentState" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentState As ContentState" />
+      <MemberSignature Language="F#" Value="member this.ContentState : Microsoft.InformationProtection.ContentState" Usage="Microsoft.InformationProtection.Policy.IExecutionState.ContentState" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ContentState</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The content state.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClassificationResults">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,Microsoft.InformationProtection.Policy.ClassificationResult&gt; GetClassificationResults (System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt; classificationRequest);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, class Microsoft.InformationProtection.Policy.ClassificationResult&gt; GetClassificationResults(class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Policy.ClassificationRequest&gt; classificationRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IExecutionState.GetClassificationResults(System.Collections.Generic.List{Microsoft.InformationProtection.Policy.ClassificationRequest})" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetClassificationResults (classificationRequest As List(Of ClassificationRequest)) As Dictionary(Of String, ClassificationResult)" />
+      <MemberSignature Language="F#" Value="abstract member GetClassificationResults : System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt; -&gt; System.Collections.Generic.Dictionary&lt;string, Microsoft.InformationProtection.Policy.ClassificationResult&gt;" Usage="iExecutionState.GetClassificationResults classificationRequest" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.InformationProtection.Policy.ClassificationResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="classificationRequest" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="classificationRequest">To be added.</param>
+        <summary>
+            Return a map of classification results.
+            </summary>
+        <returns>A list of classification result</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContentMetadata">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; GetContentMetadata (System.Collections.Generic.List&lt;string&gt; names, System.Collections.Generic.List&lt;string&gt; namePrefixes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; GetContentMetadata(class System.Collections.Generic.List`1&lt;string&gt; names, class System.Collections.Generic.List`1&lt;string&gt; namePrefixes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IExecutionState.GetContentMetadata(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetContentMetadata (names As List(Of String), namePrefixes As List(Of String)) As List(Of KeyValuePair(Of String, String))" />
+      <MemberSignature Language="F#" Value="abstract member GetContentMetadata : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;string&gt; -&gt; System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="iExecutionState.GetContentMetadata (names, namePrefixes)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="names" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+        <Parameter Name="namePrefixes" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="names"></param>
+        <param name="namePrefixes"></param>
+        <summary>
+            Get the meta-data items from the content.
+            </summary>
+        <returns>A list of key value pairs representing the meta data applied to the content.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDowngradeJustified">
+      <MemberSignature Language="C#" Value="public bool IsDowngradeJustified (out string justificationMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsDowngradeJustified([out] string&amp; justificationMessage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IExecutionState.IsDowngradeJustified(System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsDowngradeJustified (ByRef justificationMessage As String) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member IsDowngradeJustified :  -&gt; bool" Usage="iExecutionState.IsDowngradeJustified justificationMessage" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="justificationMessage" Type="System.String" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="justificationMessage">To be added.</param>
+        <summary>
+            Implementation should pass whether or not justification to downgrade an existing label was given.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewLabelActionSource">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ActionSource NewLabelActionSource { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.ActionSource NewLabelActionSource" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IExecutionState.NewLabelActionSource" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewLabelActionSource As ActionSource" />
+      <MemberSignature Language="F#" Value="member this.NewLabelActionSource : Microsoft.InformationProtection.ActionSource" Usage="Microsoft.InformationProtection.Policy.IExecutionState.NewLabelActionSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ActionSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The source for the new label action.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewLabelAssignmentMethod">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.AssignmentMethod NewLabelAssignmentMethod { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.AssignmentMethod NewLabelAssignmentMethod" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IExecutionState.NewLabelAssignmentMethod" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewLabelAssignmentMethod As AssignmentMethod" />
+      <MemberSignature Language="F#" Value="member this.NewLabelAssignmentMethod : Microsoft.InformationProtection.AssignmentMethod" Usage="Microsoft.InformationProtection.Policy.IExecutionState.NewLabelAssignmentMethod" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.AssignmentMethod</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The new label's assignment method.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewLabelExtendedProperties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; NewLabelExtendedProperties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; NewLabelExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IExecutionState.NewLabelExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewLabelExtendedProperties As List(Of KeyValuePair(Of String, String))" />
+      <MemberSignature Language="F#" Value="member this.NewLabelExtendedProperties : System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="Microsoft.InformationProtection.Policy.IExecutionState.NewLabelExtendedProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Label's extended properties.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NewLabelId">
+      <MemberSignature Language="C#" Value="public string NewLabelId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string NewLabelId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IExecutionState.NewLabelId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NewLabelId As String" />
+      <MemberSignature Language="F#" Value="member this.NewLabelId : string" Usage="Microsoft.InformationProtection.Policy.IExecutionState.NewLabelId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The sensitivity label id that should be applied on the document.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectionDescriptor">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ProtectionDescriptor ProtectionDescriptor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.ProtectionDescriptor ProtectionDescriptor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IExecutionState.ProtectionDescriptor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProtectionDescriptor As ProtectionDescriptor" />
+      <MemberSignature Language="F#" Value="member this.ProtectionDescriptor : Microsoft.InformationProtection.ProtectionDescriptor" Usage="Microsoft.InformationProtection.Policy.IExecutionState.ProtectionDescriptor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ProtectionDescriptor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The rights management service protection descriptor.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SupportedActions">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Policy.Actions.ActionType SupportedActions { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.Policy.Actions.ActionType SupportedActions" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IExecutionState.SupportedActions" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SupportedActions As ActionType" />
+      <MemberSignature Language="F#" Value="member this.SupportedActions : Microsoft.InformationProtection.Policy.Actions.ActionType" Usage="Microsoft.InformationProtection.Policy.IExecutionState.SupportedActions" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            a list of actions that the application supports, as a bitwise OR of all supported actions
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

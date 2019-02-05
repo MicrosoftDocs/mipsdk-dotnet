@@ -1,0 +1,102 @@
+﻿<Type Name="IPolicyHandler" FullName="Microsoft.InformationProtection.Policy.IPolicyHandler">
+  <TypeSignature Language="C#" Value="public interface IPolicyHandler : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPolicyHandler implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.IPolicyHandler" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IPolicyHandler&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type IPolicyHandler = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            This class provides an interface for all handler functions.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ComputeActions">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.Actions.Action&gt; ComputeActions (Microsoft.InformationProtection.Policy.IExecutionState state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.InformationProtection.Policy.Actions.Action&gt; ComputeActions(class Microsoft.InformationProtection.Policy.IExecutionState state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyHandler.ComputeActions(Microsoft.InformationProtection.Policy.IExecutionState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function ComputeActions (state As IExecutionState) As ReadOnlyCollection(Of Action)" />
+      <MemberSignature Language="F#" Value="abstract member ComputeActions : Microsoft.InformationProtection.Policy.IExecutionState -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.Actions.Action&gt;" Usage="iPolicyHandler.ComputeActions state" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.Actions.Action&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="state" Type="Microsoft.InformationProtection.Policy.IExecutionState" />
+      </Parameters>
+      <Docs>
+        <param name="state">The current execution state of the content the rules are running on.</param>
+        <summary>
+            Executes the rules in the engine based on the provided state and returns the list of actions to be executed.
+            </summary>
+        <returns>list of actions that should be applied on the content.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSensitivityLabel">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ContentLabel GetSensitivityLabel (Microsoft.InformationProtection.Policy.IExecutionState state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.ContentLabel GetSensitivityLabel(class Microsoft.InformationProtection.Policy.IExecutionState state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyHandler.GetSensitivityLabel(Microsoft.InformationProtection.Policy.IExecutionState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSensitivityLabel (state As IExecutionState) As ContentLabel" />
+      <MemberSignature Language="F#" Value="abstract member GetSensitivityLabel : Microsoft.InformationProtection.Policy.IExecutionState -&gt; Microsoft.InformationProtection.ContentLabel" Usage="iPolicyHandler.GetSensitivityLabel state" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ContentLabel</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="state" Type="Microsoft.InformationProtection.Policy.IExecutionState" />
+      </Parameters>
+      <Docs>
+        <param name="state">Provides required information to retrieve the label.</param>
+        <summary>
+            Get the sensitivity label from existing content.
+            </summary>
+        <returns>A content label object that contains the sensitivity label as well as additional information,
+            or return empty if non exists. </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="NotifyCommittedActions">
+      <MemberSignature Language="C#" Value="public void NotifyCommittedActions (Microsoft.InformationProtection.Policy.IExecutionState state);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NotifyCommittedActions(class Microsoft.InformationProtection.Policy.IExecutionState state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyHandler.NotifyCommittedActions(Microsoft.InformationProtection.Policy.IExecutionState)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub NotifyCommittedActions (state As IExecutionState)" />
+      <MemberSignature Language="F#" Value="abstract member NotifyCommittedActions : Microsoft.InformationProtection.Policy.IExecutionState -&gt; unit" Usage="iPolicyHandler.NotifyCommittedActions state" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="state" Type="Microsoft.InformationProtection.Policy.IExecutionState" />
+      </Parameters>
+      <Docs>
+        <param name="state">The current execution state of the content after the actions have been committed.</param>
+        <summary>
+            Called once the computed actions have been applied, and the data committed to disk.
+            </summary>
+        <remarks>Fires an Audit event.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

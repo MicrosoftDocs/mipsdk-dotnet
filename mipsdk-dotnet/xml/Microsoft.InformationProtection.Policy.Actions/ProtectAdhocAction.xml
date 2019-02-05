@@ -1,0 +1,45 @@
+﻿<Type Name="ProtectAdhocAction" FullName="Microsoft.InformationProtection.Policy.Actions.ProtectAdhocAction">
+  <TypeSignature Language="C#" Value="public class ProtectAdhocAction : Microsoft.InformationProtection.Policy.Actions.Action" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ProtectAdhocAction extends Microsoft.InformationProtection.Policy.Actions.Action" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.Actions.ProtectAdhocAction" />
+  <TypeSignature Language="VB.NET" Value="Public Class ProtectAdhocAction&#xA;Inherits Action" />
+  <TypeSignature Language="F#" Value="type ProtectAdhocAction = class&#xA;    inherit Action" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.InformationProtection.Policy.Actions.Action</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            An action class which specifies adding adhoc protection to the document.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ProtectAdhocAction (string id = &quot;id&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.Actions.ProtectAdhocAction.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional id As String = &quot;id&quot;)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.Actions.ProtectAdhocAction : string -&gt; Microsoft.InformationProtection.Policy.Actions.ProtectAdhocAction" Usage="new Microsoft.InformationProtection.Policy.Actions.ProtectAdhocAction id" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id">The id of the action</param>
+        <summary>
+            Creates a new ProtectAdhocAction. This constructor is only public to allow using this class in code testing
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

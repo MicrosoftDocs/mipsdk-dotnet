@@ -1,0 +1,45 @@
+﻿<Type Name="PolicyChangedEventArgs" FullName="Microsoft.InformationProtection.PolicyChangedEventArgs">
+  <TypeSignature Language="C#" Value="public class PolicyChangedEventArgs : EventArgs" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PolicyChangedEventArgs extends System.EventArgs" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.PolicyChangedEventArgs" />
+  <TypeSignature Language="VB.NET" Value="Public Class PolicyChangedEventArgs&#xA;Inherits EventArgs" />
+  <TypeSignature Language="F#" Value="type PolicyChangedEventArgs = class&#xA;    inherit EventArgs" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.EventArgs</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Event used to notify of changes in the policy.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="EngineId">
+      <MemberSignature Language="C#" Value="public string EngineId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string EngineId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.PolicyChangedEventArgs.EngineId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EngineId As String" />
+      <MemberSignature Language="F#" Value="member this.EngineId : string" Usage="Microsoft.InformationProtection.PolicyChangedEventArgs.EngineId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The engine id.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

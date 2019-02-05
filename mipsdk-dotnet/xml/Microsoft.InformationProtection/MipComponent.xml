@@ -1,0 +1,58 @@
+﻿<Type Name="MipComponent" FullName="Microsoft.InformationProtection.MipComponent">
+  <TypeSignature Language="C#" Value="public enum MipComponent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed MipComponent extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.MipComponent" />
+  <TypeSignature Language="VB.NET" Value="Public Enum MipComponent" />
+  <TypeSignature Language="F#" Value="type MipComponent = " />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="File">
+      <MemberSignature Language="C#" Value="File" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.MipComponent File = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.MipComponent.File" />
+      <MemberSignature Language="VB.NET" Value="File" />
+      <MemberSignature Language="F#" Value="File = 1" Usage="Microsoft.InformationProtection.MipComponent.File" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.MipComponent</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Policy">
+      <MemberSignature Language="C#" Value="Policy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.MipComponent Policy = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.MipComponent.Policy" />
+      <MemberSignature Language="VB.NET" Value="Policy" />
+      <MemberSignature Language="F#" Value="Policy = 0" Usage="Microsoft.InformationProtection.MipComponent.Policy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.MipComponent</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

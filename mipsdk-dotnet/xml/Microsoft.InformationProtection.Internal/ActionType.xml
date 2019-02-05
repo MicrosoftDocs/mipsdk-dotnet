@@ -1,0 +1,305 @@
+﻿<Type Name="ActionType" FullName="Microsoft.InformationProtection.Internal.ActionType">
+  <TypeSignature Language="C#" Value="public enum ActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ActionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Internal.ActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ActionType" />
+  <TypeSignature Language="F#" Value="type ActionType = " />
+  <AssemblyInfo>
+    <AssemblyName>dotnet_wrapper</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ADD_CONTENT_FOOTER">
+      <MemberSignature Language="C#" Value="ADD_CONTENT_FOOTER" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType ADD_CONTENT_FOOTER = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.ADD_CONTENT_FOOTER" />
+      <MemberSignature Language="VB.NET" Value="ADD_CONTENT_FOOTER" />
+      <MemberSignature Language="F#" Value="ADD_CONTENT_FOOTER = 1" Usage="Microsoft.InformationProtection.Internal.ActionType.ADD_CONTENT_FOOTER" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ADD_CONTENT_HEADER">
+      <MemberSignature Language="C#" Value="ADD_CONTENT_HEADER" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType ADD_CONTENT_HEADER = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.ADD_CONTENT_HEADER" />
+      <MemberSignature Language="VB.NET" Value="ADD_CONTENT_HEADER" />
+      <MemberSignature Language="F#" Value="ADD_CONTENT_HEADER = 2" Usage="Microsoft.InformationProtection.Internal.ActionType.ADD_CONTENT_HEADER" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ADD_WATERMARK">
+      <MemberSignature Language="C#" Value="ADD_WATERMARK" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType ADD_WATERMARK = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.ADD_WATERMARK" />
+      <MemberSignature Language="VB.NET" Value="ADD_WATERMARK" />
+      <MemberSignature Language="F#" Value="ADD_WATERMARK = 4" Usage="Microsoft.InformationProtection.Internal.ActionType.ADD_WATERMARK" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="APPLY_LABEL">
+      <MemberSignature Language="C#" Value="APPLY_LABEL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType APPLY_LABEL = int32(8192)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.APPLY_LABEL" />
+      <MemberSignature Language="VB.NET" Value="APPLY_LABEL" />
+      <MemberSignature Language="F#" Value="APPLY_LABEL = 8192" Usage="Microsoft.InformationProtection.Internal.ActionType.APPLY_LABEL" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8192</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CUSTOM">
+      <MemberSignature Language="C#" Value="CUSTOM" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType CUSTOM = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.CUSTOM" />
+      <MemberSignature Language="VB.NET" Value="CUSTOM" />
+      <MemberSignature Language="F#" Value="CUSTOM = 8" Usage="Microsoft.InformationProtection.Internal.ActionType.CUSTOM" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="JUSTIFY">
+      <MemberSignature Language="C#" Value="JUSTIFY" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType JUSTIFY = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.JUSTIFY" />
+      <MemberSignature Language="VB.NET" Value="JUSTIFY" />
+      <MemberSignature Language="F#" Value="JUSTIFY = 16" Usage="Microsoft.InformationProtection.Internal.ActionType.JUSTIFY" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="METADATA">
+      <MemberSignature Language="C#" Value="METADATA" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType METADATA = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.METADATA" />
+      <MemberSignature Language="VB.NET" Value="METADATA" />
+      <MemberSignature Language="F#" Value="METADATA = 32" Usage="Microsoft.InformationProtection.Internal.ActionType.METADATA" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PROTECT_ADHOC">
+      <MemberSignature Language="C#" Value="PROTECT_ADHOC" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType PROTECT_ADHOC = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.PROTECT_ADHOC" />
+      <MemberSignature Language="VB.NET" Value="PROTECT_ADHOC" />
+      <MemberSignature Language="F#" Value="PROTECT_ADHOC = 64" Usage="Microsoft.InformationProtection.Internal.ActionType.PROTECT_ADHOC" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PROTECT_BY_TEMPLATE">
+      <MemberSignature Language="C#" Value="PROTECT_BY_TEMPLATE" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType PROTECT_BY_TEMPLATE = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.PROTECT_BY_TEMPLATE" />
+      <MemberSignature Language="VB.NET" Value="PROTECT_BY_TEMPLATE" />
+      <MemberSignature Language="F#" Value="PROTECT_BY_TEMPLATE = 128" Usage="Microsoft.InformationProtection.Internal.ActionType.PROTECT_BY_TEMPLATE" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PROTECT_DO_NOT_FORWARD">
+      <MemberSignature Language="C#" Value="PROTECT_DO_NOT_FORWARD" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType PROTECT_DO_NOT_FORWARD = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.PROTECT_DO_NOT_FORWARD" />
+      <MemberSignature Language="VB.NET" Value="PROTECT_DO_NOT_FORWARD" />
+      <MemberSignature Language="F#" Value="PROTECT_DO_NOT_FORWARD = 256" Usage="Microsoft.InformationProtection.Internal.ActionType.PROTECT_DO_NOT_FORWARD" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RECOMMEND_LABEL">
+      <MemberSignature Language="C#" Value="RECOMMEND_LABEL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType RECOMMEND_LABEL = int32(16384)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.RECOMMEND_LABEL" />
+      <MemberSignature Language="VB.NET" Value="RECOMMEND_LABEL" />
+      <MemberSignature Language="F#" Value="RECOMMEND_LABEL = 16384" Usage="Microsoft.InformationProtection.Internal.ActionType.RECOMMEND_LABEL" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16384</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="REMOVE_CONTENT_FOOTER">
+      <MemberSignature Language="C#" Value="REMOVE_CONTENT_FOOTER" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType REMOVE_CONTENT_FOOTER = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.REMOVE_CONTENT_FOOTER" />
+      <MemberSignature Language="VB.NET" Value="REMOVE_CONTENT_FOOTER" />
+      <MemberSignature Language="F#" Value="REMOVE_CONTENT_FOOTER = 512" Usage="Microsoft.InformationProtection.Internal.ActionType.REMOVE_CONTENT_FOOTER" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="REMOVE_CONTENT_HEADER">
+      <MemberSignature Language="C#" Value="REMOVE_CONTENT_HEADER" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType REMOVE_CONTENT_HEADER = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.REMOVE_CONTENT_HEADER" />
+      <MemberSignature Language="VB.NET" Value="REMOVE_CONTENT_HEADER" />
+      <MemberSignature Language="F#" Value="REMOVE_CONTENT_HEADER = 1024" Usage="Microsoft.InformationProtection.Internal.ActionType.REMOVE_CONTENT_HEADER" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="REMOVE_PROTECTION">
+      <MemberSignature Language="C#" Value="REMOVE_PROTECTION" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType REMOVE_PROTECTION = int32(2048)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.REMOVE_PROTECTION" />
+      <MemberSignature Language="VB.NET" Value="REMOVE_PROTECTION" />
+      <MemberSignature Language="F#" Value="REMOVE_PROTECTION = 2048" Usage="Microsoft.InformationProtection.Internal.ActionType.REMOVE_PROTECTION" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2048</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="REMOVE_WATERMARK">
+      <MemberSignature Language="C#" Value="REMOVE_WATERMARK" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ActionType REMOVE_WATERMARK = int32(4096)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ActionType.REMOVE_WATERMARK" />
+      <MemberSignature Language="VB.NET" Value="REMOVE_WATERMARK" />
+      <MemberSignature Language="F#" Value="REMOVE_WATERMARK = 4096" Usage="Microsoft.InformationProtection.Internal.ActionType.REMOVE_WATERMARK" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>dotnet_wrapper</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4096</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

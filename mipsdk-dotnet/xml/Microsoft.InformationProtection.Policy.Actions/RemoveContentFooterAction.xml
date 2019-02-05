@@ -1,0 +1,69 @@
+﻿<Type Name="RemoveContentFooterAction" FullName="Microsoft.InformationProtection.Policy.Actions.RemoveContentFooterAction">
+  <TypeSignature Language="C#" Value="public class RemoveContentFooterAction : Microsoft.InformationProtection.Policy.Actions.Action" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RemoveContentFooterAction extends Microsoft.InformationProtection.Policy.Actions.Action" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.Actions.RemoveContentFooterAction" />
+  <TypeSignature Language="VB.NET" Value="Public Class RemoveContentFooterAction&#xA;Inherits Action" />
+  <TypeSignature Language="F#" Value="type RemoveContentFooterAction = class&#xA;    inherit Action" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.InformationProtection.Policy.Actions.Action</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            An action class which specifies removing the content footer from the document.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public RemoveContentFooterAction (string id, System.Collections.Generic.List&lt;string&gt; uiElementNames);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, class System.Collections.Generic.List`1&lt;string&gt; uiElementNames) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.Actions.RemoveContentFooterAction.#ctor(System.String,System.Collections.Generic.List{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, uiElementNames As List(Of String))" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.Actions.RemoveContentFooterAction : string * System.Collections.Generic.List&lt;string&gt; -&gt; Microsoft.InformationProtection.Policy.Actions.RemoveContentFooterAction" Usage="new Microsoft.InformationProtection.Policy.Actions.RemoveContentFooterAction (id, uiElementNames)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="uiElementNames" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="id">The id of the action</param>
+        <param name="uiElementNames">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.RemoveContentFooterAction.UIElementNames" /></param>
+        <summary>
+            Creates a new RemoveContentFooterAction. This constructor is only public to allow using this class in code testing
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UIElementNames">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt; UIElementNames { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;string&gt; UIElementNames" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.RemoveContentFooterAction.UIElementNames" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UIElementNames As ReadOnlyCollection(Of String)" />
+      <MemberSignature Language="F#" Value="member this.UIElementNames : System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt;" Usage="Microsoft.InformationProtection.Policy.Actions.RemoveContentFooterAction.UIElementNames" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The list of names that should be used to find the UI elements that should be removed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
