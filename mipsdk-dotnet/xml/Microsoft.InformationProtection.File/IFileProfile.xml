@@ -1,0 +1,187 @@
+﻿<Type Name="IFileProfile" FullName="Microsoft.InformationProtection.File.IFileProfile">
+  <TypeSignature Language="C#" Value="public interface IFileProfile : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileProfile implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.IFileProfile" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileProfile&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type IFileProfile = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+             FileProfile class is the root class for using the Microsoft Information Protection operations.
+            <para>A typical application will only need one Profile but it can create multiple profiles if needed.</para></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddEngineAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileEngine&gt; AddEngineAsync (Microsoft.InformationProtection.File.FileEngineSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.File.IFileEngine&gt; AddEngineAsync(class Microsoft.InformationProtection.File.FileEngineSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileProfile.AddEngineAsync(Microsoft.InformationProtection.File.FileEngineSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddEngineAsync (settings As FileEngineSettings) As Task(Of IFileEngine)" />
+      <MemberSignature Language="F#" Value="abstract member AddEngineAsync : Microsoft.InformationProtection.File.FileEngineSettings -&gt; System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileEngine&gt;" Usage="iFileProfile.AddEngineAsync settings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileEngine&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.File.FileEngineSettings" />
+      </Parameters>
+      <Docs>
+        <param name="settings">The file engine settings.</param>
+        <summary>
+            Starts adding a new file engine to the profile.
+            </summary>
+        <returns>A task that represents the asynchronous add engine operation. The value of the <c>TResult</c> parameter contains the <c>IFileEngine</c>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteEngineAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task DeleteEngineAsync (string id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task DeleteEngineAsync(string id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileProfile.DeleteEngineAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function DeleteEngineAsync (id As String) As Task" />
+      <MemberSignature Language="F#" Value="abstract member DeleteEngineAsync : string -&gt; System.Threading.Tasks.Task" Usage="iFileProfile.DeleteEngineAsync id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id"></param>
+        <summary />
+        <returns>A task that represents the asynchronous delete engine operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListEnginesAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt; ListEnginesAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;string&gt;&gt; ListEnginesAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileProfile.ListEnginesAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListEnginesAsync () As Task(Of List(Of String))" />
+      <MemberSignature Language="F#" Value="abstract member ListEnginesAsync : unit -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt;" Usage="iFileProfile.ListEnginesAsync " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Starts list engines operation.
+            </summary>
+        <returns>A task that represents the asynchronous list engines operation. The value of the <c>TResult</c> parameter contains the list of engine ids.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnAddPolicyEngineStarting">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.InformationProtection.AddingEngineEventArgs&gt; OnAddPolicyEngineStarting;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.InformationProtection.AddingEngineEventArgs&gt; OnAddPolicyEngineStarting" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.InformationProtection.File.IFileProfile.OnAddPolicyEngineStarting" />
+      <MemberSignature Language="VB.NET" Value="Event OnAddPolicyEngineStarting As EventHandler(Of AddingEngineEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.OnAddPolicyEngineStarting : EventHandler&lt;Microsoft.InformationProtection.AddingEngineEventArgs&gt; " Usage="member this.OnAddPolicyEngineStarting : System.EventHandler&lt;Microsoft.InformationProtection.AddingEngineEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.InformationProtection.AddingEngineEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            An event that is called prior to the creation of a new policy engine.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OnPolicyChanged">
+      <MemberSignature Language="C#" Value="event EventHandler&lt;Microsoft.InformationProtection.PolicyChangedEventArgs&gt; OnPolicyChanged;" />
+      <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class Microsoft.InformationProtection.PolicyChangedEventArgs&gt; OnPolicyChanged" />
+      <MemberSignature Language="DocId" Value="E:Microsoft.InformationProtection.File.IFileProfile.OnPolicyChanged" />
+      <MemberSignature Language="VB.NET" Value="Event OnPolicyChanged As EventHandler(Of PolicyChangedEventArgs) " />
+      <MemberSignature Language="F#" Value="member this.OnPolicyChanged : EventHandler&lt;Microsoft.InformationProtection.PolicyChangedEventArgs&gt; " Usage="member this.OnPolicyChanged : System.EventHandler&lt;Microsoft.InformationProtection.PolicyChangedEventArgs&gt; " />
+      <MemberType>Event</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.EventHandler&lt;Microsoft.InformationProtection.PolicyChangedEventArgs&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            An event that is called whenever the underlying policy is changed.
+            </summary>
+        <remarks>To load the new policy it is necessary to call <see cref="M:Microsoft.InformationProtection.File.IFileProfile.AddEngineAsync(Microsoft.InformationProtection.File.FileEngineSettings)" /> again with the engine Id given by <see cref="P:Microsoft.InformationProtection.PolicyChangedEventArgs.EngineId" /></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.File.FileProfileSettings Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.File.FileProfileSettings Settings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileProfile.Settings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As FileProfileSettings" />
+      <MemberSignature Language="F#" Value="member this.Settings : Microsoft.InformationProtection.File.FileProfileSettings" Usage="Microsoft.InformationProtection.File.IFileProfile.Settings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.FileProfileSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the profile settings.
+            </summary>
+        <value>The profile settings.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnloadEngineAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task UnloadEngineAsync (string id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task UnloadEngineAsync(string id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileProfile.UnloadEngineAsync(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function UnloadEngineAsync (id As String) As Task" />
+      <MemberSignature Language="F#" Value="abstract member UnloadEngineAsync : string -&gt; System.Threading.Tasks.Task" Usage="iFileProfile.UnloadEngineAsync id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id">The id of the engine to unload </param>
+        <summary>
+            Starts unloading the file engine with the given id.
+            </summary>
+        <returns>A task that represents the asynchronous unload engine operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

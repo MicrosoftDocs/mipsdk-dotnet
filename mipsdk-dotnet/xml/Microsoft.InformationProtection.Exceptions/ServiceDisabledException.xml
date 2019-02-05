@@ -1,0 +1,68 @@
+﻿<Type Name="ServiceDisabledException" FullName="Microsoft.InformationProtection.Exceptions.ServiceDisabledException">
+  <TypeSignature Language="C#" Value="public class ServiceDisabledException : Microsoft.InformationProtection.Exceptions.AccessDeniedException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit ServiceDisabledException extends Microsoft.InformationProtection.Exceptions.AccessDeniedException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Exceptions.ServiceDisabledException" />
+  <TypeSignature Language="VB.NET" Value="Public Class ServiceDisabledException&#xA;Inherits AccessDeniedException" />
+  <TypeSignature Language="F#" Value="type ServiceDisabledException = class&#xA;    inherit AccessDeniedException" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.InformationProtection.Exceptions.AccessDeniedException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Serializable</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ServiceDisabledException (Microsoft.InformationProtection.ServiceDisablementExtent extent, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.InformationProtection.ServiceDisablementExtent extent, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Exceptions.ServiceDisabledException.#ctor(Microsoft.InformationProtection.ServiceDisablementExtent,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (extent As ServiceDisablementExtent, message As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Exceptions.ServiceDisabledException : Microsoft.InformationProtection.ServiceDisablementExtent * string -&gt; Microsoft.InformationProtection.Exceptions.ServiceDisabledException" Usage="new Microsoft.InformationProtection.Exceptions.ServiceDisabledException (extent, message)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="extent" Type="Microsoft.InformationProtection.ServiceDisablementExtent" />
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="extent">To be added.</param>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Extent">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ServiceDisablementExtent Extent { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.ServiceDisablementExtent Extent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Exceptions.ServiceDisabledException.Extent" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Extent As ServiceDisablementExtent" />
+      <MemberSignature Language="F#" Value="member this.Extent : Microsoft.InformationProtection.ServiceDisablementExtent" Usage="Microsoft.InformationProtection.Exceptions.ServiceDisabledException.Extent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ServiceDisablementExtent</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

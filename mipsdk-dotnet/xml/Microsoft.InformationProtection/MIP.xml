@@ -1,0 +1,124 @@
+﻿<Type Name="MIP" FullName="Microsoft.InformationProtection.MIP">
+  <TypeSignature Language="C#" Value="public static class MIP" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit MIP extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.MIP" />
+  <TypeSignature Language="VB.NET" Value="Public Class MIP" />
+  <TypeSignature Language="F#" Value="type MIP = class" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Initialize">
+      <MemberSignature Language="C#" Value="public static void Initialize (Microsoft.InformationProtection.MipComponent mipComponent, string path = null);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Initialize(valuetype Microsoft.InformationProtection.MipComponent mipComponent, string path) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.Initialize(Microsoft.InformationProtection.MipComponent,System.String)" />
+      <MemberSignature Language="F#" Value="static member Initialize : Microsoft.InformationProtection.MipComponent * string -&gt; unit" Usage="Microsoft.InformationProtection.MIP.Initialize (mipComponent, path)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="mipComponent" Type="Microsoft.InformationProtection.MipComponent" />
+        <Parameter Name="path" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="mipComponent">To be added.</param>
+        <param name="path">The path where the MIP dlls are located. May be set to null if the MIP dlls are in the search path.</param>
+        <summary>
+            Loads the MIP dlls needed for UPE
+            </summary>
+        <remarks>
+          <c>path</c> only needs to be set, if the mip dlls are in a different folder than where the .Net assembly is located.
+            <para>This would typically be the case if a single deploy targets both 32 bit and 64 bit application.</para><para>In this case a typical use would look like:</para><code>
+            var subDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\" + (Environment.Is64BitProcess ? "x64" : "x86");
+            var factory = MIP.Initialize(MipComponent.Policy, subDir);
+            </code></remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadFileProfileAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileProfile&gt; LoadFileProfileAsync (Microsoft.InformationProtection.File.FileProfileSettings profileSettings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.File.IFileProfile&gt; LoadFileProfileAsync(class Microsoft.InformationProtection.File.FileProfileSettings profileSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.LoadFileProfileAsync(Microsoft.InformationProtection.File.FileProfileSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadFileProfileAsync (profileSettings As FileProfileSettings) As Task(Of IFileProfile)" />
+      <MemberSignature Language="F#" Value="static member LoadFileProfileAsync : Microsoft.InformationProtection.File.FileProfileSettings -&gt; System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileProfile&gt;" Usage="Microsoft.InformationProtection.MIP.LoadFileProfileAsync profileSettings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="profileSettings" Type="Microsoft.InformationProtection.File.FileProfileSettings" />
+      </Parameters>
+      <Docs>
+        <param name="profileSettings">the profile settings</param>
+        <summary>
+            Starts loading a profile based on the provided |settings|.
+            </summary>
+        <returns>A task that represents the asynchronous load operation. The value of the <c>TResult</c> parameter contains the <c>IFileProfile</c>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadPolicyProfileAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Policy.IPolicyProfile&gt; LoadPolicyProfileAsync (Microsoft.InformationProtection.Policy.PolicyProfileSettings profileSettings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.Policy.IPolicyProfile&gt; LoadPolicyProfileAsync(class Microsoft.InformationProtection.Policy.PolicyProfileSettings profileSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.LoadPolicyProfileAsync(Microsoft.InformationProtection.Policy.PolicyProfileSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadPolicyProfileAsync (profileSettings As PolicyProfileSettings) As Task(Of IPolicyProfile)" />
+      <MemberSignature Language="F#" Value="static member LoadPolicyProfileAsync : Microsoft.InformationProtection.Policy.PolicyProfileSettings -&gt; System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Policy.IPolicyProfile&gt;" Usage="Microsoft.InformationProtection.MIP.LoadPolicyProfileAsync profileSettings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Policy.IPolicyProfile&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="profileSettings" Type="Microsoft.InformationProtection.Policy.PolicyProfileSettings" />
+      </Parameters>
+      <Docs>
+        <param name="profileSettings"> profile settings used to load the profile object.</param>
+        <summary>
+            Starts loading a profile based on the provided settings.
+            </summary>
+        <returns>A task that represents the asynchronous load operation. The value of the <c>TResult</c> parameter contains the <c>IPolicyProfile</c>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReleaseAllResources">
+      <MemberSignature Language="C#" Value="public static void ReleaseAllResources ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ReleaseAllResources() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.ReleaseAllResources" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ReleaseAllResources ()" />
+      <MemberSignature Language="F#" Value="static member ReleaseAllResources : unit -&gt; unit" Usage="Microsoft.InformationProtection.MIP.ReleaseAllResources " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

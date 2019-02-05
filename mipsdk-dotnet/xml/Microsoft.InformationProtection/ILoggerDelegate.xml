@@ -1,0 +1,113 @@
+﻿<Type Name="ILoggerDelegate" FullName="Microsoft.InformationProtection.ILoggerDelegate">
+  <TypeSignature Language="C#" Value="public interface ILoggerDelegate" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILoggerDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.ILoggerDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ILoggerDelegate" />
+  <TypeSignature Language="F#" Value="type ILoggerDelegate = interface" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Flush">
+      <MemberSignature Language="C#" Value="public void Flush ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Flush() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ILoggerDelegate.Flush" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Flush ()" />
+      <MemberSignature Language="F#" Value="abstract member Flush : unit -&gt; unit" Usage="iLoggerDelegate.Flush " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLogLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.LogLevel GetLogLevel ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.LogLevel GetLogLevel() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ILoggerDelegate.GetLogLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLogLevel () As LogLevel" />
+      <MemberSignature Language="F#" Value="abstract member GetLogLevel : unit -&gt; Microsoft.InformationProtection.LogLevel" Usage="iLoggerDelegate.GetLogLevel " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LogLevel</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Init">
+      <MemberSignature Language="C#" Value="public void Init (string storagePath, Microsoft.InformationProtection.LogLevel logLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Init(string storagePath, valuetype Microsoft.InformationProtection.LogLevel logLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ILoggerDelegate.Init(System.String,Microsoft.InformationProtection.LogLevel)" />
+      <MemberSignature Language="F#" Value="abstract member Init : string * Microsoft.InformationProtection.LogLevel -&gt; unit" Usage="iLoggerDelegate.Init (storagePath, logLevel)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="storagePath" Type="System.String" />
+        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" />
+      </Parameters>
+      <Docs>
+        <param name="storagePath">To be added.</param>
+        <param name="logLevel">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteToLog">
+      <MemberSignature Language="C#" Value="public void WriteToLog (Microsoft.InformationProtection.LogLevel logLevel, string message, string functionName, string fileName, int lineNo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WriteToLog(valuetype Microsoft.InformationProtection.LogLevel logLevel, string message, string functionName, string fileName, int32 lineNo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ILoggerDelegate.WriteToLog(Microsoft.InformationProtection.LogLevel,System.String,System.String,System.String,System.Int32)" />
+      <MemberSignature Language="F#" Value="abstract member WriteToLog : Microsoft.InformationProtection.LogLevel * string * string * string * int -&gt; unit" Usage="iLoggerDelegate.WriteToLog (logLevel, message, functionName, fileName, lineNo)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="functionName" Type="System.String" />
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="lineNo" Type="System.Int32" />
+      </Parameters>
+      <Docs>
+        <param name="logLevel">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="functionName">To be added.</param>
+        <param name="fileName">To be added.</param>
+        <param name="lineNo">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

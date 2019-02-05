@@ -1,0 +1,97 @@
+﻿<Type Name="Roles" FullName="Microsoft.InformationProtection.Protection.Roles">
+  <TypeSignature Language="C#" Value="public static class Roles" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit Roles extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.Roles" />
+  <TypeSignature Language="VB.NET" Value="Public Class Roles" />
+  <TypeSignature Language="F#" Value="type Roles = class" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Author">
+      <MemberSignature Language="C#" Value="public const string Author;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Author" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Roles.Author" />
+      <MemberSignature Language="VB.NET" Value="Public Const Author As String " />
+      <MemberSignature Language="F#" Value="val mutable Author : string" Usage="Microsoft.InformationProtection.Protection.Roles.Author" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CoOwner">
+      <MemberSignature Language="C#" Value="public const string CoOwner;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string CoOwner" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Roles.CoOwner" />
+      <MemberSignature Language="VB.NET" Value="Public Const CoOwner As String " />
+      <MemberSignature Language="F#" Value="val mutable CoOwner : string" Usage="Microsoft.InformationProtection.Protection.Roles.CoOwner" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Reviewer">
+      <MemberSignature Language="C#" Value="public const string Reviewer;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Reviewer" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Roles.Reviewer" />
+      <MemberSignature Language="VB.NET" Value="Public Const Reviewer As String " />
+      <MemberSignature Language="F#" Value="val mutable Reviewer : string" Usage="Microsoft.InformationProtection.Protection.Roles.Reviewer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Viewer">
+      <MemberSignature Language="C#" Value="public const string Viewer;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Viewer" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Roles.Viewer" />
+      <MemberSignature Language="VB.NET" Value="Public Const Viewer As String " />
+      <MemberSignature Language="F#" Value="val mutable Viewer : string" Usage="Microsoft.InformationProtection.Protection.Roles.Viewer" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

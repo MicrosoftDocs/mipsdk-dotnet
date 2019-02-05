@@ -1,0 +1,399 @@
+﻿<Type Name="ProtectionDescriptor" FullName="Microsoft.InformationProtection.ProtectionDescriptor">
+  <TypeSignature Language="C#" Value="public class ProtectionDescriptor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ProtectionDescriptor extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.ProtectionDescriptor" />
+  <TypeSignature Language="VB.NET" Value="Public Class ProtectionDescriptor" />
+  <TypeSignature Language="F#" Value="type ProtectionDescriptor = class" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents ad-hoc protection associated with protected content
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ProtectionDescriptor (System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt; userRights);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.UserRights&gt; userRights) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ProtectionDescriptor.#ctor(System.Collections.Generic.List{Microsoft.InformationProtection.UserRights})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (userRights As List(Of UserRights))" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.ProtectionDescriptor : System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt; -&gt; Microsoft.InformationProtection.ProtectionDescriptor" Usage="new Microsoft.InformationProtection.ProtectionDescriptor userRights" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userRights" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="userRights">Collection of users-to-rights mappings</param>
+        <summary>
+            Constructor for ProtectionDescriptor for Adhoc
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ProtectionDescriptor (System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt; userRoles);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.UserRoles&gt; userRoles) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ProtectionDescriptor.#ctor(System.Collections.Generic.List{Microsoft.InformationProtection.UserRoles})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (userRoles As List(Of UserRoles))" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.ProtectionDescriptor : System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt; -&gt; Microsoft.InformationProtection.ProtectionDescriptor" Usage="new Microsoft.InformationProtection.ProtectionDescriptor userRoles" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="userRoles" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="userRoles">Collection of users-to-roles mappings</param>
+        <summary>
+            Constructor for ProtectionDescriptor for Adhoc
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ProtectionDescriptor (string templateId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string templateId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ProtectionDescriptor.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (templateId As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.ProtectionDescriptor : string -&gt; Microsoft.InformationProtection.ProtectionDescriptor" Usage="new Microsoft.InformationProtection.ProtectionDescriptor templateId" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="templateId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="templateId">To be added.</param>
+        <summary>
+            Constructor for ProtectionDescriptor for Template
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AllowOfflineAccess">
+      <MemberSignature Language="C#" Value="public bool AllowOfflineAccess { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowOfflineAccess" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.AllowOfflineAccess" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowOfflineAccess As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AllowOfflineAccess : bool with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.AllowOfflineAccess" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not protection allows offline content access (default = true)
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentId">
+      <MemberSignature Language="C#" Value="public string ContentId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.ContentId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentId As String" />
+      <MemberSignature Language="F#" Value="member this.ContentId : string with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.ContentId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the content id
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentValidUntil">
+      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; ContentValidUntil { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; ContentValidUntil" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.ContentValidUntil" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentValidUntil As Nullable(Of DateTime)" />
+      <MemberSignature Language="F#" Value="member this.ContentValidUntil : Nullable&lt;DateTime&gt; with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.ContentValidUntil" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Protection expiration time
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.Description" />
+      <MemberSignature Language="VB.NET" Value="Public Property Description As String" />
+      <MemberSignature Language="F#" Value="member this.Description : string with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The protection description
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptedAppData">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; EncryptedAppData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; EncryptedAppData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.EncryptedAppData" />
+      <MemberSignature Language="VB.NET" Value="Public Property EncryptedAppData As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.EncryptedAppData : System.Collections.Generic.Dictionary&lt;string, string&gt; with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.EncryptedAppData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            App-specific data that was encrypted
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelId">
+      <MemberSignature Language="C#" Value="public string LabelId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LabelId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.LabelId" />
+      <MemberSignature Language="VB.NET" Value="Public Property LabelId As String" />
+      <MemberSignature Language="F#" Value="member this.LabelId : string with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.LabelId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the Label id, if any
+            This property will only be populated in ProtectionDescriptors for preexisting protected content. i.e. It is
+            a field populated by the server at the moment protected content is consumed.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.Name" />
+      <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The protection name
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="public string Owner { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Owner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public Property Owner As String" />
+      <MemberSignature Language="F#" Value="member this.Owner : string with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.Owner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The owner of protection
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectionType">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ProtectionType ProtectionType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.ProtectionType ProtectionType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.ProtectionType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProtectionType As ProtectionType" />
+      <MemberSignature Language="F#" Value="member this.ProtectionType : Microsoft.InformationProtection.ProtectionType" Usage="Microsoft.InformationProtection.ProtectionDescriptor.ProtectionType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ProtectionType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The protection type
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Referrer">
+      <MemberSignature Language="C#" Value="public string Referrer { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Referrer" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.Referrer" />
+      <MemberSignature Language="VB.NET" Value="Public Property Referrer As String" />
+      <MemberSignature Language="F#" Value="member this.Referrer : string with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.Referrer" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Protection referrer address
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignedAppData">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; SignedAppData { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; SignedAppData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.SignedAppData" />
+      <MemberSignature Language="VB.NET" Value="Public Property SignedAppData As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.SignedAppData : System.Collections.Generic.Dictionary&lt;string, string&gt; with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.SignedAppData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            App-specific data that was signed
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TemplateId">
+      <MemberSignature Language="C#" Value="public string TemplateId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TemplateId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.TemplateId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TemplateId As String" />
+      <MemberSignature Language="F#" Value="member this.TemplateId : string" Usage="Microsoft.InformationProtection.ProtectionDescriptor.TemplateId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The RMS template id, if any
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserRights">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt; UserRights { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.UserRights&gt; UserRights" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.UserRights" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserRights As List(Of UserRights)" />
+      <MemberSignature Language="F#" Value="member this.UserRights : System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt;" Usage="Microsoft.InformationProtection.ProtectionDescriptor.UserRights" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Collection of users-to-rights mappings
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UserRoles">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt; UserRoles { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.UserRoles&gt; UserRoles" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.UserRoles" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UserRoles As List(Of UserRoles)" />
+      <MemberSignature Language="F#" Value="member this.UserRoles : System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt;" Usage="Microsoft.InformationProtection.ProtectionDescriptor.UserRoles" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Collection of users-to-roles mappings
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

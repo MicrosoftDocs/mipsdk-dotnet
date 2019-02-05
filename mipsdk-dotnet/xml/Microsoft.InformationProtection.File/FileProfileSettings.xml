@@ -1,0 +1,253 @@
+﻿<Type Name="FileProfileSettings" FullName="Microsoft.InformationProtection.File.FileProfileSettings">
+  <TypeSignature Language="C#" Value="public class FileProfileSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FileProfileSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.FileProfileSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class FileProfileSettings" />
+  <TypeSignature Language="F#" Value="type FileProfileSettings = class" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Settings used by FileProfile during its creation and throughout its lifetime
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public FileProfileSettings (string path, bool useInMemoryStorage, Microsoft.InformationProtection.IAuthDelegate authDelegate, Microsoft.InformationProtection.IConsentDelegate consentDelegate, Microsoft.InformationProtection.ApplicationInfo applicationInfo, Microsoft.InformationProtection.LogLevel minimumLogLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path, bool useInMemoryStorage, class Microsoft.InformationProtection.IAuthDelegate authDelegate, class Microsoft.InformationProtection.IConsentDelegate consentDelegate, class Microsoft.InformationProtection.ApplicationInfo applicationInfo, valuetype Microsoft.InformationProtection.LogLevel minimumLogLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileProfileSettings.#ctor(System.String,System.Boolean,Microsoft.InformationProtection.IAuthDelegate,Microsoft.InformationProtection.IConsentDelegate,Microsoft.InformationProtection.ApplicationInfo,Microsoft.InformationProtection.LogLevel)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.File.FileProfileSettings : string * bool * Microsoft.InformationProtection.IAuthDelegate * Microsoft.InformationProtection.IConsentDelegate * Microsoft.InformationProtection.ApplicationInfo * Microsoft.InformationProtection.LogLevel -&gt; Microsoft.InformationProtection.File.FileProfileSettings" Usage="new Microsoft.InformationProtection.File.FileProfileSettings (path, useInMemoryStorage, authDelegate, consentDelegate, applicationInfo, minimumLogLevel)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="useInMemoryStorage" Type="System.Boolean" />
+        <Parameter Name="authDelegate" Type="Microsoft.InformationProtection.IAuthDelegate" />
+        <Parameter Name="consentDelegate" Type="Microsoft.InformationProtection.IConsentDelegate" />
+        <Parameter Name="applicationInfo" Type="Microsoft.InformationProtection.ApplicationInfo" />
+        <Parameter Name="minimumLogLevel" Type="Microsoft.InformationProtection.LogLevel" />
+      </Parameters>
+      <Docs>
+        <param name="path">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.Path" /></param>
+        <param name="useInMemoryStorage">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.UseInMemoryStorage" /></param>
+        <param name="authDelegate">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.AuthDelegate" /></param>
+        <param name="consentDelegate">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.ConsentDelegate" /></param>
+        <param name="applicationInfo">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.ApplicationInfo" /></param>
+        <param name="minimumLogLevel">To be added.</param>
+        <summary>
+            FileProfileSettings constructor
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ApplicationInfo ApplicationInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.ApplicationInfo ApplicationInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.ApplicationInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationInfo As ApplicationInfo" />
+      <MemberSignature Language="F#" Value="member this.ApplicationInfo : Microsoft.InformationProtection.ApplicationInfo" Usage="Microsoft.InformationProtection.File.FileProfileSettings.ApplicationInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ApplicationInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Info regarding application that is consuming the SDK
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AuthDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.IAuthDelegate AuthDelegate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.IAuthDelegate AuthDelegate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.AuthDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AuthDelegate As IAuthDelegate" />
+      <MemberSignature Language="F#" Value="member this.AuthDelegate : Microsoft.InformationProtection.IAuthDelegate" Usage="Microsoft.InformationProtection.File.FileProfileSettings.AuthDelegate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.IAuthDelegate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The auth delegate used for acquiring authentication tokens
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsentDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.IConsentDelegate ConsentDelegate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.IConsentDelegate ConsentDelegate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.ConsentDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConsentDelegate As IConsentDelegate" />
+      <MemberSignature Language="F#" Value="member this.ConsentDelegate : Microsoft.InformationProtection.IConsentDelegate" Usage="Microsoft.InformationProtection.File.FileProfileSettings.ConsentDelegate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.IConsentDelegate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The consent delegate used to connect to external URLs
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoggerDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ILoggerDelegate LoggerDelegate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.ILoggerDelegate LoggerDelegate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.LoggerDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public Property LoggerDelegate As ILoggerDelegate" />
+      <MemberSignature Language="F#" Value="member this.LoggerDelegate : Microsoft.InformationProtection.ILoggerDelegate with get, set" Usage="Microsoft.InformationProtection.File.FileProfileSettings.LoggerDelegate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ILoggerDelegate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The logger delegate used to override default logging provider
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MinimumLogLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.LogLevel MinimumLogLevel { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.LogLevel MinimumLogLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.MinimumLogLevel" />
+      <MemberSignature Language="VB.NET" Value="Public Property MinimumLogLevel As LogLevel" />
+      <MemberSignature Language="F#" Value="member this.MinimumLogLevel : Microsoft.InformationProtection.LogLevel with get, set" Usage="Microsoft.InformationProtection.File.FileProfileSettings.MinimumLogLevel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LogLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Minimum log level to be written to log file
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OptOutTelemetry">
+      <MemberSignature Language="C#" Value="public bool OptOutTelemetry { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool OptOutTelemetry" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.OptOutTelemetry" />
+      <MemberSignature Language="VB.NET" Value="Public Property OptOutTelemetry As Boolean" />
+      <MemberSignature Language="F#" Value="member this.OptOutTelemetry : bool with get, set" Usage="Microsoft.InformationProtection.File.FileProfileSettings.OptOutTelemetry" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not telemetry should be entirely disabled based on user preference
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public string Path { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.Path" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.InformationProtection.File.FileProfileSettings.Path" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The path under which logging, telemetry, and other persistent state is stored.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SkipTelemetryInit">
+      <MemberSignature Language="C#" Value="public bool SkipTelemetryInit { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool SkipTelemetryInit" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.SkipTelemetryInit" />
+      <MemberSignature Language="VB.NET" Value="Public Property SkipTelemetryInit As Boolean" />
+      <MemberSignature Language="F#" Value="member this.SkipTelemetryInit : bool with get, set" Usage="Microsoft.InformationProtection.File.FileProfileSettings.SkipTelemetryInit" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not telemetry initialization should be skipped
+            </summary>
+        <value>To be added.</value>
+        <remarks> This should not normally be set by client applications,
+            rather it is used by File SDK (which already initializes telemetry) to prevent duplicate initialization</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UseInMemoryStorage">
+      <MemberSignature Language="C#" Value="public bool UseInMemoryStorage { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool UseInMemoryStorage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.UseInMemoryStorage" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UseInMemoryStorage As Boolean" />
+      <MemberSignature Language="F#" Value="member this.UseInMemoryStorage : bool" Usage="Microsoft.InformationProtection.File.FileProfileSettings.UseInMemoryStorage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             Whether or not all state should be stored in memory (as opposed to on disk).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,0 +1,46 @@
+﻿<Type Name="IConsentDelegate" FullName="Microsoft.InformationProtection.IConsentDelegate">
+  <TypeSignature Language="C#" Value="public interface IConsentDelegate" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IConsentDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.IConsentDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IConsentDelegate" />
+  <TypeSignature Language="F#" Value="type IConsentDelegate = interface" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Interface that is used to obtain consent from a user to access a URL
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GetUserConsent">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Consent GetUserConsent (string url);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.Consent GetUserConsent(string url) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.IConsentDelegate.GetUserConsent(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetUserConsent (url As String) As Consent" />
+      <MemberSignature Language="F#" Value="abstract member GetUserConsent : string -&gt; Microsoft.InformationProtection.Consent" Usage="iConsentDelegate.GetUserConsent url" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Consent</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="url" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="url">The URL that will be accessed</param>
+        <summary>
+            This method is called prior to MIP accessing an external URL
+            </summary>
+        <returns>The level of consent the user grants to MIP when accessing the URL</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

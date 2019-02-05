@@ -1,0 +1,93 @@
+﻿<Type Name="MetadataAction" FullName="Microsoft.InformationProtection.Policy.Actions.MetadataAction">
+  <TypeSignature Language="C#" Value="public class MetadataAction : Microsoft.InformationProtection.Policy.Actions.Action" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MetadataAction extends Microsoft.InformationProtection.Policy.Actions.Action" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.Actions.MetadataAction" />
+  <TypeSignature Language="VB.NET" Value="Public Class MetadataAction&#xA;Inherits Action" />
+  <TypeSignature Language="F#" Value="type MetadataAction = class&#xA;    inherit Action" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.InformationProtection.Policy.Actions.Action</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            An Action meant that specifies what meta data information should be added to the content. 
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MetadataAction (string id, System.Collections.Generic.List&lt;string&gt; metadataToRemove, System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; metadataToAdd);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, class System.Collections.Generic.List`1&lt;string&gt; metadataToRemove, class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; metadataToAdd) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.Actions.MetadataAction.#ctor(System.String,System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.Collections.Generic.KeyValuePair{System.String,System.String}})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, metadataToRemove As List(Of String), metadataToAdd As List(Of KeyValuePair(Of String, String)))" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.Actions.MetadataAction : string * System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt; -&gt; Microsoft.InformationProtection.Policy.Actions.MetadataAction" Usage="new Microsoft.InformationProtection.Policy.Actions.MetadataAction (id, metadataToRemove, metadataToAdd)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="metadataToRemove" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+        <Parameter Name="metadataToAdd" Type="System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="id">The id of the action</param>
+        <param name="metadataToRemove">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.MetadataAction.MetadataToRemove" /></param>
+        <param name="metadataToAdd">The <see cref="P:Microsoft.InformationProtection.Policy.Actions.MetadataAction.MetadataToAdd" /></param>
+        <summary>
+            Creates a new MetadataAction. This constructor is only public to allow using this class in code testing
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MetadataToAdd">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; MetadataToAdd { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; MetadataToAdd" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.MetadataAction.MetadataToAdd" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MetadataToAdd As ReadOnlyCollection(Of KeyValuePair(Of String, String))" />
+      <MemberSignature Language="F#" Value="member this.MetadataToAdd : System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="Microsoft.InformationProtection.Policy.Actions.MetadataAction.MetadataToAdd" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The list of meta-data as key value pairs. The meta-data needs to  be added to content meta-data.
+            </summary>
+        <value>To be added.</value>
+        <remarks>Removing meta-data should be done before adding meta-data.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MetadataToRemove">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt; MetadataToRemove { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;string&gt; MetadataToRemove" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.MetadataAction.MetadataToRemove" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MetadataToRemove As ReadOnlyCollection(Of String)" />
+      <MemberSignature Language="F#" Value="member this.MetadataToRemove : System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt;" Usage="Microsoft.InformationProtection.Policy.Actions.MetadataAction.MetadataToRemove" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The list of names of meta-data that need to be removed from content.
+            </summary>
+        <value>To be added.</value>
+        <remarks>Removing meta-data should be done before adding meta-data.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

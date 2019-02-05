@@ -1,0 +1,207 @@
+<Overview>
+  <Assemblies>
+    <Assembly Name="dotnet_wrapper" Version="1.1.210.0">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright © Microsoft Corporation. All rights reserved.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.1.210.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("MIP SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("MIP SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("mip_dotnet_api")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.Guid("f164d722-ec3c-4577-b180-a2866c8eeac6")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.0", FrameworkDisplayName=".NET Framework 4")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+    <Assembly Name="mip_dotnet_api" Version="1.1.210.0">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright © Microsoft Corporation. All rights reserved.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.1.210.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("MIP SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("MIP SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.0", FrameworkDisplayName=".NET Framework 4")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+  </Assemblies>
+  <Remarks>To be added.</Remarks>
+  <Copyright>To be added.</Copyright>
+  <Types>
+    <Namespace Name="Microsoft.InformationProtection">
+      <Type Name="ActionSource" Kind="Enumeration" />
+      <Type Name="AddingEngineEventArgs" Kind="Class" />
+      <Type Name="ApplicationInfo" Kind="Class" />
+      <Type Name="AssignmentMethod" Kind="Enumeration" />
+      <Type Name="Consent" Kind="Enumeration" />
+      <Type Name="ContentLabel" Kind="Class" />
+      <Type Name="ContentState" Kind="Enumeration" />
+      <Type Name="IAuthDelegate" Kind="Interface" />
+      <Type Name="IConsentDelegate" Kind="Interface" />
+      <Type Name="Identity" Kind="Class" />
+      <Type Name="ILoggerDelegate" Kind="Interface" />
+      <Type Name="Label" Kind="Class" />
+      <Type Name="LogLevel" Kind="Enumeration" />
+      <Type Name="MIP" Kind="Class" />
+      <Type Name="MipComponent" Kind="Enumeration" />
+      <Type Name="PolicyChangedEventArgs" Kind="Class" />
+      <Type Name="ProtectionDescriptor" Kind="Class" />
+      <Type Name="ProtectionType" Kind="Enumeration" />
+      <Type Name="ServiceDisablementExtent" Kind="Enumeration" />
+      <Type Name="UserRights" Kind="Class" />
+      <Type Name="UserRoles" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.InformationProtection.Exceptions">
+      <Type Name="AccessDeniedException" Kind="Class" />
+      <Type Name="BadInputException" Kind="Class" />
+      <Type Name="InternalException" Kind="Class" />
+      <Type Name="JustificationRequiredException" Kind="Class" />
+      <Type Name="NetworkException" Kind="Class" />
+      <Type Name="NoAuthTokenException" Kind="Class" />
+      <Type Name="NoPermissionsException" Kind="Class" />
+      <Type Name="NoPolicyException" Kind="Class" />
+      <Type Name="PolicySyncException" Kind="Class" />
+      <Type Name="PrivilegedRequiredException" Kind="Class" />
+      <Type Name="ProxyAuthenticationException" Kind="Class" />
+      <Type Name="ServiceDisabledException" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.InformationProtection.File">
+      <Type Name="FileEngineSettings" Kind="Class" />
+      <Type Name="FileHandler" Kind="Class" />
+      <Type Name="FileProfileSettings" Kind="Class" />
+      <Type Name="IFileEngine" Kind="Interface" />
+      <Type Name="IFileExecutionState" Kind="Interface" />
+      <Type Name="IFileHandler" Kind="Interface" />
+      <Type Name="IFileProfile" Kind="Interface" />
+      <Type Name="LabelingOptions" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.InformationProtection.Internal">
+      <Type Name="ActionSource" Kind="Enumeration" />
+      <Type Name="ActionType" Kind="Enumeration" />
+      <Type Name="AssignmentMethod" Kind="Enumeration" />
+      <Type Name="Consent" Kind="Enumeration" />
+      <Type Name="ContentFormat" Kind="Enumeration" />
+      <Type Name="ContentMarkAlignment" Kind="Enumeration" />
+      <Type Name="ContentState" Kind="Enumeration" />
+      <Type Name="ErrorType" Kind="Enumeration" />
+      <Type Name="HttpRequestType" Kind="Enumeration" />
+      <Type Name="LogLevel" Kind="Enumeration" />
+      <Type Name="ProtectionHandlerCreationOptions" Kind="Enumeration" />
+      <Type Name="ProtectionType" Kind="Enumeration" />
+      <Type Name="SdkWrapper" Kind="Class" />
+      <Type Name="SWIGTYPE_p_std__chrono__time_pointT_std__chrono__system_clock_t" Kind="Class" />
+      <Type Name="SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t" Kind="Class" />
+      <Type Name="SWIGTYPE_p_std__mapT_std__string_std__string_mip__CaseInsensitiveComparator_t" Kind="Class" />
+      <Type Name="SWIGTYPE_p_std__shared_ptrT_mip__ICryptoProvider_t" Kind="Class" />
+      <Type Name="SWIGTYPE_p_unsigned_char" Kind="Class" />
+      <Type Name="WatermarkLayout" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.InformationProtection.Policy">
+      <Type Name="ClassificationRequest" Kind="Class" />
+      <Type Name="ClassificationResult" Kind="Class" />
+      <Type Name="ContentFormat" Kind="Enumeration" />
+      <Type Name="ContentMarkAlignment" Kind="Enumeration" />
+      <Type Name="IExecutionState" Kind="Interface" />
+      <Type Name="IPolicyEngine" Kind="Interface" />
+      <Type Name="IPolicyHandler" Kind="Interface" />
+      <Type Name="IPolicyProfile" Kind="Interface" />
+      <Type Name="PolicyEngineSettings" Kind="Class" />
+      <Type Name="PolicyProfileSettings" Kind="Class" />
+      <Type Name="SensitivityTypesRulePackage" Kind="Class" />
+      <Type Name="WatermarkLayout" Kind="Enumeration" />
+    </Namespace>
+    <Namespace Name="Microsoft.InformationProtection.Policy.Actions">
+      <Type Name="Action" Kind="Class" />
+      <Type Name="ActionType" Kind="Enumeration" />
+      <Type Name="AddContentFooterAction" Kind="Class" />
+      <Type Name="AddContentHeaderAction" Kind="Class" />
+      <Type Name="AddWatermarkAction" Kind="Class" />
+      <Type Name="ApplyLabelAction" Kind="Class" />
+      <Type Name="CustomAction" Kind="Class" />
+      <Type Name="JustifyAction" Kind="Class" />
+      <Type Name="MetadataAction" Kind="Class" />
+      <Type Name="ProtectAdhocAction" Kind="Class" />
+      <Type Name="ProtectByTemplateAction" Kind="Class" />
+      <Type Name="ProtectDoNotForwardAction" Kind="Class" />
+      <Type Name="RecommendLabelAction" Kind="Class" />
+      <Type Name="RemoveContentFooterAction" Kind="Class" />
+      <Type Name="RemoveContentHeaderAction" Kind="Class" />
+      <Type Name="RemoveProtectionAction" Kind="Class" />
+      <Type Name="RemoveWatermarkAction" Kind="Class" />
+    </Namespace>
+    <Namespace Name="Microsoft.InformationProtection.Protection">
+      <Type Name="IProtectionHandler" Kind="Interface" />
+      <Type Name="Rights" Kind="Class" />
+      <Type Name="Roles" Kind="Class" />
+    </Namespace>
+  </Types>
+  <Title>Untitled</Title>
+</Overview>

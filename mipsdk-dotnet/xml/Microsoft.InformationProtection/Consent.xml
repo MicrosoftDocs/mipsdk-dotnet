@@ -1,0 +1,85 @@
+﻿<Type Name="Consent" FullName="Microsoft.InformationProtection.Consent">
+  <TypeSignature Language="C#" Value="public enum Consent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Consent extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Consent" />
+  <TypeSignature Language="VB.NET" Value="Public Enum Consent" />
+  <TypeSignature Language="F#" Value="type Consent = " />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Level of consent a user gives to access an external URL
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Accept">
+      <MemberSignature Language="C#" Value="Accept" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Consent Accept = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Consent.Accept" />
+      <MemberSignature Language="VB.NET" Value="Accept" />
+      <MemberSignature Language="F#" Value="Accept = 1" Usage="Microsoft.InformationProtection.Consent.Accept" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Consent</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Accept only for this request
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AcceptAlways">
+      <MemberSignature Language="C#" Value="AcceptAlways" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Consent AcceptAlways = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Consent.AcceptAlways" />
+      <MemberSignature Language="VB.NET" Value="AcceptAlways" />
+      <MemberSignature Language="F#" Value="AcceptAlways = 0" Usage="Microsoft.InformationProtection.Consent.AcceptAlways" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Consent</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Accept for this request and all future requests for the same URL
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Reject">
+      <MemberSignature Language="C#" Value="Reject" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Consent Reject = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Consent.Reject" />
+      <MemberSignature Language="VB.NET" Value="Reject" />
+      <MemberSignature Language="F#" Value="Reject = 2" Usage="Microsoft.InformationProtection.Consent.Reject" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Consent</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Reject only for this request
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

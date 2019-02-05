@@ -1,0 +1,149 @@
+﻿<Type Name="LabelingOptions" FullName="Microsoft.InformationProtection.File.LabelingOptions">
+  <TypeSignature Language="C#" Value="public class LabelingOptions" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LabelingOptions extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.LabelingOptions" />
+  <TypeSignature Language="VB.NET" Value="Public Class LabelingOptions" />
+  <TypeSignature Language="F#" Value="type LabelingOptions = class" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Class for configuring labeling options for the <see cref="M:Microsoft.InformationProtection.File.IFileHandler.SetLabel(System.String,Microsoft.InformationProtection.File.LabelingOptions)" /> method
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LabelingOptions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.LabelingOptions.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ActionSource">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ActionSource ActionSource { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.ActionSource ActionSource" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.LabelingOptions.ActionSource" />
+      <MemberSignature Language="VB.NET" Value="Public Property ActionSource As ActionSource" />
+      <MemberSignature Language="F#" Value="member this.ActionSource : Microsoft.InformationProtection.ActionSource with get, set" Usage="Microsoft.InformationProtection.File.LabelingOptions.ActionSource" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ActionSource</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The label action source
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AssignmentMethod">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.AssignmentMethod AssignmentMethod { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.AssignmentMethod AssignmentMethod" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.LabelingOptions.AssignmentMethod" />
+      <MemberSignature Language="VB.NET" Value="Public Property AssignmentMethod As AssignmentMethod" />
+      <MemberSignature Language="F#" Value="member this.AssignmentMethod : Microsoft.InformationProtection.AssignmentMethod with get, set" Usage="Microsoft.InformationProtection.File.LabelingOptions.AssignmentMethod" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.AssignmentMethod</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The label assignment method
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExtendedProperties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; ExtendedProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; ExtendedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.LabelingOptions.ExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property ExtendedProperties As List(Of KeyValuePair(Of String, String))" />
+      <MemberSignature Language="F#" Value="member this.ExtendedProperties : System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt; with get, set" Usage="Microsoft.InformationProtection.File.LabelingOptions.ExtendedProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            List of key value pairs representing the extended properties applied to the content.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDowngradeJustified">
+      <MemberSignature Language="C#" Value="public bool IsDowngradeJustified { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDowngradeJustified" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.LabelingOptions.IsDowngradeJustified" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDowngradeJustified As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsDowngradeJustified : bool with get, set" Usage="Microsoft.InformationProtection.File.LabelingOptions.IsDowngradeJustified" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Controls whether or not justification to downgrade an existing label was given.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="JustificationMessage">
+      <MemberSignature Language="C#" Value="public string JustificationMessage { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string JustificationMessage" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.LabelingOptions.JustificationMessage" />
+      <MemberSignature Language="VB.NET" Value="Public Property JustificationMessage As String" />
+      <MemberSignature Language="F#" Value="member this.JustificationMessage : string with get, set" Usage="Microsoft.InformationProtection.File.LabelingOptions.JustificationMessage" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The justification message when lowering a label.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

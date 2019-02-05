@@ -1,0 +1,279 @@
+﻿<Type Name="Label" FullName="Microsoft.InformationProtection.Label">
+  <TypeSignature Language="C#" Value="public class Label" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit Label extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Label" />
+  <TypeSignature Language="VB.NET" Value="Public Class Label" />
+  <TypeSignature Language="F#" Value="type Label = class" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Abstraction for a single Microsoft Information Protection label
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Label (string id, string name, string description, string color, int sensitivity, string tooltip, bool isActive, System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; customSettings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string name, string description, string color, int32 sensitivity, string tooltip, bool isActive, class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; customSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Label.#ctor(System.String,System.String,System.String,System.String,System.Int32,System.String,System.Boolean,System.Collections.ObjectModel.ReadOnlyCollection{System.Collections.Generic.KeyValuePair{System.String,System.String}})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, name As String, description As String, color As String, sensitivity As Integer, tooltip As String, isActive As Boolean, customSettings As ReadOnlyCollection(Of KeyValuePair(Of String, String)))" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Label : string * string * string * string * int * string * bool * System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt; -&gt; Microsoft.InformationProtection.Label" Usage="new Microsoft.InformationProtection.Label (id, name, description, color, sensitivity, tooltip, isActive, customSettings)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="description" Type="System.String" />
+        <Parameter Name="color" Type="System.String" />
+        <Parameter Name="sensitivity" Type="System.Int32" />
+        <Parameter Name="tooltip" Type="System.String" />
+        <Parameter Name="isActive" Type="System.Boolean" />
+        <Parameter Name="customSettings" Type="System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="id">The <see cref="P:Microsoft.InformationProtection.Label.Id" /></param>
+        <param name="name">The <see cref="P:Microsoft.InformationProtection.Label.Name" /></param>
+        <param name="description">The <see cref="P:Microsoft.InformationProtection.Label.Description" /></param>
+        <param name="color">The <see cref="P:Microsoft.InformationProtection.Label.Color" /></param>
+        <param name="sensitivity">The <see cref="P:Microsoft.InformationProtection.Label.Sensitivity" /></param>
+        <param name="tooltip">The <see cref="P:Microsoft.InformationProtection.Label.Tooltip" /></param>
+        <param name="isActive">The <see cref="P:Microsoft.InformationProtection.Label.IsActive" /></param>
+        <param name="customSettings">The <see cref="P:Microsoft.InformationProtection.Label.CustomSettings" /></param>
+        <summary>
+            Label constructor. This constructor is only public to allow using this class in code testing
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Children">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt; Children { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.InformationProtection.Label&gt; Children" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Label.Children" />
+      <MemberSignature Language="VB.NET" Value="Public Property Children As ReadOnlyCollection(Of Label)" />
+      <MemberSignature Language="F#" Value="member this.Children : System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt; with get, set" Usage="Microsoft.InformationProtection.Label.Children" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The children labels of the current label.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Color">
+      <MemberSignature Language="C#" Value="public string Color { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Color" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Label.Color" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Color As String" />
+      <MemberSignature Language="F#" Value="member this.Color : string" Usage="Microsoft.InformationProtection.Label.Color" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            the color the label should be displayed, in the format "#RRGGBB" where each of RR, GG, BB is a hexadecimal 0-f
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomSettings">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; CustomSettings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; CustomSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Label.CustomSettings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CustomSettings As ReadOnlyCollection(Of KeyValuePair(Of String, String))" />
+      <MemberSignature Language="F#" Value="member this.CustomSettings : System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="Microsoft.InformationProtection.Label.CustomSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             The custom label settings. set by the tenant admin.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Label.Description" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Description As String" />
+      <MemberSignature Language="F#" Value="member this.Description : string" Usage="Microsoft.InformationProtection.Label.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The label description
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Label.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Microsoft.InformationProtection.Label.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The label Id
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsActive">
+      <MemberSignature Language="C#" Value="public bool IsActive { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsActive" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Label.IsActive" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsActive As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsActive : bool" Usage="Microsoft.InformationProtection.Label.IsActive" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If the label is active.
+            </summary>
+        <value>To be added.</value>
+        <remarks>Only active labels can be applied. Inactive labels cannot be applied, and are used for display purposes only.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Label.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.InformationProtection.Label.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The label 
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Parent">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Label Parent { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Label Parent" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Label.Parent" />
+      <MemberSignature Language="VB.NET" Value="Public Property Parent As Label" />
+      <MemberSignature Language="F#" Value="member this.Parent : Microsoft.InformationProtection.Label with get, set" Usage="Microsoft.InformationProtection.Label.Parent" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The parent of the current label. .null The setter is only public to allow for testing
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Sensitivity">
+      <MemberSignature Language="C#" Value="public int Sensitivity { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 Sensitivity" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Label.Sensitivity" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Sensitivity As Integer" />
+      <MemberSignature Language="F#" Value="member this.Sensitivity : int" Usage="Microsoft.InformationProtection.Label.Sensitivity" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Sensitivity of the label.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Tooltip">
+      <MemberSignature Language="C#" Value="public string Tooltip { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Tooltip" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Label.Tooltip" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tooltip As String" />
+      <MemberSignature Language="F#" Value="member this.Tooltip : string" Usage="Microsoft.InformationProtection.Label.Tooltip" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The tooltip description of the label.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

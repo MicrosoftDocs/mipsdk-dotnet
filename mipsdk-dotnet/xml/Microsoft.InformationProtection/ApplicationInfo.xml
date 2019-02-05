@@ -1,0 +1,105 @@
+﻿<Type Name="ApplicationInfo" FullName="Microsoft.InformationProtection.ApplicationInfo">
+  <TypeSignature Language="C#" Value="public class ApplicationInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ApplicationInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.ApplicationInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class ApplicationInfo" />
+  <TypeSignature Language="F#" Value="type ApplicationInfo = class" />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Application identifier as set in the aad portal.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ApplicationInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ApplicationInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationId">
+      <MemberSignature Language="C#" Value="public string ApplicationId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApplicationId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ApplicationInfo.ApplicationId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationId As String" />
+      <MemberSignature Language="F#" Value="member this.ApplicationId : string with get, set" Usage="Microsoft.InformationProtection.ApplicationInfo.ApplicationId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The Application Id
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationName">
+      <MemberSignature Language="C#" Value="public string ApplicationName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApplicationName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ApplicationInfo.ApplicationName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationName As String" />
+      <MemberSignature Language="F#" Value="member this.ApplicationName : string with get, set" Usage="Microsoft.InformationProtection.ApplicationInfo.ApplicationName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Friendly name for the application
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationVersion">
+      <MemberSignature Language="C#" Value="public string ApplicationVersion { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ApplicationVersion" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ApplicationInfo.ApplicationVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Property ApplicationVersion As String" />
+      <MemberSignature Language="F#" Value="member this.ApplicationVersion : string with get, set" Usage="Microsoft.InformationProtection.ApplicationInfo.ApplicationVersion" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Version of the application
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

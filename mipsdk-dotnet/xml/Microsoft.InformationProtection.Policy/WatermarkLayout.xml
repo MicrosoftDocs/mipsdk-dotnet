@@ -1,0 +1,64 @@
+﻿<Type Name="WatermarkLayout" FullName="Microsoft.InformationProtection.Policy.WatermarkLayout">
+  <TypeSignature Language="C#" Value="public enum WatermarkLayout" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed WatermarkLayout extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.WatermarkLayout" />
+  <TypeSignature Language="VB.NET" Value="Public Enum WatermarkLayout" />
+  <TypeSignature Language="F#" Value="type WatermarkLayout = " />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Layout for watermarks.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Diagonal">
+      <MemberSignature Language="C#" Value="Diagonal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.WatermarkLayout Diagonal = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.WatermarkLayout.Diagonal" />
+      <MemberSignature Language="VB.NET" Value="Diagonal" />
+      <MemberSignature Language="F#" Value="Diagonal = 1" Usage="Microsoft.InformationProtection.Policy.WatermarkLayout.Diagonal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.WatermarkLayout</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+             Watermark layout is diagonal
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Horizontal">
+      <MemberSignature Language="C#" Value="Horizontal" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.WatermarkLayout Horizontal = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.WatermarkLayout.Horizontal" />
+      <MemberSignature Language="VB.NET" Value="Horizontal" />
+      <MemberSignature Language="F#" Value="Horizontal = 0" Usage="Microsoft.InformationProtection.Policy.WatermarkLayout.Horizontal" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.WatermarkLayout</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Watermark layout is horizontal
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

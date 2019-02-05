@@ -1,0 +1,385 @@
+﻿<Type Name="ActionType" FullName="Microsoft.InformationProtection.Policy.Actions.ActionType">
+  <TypeSignature Language="C#" Value="public enum ActionType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ActionType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.Actions.ActionType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ActionType" />
+  <TypeSignature Language="F#" Value="type ActionType = " />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Different action types.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AddContentFooter">
+      <MemberSignature Language="C#" Value="AddContentFooter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType AddContentFooter = unsigned int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.AddContentFooter" />
+      <MemberSignature Language="VB.NET" Value="AddContentFooter" />
+      <MemberSignature Language="F#" Value="AddContentFooter = 1" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.AddContentFooter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Add a content footer to the document action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AddContentHeader">
+      <MemberSignature Language="C#" Value="AddContentHeader" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType AddContentHeader = unsigned int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.AddContentHeader" />
+      <MemberSignature Language="VB.NET" Value="AddContentHeader" />
+      <MemberSignature Language="F#" Value="AddContentHeader = 2" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.AddContentHeader" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Add a content header to the document action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="AddWatermark">
+      <MemberSignature Language="C#" Value="AddWatermark" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType AddWatermark = unsigned int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.AddWatermark" />
+      <MemberSignature Language="VB.NET" Value="AddWatermark" />
+      <MemberSignature Language="F#" Value="AddWatermark = 4" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.AddWatermark" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Add a water mark to the entire document action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="All">
+      <MemberSignature Language="C#" Value="All" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType All = unsigned int32(65535)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.All" />
+      <MemberSignature Language="VB.NET" Value="All" />
+      <MemberSignature Language="F#" Value="All = 65535" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.All" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>65535</MemberValue>
+      <Docs>
+        <summary>
+            All possible action types. Used for testing
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplyLabel">
+      <MemberSignature Language="C#" Value="ApplyLabel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType ApplyLabel = unsigned int32(8192)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.ApplyLabel" />
+      <MemberSignature Language="VB.NET" Value="ApplyLabel" />
+      <MemberSignature Language="F#" Value="ApplyLabel = 8192" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.ApplyLabel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8192</MemberValue>
+      <Docs>
+        <summary>
+            Apply label action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Custom">
+      <MemberSignature Language="C#" Value="Custom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType Custom = unsigned int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.Custom" />
+      <MemberSignature Language="VB.NET" Value="Custom" />
+      <MemberSignature Language="F#" Value="Custom = 8" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.Custom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            A custom defined action type.
+            </summary>
+        <remarks>Custom is the generic action type. Every other action type is a specific action with a specific meaning.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Justify">
+      <MemberSignature Language="C#" Value="Justify" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType Justify = unsigned int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.Justify" />
+      <MemberSignature Language="VB.NET" Value="Justify" />
+      <MemberSignature Language="F#" Value="Justify = 16" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.Justify" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+            A justify action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Metadata">
+      <MemberSignature Language="C#" Value="Metadata" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType Metadata = unsigned int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.Metadata" />
+      <MemberSignature Language="VB.NET" Value="Metadata" />
+      <MemberSignature Language="F#" Value="Metadata = 32" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.Metadata" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+            A Meta data change action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType None = unsigned int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            No action types. Used for testing
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectAdhoc">
+      <MemberSignature Language="C#" Value="ProtectAdhoc" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType ProtectAdhoc = unsigned int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectAdhoc" />
+      <MemberSignature Language="VB.NET" Value="ProtectAdhoc" />
+      <MemberSignature Language="F#" Value="ProtectAdhoc = 64" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectAdhoc" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>
+            A protect by adhoc policy action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectByTemplate">
+      <MemberSignature Language="C#" Value="ProtectByTemplate" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType ProtectByTemplate = unsigned int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectByTemplate" />
+      <MemberSignature Language="VB.NET" Value="ProtectByTemplate" />
+      <MemberSignature Language="F#" Value="ProtectByTemplate = 128" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectByTemplate" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>
+            A protect by template action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectDoNotForward">
+      <MemberSignature Language="C#" Value="ProtectDoNotForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType ProtectDoNotForward = unsigned int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectDoNotForward" />
+      <MemberSignature Language="VB.NET" Value="ProtectDoNotForward" />
+      <MemberSignature Language="F#" Value="ProtectDoNotForward = 256" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectDoNotForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>
+             A protect by do not forward action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RecommendLabel">
+      <MemberSignature Language="C#" Value="RecommendLabel" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType RecommendLabel = unsigned int32(16384)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.RecommendLabel" />
+      <MemberSignature Language="VB.NET" Value="RecommendLabel" />
+      <MemberSignature Language="F#" Value="RecommendLabel = 16384" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.RecommendLabel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16384</MemberValue>
+      <Docs>
+        <summary>
+            Recommend label action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveContentFooter">
+      <MemberSignature Language="C#" Value="RemoveContentFooter" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType RemoveContentFooter = unsigned int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.RemoveContentFooter" />
+      <MemberSignature Language="VB.NET" Value="RemoveContentFooter" />
+      <MemberSignature Language="F#" Value="RemoveContentFooter = 512" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.RemoveContentFooter" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>
+            Remove content footer action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveContentHeader">
+      <MemberSignature Language="C#" Value="RemoveContentHeader" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType RemoveContentHeader = unsigned int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.RemoveContentHeader" />
+      <MemberSignature Language="VB.NET" Value="RemoveContentHeader" />
+      <MemberSignature Language="F#" Value="RemoveContentHeader = 1024" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.RemoveContentHeader" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>
+            Remove content header action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveProtection">
+      <MemberSignature Language="C#" Value="RemoveProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType RemoveProtection = unsigned int32(2048)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.RemoveProtection" />
+      <MemberSignature Language="VB.NET" Value="RemoveProtection" />
+      <MemberSignature Language="F#" Value="RemoveProtection = 2048" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.RemoveProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2048</MemberValue>
+      <Docs>
+        <summary>
+            Remove protection action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveWatermark">
+      <MemberSignature Language="C#" Value="RemoveWatermark" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType RemoveWatermark = unsigned int32(4096)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.RemoveWatermark" />
+      <MemberSignature Language="VB.NET" Value="RemoveWatermark" />
+      <MemberSignature Language="F#" Value="RemoveWatermark = 4096" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.RemoveWatermark" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4096</MemberValue>
+      <Docs>
+        <summary>
+            Remove watermarking action type.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

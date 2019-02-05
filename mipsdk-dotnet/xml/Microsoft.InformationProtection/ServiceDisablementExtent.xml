@@ -1,0 +1,106 @@
+﻿<Type Name="ServiceDisablementExtent" FullName="Microsoft.InformationProtection.ServiceDisablementExtent">
+  <TypeSignature Language="C#" Value="public enum ServiceDisablementExtent" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ServiceDisablementExtent extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.ServiceDisablementExtent" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ServiceDisablementExtent" />
+  <TypeSignature Language="F#" Value="type ServiceDisablementExtent = " />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            A description of the scope for which a service is disabled. (See ServiceDisabledException)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Device">
+      <MemberSignature Language="C#" Value="Device" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.ServiceDisablementExtent Device = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.ServiceDisablementExtent.Device" />
+      <MemberSignature Language="VB.NET" Value="Device" />
+      <MemberSignature Language="F#" Value="Device = 1" Usage="Microsoft.InformationProtection.ServiceDisablementExtent.Device" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ServiceDisablementExtent</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Service is disabled for a particular device
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Platform">
+      <MemberSignature Language="C#" Value="Platform" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.ServiceDisablementExtent Platform = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.ServiceDisablementExtent.Platform" />
+      <MemberSignature Language="VB.NET" Value="Platform" />
+      <MemberSignature Language="F#" Value="Platform = 2" Usage="Microsoft.InformationProtection.ServiceDisablementExtent.Platform" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ServiceDisablementExtent</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Service is disabled for a particular platform
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Tenant">
+      <MemberSignature Language="C#" Value="Tenant" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.ServiceDisablementExtent Tenant = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.ServiceDisablementExtent.Tenant" />
+      <MemberSignature Language="VB.NET" Value="Tenant" />
+      <MemberSignature Language="F#" Value="Tenant = 3" Usage="Microsoft.InformationProtection.ServiceDisablementExtent.Tenant" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ServiceDisablementExtent</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Service is disabled for a particular tenant
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="User">
+      <MemberSignature Language="C#" Value="User" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.ServiceDisablementExtent User = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.ServiceDisablementExtent.User" />
+      <MemberSignature Language="VB.NET" Value="User" />
+      <MemberSignature Language="F#" Value="User = 0" Usage="Microsoft.InformationProtection.ServiceDisablementExtent.User" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ServiceDisablementExtent</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Service is disabled for a particular user
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

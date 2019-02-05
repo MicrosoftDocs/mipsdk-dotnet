@@ -1,0 +1,85 @@
+﻿<Type Name="ContentMarkAlignment" FullName="Microsoft.InformationProtection.Policy.ContentMarkAlignment">
+  <TypeSignature Language="C#" Value="public enum ContentMarkAlignment" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContentMarkAlignment extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.ContentMarkAlignment" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContentMarkAlignment" />
+  <TypeSignature Language="F#" Value="type ContentMarkAlignment = " />
+  <AssemblyInfo>
+    <AssemblyName>mip_dotnet_api</AssemblyName>
+    <AssemblyVersion>1.1.210.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+             Alignment for content marks (content header or content footer).
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Center">
+      <MemberSignature Language="C#" Value="Center" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.ContentMarkAlignment Center = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.ContentMarkAlignment.Center" />
+      <MemberSignature Language="VB.NET" Value="Center" />
+      <MemberSignature Language="F#" Value="Center = 2" Usage="Microsoft.InformationProtection.Policy.ContentMarkAlignment.Center" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.ContentMarkAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Content marking is centered
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Left">
+      <MemberSignature Language="C#" Value="Left" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.ContentMarkAlignment Left = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.ContentMarkAlignment.Left" />
+      <MemberSignature Language="VB.NET" Value="Left" />
+      <MemberSignature Language="F#" Value="Left = 0" Usage="Microsoft.InformationProtection.Policy.ContentMarkAlignment.Left" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.ContentMarkAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Content marking is aligned to the left
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Right">
+      <MemberSignature Language="C#" Value="Right" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.ContentMarkAlignment Right = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.ContentMarkAlignment.Right" />
+      <MemberSignature Language="VB.NET" Value="Right" />
+      <MemberSignature Language="F#" Value="Right = 1" Usage="Microsoft.InformationProtection.Policy.ContentMarkAlignment.Right" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>mip_dotnet_api</AssemblyName>
+        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.ContentMarkAlignment</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Content marking is aligned to the right
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
