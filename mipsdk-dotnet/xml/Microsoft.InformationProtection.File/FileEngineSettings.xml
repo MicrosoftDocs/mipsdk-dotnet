@@ -8,6 +8,10 @@
     <AssemblyName>mip_dotnet_api</AssemblyName>
     <AssemblyVersion>1.1.210.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.2.153.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
@@ -29,6 +33,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="engineId" Type="System.String" />
@@ -56,6 +64,10 @@
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -77,6 +89,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -100,6 +116,10 @@
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -121,6 +141,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Identity</ReturnType>
@@ -144,6 +168,10 @@
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -165,6 +193,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -188,6 +220,10 @@
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -210,6 +246,10 @@
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -231,6 +271,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -8,6 +8,10 @@
     <AssemblyName>dotnet_wrapper</AssemblyName>
     <AssemblyVersion>1.1.210.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+    <AssemblyVersion>1.2.153.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
@@ -27,6 +31,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.WatermarkLayout</ReturnType>
       </ReturnValue>
@@ -45,6 +53,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.WatermarkLayout</ReturnType>

@@ -8,6 +8,10 @@
     <AssemblyName>mip_dotnet_api</AssemblyName>
     <AssemblyVersion>1.1.210.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.2.153.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
@@ -20,17 +24,17 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ContentLabel (string creationTime, Microsoft.InformationProtection.AssignmentMethod assignmentMethod, bool isProtectionAppliedFromLabel, Microsoft.InformationProtection.Label label);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string creationTime, valuetype Microsoft.InformationProtection.AssignmentMethod assignmentMethod, bool isProtectionAppliedFromLabel, class Microsoft.InformationProtection.Label label) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ContentLabel.#ctor(System.String,Microsoft.InformationProtection.AssignmentMethod,System.Boolean,Microsoft.InformationProtection.Label)" />
-      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.ContentLabel : string * Microsoft.InformationProtection.AssignmentMethod * bool * Microsoft.InformationProtection.Label -&gt; Microsoft.InformationProtection.ContentLabel" Usage="new Microsoft.InformationProtection.ContentLabel (creationTime, assignmentMethod, isProtectionAppliedFromLabel, label)" />
+      <MemberSignature Language="C#" Value="public ContentLabel (DateTime creationTime, Microsoft.InformationProtection.AssignmentMethod assignmentMethod, bool isProtectionAppliedFromLabel, Microsoft.InformationProtection.Label label);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.DateTime creationTime, valuetype Microsoft.InformationProtection.AssignmentMethod assignmentMethod, bool isProtectionAppliedFromLabel, class Microsoft.InformationProtection.Label label) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ContentLabel.#ctor(System.DateTime,Microsoft.InformationProtection.AssignmentMethod,System.Boolean,Microsoft.InformationProtection.Label)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.ContentLabel : DateTime * Microsoft.InformationProtection.AssignmentMethod * bool * Microsoft.InformationProtection.Label -&gt; Microsoft.InformationProtection.ContentLabel" Usage="new Microsoft.InformationProtection.ContentLabel (creationTime, assignmentMethod, isProtectionAppliedFromLabel, label)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="creationTime" Type="System.String" />
+        <Parameter Name="creationTime" Type="System.DateTime" />
         <Parameter Name="assignmentMethod" Type="Microsoft.InformationProtection.AssignmentMethod" />
         <Parameter Name="isProtectionAppliedFromLabel" Type="System.Boolean" />
         <Parameter Name="label" Type="Microsoft.InformationProtection.Label" />
@@ -38,7 +42,7 @@
       <Docs>
         <param name="creationTime">The <see cref="P:Microsoft.InformationProtection.ContentLabel.CreationTime" /></param>
         <param name="assignmentMethod">The <see cref="P:Microsoft.InformationProtection.ContentLabel.AssignmentMethod" /></param>
-        <param name="isProtectionAppliedFromLabel">To be added.</param>
+        <param name="isProtectionAppliedFromLabel"></param>
         <param name="label">The <see cref="P:Microsoft.InformationProtection.ContentLabel.Label" /></param>
         <summary>
             Creates a new ContentLabel. This constructor is only public to allow using this class in code testing
@@ -57,6 +61,10 @@
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.AssignmentMethod</ReturnType>
       </ReturnValue>
@@ -69,18 +77,22 @@
       </Docs>
     </Member>
     <Member MemberName="CreationTime">
-      <MemberSignature Language="C#" Value="public string CreationTime { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string CreationTime" />
+      <MemberSignature Language="C#" Value="public DateTime CreationTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime CreationTime" />
       <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ContentLabel.CreationTime" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreationTime As String" />
-      <MemberSignature Language="F#" Value="member this.CreationTime : string" Usage="Microsoft.InformationProtection.ContentLabel.CreationTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CreationTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.CreationTime : DateTime" Usage="Microsoft.InformationProtection.ContentLabel.CreationTime" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.DateTime</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -100,6 +112,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -122,6 +138,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>

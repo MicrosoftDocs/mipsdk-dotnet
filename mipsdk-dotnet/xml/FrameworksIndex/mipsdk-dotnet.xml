@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="mipsdk-dotnet">
   <Assemblies>
-    <Assembly Name="dotnet_wrapper" Version="1.1.210.0" />
-    <Assembly Name="mip_dotnet_api" Version="1.1.210.0" />
+    <Assembly Name="Microsoft.InformationProtection" Version="1.2.153.0" />
+    <Assembly Name="Microsoft.InformationProtection.Internal" Version="1.2.153.0" />
   </Assemblies>
   <Namespace Name="Microsoft.InformationProtection">
     <Type Name="Microsoft.InformationProtection.ActionSource" Id="T:Microsoft.InformationProtection.ActionSource">
@@ -32,16 +32,16 @@
       <Member Id="F:Microsoft.InformationProtection.Consent.Reject" />
     </Type>
     <Type Name="Microsoft.InformationProtection.ContentLabel" Id="T:Microsoft.InformationProtection.ContentLabel">
-      <Member Id="M:Microsoft.InformationProtection.ContentLabel.#ctor(System.String,Microsoft.InformationProtection.AssignmentMethod,System.Boolean,Microsoft.InformationProtection.Label)" />
+      <Member Id="M:Microsoft.InformationProtection.ContentLabel.#ctor(System.DateTime,Microsoft.InformationProtection.AssignmentMethod,System.Boolean,Microsoft.InformationProtection.Label)" />
       <Member Id="P:Microsoft.InformationProtection.ContentLabel.AssignmentMethod" />
       <Member Id="P:Microsoft.InformationProtection.ContentLabel.CreationTime" />
       <Member Id="P:Microsoft.InformationProtection.ContentLabel.IsProtectionAppliedFromLabel" />
       <Member Id="P:Microsoft.InformationProtection.ContentLabel.Label" />
     </Type>
-    <Type Name="Microsoft.InformationProtection.ContentState" Id="T:Microsoft.InformationProtection.ContentState">
-      <Member Id="F:Microsoft.InformationProtection.ContentState.Motion" />
-      <Member Id="F:Microsoft.InformationProtection.ContentState.Rest" />
-      <Member Id="F:Microsoft.InformationProtection.ContentState.Use" />
+    <Type Name="Microsoft.InformationProtection.DataState" Id="T:Microsoft.InformationProtection.DataState">
+      <Member Id="F:Microsoft.InformationProtection.DataState.Motion" />
+      <Member Id="F:Microsoft.InformationProtection.DataState.Rest" />
+      <Member Id="F:Microsoft.InformationProtection.DataState.Use" />
     </Type>
     <Type Name="Microsoft.InformationProtection.IAuthDelegate" Id="T:Microsoft.InformationProtection.IAuthDelegate">
       <Member Id="M:Microsoft.InformationProtection.IAuthDelegate.AcquireToken(Microsoft.InformationProtection.Identity,System.String,System.String)" />
@@ -136,6 +136,9 @@
     <Type Name="Microsoft.InformationProtection.Exceptions.AccessDeniedException" Id="T:Microsoft.InformationProtection.Exceptions.AccessDeniedException">
       <Member Id="M:Microsoft.InformationProtection.Exceptions.AccessDeniedException.#ctor(System.String)" />
     </Type>
+    <Type Name="Microsoft.InformationProtection.Exceptions.AdhocProtectionRequiredException" Id="T:Microsoft.InformationProtection.Exceptions.AdhocProtectionRequiredException">
+      <Member Id="M:Microsoft.InformationProtection.Exceptions.AdhocProtectionRequiredException.#ctor(System.String)" />
+    </Type>
     <Type Name="Microsoft.InformationProtection.Exceptions.BadInputException" Id="T:Microsoft.InformationProtection.Exceptions.BadInputException">
       <Member Id="M:Microsoft.InformationProtection.Exceptions.BadInputException.#ctor(System.String)" />
     </Type>
@@ -186,6 +189,13 @@
       <Member Id="P:Microsoft.InformationProtection.File.FileEngineSettings.ProtectionOnlyEngine" />
       <Member Id="P:Microsoft.InformationProtection.File.FileEngineSettings.SessionId" />
     </Type>
+    <Type Name="Microsoft.InformationProtection.File.FileExecutionState" Id="T:Microsoft.InformationProtection.File.FileExecutionState">
+      <Member Id="M:Microsoft.InformationProtection.File.FileExecutionState.#ctor" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileExecutionState.GetAuditMetadata" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileExecutionState.GetClassificationResults(Microsoft.InformationProtection.File.IFileHandler,System.Collections.Generic.List{Microsoft.InformationProtection.Policy.ClassificationRequest})" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileExecutionState.GetDataState" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileExecutionState.GetSerializedProtectionInfo" />
+    </Type>
     <Type Name="Microsoft.InformationProtection.File.FileHandler" Id="T:Microsoft.InformationProtection.File.FileHandler">
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.IO.Stream,System.String)" />
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.String)" />
@@ -201,23 +211,22 @@
       <Member Id="P:Microsoft.InformationProtection.File.FileProfileSettings.MinimumLogLevel" />
       <Member Id="P:Microsoft.InformationProtection.File.FileProfileSettings.OptOutTelemetry" />
       <Member Id="P:Microsoft.InformationProtection.File.FileProfileSettings.Path" />
-      <Member Id="P:Microsoft.InformationProtection.File.FileProfileSettings.SkipTelemetryInit" />
       <Member Id="P:Microsoft.InformationProtection.File.FileProfileSettings.UseInMemoryStorage" />
     </Type>
     <Type Name="Microsoft.InformationProtection.File.IFileEngine" Id="T:Microsoft.InformationProtection.File.IFileEngine">
-      <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.CreateFileHandlerAsync(System.IO.Stream,System.String,System.String,Microsoft.InformationProtection.ContentState,System.Boolean,Microsoft.InformationProtection.File.IFileExecutionState)" />
-      <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.CreateFileHandlerAsync(System.String,System.String,Microsoft.InformationProtection.ContentState,System.Boolean,Microsoft.InformationProtection.File.IFileExecutionState)" />
+      <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.CreateFileHandlerAsync(System.IO.Stream,System.String,System.Boolean,Microsoft.InformationProtection.File.FileExecutionState)" />
+      <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.CreateFileHandlerAsync(System.String,System.String,System.Boolean,Microsoft.InformationProtection.File.FileExecutionState)" />
       <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.SendApplicationAuditEvent(System.String,System.String,System.String)" />
       <Member Id="P:Microsoft.InformationProtection.File.IFileEngine.CustomSettings" />
+      <Member Id="P:Microsoft.InformationProtection.File.IFileEngine.DefaultSensitivityLabel" />
+      <Member Id="P:Microsoft.InformationProtection.File.IFileEngine.HasClassificationRules" />
       <Member Id="P:Microsoft.InformationProtection.File.IFileEngine.IsLabelingRequired" />
+      <Member Id="P:Microsoft.InformationProtection.File.IFileEngine.LastPolicyFetchTime" />
       <Member Id="P:Microsoft.InformationProtection.File.IFileEngine.MoreInfoUrl" />
+      <Member Id="P:Microsoft.InformationProtection.File.IFileEngine.PolicyId" />
       <Member Id="P:Microsoft.InformationProtection.File.IFileEngine.SensitivityLabels" />
       <Member Id="P:Microsoft.InformationProtection.File.IFileEngine.SensitivityTypes" />
       <Member Id="P:Microsoft.InformationProtection.File.IFileEngine.Settings" />
-    </Type>
-    <Type Name="Microsoft.InformationProtection.File.IFileExecutionState" Id="T:Microsoft.InformationProtection.File.IFileExecutionState">
-      <Member Id="M:Microsoft.InformationProtection.File.IFileExecutionState.GetClassificationResults(Microsoft.InformationProtection.File.IFileHandler,System.Collections.Generic.List{Microsoft.InformationProtection.Policy.ClassificationRequest})" />
-      <Member Id="P:Microsoft.InformationProtection.File.IFileExecutionState.SerializedProtectionInfo" />
     </Type>
     <Type Name="Microsoft.InformationProtection.File.IFileHandler" Id="T:Microsoft.InformationProtection.File.IFileHandler">
       <Member Id="M:Microsoft.InformationProtection.File.IFileHandler.ClassifyAsync" />
@@ -296,13 +305,14 @@
       <Member Id="F:Microsoft.InformationProtection.Internal.ContentMarkAlignment.LEFT" />
       <Member Id="F:Microsoft.InformationProtection.Internal.ContentMarkAlignment.RIGHT" />
     </Type>
-    <Type Name="Microsoft.InformationProtection.Internal.ContentState" Id="T:Microsoft.InformationProtection.Internal.ContentState">
-      <Member Id="F:Microsoft.InformationProtection.Internal.ContentState.MOTION" />
-      <Member Id="F:Microsoft.InformationProtection.Internal.ContentState.REST" />
-      <Member Id="F:Microsoft.InformationProtection.Internal.ContentState.USE" />
+    <Type Name="Microsoft.InformationProtection.Internal.DataState" Id="T:Microsoft.InformationProtection.Internal.DataState">
+      <Member Id="F:Microsoft.InformationProtection.Internal.DataState.MOTION" />
+      <Member Id="F:Microsoft.InformationProtection.Internal.DataState.REST" />
+      <Member Id="F:Microsoft.InformationProtection.Internal.DataState.USE" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Internal.ErrorType" Id="T:Microsoft.InformationProtection.Internal.ErrorType">
       <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.ACCESS_DENIED" />
+      <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.ADHOC_PROTECTION_REQUIRED" />
       <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.BAD_INPUT_ERROR" />
       <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.CONSENT_DENIED" />
       <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.DISABLED_SERVICE" />
@@ -314,6 +324,7 @@
       <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.NO_PERMISSIONS" />
       <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.NO_POLICY_ERROR" />
       <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.NOT_SUPPORTED_OPERATION" />
+      <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.OPERATION_CANCELLED" />
       <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.POLICY_SYNC_ERROR" />
       <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.PRIVILEGED_REQUIRED" />
       <Member Id="F:Microsoft.InformationProtection.Internal.ErrorType.PROXY_AUTH_ERROR" />
@@ -344,13 +355,16 @@
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.AndActionTypes(Microsoft.InformationProtection.Internal.ActionType,Microsoft.InformationProtection.Internal.ActionType)" />
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetActionSourceString(Microsoft.InformationProtection.Internal.ActionSource)" />
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetAssignmentMethodString(Microsoft.InformationProtection.Internal.AssignmentMethod)" />
-      <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetContentStateString(Microsoft.InformationProtection.Internal.ContentState)" />
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingDisableServiceDiscovery" />
+      <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingEnableDeprecatedRemoveActions" />
+      <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingEnableMsgFileType" />
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingExportPolicyFileName" />
+      <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingExternalLabelsEnabled" />
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingPolicyDataFile" />
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingPolicyDataName" />
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingSensitivityTypesDataFile" />
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingSensitivityTypesDataName" />
+      <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetDataStateString(Microsoft.InformationProtection.Internal.DataState)" />
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.LastModifiedBy" />
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.LastModifiedDate" />
       <Member Id="M:Microsoft.InformationProtection.Internal.SdkWrapper.OrActionTypes(Microsoft.InformationProtection.Internal.ActionType,Microsoft.InformationProtection.Internal.ActionType)" />
@@ -363,8 +377,11 @@
     <Type Name="Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__chrono__time_pointT_std__chrono__system_clock_t" Id="T:Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__chrono__time_pointT_std__chrono__system_clock_t">
       <Member Id="M:Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__chrono__time_pointT_std__chrono__system_clock_t.#ctor" />
     </Type>
-    <Type Name="Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t" Id="T:Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t">
-      <Member Id="M:Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t.#ctor" />
+    <Type Name="Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fF_t" Id="T:Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fF_t">
+      <Member Id="M:Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fF_t.#ctor" />
+    </Type>
+    <Type Name="Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpOperation_tF_t" Id="T:Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpOperation_tF_t">
+      <Member Id="M:Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpOperation_tF_t.#ctor" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__mapT_std__string_std__string_mip__CaseInsensitiveComparator_t" Id="T:Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__mapT_std__string_std__string_mip__CaseInsensitiveComparator_t">
       <Member Id="M:Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__mapT_std__string_std__string_mip__CaseInsensitiveComparator_t.#ctor" />
@@ -494,6 +511,7 @@
       <Member Id="P:Microsoft.InformationProtection.Policy.ClassificationResult.ConfidenceLevel" />
       <Member Id="P:Microsoft.InformationProtection.Policy.ClassificationResult.Count" />
       <Member Id="P:Microsoft.InformationProtection.Policy.ClassificationResult.Id" />
+      <Member Id="P:Microsoft.InformationProtection.Policy.ClassificationResult.SensitiveInformationDetections" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Policy.ContentFormat" Id="T:Microsoft.InformationProtection.Policy.ContentFormat">
       <Member Id="F:Microsoft.InformationProtection.Policy.ContentFormat.Default" />
@@ -504,37 +522,41 @@
       <Member Id="F:Microsoft.InformationProtection.Policy.ContentMarkAlignment.Left" />
       <Member Id="F:Microsoft.InformationProtection.Policy.ContentMarkAlignment.Right" />
     </Type>
-    <Type Name="Microsoft.InformationProtection.Policy.IExecutionState" Id="T:Microsoft.InformationProtection.Policy.IExecutionState">
-      <Member Id="M:Microsoft.InformationProtection.Policy.IExecutionState.GetClassificationResults(System.Collections.Generic.List{Microsoft.InformationProtection.Policy.ClassificationRequest})" />
-      <Member Id="M:Microsoft.InformationProtection.Policy.IExecutionState.GetContentMetadata(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})" />
-      <Member Id="M:Microsoft.InformationProtection.Policy.IExecutionState.IsDowngradeJustified(System.String@)" />
-      <Member Id="P:Microsoft.InformationProtection.Policy.IExecutionState.AuditMetadata" />
-      <Member Id="P:Microsoft.InformationProtection.Policy.IExecutionState.ContentFormat" />
-      <Member Id="P:Microsoft.InformationProtection.Policy.IExecutionState.ContentIdentifier" />
-      <Member Id="P:Microsoft.InformationProtection.Policy.IExecutionState.ContentState" />
-      <Member Id="P:Microsoft.InformationProtection.Policy.IExecutionState.NewLabelActionSource" />
-      <Member Id="P:Microsoft.InformationProtection.Policy.IExecutionState.NewLabelAssignmentMethod" />
-      <Member Id="P:Microsoft.InformationProtection.Policy.IExecutionState.NewLabelExtendedProperties" />
-      <Member Id="P:Microsoft.InformationProtection.Policy.IExecutionState.NewLabelId" />
-      <Member Id="P:Microsoft.InformationProtection.Policy.IExecutionState.ProtectionDescriptor" />
-      <Member Id="P:Microsoft.InformationProtection.Policy.IExecutionState.SupportedActions" />
+    <Type Name="Microsoft.InformationProtection.Policy.ExecutionState" Id="T:Microsoft.InformationProtection.Policy.ExecutionState">
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.#ctor" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetAuditMetadata" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetClassificationResults(System.Collections.Generic.List{Microsoft.InformationProtection.Policy.ClassificationRequest})" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetContentFormat" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetContentIdentifier" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetContentMetadata(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetDataState" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetNewLabelActionSource" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetNewLabelAssignmentMethod" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetNewLabelExtendedProperties" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetNewLabelId" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetProtectionDescriptor" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.GetSupportedActions" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.ExecutionState.IsDowngradeJustified(System.String@)" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Policy.IPolicyEngine" Id="T:Microsoft.InformationProtection.Policy.IPolicyEngine">
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyEngine.CreatePolicyHandler(System.Boolean)" />
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyEngine.SendApplicationAuditEvent(System.String,System.String,System.String)" />
       <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyEngine.CustomSettings" />
       <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyEngine.DefaultSensitivityLabel" />
+      <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyEngine.HasClassificationRules" />
       <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyEngine.IsLabelingRequired" />
+      <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyEngine.LastPolicyFetchTime" />
       <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyEngine.MoreInfoUrl" />
       <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyEngine.PolicyDataXml" />
+      <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyEngine.PolicyId" />
       <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyEngine.SensitivityLabels" />
       <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyEngine.SensitivityTypes" />
       <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyEngine.Settings" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Policy.IPolicyHandler" Id="T:Microsoft.InformationProtection.Policy.IPolicyHandler">
-      <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyHandler.ComputeActions(Microsoft.InformationProtection.Policy.IExecutionState)" />
-      <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyHandler.GetSensitivityLabel(Microsoft.InformationProtection.Policy.IExecutionState)" />
-      <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyHandler.NotifyCommittedActions(Microsoft.InformationProtection.Policy.IExecutionState)" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyHandler.ComputeActions(Microsoft.InformationProtection.Policy.ExecutionState)" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyHandler.GetSensitivityLabel(Microsoft.InformationProtection.Policy.ExecutionState)" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyHandler.NotifyCommittedActions(Microsoft.InformationProtection.Policy.ExecutionState)" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Policy.IPolicyProfile" Id="T:Microsoft.InformationProtection.Policy.IPolicyProfile">
       <Member Id="E:Microsoft.InformationProtection.Policy.IPolicyProfile.OnAddingEngine" />
@@ -550,6 +572,7 @@
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.ClientData" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.CustomSettings" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.Id" />
+      <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.Identity" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.LoadSensitivityTypes" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.Locale" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.SessionId" />
@@ -563,7 +586,6 @@
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.OptOutTelemetry" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.Path" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.SessionId" />
-      <Member Id="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.SkipTelemetryInit" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.UseInMemoryStorage" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage" Id="T:Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage">

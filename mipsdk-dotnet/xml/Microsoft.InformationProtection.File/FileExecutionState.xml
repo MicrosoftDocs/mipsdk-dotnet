@@ -1,0 +1,141 @@
+﻿<Type Name="FileExecutionState" FullName="Microsoft.InformationProtection.File.FileExecutionState">
+  <TypeSignature Language="C#" Value="public abstract class FileExecutionState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit FileExecutionState extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.FileExecutionState" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class FileExecutionState" />
+  <TypeSignature Language="F#" Value="type FileExecutionState = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.2.153.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            A callbacks abstract class for <see cref="T:Microsoft.InformationProtection.File.IFileHandler" /></summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected FileExecutionState ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileExecutionState.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAuditMetadata">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.Dictionary&lt;string,string&gt; GetAuditMetadata ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; GetAuditMetadata() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileExecutionState.GetAuditMetadata" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAuditMetadata () As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="abstract member GetAuditMetadata : unit -&gt; System.Collections.Generic.Dictionary&lt;string, string&gt;&#xA;override this.GetAuditMetadata : unit -&gt; System.Collections.Generic.Dictionary&lt;string, string&gt;" Usage="fileExecutionState.GetAuditMetadata " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Return a dictionary of application specific audit key-value pairs. 
+            
+            Registered Key:Value pairs:
+            Sender: Email Id for the sender
+            Recipients: Represents a JSON array of recipients for an email 
+            LastModifiedBy: Email Id for the user who last modified the content 
+            LastModifiedDate: Date the content was last modified 
+            </summary>
+        <returns>A list of audit metadata</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClassificationResults">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.Dictionary&lt;string,Microsoft.InformationProtection.Policy.ClassificationResult&gt; GetClassificationResults (Microsoft.InformationProtection.File.IFileHandler fileHandler, System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt; classificationIds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, class Microsoft.InformationProtection.Policy.ClassificationResult&gt; GetClassificationResults(class Microsoft.InformationProtection.File.IFileHandler fileHandler, class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Policy.ClassificationRequest&gt; classificationIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileExecutionState.GetClassificationResults(Microsoft.InformationProtection.File.IFileHandler,System.Collections.Generic.List{Microsoft.InformationProtection.Policy.ClassificationRequest})" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetClassificationResults (fileHandler As IFileHandler, classificationIds As List(Of ClassificationRequest)) As Dictionary(Of String, ClassificationResult)" />
+      <MemberSignature Language="F#" Value="abstract member GetClassificationResults : Microsoft.InformationProtection.File.IFileHandler * System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt; -&gt; System.Collections.Generic.Dictionary&lt;string, Microsoft.InformationProtection.Policy.ClassificationResult&gt;&#xA;override this.GetClassificationResults : Microsoft.InformationProtection.File.IFileHandler * System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt; -&gt; System.Collections.Generic.Dictionary&lt;string, Microsoft.InformationProtection.Policy.ClassificationResult&gt;" Usage="fileExecutionState.GetClassificationResults (fileHandler, classificationIds)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.InformationProtection.Policy.ClassificationResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="fileHandler" Type="Microsoft.InformationProtection.File.IFileHandler" />
+        <Parameter Name="classificationIds" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="fileHandler">The file handler of the file riquired classification</param>
+        <param name="classificationIds">A list of classification id's</param>
+        <summary>
+            Return a map of classification results.
+            </summary>
+        <returns>A list of classification result, null if no classification cycle executed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDataState">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.InformationProtection.DataState GetDataState ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.DataState GetDataState() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileExecutionState.GetDataState" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDataState () As DataState" />
+      <MemberSignature Language="F#" Value="abstract member GetDataState : unit -&gt; Microsoft.InformationProtection.DataState&#xA;override this.GetDataState : unit -&gt; Microsoft.InformationProtection.DataState" Usage="fileExecutionState.GetDataState " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            The content state.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSerializedProtectionInfo">
+      <MemberSignature Language="C#" Value="public virtual byte[] GetSerializedProtectionInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance unsigned int8[] GetSerializedProtectionInfo() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileExecutionState.GetSerializedProtectionInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSerializedProtectionInfo () As Byte()" />
+      <MemberSignature Language="F#" Value="abstract member GetSerializedProtectionInfo : unit -&gt; byte[]&#xA;override this.GetSerializedProtectionInfo : unit -&gt; byte[]" Usage="fileExecutionState.GetSerializedProtectionInfo " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Return a buffer of protection info.
+            </summary>
+        <returns>A buffer of protection info</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

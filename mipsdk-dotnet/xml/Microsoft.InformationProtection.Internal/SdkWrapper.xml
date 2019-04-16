@@ -8,6 +8,10 @@
     <AssemblyName>dotnet_wrapper</AssemblyName>
     <AssemblyVersion>1.1.210.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+    <AssemblyVersion>1.2.153.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
@@ -27,6 +31,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
@@ -43,6 +51,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
@@ -69,6 +81,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -93,6 +109,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -101,30 +121,6 @@
       </Parameters>
       <Docs>
         <param name="method">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetContentStateString">
-      <MemberSignature Language="C#" Value="public static string GetContentStateString (Microsoft.InformationProtection.Internal.ContentState state);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetContentStateString(valuetype Microsoft.InformationProtection.Internal.ContentState state) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetContentStateString(Microsoft.InformationProtection.Internal.ContentState)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function GetContentStateString (state As ContentState) As String" />
-      <MemberSignature Language="F#" Value="static member GetContentStateString : Microsoft.InformationProtection.Internal.ContentState -&gt; string" Usage="Microsoft.InformationProtection.Internal.SdkWrapper.GetContentStateString state" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>dotnet_wrapper</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="state" Type="Microsoft.InformationProtection.Internal.ContentState" />
-      </Parameters>
-      <Docs>
-        <param name="state">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -140,6 +136,52 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCustomSettingEnableDeprecatedRemoveActions">
+      <MemberSignature Language="C#" Value="public static string GetCustomSettingEnableDeprecatedRemoveActions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetCustomSettingEnableDeprecatedRemoveActions() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingEnableDeprecatedRemoveActions" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetCustomSettingEnableDeprecatedRemoveActions () As String" />
+      <MemberSignature Language="F#" Value="static member GetCustomSettingEnableDeprecatedRemoveActions : unit -&gt; string" Usage="Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingEnableDeprecatedRemoveActions " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCustomSettingEnableMsgFileType">
+      <MemberSignature Language="C#" Value="public static string GetCustomSettingEnableMsgFileType ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetCustomSettingEnableMsgFileType() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingEnableMsgFileType" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetCustomSettingEnableMsgFileType () As String" />
+      <MemberSignature Language="F#" Value="static member GetCustomSettingEnableMsgFileType : unit -&gt; string" Usage="Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingEnableMsgFileType " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -162,6 +204,31 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCustomSettingExternalLabelsEnabled">
+      <MemberSignature Language="C#" Value="public static string GetCustomSettingExternalLabelsEnabled ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetCustomSettingExternalLabelsEnabled() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingExternalLabelsEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetCustomSettingExternalLabelsEnabled () As String" />
+      <MemberSignature Language="F#" Value="static member GetCustomSettingExternalLabelsEnabled : unit -&gt; string" Usage="Microsoft.InformationProtection.Internal.SdkWrapper.GetCustomSettingExternalLabelsEnabled " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -182,6 +249,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -204,6 +275,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -224,6 +299,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -246,11 +325,39 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDataStateString">
+      <MemberSignature Language="C#" Value="public static string GetDataStateString (Microsoft.InformationProtection.Internal.DataState state);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetDataStateString(valuetype Microsoft.InformationProtection.Internal.DataState state) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Internal.SdkWrapper.GetDataStateString(Microsoft.InformationProtection.Internal.DataState)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetDataStateString (state As DataState) As String" />
+      <MemberSignature Language="F#" Value="static member GetDataStateString : Microsoft.InformationProtection.Internal.DataState -&gt; string" Usage="Microsoft.InformationProtection.Internal.SdkWrapper.GetDataStateString state" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="state" Type="Microsoft.InformationProtection.Internal.DataState" />
+      </Parameters>
+      <Docs>
+        <param name="state">To be added.</param>
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -266,6 +373,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -288,6 +399,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -308,6 +423,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>
@@ -335,6 +454,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ProtectionHandlerCreationOptions</ReturnType>
       </ReturnValue>
@@ -361,6 +484,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -382,6 +509,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
@@ -401,6 +532,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -422,6 +557,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ActionType</ReturnType>

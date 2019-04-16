@@ -1,0 +1,85 @@
+﻿<Type Name="DataState" FullName="Microsoft.InformationProtection.DataState">
+  <TypeSignature Language="C#" Value="public enum DataState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DataState extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.DataState" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DataState" />
+  <TypeSignature Language="F#" Value="type DataState = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.2.153.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines what is the state of the content being acted upon 
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Motion">
+      <MemberSignature Language="C#" Value="Motion" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.DataState Motion = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.DataState.Motion" />
+      <MemberSignature Language="VB.NET" Value="Motion" />
+      <MemberSignature Language="F#" Value="Motion = 1" Usage="Microsoft.InformationProtection.DataState.Motion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Data traversing a network or temporarily residing in computer memory to be read or updated
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Rest">
+      <MemberSignature Language="C#" Value="Rest" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.DataState Rest = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.DataState.Rest" />
+      <MemberSignature Language="VB.NET" Value="Rest" />
+      <MemberSignature Language="F#" Value="Rest = 0" Usage="Microsoft.InformationProtection.DataState.Rest" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Inactive data stored physically in databases/file/warehouses etc.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Use">
+      <MemberSignature Language="C#" Value="Use" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.DataState Use = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.DataState.Use" />
+      <MemberSignature Language="VB.NET" Value="Use" />
+      <MemberSignature Language="F#" Value="Use = 2" Usage="Microsoft.InformationProtection.DataState.Use" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Active data under constant change stored physically in databases/file/warehouses etc
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -8,6 +8,10 @@
     <AssemblyName>dotnet_wrapper</AssemblyName>
     <AssemblyVersion>1.1.210.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+    <AssemblyVersion>1.2.153.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
@@ -27,10 +31,33 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
       </ReturnValue>
       <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ADHOC_PROTECTION_REQUIRED">
+      <MemberSignature Language="C#" Value="ADHOC_PROTECTION_REQUIRED" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ErrorType ADHOC_PROTECTION_REQUIRED = int32(17)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ErrorType.ADHOC_PROTECTION_REQUIRED" />
+      <MemberSignature Language="VB.NET" Value="ADHOC_PROTECTION_REQUIRED" />
+      <MemberSignature Language="F#" Value="ADHOC_PROTECTION_REQUIRED = 17" Usage="Microsoft.InformationProtection.Internal.ErrorType.ADHOC_PROTECTION_REQUIRED" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>17</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -45,6 +72,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
@@ -65,6 +96,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
       </ReturnValue>
@@ -83,6 +118,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
@@ -103,6 +142,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
       </ReturnValue>
@@ -121,6 +164,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
@@ -141,6 +188,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
       </ReturnValue>
@@ -159,6 +210,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
@@ -179,6 +234,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
       </ReturnValue>
@@ -197,6 +256,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
@@ -217,6 +280,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
       </ReturnValue>
@@ -236,10 +303,33 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
       </ReturnValue>
       <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OPERATION_CANCELLED">
+      <MemberSignature Language="C#" Value="OPERATION_CANCELLED" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Internal.ErrorType OPERATION_CANCELLED = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Internal.ErrorType.OPERATION_CANCELLED" />
+      <MemberSignature Language="VB.NET" Value="OPERATION_CANCELLED" />
+      <MemberSignature Language="F#" Value="OPERATION_CANCELLED = 16" Usage="Microsoft.InformationProtection.Internal.ErrorType.OPERATION_CANCELLED" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
       <Docs>
         <summary>To be added.</summary>
       </Docs>
@@ -254,6 +344,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
@@ -274,6 +368,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
       </ReturnValue>
@@ -293,6 +391,10 @@
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
       </ReturnValue>
@@ -311,6 +413,10 @@
       <AssemblyInfo>
         <AssemblyName>dotnet_wrapper</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection.Internal</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Internal.ErrorType</ReturnType>
