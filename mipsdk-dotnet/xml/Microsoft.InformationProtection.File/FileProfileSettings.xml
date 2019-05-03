@@ -8,6 +8,10 @@
     <AssemblyName>mip_dotnet_api</AssemblyName>
     <AssemblyVersion>1.1.210.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.2.153.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
@@ -29,6 +33,10 @@
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <Parameters>
         <Parameter Name="path" Type="System.String" />
         <Parameter Name="useInMemoryStorage" Type="System.Boolean" />
@@ -43,7 +51,7 @@
         <param name="authDelegate">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.AuthDelegate" /></param>
         <param name="consentDelegate">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.ConsentDelegate" /></param>
         <param name="applicationInfo">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.ApplicationInfo" /></param>
-        <param name="minimumLogLevel">To be added.</param>
+        <param name="minimumLogLevel"></param>
         <summary>
             FileProfileSettings constructor
             </summary>
@@ -60,6 +68,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ApplicationInfo</ReturnType>
@@ -83,6 +95,10 @@
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.IAuthDelegate</ReturnType>
       </ReturnValue>
@@ -104,6 +120,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.IConsentDelegate</ReturnType>
@@ -127,6 +147,10 @@
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ILoggerDelegate</ReturnType>
       </ReturnValue>
@@ -148,6 +172,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.LogLevel</ReturnType>
@@ -171,6 +199,10 @@
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -193,6 +225,10 @@
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -202,29 +238,6 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="SkipTelemetryInit">
-      <MemberSignature Language="C#" Value="public bool SkipTelemetryInit { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool SkipTelemetryInit" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.SkipTelemetryInit" />
-      <MemberSignature Language="VB.NET" Value="Public Property SkipTelemetryInit As Boolean" />
-      <MemberSignature Language="F#" Value="member this.SkipTelemetryInit : bool with get, set" Usage="Microsoft.InformationProtection.File.FileProfileSettings.SkipTelemetryInit" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Whether or not telemetry initialization should be skipped
-            </summary>
-        <value>To be added.</value>
-        <remarks> This should not normally be set by client applications,
-            rather it is used by File SDK (which already initializes telemetry) to prevent duplicate initialization</remarks>
       </Docs>
     </Member>
     <Member MemberName="UseInMemoryStorage">
@@ -237,6 +250,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

@@ -1,4 +1,4 @@
-﻿<Type Name="IExecutionState" FullName="Microsoft.InformationProtection.Policy.IExecutionState">
+<Type Name="IExecutionState" FullName="Microsoft.InformationProtection.Policy.IExecutionState">
   <TypeSignature Language="C#" Value="public interface IExecutionState" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IExecutionState" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.IExecutionState" />
@@ -157,8 +157,10 @@
         <Parameter Name="namePrefixes" Type="System.Collections.Generic.List&lt;System.String&gt;" />
       </Parameters>
       <Docs>
-        <param name="names"></param>
-        <param name="namePrefixes"></param>
+        <param name="names">
+        </param>
+        <param name="namePrefixes">
+        </param>
         <summary>
             Get the meta-data items from the content.
             </summary>

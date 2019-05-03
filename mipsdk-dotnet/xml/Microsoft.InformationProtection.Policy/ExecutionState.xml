@@ -1,0 +1,359 @@
+﻿<Type Name="ExecutionState" FullName="Microsoft.InformationProtection.Policy.ExecutionState">
+  <TypeSignature Language="C#" Value="public abstract class ExecutionState" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ExecutionState extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.ExecutionState" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class ExecutionState" />
+  <TypeSignature Language="F#" Value="type ExecutionState = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.2.153.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Abstract class for all the state needed to execute the engine.
+            </summary>
+    <remarks>
+            Clients should only call the methods to obtain the state that is needed.
+            Hence, for efficiency, clients may want tooverride this abstract class
+            such that the corresponding state is computed dynamically instead of computing in advance.
+            </remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="protected ExecutionState ();" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Protected Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetAuditMetadata">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.Dictionary&lt;string,string&gt; GetAuditMetadata ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; GetAuditMetadata() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetAuditMetadata" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetAuditMetadata () As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="abstract member GetAuditMetadata : unit -&gt; System.Collections.Generic.Dictionary&lt;string, string&gt;&#xA;override this.GetAuditMetadata : unit -&gt; System.Collections.Generic.Dictionary&lt;string, string&gt;" Usage="executionState.GetAuditMetadata " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Return a dictionary of application specific audit key-value pairs. Registered Key:Value pairs
+            Sender: Email Id for the sender
+            Recipients: Represents a JSON array of recipients for an email 
+            LastModifiedBy: Email Id for the user who last modified the content 
+            LastModifiedDate: Date the content was last modified 
+            </summary>
+        <returns>A list of audit metadata</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetClassificationResults">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.Dictionary&lt;string,Microsoft.InformationProtection.Policy.ClassificationResult&gt; GetClassificationResults (System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt; classificationRequest);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, class Microsoft.InformationProtection.Policy.ClassificationResult&gt; GetClassificationResults(class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Policy.ClassificationRequest&gt; classificationRequest) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetClassificationResults(System.Collections.Generic.List{Microsoft.InformationProtection.Policy.ClassificationRequest})" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetClassificationResults (classificationRequest As List(Of ClassificationRequest)) As Dictionary(Of String, ClassificationResult)" />
+      <MemberSignature Language="F#" Value="abstract member GetClassificationResults : System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt; -&gt; System.Collections.Generic.Dictionary&lt;string, Microsoft.InformationProtection.Policy.ClassificationResult&gt;&#xA;override this.GetClassificationResults : System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt; -&gt; System.Collections.Generic.Dictionary&lt;string, Microsoft.InformationProtection.Policy.ClassificationResult&gt;" Usage="executionState.GetClassificationResults classificationRequest" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.InformationProtection.Policy.ClassificationResult&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="classificationRequest" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.ClassificationRequest&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="classificationRequest">A list of classification id's</param>
+        <summary>
+            Return a map of classification results.
+            </summary>
+        <returns>A list of classification result, null if no classification cycle executed.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContentFormat">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.InformationProtection.Policy.ContentFormat GetContentFormat ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.Policy.ContentFormat GetContentFormat() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetContentFormat" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetContentFormat () As ContentFormat" />
+      <MemberSignature Language="F#" Value="abstract member GetContentFormat : unit -&gt; Microsoft.InformationProtection.Policy.ContentFormat" Usage="executionState.GetContentFormat " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.ContentFormat</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            The content format.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContentIdentifier">
+      <MemberSignature Language="C#" Value="public abstract string GetContentIdentifier ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetContentIdentifier() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetContentIdentifier" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetContentIdentifier () As String" />
+      <MemberSignature Language="F#" Value="abstract member GetContentIdentifier : unit -&gt; string" Usage="executionState.GetContentIdentifier " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            The content description that describes the document.
+            <example>For a file: [path\filename]</example><example>for an email: [Subject:Sender]</example>
+            This value is used by auditing as a human-readable description of the content
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContentMetadata">
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; GetContentMetadata (System.Collections.Generic.List&lt;string&gt; names, System.Collections.Generic.List&lt;string&gt; namePrefixes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; GetContentMetadata(class System.Collections.Generic.List`1&lt;string&gt; names, class System.Collections.Generic.List`1&lt;string&gt; namePrefixes) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetContentMetadata(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetContentMetadata (names As List(Of String), namePrefixes As List(Of String)) As List(Of KeyValuePair(Of String, String))" />
+      <MemberSignature Language="F#" Value="abstract member GetContentMetadata : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;string&gt; -&gt; System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="executionState.GetContentMetadata (names, namePrefixes)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="names" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+        <Parameter Name="namePrefixes" Type="System.Collections.Generic.List&lt;System.String&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="names"></param>
+        <param name="namePrefixes"></param>
+        <summary>
+            Get the meta-data items from the content.
+            </summary>
+        <returns>A list of key value pairs representing the meta data applied to the content.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDataState">
+      <MemberSignature Language="C#" Value="public virtual Microsoft.InformationProtection.DataState GetDataState ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.DataState GetDataState() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetDataState" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDataState () As DataState" />
+      <MemberSignature Language="F#" Value="abstract member GetDataState : unit -&gt; Microsoft.InformationProtection.DataState&#xA;override this.GetDataState : unit -&gt; Microsoft.InformationProtection.DataState" Usage="executionState.GetDataState " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            The content state.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNewLabelActionSource">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.InformationProtection.ActionSource GetNewLabelActionSource ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.ActionSource GetNewLabelActionSource() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetNewLabelActionSource" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetNewLabelActionSource () As ActionSource" />
+      <MemberSignature Language="F#" Value="abstract member GetNewLabelActionSource : unit -&gt; Microsoft.InformationProtection.ActionSource" Usage="executionState.GetNewLabelActionSource " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ActionSource</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            The source for the new label action.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNewLabelAssignmentMethod">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.InformationProtection.AssignmentMethod GetNewLabelAssignmentMethod ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.AssignmentMethod GetNewLabelAssignmentMethod() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetNewLabelAssignmentMethod" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetNewLabelAssignmentMethod () As AssignmentMethod" />
+      <MemberSignature Language="F#" Value="abstract member GetNewLabelAssignmentMethod : unit -&gt; Microsoft.InformationProtection.AssignmentMethod" Usage="executionState.GetNewLabelAssignmentMethod " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.AssignmentMethod</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            The new label's assignment method.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNewLabelExtendedProperties">
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; GetNewLabelExtendedProperties ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; GetNewLabelExtendedProperties() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetNewLabelExtendedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNewLabelExtendedProperties () As List(Of KeyValuePair(Of String, String))" />
+      <MemberSignature Language="F#" Value="abstract member GetNewLabelExtendedProperties : unit -&gt; System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;&#xA;override this.GetNewLabelExtendedProperties : unit -&gt; System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="executionState.GetNewLabelExtendedProperties " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Label's extended properties.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetNewLabelId">
+      <MemberSignature Language="C#" Value="public abstract string GetNewLabelId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetNewLabelId() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetNewLabelId" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetNewLabelId () As String" />
+      <MemberSignature Language="F#" Value="abstract member GetNewLabelId : unit -&gt; string" Usage="executionState.GetNewLabelId " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            The sensitivity label id that should be applied on the document.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetProtectionDescriptor">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.InformationProtection.ProtectionDescriptor GetProtectionDescriptor ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.ProtectionDescriptor GetProtectionDescriptor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetProtectionDescriptor" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetProtectionDescriptor () As ProtectionDescriptor" />
+      <MemberSignature Language="F#" Value="abstract member GetProtectionDescriptor : unit -&gt; Microsoft.InformationProtection.ProtectionDescriptor" Usage="executionState.GetProtectionDescriptor " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ProtectionDescriptor</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            The rights management service protection descriptor.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSupportedActions">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.InformationProtection.Policy.Actions.ActionType GetSupportedActions ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.Policy.Actions.ActionType GetSupportedActions() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetSupportedActions" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetSupportedActions () As ActionType" />
+      <MemberSignature Language="F#" Value="abstract member GetSupportedActions : unit -&gt; Microsoft.InformationProtection.Policy.Actions.ActionType" Usage="executionState.GetSupportedActions " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            a list of actions that the application supports, as a bitwise OR of all supported actions
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDowngradeJustified">
+      <MemberSignature Language="C#" Value="public abstract bool IsDowngradeJustified (out string justificationMessage);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsDowngradeJustified([out] string&amp; justificationMessage) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.IsDowngradeJustified(System.String@)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function IsDowngradeJustified (ByRef justificationMessage As String) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member IsDowngradeJustified :  -&gt; bool" Usage="executionState.IsDowngradeJustified justificationMessage" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="justificationMessage" Type="System.String" RefType="out" />
+      </Parameters>
+      <Docs>
+        <param name="justificationMessage">To be added.</param>
+        <summary>
+            Implementation should pass whether or not justification to downgrade an existing label was given.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
