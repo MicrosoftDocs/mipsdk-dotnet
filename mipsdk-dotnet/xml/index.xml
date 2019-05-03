@@ -92,6 +92,98 @@
         </Attribute>
       </Attributes>
     </Assembly>
+    <Assembly Name="Microsoft.InformationProtection" Version="1.2.153.0">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright © Microsoft Corporation. All rights reserved.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.2.153.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("MIP SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("MIP SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.0", FrameworkDisplayName=".NET Framework 4")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
+    <Assembly Name="Microsoft.InformationProtection.Internal" Version="1.2.153.0">
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Diagnostics.Debuggable(System.Diagnostics.DebuggableAttribute+DebuggingModes.IgnoreSymbolStoreSequencePoints)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCompany("Microsoft Corporation")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyConfiguration("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyCopyright("Copyright © Microsoft Corporation. All rights reserved.")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyDescription("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyFileVersion("1.2.153.0")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyProduct("MIP SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTitle("MIP SDK")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Reflection.AssemblyTrademark("")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.CompilationRelaxations(8)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.InternalsVisibleTo("Microsoft.InformationProtection")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.CompilerServices.RuntimeCompatibility(WrapNonExceptionThrows=true)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.ComVisible(false)</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.InteropServices.Guid("f164d722-ec3c-4577-b180-a2866c8eeac6")</AttributeName>
+        </Attribute>
+        <Attribute>
+          <AttributeName>System.Runtime.Versioning.TargetFramework(".NETFramework,Version=v4.0", FrameworkDisplayName=".NET Framework 4")</AttributeName>
+        </Attribute>
+      </Attributes>
+    </Assembly>
   </Assemblies>
   <Remarks>To be added.</Remarks>
   <Copyright>To be added.</Copyright>
@@ -103,7 +195,7 @@
       <Type Name="AssignmentMethod" Kind="Enumeration" />
       <Type Name="Consent" Kind="Enumeration" />
       <Type Name="ContentLabel" Kind="Class" />
-      <Type Name="ContentState" Kind="Enumeration" />
+      <Type Name="DataState" Kind="Enumeration" />
       <Type Name="IAuthDelegate" Kind="Interface" />
       <Type Name="IConsentDelegate" Kind="Interface" />
       <Type Name="Identity" Kind="Class" />
@@ -121,6 +213,7 @@
     </Namespace>
     <Namespace Name="Microsoft.InformationProtection.Exceptions">
       <Type Name="AccessDeniedException" Kind="Class" />
+      <Type Name="AdhocProtectionRequiredException" Kind="Class" />
       <Type Name="BadInputException" Kind="Class" />
       <Type Name="InternalException" Kind="Class" />
       <Type Name="JustificationRequiredException" Kind="Class" />
@@ -135,10 +228,10 @@
     </Namespace>
     <Namespace Name="Microsoft.InformationProtection.File">
       <Type Name="FileEngineSettings" Kind="Class" />
+      <Type Name="FileExecutionState" Kind="Class" />
       <Type Name="FileHandler" Kind="Class" />
       <Type Name="FileProfileSettings" Kind="Class" />
       <Type Name="IFileEngine" Kind="Interface" />
-      <Type Name="IFileExecutionState" Kind="Interface" />
       <Type Name="IFileHandler" Kind="Interface" />
       <Type Name="IFileProfile" Kind="Interface" />
       <Type Name="LabelingOptions" Kind="Class" />
@@ -150,7 +243,7 @@
       <Type Name="Consent" Kind="Enumeration" />
       <Type Name="ContentFormat" Kind="Enumeration" />
       <Type Name="ContentMarkAlignment" Kind="Enumeration" />
-      <Type Name="ContentState" Kind="Enumeration" />
+      <Type Name="DataState" Kind="Enumeration" />
       <Type Name="ErrorType" Kind="Enumeration" />
       <Type Name="HttpRequestType" Kind="Enumeration" />
       <Type Name="LogLevel" Kind="Enumeration" />
@@ -158,7 +251,8 @@
       <Type Name="ProtectionType" Kind="Enumeration" />
       <Type Name="SdkWrapper" Kind="Class" />
       <Type Name="SWIGTYPE_p_std__chrono__time_pointT_std__chrono__system_clock_t" Kind="Class" />
-      <Type Name="SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t" Kind="Class" />
+      <Type Name="SWIGTYPE_p_std__functionT_void_fF_t" Kind="Class" />
+      <Type Name="SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpOperation_tF_t" Kind="Class" />
       <Type Name="SWIGTYPE_p_std__mapT_std__string_std__string_mip__CaseInsensitiveComparator_t" Kind="Class" />
       <Type Name="SWIGTYPE_p_std__shared_ptrT_mip__ICryptoProvider_t" Kind="Class" />
       <Type Name="SWIGTYPE_p_unsigned_char" Kind="Class" />
@@ -169,7 +263,7 @@
       <Type Name="ClassificationResult" Kind="Class" />
       <Type Name="ContentFormat" Kind="Enumeration" />
       <Type Name="ContentMarkAlignment" Kind="Enumeration" />
-      <Type Name="IExecutionState" Kind="Interface" />
+      <Type Name="ExecutionState" Kind="Class" />
       <Type Name="IPolicyEngine" Kind="Interface" />
       <Type Name="IPolicyHandler" Kind="Interface" />
       <Type Name="IPolicyProfile" Kind="Interface" />

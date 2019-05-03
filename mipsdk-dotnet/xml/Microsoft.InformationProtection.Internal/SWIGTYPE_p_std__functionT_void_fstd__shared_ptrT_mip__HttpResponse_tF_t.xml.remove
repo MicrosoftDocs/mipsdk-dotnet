@@ -1,4 +1,4 @@
-﻿<Type Name="SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t" FullName="Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t">
+<Type Name="SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t" FullName="Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t">
   <TypeSignature Language="C#" Value="public class SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Internal.SWIGTYPE_p_std__functionT_void_fstd__shared_ptrT_mip__HttpResponse_tF_t" />

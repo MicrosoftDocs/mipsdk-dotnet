@@ -8,6 +8,10 @@
     <AssemblyName>mip_dotnet_api</AssemblyName>
     <AssemblyVersion>1.1.210.0</AssemblyVersion>
   </AssemblyInfo>
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.2.153.0</AssemblyVersion>
+  </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.InformationProtection.Policy.Actions.Action</BaseTypeName>
   </Base>
@@ -15,7 +19,7 @@
   <Docs>
     <summary>
             Justify Action requires providing a justification to a label downgrade and setting the response in the execution state.
-            <seealso cref="M:Microsoft.InformationProtection.Policy.IExecutionState.IsDowngradeJustified(System.String@)" /></summary>
+            <seealso cref="M:Microsoft.InformationProtection.Policy.ExecutionState.IsDowngradeJustified(System.String@)" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -29,6 +33,10 @@
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
         <AssemblyVersion>1.1.210.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />

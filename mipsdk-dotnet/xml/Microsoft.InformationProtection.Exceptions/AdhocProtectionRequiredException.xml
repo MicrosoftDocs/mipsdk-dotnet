@@ -1,0 +1,46 @@
+﻿<Type Name="AdhocProtectionRequiredException" FullName="Microsoft.InformationProtection.Exceptions.AdhocProtectionRequiredException">
+  <TypeSignature Language="C#" Value="public class AdhocProtectionRequiredException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit AdhocProtectionRequiredException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Exceptions.AdhocProtectionRequiredException" />
+  <TypeSignature Language="VB.NET" Value="Public Class AdhocProtectionRequiredException&#xA;Inherits Exception" />
+  <TypeSignature Language="F#" Value="type AdhocProtectionRequiredException = class&#xA;    inherit Exception" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.2.153.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Serializable</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public AdhocProtectionRequiredException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Exceptions.AdhocProtectionRequiredException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Exceptions.AdhocProtectionRequiredException : string -&gt; Microsoft.InformationProtection.Exceptions.AdhocProtectionRequiredException" Usage="new Microsoft.InformationProtection.Exceptions.AdhocProtectionRequiredException message" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
