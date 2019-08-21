@@ -1,4 +1,4 @@
-﻿<Type Name="IAuthDelegate" FullName="Microsoft.InformationProtection.IAuthDelegate">
+<Type Name="IAuthDelegate" FullName="Microsoft.InformationProtection.IAuthDelegate">
   <TypeSignature Language="C#" Value="public interface IAuthDelegate" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IAuthDelegate" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.IAuthDelegate" />
@@ -11,6 +11,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
+    <AssemblyVersion>1.3.191.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -21,18 +22,14 @@
   </Docs>
   <Members>
     <Member MemberName="AcquireToken">
-      <MemberSignature Language="C#" Value="public string AcquireToken (Microsoft.InformationProtection.Identity identity, string authority, string resource);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string AcquireToken(class Microsoft.InformationProtection.Identity identity, string authority, string resource) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.IAuthDelegate.AcquireToken(Microsoft.InformationProtection.Identity,System.String,System.String)" />
-      <MemberSignature Language="F#" Value="abstract member AcquireToken : Microsoft.InformationProtection.Identity * string * string -&gt; string" Usage="iAuthDelegate.AcquireToken (identity, authority, resource)" />
+      <MemberSignature Language="C#" Value="public string AcquireToken (Microsoft.InformationProtection.Identity identity, string authority, string resource, string claims);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string AcquireToken(class Microsoft.InformationProtection.Identity identity, string authority, string resource, string claims) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.IAuthDelegate.AcquireToken(Microsoft.InformationProtection.Identity,System.String,System.String,System.String)" />
+      <MemberSignature Language="F#" Value="abstract member AcquireToken : Microsoft.InformationProtection.Identity * string * string * string -&gt; string" Usage="iAuthDelegate.AcquireToken (identity, authority, resource, claims)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -41,11 +38,13 @@
         <Parameter Name="identity" Type="Microsoft.InformationProtection.Identity" />
         <Parameter Name="authority" Type="System.String" />
         <Parameter Name="resource" Type="System.String" />
+        <Parameter Name="claims" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="identity">The identity of the user.</param>
         <param name="authority">The authority the token needs to be generated against.</param>
         <param name="resource">The resource the token is set to.</param>
+        <param name="claims">The claims requested for the token.</param>
         <summary>
             This method is called when an auth token is required for the policy engine with the given identity and the given challenge. 
             </summary>

@@ -1,4 +1,4 @@
-﻿<Type Name="IFileProfile" FullName="Microsoft.InformationProtection.File.IFileProfile">
+<Type Name="IFileProfile" FullName="Microsoft.InformationProtection.File.IFileProfile">
   <TypeSignature Language="C#" Value="public interface IFileProfile : IDisposable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileProfile implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.IFileProfile" />
@@ -11,6 +11,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
+    <AssemblyVersion>1.3.191.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -38,6 +39,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileEngine&gt;</ReturnType>
@@ -68,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -76,7 +79,8 @@
         <Parameter Name="id" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="id"></param>
+        <param name="id">
+        </param>
         <summary />
         <returns>A task that represents the asynchronous delete engine operation.</returns>
         <remarks>To be added.</remarks>
@@ -96,6 +100,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
@@ -123,6 +128,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.InformationProtection.AddingEngineEventArgs&gt;</ReturnType>
@@ -148,6 +154,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.InformationProtection.PolicyChangedEventArgs&gt;</ReturnType>
@@ -173,6 +180,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.File.FileProfileSettings</ReturnType>
@@ -199,6 +207,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>

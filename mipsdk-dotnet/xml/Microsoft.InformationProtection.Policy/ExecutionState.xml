@@ -1,4 +1,4 @@
-﻿<Type Name="ExecutionState" FullName="Microsoft.InformationProtection.Policy.ExecutionState">
+<Type Name="ExecutionState" FullName="Microsoft.InformationProtection.Policy.ExecutionState">
   <TypeSignature Language="C#" Value="public abstract class ExecutionState" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit ExecutionState extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.ExecutionState" />
@@ -7,6 +7,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
+    <AssemblyVersion>1.3.191.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,6 +51,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -76,6 +79,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.InformationProtection.Policy.ClassificationResult&gt;</ReturnType>
@@ -102,6 +106,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.ContentFormat</ReturnType>
@@ -125,6 +130,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -150,6 +156,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -159,8 +166,10 @@
         <Parameter Name="namePrefixes" Type="System.Collections.Generic.List&lt;System.String&gt;" />
       </Parameters>
       <Docs>
-        <param name="names"></param>
-        <param name="namePrefixes"></param>
+        <param name="names">
+        </param>
+        <param name="namePrefixes">
+        </param>
         <summary>
             Get the meta-data items from the content.
             </summary>
@@ -178,6 +187,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>
@@ -191,24 +201,24 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetNewLabelActionSource">
-      <MemberSignature Language="C#" Value="public abstract Microsoft.InformationProtection.ActionSource GetNewLabelActionSource ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.ActionSource GetNewLabelActionSource() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetNewLabelActionSource" />
-      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetNewLabelActionSource () As ActionSource" />
-      <MemberSignature Language="F#" Value="abstract member GetNewLabelActionSource : unit -&gt; Microsoft.InformationProtection.ActionSource" Usage="executionState.GetNewLabelActionSource " />
+    <Member MemberName="GetNewLabel">
+      <MemberSignature Language="C#" Value="public abstract Microsoft.InformationProtection.Label GetNewLabel ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.Label GetNewLabel() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetNewLabel" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetNewLabel () As Label" />
+      <MemberSignature Language="F#" Value="abstract member GetNewLabel : unit -&gt; Microsoft.InformationProtection.Label" Usage="executionState.GetNewLabel " />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Microsoft.InformationProtection.ActionSource</ReturnType>
+        <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
         <summary>
-            The source for the new label action.
+            The sensitivity label id that should be applied on the document.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -224,6 +234,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.AssignmentMethod</ReturnType>
@@ -247,6 +258,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -255,29 +267,6 @@
       <Docs>
         <summary>
             Label's extended properties.
-            </summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetNewLabelId">
-      <MemberSignature Language="C#" Value="public abstract string GetNewLabelId ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetNewLabelId() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetNewLabelId" />
-      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetNewLabelId () As String" />
-      <MemberSignature Language="F#" Value="abstract member GetNewLabelId : unit -&gt; string" Usage="executionState.GetNewLabelId " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>
-            The sensitivity label id that should be applied on the document.
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -293,6 +282,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ProtectionDescriptor</ReturnType>
@@ -316,6 +306,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -339,6 +330,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

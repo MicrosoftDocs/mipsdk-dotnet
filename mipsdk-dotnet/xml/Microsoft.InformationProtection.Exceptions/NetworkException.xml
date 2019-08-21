@@ -1,4 +1,4 @@
-﻿<Type Name="NetworkException" FullName="Microsoft.InformationProtection.Exceptions.NetworkException">
+<Type Name="NetworkException" FullName="Microsoft.InformationProtection.Exceptions.NetworkException">
   <TypeSignature Language="C#" Value="public class NetworkException : Exception" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit NetworkException extends System.Exception" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Exceptions.NetworkException" />
@@ -11,6 +11,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
+    <AssemblyVersion>1.3.191.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Exception</BaseTypeName>
@@ -22,7 +23,9 @@
     </Attribute>
   </Attributes>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            The exception thrown for general network issues; for example, unreachable service.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -40,13 +43,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
-        <param name="message">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="message">The message that describes the error</param>
+        <summary>
+            Constructor for NetworkException
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
