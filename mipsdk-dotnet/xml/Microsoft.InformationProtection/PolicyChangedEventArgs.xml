@@ -1,4 +1,4 @@
-﻿<Type Name="PolicyChangedEventArgs" FullName="Microsoft.InformationProtection.PolicyChangedEventArgs">
+<Type Name="PolicyChangedEventArgs" FullName="Microsoft.InformationProtection.PolicyChangedEventArgs">
   <TypeSignature Language="C#" Value="public class PolicyChangedEventArgs : EventArgs" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PolicyChangedEventArgs extends System.EventArgs" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.PolicyChangedEventArgs" />
@@ -11,6 +11,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
+    <AssemblyVersion>1.3.191.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.EventArgs</BaseTypeName>
@@ -37,6 +38,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

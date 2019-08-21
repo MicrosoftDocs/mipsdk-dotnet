@@ -1,4 +1,4 @@
-﻿<Type Name="RecommendLabelAction" FullName="Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction">
+<Type Name="RecommendLabelAction" FullName="Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction">
   <TypeSignature Language="C#" Value="public class RecommendLabelAction : Microsoft.InformationProtection.Policy.Actions.Action" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit RecommendLabelAction extends Microsoft.InformationProtection.Policy.Actions.Action" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction" />
@@ -11,6 +11,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
+    <AssemblyVersion>1.3.191.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.InformationProtection.Policy.Actions.Action</BaseTypeName>
@@ -24,29 +25,24 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public RecommendLabelAction (string id, string labelId, System.Collections.Generic.List&lt;string&gt; classificationIds);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string labelId, class System.Collections.Generic.List`1&lt;string&gt; classificationIds) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction.#ctor(System.String,System.String,System.Collections.Generic.List{System.String})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, labelId As String, classificationIds As List(Of String))" />
-      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction : string * string * System.Collections.Generic.List&lt;string&gt; -&gt; Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction" Usage="new Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction (id, labelId, classificationIds)" />
+      <MemberSignature Language="C#" Value="public RecommendLabelAction (string id, Microsoft.InformationProtection.Label label, System.Collections.Generic.List&lt;string&gt; classificationIds);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, class Microsoft.InformationProtection.Label label, class System.Collections.Generic.List`1&lt;string&gt; classificationIds) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction.#ctor(System.String,Microsoft.InformationProtection.Label,System.Collections.Generic.List{System.String})" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction : string * Microsoft.InformationProtection.Label * System.Collections.Generic.List&lt;string&gt; -&gt; Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction" Usage="new Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction (id, label, classificationIds)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
-        <Parameter Name="labelId" Type="System.String" />
+        <Parameter Name="label" Type="Microsoft.InformationProtection.Label" />
         <Parameter Name="classificationIds" Type="System.Collections.Generic.List&lt;System.String&gt;" />
       </Parameters>
       <Docs>
         <param name="id">The id of the action</param>
-        <param name="labelId">label to recommend</param>
-        <param name="classificationIds">To be added.</param>
+        <param name="label">label to recommend</param>
+        <param name="classificationIds">List of matched classification IDs</param>
         <summary>
             Creates a new RecommendLabelAction. This constructor is only public to allow using this class in code testing
             </summary>
@@ -67,6 +63,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
@@ -79,23 +76,19 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="LabelId">
-      <MemberSignature Language="C#" Value="public string LabelId { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string LabelId" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction.LabelId" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LabelId As String" />
-      <MemberSignature Language="F#" Value="member this.LabelId : string" Usage="Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction.LabelId" />
+    <Member MemberName="Label">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Label Label { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Label Label" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction.Label" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Label As Label" />
+      <MemberSignature Language="F#" Value="member this.Label : Microsoft.InformationProtection.Label" Usage="Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction.Label" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

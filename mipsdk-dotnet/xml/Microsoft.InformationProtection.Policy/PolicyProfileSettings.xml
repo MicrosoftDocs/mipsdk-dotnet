@@ -1,4 +1,4 @@
-﻿<Type Name="PolicyProfileSettings" FullName="Microsoft.InformationProtection.Policy.PolicyProfileSettings">
+<Type Name="PolicyProfileSettings" FullName="Microsoft.InformationProtection.Policy.PolicyProfileSettings">
   <TypeSignature Language="C#" Value="public class PolicyProfileSettings" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PolicyProfileSettings extends System.Object" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.PolicyProfileSettings" />
@@ -11,6 +11,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
+    <AssemblyVersion>1.3.191.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -24,32 +25,58 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public PolicyProfileSettings (string path, bool useInMemoryStorage, Microsoft.InformationProtection.IAuthDelegate authDelegate, Microsoft.InformationProtection.ApplicationInfo applicationInfo, Microsoft.InformationProtection.LogLevel minimumLogLevel);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path, bool useInMemoryStorage, class Microsoft.InformationProtection.IAuthDelegate authDelegate, class Microsoft.InformationProtection.ApplicationInfo applicationInfo, valuetype Microsoft.InformationProtection.LogLevel minimumLogLevel) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.PolicyProfileSettings.#ctor(System.String,System.Boolean,Microsoft.InformationProtection.IAuthDelegate,Microsoft.InformationProtection.ApplicationInfo,Microsoft.InformationProtection.LogLevel)" />
-      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.PolicyProfileSettings : string * bool * Microsoft.InformationProtection.IAuthDelegate * Microsoft.InformationProtection.ApplicationInfo * Microsoft.InformationProtection.LogLevel -&gt; Microsoft.InformationProtection.Policy.PolicyProfileSettings" Usage="new Microsoft.InformationProtection.Policy.PolicyProfileSettings (path, useInMemoryStorage, authDelegate, applicationInfo, minimumLogLevel)" />
+      <MemberSignature Language="C#" Value="public PolicyProfileSettings (Microsoft.InformationProtection.MipContext mipContext, Microsoft.InformationProtection.CacheStorageType cacheStorageType, Microsoft.InformationProtection.IAuthDelegate authDelegate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.InformationProtection.MipContext mipContext, valuetype Microsoft.InformationProtection.CacheStorageType cacheStorageType, class Microsoft.InformationProtection.IAuthDelegate authDelegate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.PolicyProfileSettings.#ctor(Microsoft.InformationProtection.MipContext,Microsoft.InformationProtection.CacheStorageType,Microsoft.InformationProtection.IAuthDelegate)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.PolicyProfileSettings : Microsoft.InformationProtection.MipContext * Microsoft.InformationProtection.CacheStorageType * Microsoft.InformationProtection.IAuthDelegate -&gt; Microsoft.InformationProtection.Policy.PolicyProfileSettings" Usage="new Microsoft.InformationProtection.Policy.PolicyProfileSettings (mipContext, cacheStorageType, authDelegate)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" />
+        <Parameter Name="cacheStorageType" Type="Microsoft.InformationProtection.CacheStorageType" />
+        <Parameter Name="authDelegate" Type="Microsoft.InformationProtection.IAuthDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="mipContext">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.MipContext" /></param>
+        <param name="cacheStorageType">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.CacheStorageType" /></param>
+        <param name="authDelegate">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.AuthDelegate" /></param>
+        <summary>
+            Constructor for PolicyProfileSettings
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PolicyProfileSettings (string path, Microsoft.InformationProtection.CacheStorageType cacheStorageType, Microsoft.InformationProtection.IAuthDelegate authDelegate, Microsoft.InformationProtection.ApplicationInfo applicationInfo, Microsoft.InformationProtection.LogLevel minimumLogLevel);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path, valuetype Microsoft.InformationProtection.CacheStorageType cacheStorageType, class Microsoft.InformationProtection.IAuthDelegate authDelegate, class Microsoft.InformationProtection.ApplicationInfo applicationInfo, valuetype Microsoft.InformationProtection.LogLevel minimumLogLevel) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.PolicyProfileSettings.#ctor(System.String,Microsoft.InformationProtection.CacheStorageType,Microsoft.InformationProtection.IAuthDelegate,Microsoft.InformationProtection.ApplicationInfo,Microsoft.InformationProtection.LogLevel)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.PolicyProfileSettings : string * Microsoft.InformationProtection.CacheStorageType * Microsoft.InformationProtection.IAuthDelegate * Microsoft.InformationProtection.ApplicationInfo * Microsoft.InformationProtection.LogLevel -&gt; Microsoft.InformationProtection.Policy.PolicyProfileSettings" Usage="new Microsoft.InformationProtection.Policy.PolicyProfileSettings (path, cacheStorageType, authDelegate, applicationInfo, minimumLogLevel)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("This constructor is deprecated in favor of the one that accepts a 'MipContext'")</AttributeName>
+        </Attribute>
+      </Attributes>
+      <Parameters>
         <Parameter Name="path" Type="System.String" />
-        <Parameter Name="useInMemoryStorage" Type="System.Boolean" />
+        <Parameter Name="cacheStorageType" Type="Microsoft.InformationProtection.CacheStorageType" />
         <Parameter Name="authDelegate" Type="Microsoft.InformationProtection.IAuthDelegate" />
         <Parameter Name="applicationInfo" Type="Microsoft.InformationProtection.ApplicationInfo" />
         <Parameter Name="minimumLogLevel" Type="Microsoft.InformationProtection.LogLevel" />
       </Parameters>
       <Docs>
         <param name="path">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.Path" /></param>
-        <param name="useInMemoryStorage">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.UseInMemoryStorage" /></param>
+        <param name="cacheStorageType">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.CacheStorageType" /></param>
         <param name="authDelegate">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.AuthDelegate" /></param>
         <param name="applicationInfo">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.ApplicationInfo" /></param>
-        <param name="minimumLogLevel">To be added.</param>
+        <param name="minimumLogLevel">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.MinimumLogLevel" /></param>
         <summary>
             Constructor for PolicyProfileSettings
             </summary>
@@ -70,7 +97,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("This property is deprecated in favor of 'MipContext'")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ApplicationInfo</ReturnType>
       </ReturnValue>
@@ -96,6 +129,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.IAuthDelegate</ReturnType>
@@ -103,6 +137,28 @@
       <Docs>
         <summary>
             The auth delegate used for acquiring authentication tokens
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CacheStorageType">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.CacheStorageType CacheStorageType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.CacheStorageType CacheStorageType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.CacheStorageType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CacheStorageType As CacheStorageType" />
+      <MemberSignature Language="F#" Value="member this.CacheStorageType : Microsoft.InformationProtection.CacheStorageType" Usage="Microsoft.InformationProtection.Policy.PolicyProfileSettings.CacheStorageType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.CacheStorageType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Storage Type to use - whether or not state should be stored on disk.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -122,7 +178,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("This property is deprecated in favor of 'MipContext'")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ILoggerDelegate</ReturnType>
       </ReturnValue>
@@ -148,13 +210,41 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("This property is deprecated in favor of 'MipContext'")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.LogLevel</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
             Minimum log level to be written to log file
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MipContext">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.MipContext MipContext { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.MipContext MipContext" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.MipContext" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MipContext As MipContext" />
+      <MemberSignature Language="F#" Value="member this.MipContext : Microsoft.InformationProtection.MipContext" Usage="Microsoft.InformationProtection.Policy.PolicyProfileSettings.MipContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.MipContext</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Global MIP context state
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -174,7 +264,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("This property is deprecated in favor of 'MipContext'")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
@@ -200,7 +296,13 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute>
+          <AttributeName>System.Obsolete("This property is deprecated in favor of 'MipContext'")</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
@@ -226,37 +328,14 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="UseInMemoryStorage">
-      <MemberSignature Language="C#" Value="public bool UseInMemoryStorage { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool UseInMemoryStorage" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.UseInMemoryStorage" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UseInMemoryStorage As Boolean" />
-      <MemberSignature Language="F#" Value="member this.UseInMemoryStorage : bool" Usage="Microsoft.InformationProtection.Policy.PolicyProfileSettings.UseInMemoryStorage" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
         <summary>
-            A flag indicating whether or not state should be stored on disk. 
+            The session ID that will be used to correlate logs/telemetry
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
