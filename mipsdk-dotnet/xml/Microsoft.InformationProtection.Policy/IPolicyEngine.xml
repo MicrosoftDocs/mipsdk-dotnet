@@ -1,4 +1,4 @@
-﻿<Type Name="IPolicyEngine" FullName="Microsoft.InformationProtection.Policy.IPolicyEngine">
+<Type Name="IPolicyEngine" FullName="Microsoft.InformationProtection.Policy.IPolicyEngine">
   <TypeSignature Language="C#" Value="public interface IPolicyEngine : IDisposable" />
   <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IPolicyEngine implements class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.IPolicyEngine" />
@@ -11,6 +11,7 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
+    <AssemblyVersion>1.3.191.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -38,6 +39,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.IPolicyHandler</ReturnType>
@@ -68,6 +70,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -94,6 +97,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -103,6 +107,32 @@
             Gets the default sensitivity label. 
             </summary>
         <value>Default sensitivy label if exists, <c>null</c>if there is no default label set.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetLabelById">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Label GetLabelById (string id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.Label GetLabelById(string id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyEngine.GetLabelById(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetLabelById (id As String) As Label" />
+      <MemberSignature Language="F#" Value="abstract member GetLabelById : string -&gt; Microsoft.InformationProtection.Label" Usage="iPolicyEngine.GetLabelById id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="id">To be added.</param>
+        <summary>
+            Gets the label according to the provided id.
+            </summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -116,6 +146,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -142,6 +173,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -164,6 +196,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -190,6 +223,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -216,6 +250,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -228,25 +263,25 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="PolicyId">
-      <MemberSignature Language="C#" Value="public string PolicyId { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string PolicyId" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.PolicyId" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyId As String" />
-      <MemberSignature Language="F#" Value="member this.PolicyId : string" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.PolicyId" />
+    <Member MemberName="PolicyFileId">
+      <MemberSignature Language="C#" Value="public string PolicyFileId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PolicyFileId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.PolicyFileId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyFileId As String" />
+      <MemberSignature Language="F#" Value="member this.PolicyFileId : string" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.PolicyFileId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Provide the policy ID.
+            Provide the policy file ID.
             </summary>
-        <value>A string with the policy ID</value>
+        <value>A string with the policy file ID</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -264,6 +299,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -297,6 +333,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
@@ -323,6 +360,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt;</ReturnType>
@@ -332,6 +370,28 @@
             List the sensitivity types associated with the policy engine.
             </summary>
         <value>A list of sensitivity labels. empty if LoadSensitivityTypesEnabled was false</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SensitivityTypesDataXml">
+      <MemberSignature Language="C#" Value="public string SensitivityTypesDataXml { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SensitivityTypesDataXml" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.SensitivityTypesDataXml" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SensitivityTypesDataXml As String" />
+      <MemberSignature Language="F#" Value="member this.SensitivityTypesDataXml : string" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.SensitivityTypesDataXml" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets sensitivity types data XML which describes the sensitivity types associated with this policy
+            </summary>
+        <value>Sensitivity types data XML</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -349,6 +409,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.PolicyEngineSettings</ReturnType>

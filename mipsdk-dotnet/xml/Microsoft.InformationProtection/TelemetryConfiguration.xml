@@ -1,0 +1,105 @@
+<Type Name="TelemetryConfiguration" FullName="Microsoft.InformationProtection.TelemetryConfiguration">
+  <TypeSignature Language="C#" Value="public class TelemetryConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TelemetryConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.TelemetryConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class TelemetryConfiguration" />
+  <TypeSignature Language="F#" Value="type TelemetryConfiguration = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.3.191.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents custom telemetry settings
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TelemetryConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.TelemetryConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFastShutdownEnabled">
+      <MemberSignature Language="C#" Value="public bool IsFastShutdownEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFastShutdownEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.TelemetryConfiguration.IsFastShutdownEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFastShutdownEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsFastShutdownEnabled : bool with get, set" Usage="Microsoft.InformationProtection.TelemetryConfiguration.IsFastShutdownEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Is telemetry fast shutdown enabled or not
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLocalCachingEnabled">
+      <MemberSignature Language="C#" Value="public bool IsLocalCachingEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLocalCachingEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.TelemetryConfiguration.IsLocalCachingEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsLocalCachingEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsLocalCachingEnabled : bool with get, set" Usage="Microsoft.InformationProtection.TelemetryConfiguration.IsLocalCachingEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Is local caching/logging permitted for telemetry/audit component
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTelemetryOptedOut">
+      <MemberSignature Language="C#" Value="public bool IsTelemetryOptedOut { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTelemetryOptedOut" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.TelemetryConfiguration.IsTelemetryOptedOut" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsTelemetryOptedOut As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsTelemetryOptedOut : bool with get, set" Usage="Microsoft.InformationProtection.TelemetryConfiguration.IsTelemetryOptedOut" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Is non-critical telemetry disabled
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
