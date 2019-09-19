@@ -37,7 +37,8 @@
         "SourceXmlFolder": "mipsdk-dotnet/xml",
         "OutputYamlFolder": "mipsdk-dotnet/api",
         "Flatten": true,
-        "id": "mipsdk-dotnet"
+        "id": "mipsdk-dotnet",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "mipsdk-dotnet/api/mipsdk-dotnet/toc.yml"
@@ -88,8 +89,5 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ],
-  "ECMA2Yaml": {
-    "SDPMode": "true"
-  }
+  ]
 }
