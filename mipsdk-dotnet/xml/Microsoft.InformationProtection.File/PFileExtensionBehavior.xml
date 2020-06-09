@@ -1,0 +1,85 @@
+<Type Name="PFileExtensionBehavior" FullName="Microsoft.InformationProtection.File.PFileExtensionBehavior">
+  <TypeSignature Language="C#" Value="public enum PFileExtensionBehavior" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PFileExtensionBehavior extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.PFileExtensionBehavior" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PFileExtensionBehavior" />
+  <TypeSignature Language="F#" Value="type PFileExtensionBehavior = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Describes PFile extensions behavior
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.File.PFileExtensionBehavior Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.File.PFileExtensionBehavior.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.InformationProtection.File.PFileExtensionBehavior.Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.PFileExtensionBehavior</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Extensions will become as SDK default behavior
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PFileSuffix">
+      <MemberSignature Language="C#" Value="PFileSuffix" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.File.PFileExtensionBehavior PFileSuffix = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.File.PFileExtensionBehavior.PFileSuffix" />
+      <MemberSignature Language="VB.NET" Value="PFileSuffix" />
+      <MemberSignature Language="F#" Value="PFileSuffix = 1" Usage="Microsoft.InformationProtection.File.PFileExtensionBehavior.PFileSuffix" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.PFileExtensionBehavior</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Extensions will become (EXT).PFILE
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PPrefix">
+      <MemberSignature Language="C#" Value="PPrefix" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.File.PFileExtensionBehavior PPrefix = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.File.PFileExtensionBehavior.PPrefix" />
+      <MemberSignature Language="VB.NET" Value="PPrefix" />
+      <MemberSignature Language="F#" Value="PPrefix = 2" Usage="Microsoft.InformationProtection.File.PFileExtensionBehavior.PPrefix" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.PFileExtensionBehavior</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Extensions will become P(EXT&gt;)
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

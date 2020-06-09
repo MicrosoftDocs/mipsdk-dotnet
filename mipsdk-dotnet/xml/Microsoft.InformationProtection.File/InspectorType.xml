@@ -1,0 +1,64 @@
+<Type Name="InspectorType" FullName="Microsoft.InformationProtection.File.InspectorType">
+  <TypeSignature Language="C#" Value="public enum InspectorType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed InspectorType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.InspectorType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum InspectorType" />
+  <TypeSignature Language="F#" Value="type InspectorType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+             InspectorType enum used to identified support inspection types.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Msg">
+      <MemberSignature Language="C#" Value="Msg" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.File.InspectorType Msg = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.File.InspectorType.Msg" />
+      <MemberSignature Language="VB.NET" Value="Msg" />
+      <MemberSignature Language="F#" Value="Msg = 1" Usage="Microsoft.InformationProtection.File.InspectorType.Msg" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.InspectorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+             Msg style file inspector, rpmsg / msg based.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.File.InspectorType Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.File.InspectorType.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.InformationProtection.File.InspectorType.Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.InspectorType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+             Unkown file inspector.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

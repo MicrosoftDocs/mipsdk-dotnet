@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -25,28 +26,25 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public PolicyEngineSettings (string id, string clientData, string locale);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, string clientData, string locale) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.PolicyEngineSettings.#ctor(System.String,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, clientData As String, locale As String)" />
-      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.PolicyEngineSettings : string * string * string -&gt; Microsoft.InformationProtection.Policy.PolicyEngineSettings" Usage="new Microsoft.InformationProtection.Policy.PolicyEngineSettings (id, clientData, locale)" />
+      <MemberSignature Language="C#" Value="public PolicyEngineSettings (string id, Microsoft.InformationProtection.IAuthDelegate authDelegate, string clientData, string locale);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, class Microsoft.InformationProtection.IAuthDelegate authDelegate, string clientData, string locale) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.PolicyEngineSettings.#ctor(System.String,Microsoft.InformationProtection.IAuthDelegate,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, authDelegate As IAuthDelegate, clientData As String, locale As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.PolicyEngineSettings : string * Microsoft.InformationProtection.IAuthDelegate * string * string -&gt; Microsoft.InformationProtection.Policy.PolicyEngineSettings" Usage="new Microsoft.InformationProtection.Policy.PolicyEngineSettings (id, authDelegate, clientData, locale)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
+        <Parameter Name="authDelegate" Type="Microsoft.InformationProtection.IAuthDelegate" />
         <Parameter Name="clientData" Type="System.String" />
         <Parameter Name="locale" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="id">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.Id" />. When loading an existing engine re-use the id else a new engine will be created.</param>
+        <param name="authDelegate">The AuthDelegate</param>
         <param name="clientData">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.ClientData" /></param>
         <param name="locale">The <see cref="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.Locale" /></param>
         <summary>
@@ -70,6 +68,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -77,6 +76,28 @@
       <Docs>
         <summary>
             The Client Data set in the settings.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cloud">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Cloud Cloud { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.Cloud Cloud" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.Cloud" />
+      <MemberSignature Language="VB.NET" Value="Public Property Cloud As Cloud" />
+      <MemberSignature Language="F#" Value="member this.Cloud : Microsoft.InformationProtection.Cloud with get, set" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.Cloud" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Sets the cloud. If not set, cloud will default to commercial
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -92,13 +113,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            Sets the base URL used by all service requests (e.g. "dataservice.protection.outlook.com")
+            Sets the base URL used by all service requests (e.g. "dataservice.protection.outlook.com"). This value will
+            only be read and must be set for Cloud = Custom.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -119,6 +142,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -141,6 +165,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -168,6 +193,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -191,6 +217,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Identity</ReturnType>
@@ -198,6 +225,29 @@
       <Docs>
         <summary>
             The identity
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelFilter">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.LabelFilterType? LabelFilter { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.InformationProtection.LabelFilterType&gt; LabelFilter" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.LabelFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property LabelFilter As Nullable(Of LabelFilterType)" />
+      <MemberSignature Language="F#" Value="member this.LabelFilter : Nullable&lt;Microsoft.InformationProtection.LabelFilterType&gt; with get, set" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.LabelFilter" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.InformationProtection.LabelFilterType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             The label filter, used to filter labels on list sensitivity labels calls. If not set HyokProtection and 
+             DoubleKeyProtection are filtered.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -218,6 +268,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -245,6 +296,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -272,6 +324,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -279,6 +332,28 @@
       <Docs>
         <summary>
             The session id, used for client defined telemetry. 
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="VariableTextMarking">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.VariableTextMarkingType VariableTextMarking { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.VariableTextMarkingType VariableTextMarking" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.VariableTextMarking" />
+      <MemberSignature Language="VB.NET" Value="Public Property VariableTextMarking As VariableTextMarkingType" />
+      <MemberSignature Language="F#" Value="member this.VariableTextMarking : Microsoft.InformationProtection.VariableTextMarkingType with get, set" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.VariableTextMarking" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.VariableTextMarkingType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             The variable text marking type
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.InformationProtection.Policy.Actions.Action</BaseTypeName>
@@ -28,11 +29,13 @@
       <MemberSignature Language="C#" Value="public RecommendLabelAction (string id, Microsoft.InformationProtection.Label label, System.Collections.Generic.List&lt;string&gt; classificationIds);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, class Microsoft.InformationProtection.Label label, class System.Collections.Generic.List`1&lt;string&gt; classificationIds) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction.#ctor(System.String,Microsoft.InformationProtection.Label,System.Collections.Generic.List{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, label As Label, classificationIds As List(Of String))" />
       <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction : string * Microsoft.InformationProtection.Label * System.Collections.Generic.List&lt;string&gt; -&gt; Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction" Usage="new Microsoft.InformationProtection.Policy.Actions.RecommendLabelAction (id, label, classificationIds)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
@@ -64,6 +67,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
@@ -86,6 +90,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>

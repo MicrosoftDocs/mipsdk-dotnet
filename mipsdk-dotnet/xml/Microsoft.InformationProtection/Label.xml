@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,11 +29,13 @@
       <MemberSignature Language="C#" Value="public Label (string id, Microsoft.InformationProtection.ActionSource actionSource);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string id, valuetype Microsoft.InformationProtection.ActionSource actionSource) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Label.#ctor(System.String,Microsoft.InformationProtection.ActionSource)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (id As String, actionSource As ActionSource)" />
       <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Label : string * Microsoft.InformationProtection.ActionSource -&gt; Microsoft.InformationProtection.Label" Usage="new Microsoft.InformationProtection.Label (id, actionSource)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
@@ -57,6 +60,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ActionSource</ReturnType>
@@ -64,6 +68,28 @@
       <Docs>
         <summary>
              Gets the action source of the label.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AutoTooltip">
+      <MemberSignature Language="C#" Value="public string AutoTooltip { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string AutoTooltip" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Label.AutoTooltip" />
+      <MemberSignature Language="VB.NET" Value="Public Property AutoTooltip As String" />
+      <MemberSignature Language="F#" Value="member this.AutoTooltip : string with get, set" Usage="Microsoft.InformationProtection.Label.AutoTooltip" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The tooltip description of the classification that caused the label to appear.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -84,6 +110,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
@@ -111,6 +138,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -138,6 +166,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -165,6 +194,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -192,6 +222,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -219,6 +250,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -246,6 +278,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -273,6 +306,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -300,6 +334,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -327,6 +362,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

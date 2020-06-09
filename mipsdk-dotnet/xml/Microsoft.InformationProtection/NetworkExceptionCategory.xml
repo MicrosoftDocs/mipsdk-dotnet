@@ -1,0 +1,253 @@
+<Type Name="NetworkExceptionCategory" FullName="Microsoft.InformationProtection.NetworkExceptionCategory">
+  <TypeSignature Language="C#" Value="public enum NetworkExceptionCategory" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed NetworkExceptionCategory extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.NetworkExceptionCategory" />
+  <TypeSignature Language="VB.NET" Value="Public Enum NetworkExceptionCategory" />
+  <TypeSignature Language="F#" Value="type NetworkExceptionCategory = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Category of network error. (See NetworkException)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="BadResponse">
+      <MemberSignature Language="C#" Value="BadResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory BadResponse = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.BadResponse" />
+      <MemberSignature Language="VB.NET" Value="BadResponse" />
+      <MemberSignature Language="F#" Value="BadResponse = 2" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.BadResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            HTTP response could not be read
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Cancelled">
+      <MemberSignature Language="C#" Value="Cancelled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory Cancelled = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.Cancelled" />
+      <MemberSignature Language="VB.NET" Value="Cancelled" />
+      <MemberSignature Language="F#" Value="Cancelled = 10" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.Cancelled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+            HTTP operation has been cancelled by the application
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FailureResponseCode">
+      <MemberSignature Language="C#" Value="FailureResponseCode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory FailureResponseCode = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.FailureResponseCode" />
+      <MemberSignature Language="VB.NET" Value="FailureResponseCode" />
+      <MemberSignature Language="F#" Value="FailureResponseCode = 1" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.FailureResponseCode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            HTTP response code indicates failure
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NoConnection">
+      <MemberSignature Language="C#" Value="NoConnection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory NoConnection = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.NoConnection" />
+      <MemberSignature Language="VB.NET" Value="NoConnection" />
+      <MemberSignature Language="F#" Value="NoConnection = 4" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.NoConnection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Failed to establish a connection
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Offline">
+      <MemberSignature Language="C#" Value="Offline" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory Offline = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.Offline" />
+      <MemberSignature Language="VB.NET" Value="Offline" />
+      <MemberSignature Language="F#" Value="Offline = 8" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.Offline" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            Operation requires network connectivity
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Proxy">
+      <MemberSignature Language="C#" Value="Proxy" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory Proxy = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.Proxy" />
+      <MemberSignature Language="VB.NET" Value="Proxy" />
+      <MemberSignature Language="F#" Value="Proxy = 5" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.Proxy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            Proxy failure
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SSL">
+      <MemberSignature Language="C#" Value="SSL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory SSL = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.SSL" />
+      <MemberSignature Language="VB.NET" Value="SSL" />
+      <MemberSignature Language="F#" Value="SSL = 6" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.SSL" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            SSL failure
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Throttled">
+      <MemberSignature Language="C#" Value="Throttled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory Throttled = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.Throttled" />
+      <MemberSignature Language="VB.NET" Value="Throttled" />
+      <MemberSignature Language="F#" Value="Throttled = 9" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.Throttled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+            HTTP operation failed due to server traffic throttling
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Timeout">
+      <MemberSignature Language="C#" Value="Timeout" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory Timeout = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.Timeout" />
+      <MemberSignature Language="VB.NET" Value="Timeout" />
+      <MemberSignature Language="F#" Value="Timeout = 7" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.Timeout" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+            Connection timed out
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UnexpectedResponse">
+      <MemberSignature Language="C#" Value="UnexpectedResponse" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory UnexpectedResponse = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.UnexpectedResponse" />
+      <MemberSignature Language="VB.NET" Value="UnexpectedResponse" />
+      <MemberSignature Language="F#" Value="UnexpectedResponse = 3" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.UnexpectedResponse" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            HTTP response completed but contained unexpected data
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Unknown network failure
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

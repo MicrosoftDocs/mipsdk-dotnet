@@ -1,0 +1,157 @@
+<Type Name="PublishingSettings" FullName="Microsoft.InformationProtection.Protection.PublishingSettings">
+  <TypeSignature Language="C#" Value="public class PublishingSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PublishingSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.PublishingSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class PublishingSettings" />
+  <TypeSignature Language="F#" Value="type PublishingSettings = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Settings used to create a <c>IProtectionHandler</c> to protect new content.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PublishingSettings (Microsoft.InformationProtection.ProtectionDescriptor protectionDescriptor);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.InformationProtection.ProtectionDescriptor protectionDescriptor) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.PublishingSettings.#ctor(Microsoft.InformationProtection.ProtectionDescriptor)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (protectionDescriptor As ProtectionDescriptor)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Protection.PublishingSettings : Microsoft.InformationProtection.ProtectionDescriptor -&gt; Microsoft.InformationProtection.Protection.PublishingSettings" Usage="new Microsoft.InformationProtection.Protection.PublishingSettings protectionDescriptor" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="protectionDescriptor" Type="Microsoft.InformationProtection.ProtectionDescriptor" />
+      </Parameters>
+      <Docs>
+        <param name="protectionDescriptor">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingSettings.ProtectionDescriptor" /></param>
+        <summary>
+            ProtectionPublishingSettings constructor
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatedUserEmail">
+      <MemberSignature Language="C#" Value="public string DelegatedUserEmail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DelegatedUserEmail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingSettings.DelegatedUserEmail" />
+      <MemberSignature Language="VB.NET" Value="Public Property DelegatedUserEmail As String" />
+      <MemberSignature Language="F#" Value="member this.DelegatedUserEmail : string with get, set" Usage="Microsoft.InformationProtection.Protection.PublishingSettings.DelegatedUserEmail" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The delegation email
+            </summary>
+        <value>To be added.</value>
+        <remarks>
+            delegated user is specified when the authenticating user/application is acting on behalf of another user
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAuditedExtractionAllowed">
+      <MemberSignature Language="C#" Value="public bool IsAuditedExtractionAllowed { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAuditedExtractionAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingSettings.IsAuditedExtractionAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAuditedExtractionAllowed As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsAuditedExtractionAllowed : bool with get, set" Usage="Microsoft.InformationProtection.Protection.PublishingSettings.IsAuditedExtractionAllowed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not non-MIP-aware applications are allowed to open protected content
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDeprecatedAlgorithmPreferred">
+      <MemberSignature Language="C#" Value="public bool IsDeprecatedAlgorithmPreferred { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsDeprecatedAlgorithmPreferred" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingSettings.IsDeprecatedAlgorithmPreferred" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsDeprecatedAlgorithmPreferred As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsDeprecatedAlgorithmPreferred : bool with get, set" Usage="Microsoft.InformationProtection.Protection.PublishingSettings.IsDeprecatedAlgorithmPreferred" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not deprecated crypto algorithm (ECB) is preferred for backwards compatibility
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectionDescriptor">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ProtectionDescriptor ProtectionDescriptor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.ProtectionDescriptor ProtectionDescriptor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingSettings.ProtectionDescriptor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProtectionDescriptor As ProtectionDescriptor" />
+      <MemberSignature Language="F#" Value="member this.ProtectionDescriptor : Microsoft.InformationProtection.ProtectionDescriptor" Usage="Microsoft.InformationProtection.Protection.PublishingSettings.ProtectionDescriptor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ProtectionDescriptor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The protection details
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishingFormatJson">
+      <MemberSignature Language="C#" Value="public bool PublishingFormatJson { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool PublishingFormatJson" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingSettings.PublishingFormatJson" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublishingFormatJson As Boolean" />
+      <MemberSignature Language="F#" Value="member this.PublishingFormatJson : bool with get, set" Usage="Microsoft.InformationProtection.Protection.PublishingSettings.PublishingFormatJson" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not the returned pl is in json format (xml format is more widely accepted and is the default).
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

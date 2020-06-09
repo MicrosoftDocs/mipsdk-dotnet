@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -25,6 +26,33 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="AcquireAuthToken">
+      <MemberSignature Language="C#" Value="public void AcquireAuthToken (Microsoft.InformationProtection.Cloud cloud, Microsoft.InformationProtection.IAuthDelegate authDelegate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void AcquireAuthToken(valuetype Microsoft.InformationProtection.Cloud cloud, class Microsoft.InformationProtection.IAuthDelegate authDelegate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyProfile.AcquireAuthToken(Microsoft.InformationProtection.Cloud,Microsoft.InformationProtection.IAuthDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AcquireAuthToken (cloud As Cloud, authDelegate As IAuthDelegate)" />
+      <MemberSignature Language="F#" Value="abstract member AcquireAuthToken : Microsoft.InformationProtection.Cloud * Microsoft.InformationProtection.IAuthDelegate -&gt; unit" Usage="iPolicyProfile.AcquireAuthToken (cloud, authDelegate)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="cloud" Type="Microsoft.InformationProtection.Cloud" />
+        <Parameter Name="authDelegate" Type="Microsoft.InformationProtection.IAuthDelegate" />
+      </Parameters>
+      <Docs>
+        <param name="cloud">Azure cloud.</param>
+        <param name="authDelegate">Authentication callback that will be invoked.</param>
+        <summary>
+            Trigger an authentication callback
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="AddEngineAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Policy.IPolicyEngine&gt; AddEngineAsync (Microsoft.InformationProtection.Policy.PolicyEngineSettings settings);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.Policy.IPolicyEngine&gt; AddEngineAsync(class Microsoft.InformationProtection.Policy.PolicyEngineSettings settings) cil managed" />
@@ -40,6 +68,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Policy.IPolicyEngine&gt;</ReturnType>
@@ -71,6 +100,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -102,6 +132,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
@@ -130,6 +161,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.InformationProtection.AddingEngineEventArgs&gt;</ReturnType>
@@ -156,6 +188,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.InformationProtection.PolicyChangedEventArgs&gt;</ReturnType>
@@ -182,6 +215,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.PolicyProfileSettings</ReturnType>
@@ -209,6 +243,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>

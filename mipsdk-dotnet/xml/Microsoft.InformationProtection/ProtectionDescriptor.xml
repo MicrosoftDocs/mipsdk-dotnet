@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -39,6 +40,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="userRights" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt;" />
@@ -66,6 +68,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="userRoles" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt;" />
@@ -93,6 +96,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="templateId" Type="System.String" />
@@ -120,6 +124,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -147,6 +152,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -160,7 +166,7 @@
       </Docs>
     </Member>
     <Member MemberName="ContentValidUntil">
-      <MemberSignature Language="C#" Value="public Nullable&lt;DateTime&gt; ContentValidUntil { get; set; }" />
+      <MemberSignature Language="C#" Value="public DateTime? ContentValidUntil { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype System.DateTime&gt; ContentValidUntil" />
       <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.ContentValidUntil" />
       <MemberSignature Language="VB.NET" Value="Public Property ContentValidUntil As Nullable(Of DateTime)" />
@@ -174,6 +180,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -201,6 +208,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -208,6 +216,28 @@
       <Docs>
         <summary>
             The protection description
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoubleKeyUrl">
+      <MemberSignature Language="C#" Value="public string DoubleKeyUrl { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DoubleKeyUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.DoubleKeyUrl" />
+      <MemberSignature Language="VB.NET" Value="Public Property DoubleKeyUrl As String" />
+      <MemberSignature Language="F#" Value="member this.DoubleKeyUrl : string with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.DoubleKeyUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The double key url
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -228,6 +258,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -241,11 +272,11 @@
       </Docs>
     </Member>
     <Member MemberName="LabelId">
-      <MemberSignature Language="C#" Value="public string LabelId { get; set; }" />
+      <MemberSignature Language="C#" Value="public string LabelId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string LabelId" />
       <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.LabelId" />
-      <MemberSignature Language="VB.NET" Value="Public Property LabelId As String" />
-      <MemberSignature Language="F#" Value="member this.LabelId : string with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.LabelId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LabelId As String" />
+      <MemberSignature Language="F#" Value="member this.LabelId : string" Usage="Microsoft.InformationProtection.ProtectionDescriptor.LabelId" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
@@ -255,6 +286,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -284,6 +316,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -297,11 +330,11 @@
       </Docs>
     </Member>
     <Member MemberName="Owner">
-      <MemberSignature Language="C#" Value="public string Owner { get; set; }" />
+      <MemberSignature Language="C#" Value="public string Owner { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Owner" />
       <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.Owner" />
-      <MemberSignature Language="VB.NET" Value="Public Property Owner As String" />
-      <MemberSignature Language="F#" Value="member this.Owner : string with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Owner As String" />
+      <MemberSignature Language="F#" Value="member this.Owner : string" Usage="Microsoft.InformationProtection.ProtectionDescriptor.Owner" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
@@ -311,6 +344,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -338,6 +372,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ProtectionType</ReturnType>
@@ -365,6 +400,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -392,6 +428,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -419,6 +456,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -446,6 +484,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt;</ReturnType>
@@ -473,6 +512,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt;</ReturnType>
