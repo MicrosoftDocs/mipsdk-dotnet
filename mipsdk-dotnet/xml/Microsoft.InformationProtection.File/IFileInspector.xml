@@ -1,0 +1,68 @@
+<Type Name="IFileInspector" FullName="Microsoft.InformationProtection.File.IFileInspector">
+  <TypeSignature Language="C#" Value="public interface IFileInspector : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileInspector implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.IFileInspector" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileInspector&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type IFileInspector = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+             IFileInspector class is the class used to retrieve inspection objects.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Stream">
+      <MemberSignature Language="C#" Value="public System.IO.Stream Stream { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.IO.Stream Stream" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileInspector.Stream" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Stream As Stream" />
+      <MemberSignature Language="F#" Value="member this.Stream : System.IO.Stream" Usage="Microsoft.InformationProtection.File.IFileInspector.Stream" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             Get Raw file data steam.
+            </summary>
+        <value>Raw data stream.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Type">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.File.InspectorType Type { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.File.InspectorType Type" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileInspector.Type" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Type As InspectorType" />
+      <MemberSignature Language="F#" Value="member this.Type : Microsoft.InformationProtection.File.InspectorType" Usage="Microsoft.InformationProtection.File.IFileInspector.Type" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.InspectorType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+             Get Type of Inspector.
+            </summary>
+        <value>Type of inspector.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

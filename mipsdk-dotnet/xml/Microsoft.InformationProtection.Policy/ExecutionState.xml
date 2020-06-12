@@ -8,6 +8,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,6 +35,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -52,6 +54,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -80,6 +83,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.InformationProtection.Policy.ClassificationResult&gt;</ReturnType>
@@ -107,6 +111,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.ContentFormat</ReturnType>
@@ -131,6 +136,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -147,33 +153,57 @@
       </Docs>
     </Member>
     <Member MemberName="GetContentMetadata">
-      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; GetContentMetadata (System.Collections.Generic.List&lt;string&gt; names, System.Collections.Generic.List&lt;string&gt; namePrefixes);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; GetContentMetadata(class System.Collections.Generic.List`1&lt;string&gt; names, class System.Collections.Generic.List`1&lt;string&gt; namePrefixes) cil managed" />
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.List&lt;Microsoft.InformationProtection.MetadataEntry&gt; GetContentMetadata (System.Collections.Generic.List&lt;string&gt; names, System.Collections.Generic.List&lt;string&gt; namePrefixes);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.MetadataEntry&gt; GetContentMetadata(class System.Collections.Generic.List`1&lt;string&gt; names, class System.Collections.Generic.List`1&lt;string&gt; namePrefixes) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetContentMetadata(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})" />
-      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetContentMetadata (names As List(Of String), namePrefixes As List(Of String)) As List(Of KeyValuePair(Of String, String))" />
-      <MemberSignature Language="F#" Value="abstract member GetContentMetadata : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;string&gt; -&gt; System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="executionState.GetContentMetadata (names, namePrefixes)" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetContentMetadata (names As List(Of String), namePrefixes As List(Of String)) As List(Of MetadataEntry)" />
+      <MemberSignature Language="F#" Value="abstract member GetContentMetadata : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;string&gt; -&gt; System.Collections.Generic.List&lt;Microsoft.InformationProtection.MetadataEntry&gt;" Usage="executionState.GetContentMetadata (names, namePrefixes)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.MetadataEntry&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="names" Type="System.Collections.Generic.List&lt;System.String&gt;" />
         <Parameter Name="namePrefixes" Type="System.Collections.Generic.List&lt;System.String&gt;" />
       </Parameters>
       <Docs>
-        <param name="names">
-        </param>
-        <param name="namePrefixes">
-        </param>
+        <param name="names" />
+        <param name="namePrefixes" />
         <summary>
             Get the meta-data items from the content.
             </summary>
-        <returns>A list of key value pairs representing the meta data applied to the content.</returns>
+        <returns>A list of Metadata entries representing the meta data applied to the content.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetContentMetadataVersion">
+      <MemberSignature Language="C#" Value="public virtual uint GetContentMetadataVersion ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance unsigned int32 GetContentMetadataVersion() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetContentMetadataVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetContentMetadataVersion () As UInteger" />
+      <MemberSignature Language="F#" Value="abstract member GetContentMetadataVersion : unit -&gt; uint32&#xA;override this.GetContentMetadataVersion : unit -&gt; uint32" Usage="executionState.GetContentMetadataVersion " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the highest metadata version supported by the application for the tenant.
+            If a file format supports multiple versions of metadata,
+            this allows MIP to understand all metadata and report granular metadata changes on a per-version basis.
+            </summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -188,6 +218,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>
@@ -211,6 +242,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -235,6 +267,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.AssignmentMethod</ReturnType>
@@ -259,6 +292,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -283,6 +317,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ProtectionDescriptor</ReturnType>
@@ -307,6 +342,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -325,12 +361,13 @@
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsDowngradeJustified([out] string&amp; justificationMessage) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.IsDowngradeJustified(System.String@)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function IsDowngradeJustified (ByRef justificationMessage As String) As Boolean" />
-      <MemberSignature Language="F#" Value="abstract member IsDowngradeJustified :  -&gt; bool" Usage="executionState.IsDowngradeJustified justificationMessage" />
+      <MemberSignature Language="F#" Value="abstract member IsDowngradeJustified : string -&gt; bool" Usage="executionState.IsDowngradeJustified justificationMessage" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

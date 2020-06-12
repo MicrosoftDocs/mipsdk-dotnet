@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -36,6 +37,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -48,59 +50,25 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="GetLogLevel">
-      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.LogLevel GetLogLevel ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.LogLevel GetLogLevel() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ILoggerDelegate.GetLogLevel" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetLogLevel () As LogLevel" />
-      <MemberSignature Language="F#" Value="abstract member GetLogLevel : unit -&gt; Microsoft.InformationProtection.LogLevel" Usage="iLoggerDelegate.GetLogLevel " />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Microsoft.InformationProtection.LogLevel</ReturnType>
-      </ReturnValue>
-      <Parameters />
-      <Docs>
-        <summary>
-            Retrieves the log level.
-            </summary>
-        <returns>The log level for this logger.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
     <Member MemberName="Init">
-      <MemberSignature Language="C#" Value="public void Init (string storagePath, Microsoft.InformationProtection.LogLevel logLevel);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Init(string storagePath, valuetype Microsoft.InformationProtection.LogLevel logLevel) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ILoggerDelegate.Init(System.String,Microsoft.InformationProtection.LogLevel)" />
-      <MemberSignature Language="F#" Value="abstract member Init : string * Microsoft.InformationProtection.LogLevel -&gt; unit" Usage="iLoggerDelegate.Init (storagePath, logLevel)" />
+      <MemberSignature Language="C#" Value="public void Init (string storagePath);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Init(string storagePath) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ILoggerDelegate.Init(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Init (storagePath As String)" />
+      <MemberSignature Language="F#" Value="abstract member Init : string -&gt; unit" Usage="iLoggerDelegate.Init storagePath" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="storagePath" Type="System.String" />
-        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" />
       </Parameters>
       <Docs>
         <param name="storagePath">The path to the location where persistent state, including logs, may be stored.</param>
-        <param name="logLevel">The lowest log level that should trigger a logging event.</param>
         <summary>
             Initialize the logger.
             </summary>
@@ -111,6 +79,7 @@
       <MemberSignature Language="C#" Value="public void WriteToLog (Microsoft.InformationProtection.LogLevel logLevel, string message, string functionName, string fileName, int lineNo);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WriteToLog(valuetype Microsoft.InformationProtection.LogLevel logLevel, string message, string functionName, string fileName, int32 lineNo) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ILoggerDelegate.WriteToLog(Microsoft.InformationProtection.LogLevel,System.String,System.String,System.String,System.Int32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteToLog (logLevel As LogLevel, message As String, functionName As String, fileName As String, lineNo As Integer)" />
       <MemberSignature Language="F#" Value="abstract member WriteToLog : Microsoft.InformationProtection.LogLevel * string * string * string * int -&gt; unit" Usage="iLoggerDelegate.WriteToLog (logLevel, message, functionName, fileName, lineNo)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -121,6 +90,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

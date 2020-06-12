@@ -1,0 +1,260 @@
+<Type Name="IProtectionEngine" FullName="Microsoft.InformationProtection.Protection.IProtectionEngine">
+  <TypeSignature Language="C#" Value="public interface IProtectionEngine : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IProtectionEngine implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.IProtectionEngine" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IProtectionEngine&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type IProtectionEngine = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            This class manages protection-related actions related to a specific identity.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="CreateProtectionHandlerForConsumption">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.IProtectionHandler CreateProtectionHandlerForConsumption (Microsoft.InformationProtection.Protection.ConsumptionSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.Protection.IProtectionHandler CreateProtectionHandlerForConsumption(class Microsoft.InformationProtection.Protection.ConsumptionSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.CreateProtectionHandlerForConsumption(Microsoft.InformationProtection.Protection.ConsumptionSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateProtectionHandlerForConsumption (settings As ConsumptionSettings) As IProtectionHandler" />
+      <MemberSignature Language="F#" Value="abstract member CreateProtectionHandlerForConsumption : Microsoft.InformationProtection.Protection.ConsumptionSettings -&gt; Microsoft.InformationProtection.Protection.IProtectionHandler" Usage="iProtectionEngine.CreateProtectionHandlerForConsumption settings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ConsumptionSettings" />
+      </Parameters>
+      <Docs>
+        <param name="settings">Protection settings.</param>
+        <summary>
+            Creates a protection handler where rights/roles are assigned to specific users.
+            </summary>
+        <returns>The <c>IProtectionHandler</c>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateProtectionHandlerForConsumptionAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt; CreateProtectionHandlerForConsumptionAsync (Microsoft.InformationProtection.Protection.ConsumptionSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.Protection.IProtectionHandler&gt; CreateProtectionHandlerForConsumptionAsync(class Microsoft.InformationProtection.Protection.ConsumptionSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.CreateProtectionHandlerForConsumptionAsync(Microsoft.InformationProtection.Protection.ConsumptionSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateProtectionHandlerForConsumptionAsync (settings As ConsumptionSettings) As Task(Of IProtectionHandler)" />
+      <MemberSignature Language="F#" Value="abstract member CreateProtectionHandlerForConsumptionAsync : Microsoft.InformationProtection.Protection.ConsumptionSettings -&gt; System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;" Usage="iProtectionEngine.CreateProtectionHandlerForConsumptionAsync settings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ConsumptionSettings" />
+      </Parameters>
+      <Docs>
+        <param name="settings">Protection settings.</param>
+        <summary>
+            Starts creating a protection handler where rights/roles are assigned to specific users.
+            </summary>
+        <returns>A task that represents the asynchronous create operation. The value of the <c>TResult</c> parameter contains <c>IProtectionHandler</c>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateProtectionHandlerForPublishing">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.IProtectionHandler CreateProtectionHandlerForPublishing (Microsoft.InformationProtection.Protection.PublishingSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.Protection.IProtectionHandler CreateProtectionHandlerForPublishing(class Microsoft.InformationProtection.Protection.PublishingSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.CreateProtectionHandlerForPublishing(Microsoft.InformationProtection.Protection.PublishingSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateProtectionHandlerForPublishing (settings As PublishingSettings) As IProtectionHandler" />
+      <MemberSignature Language="F#" Value="abstract member CreateProtectionHandlerForPublishing : Microsoft.InformationProtection.Protection.PublishingSettings -&gt; Microsoft.InformationProtection.Protection.IProtectionHandler" Usage="iProtectionEngine.CreateProtectionHandlerForPublishing settings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.PublishingSettings" />
+      </Parameters>
+      <Docs>
+        <param name="settings">Protection settings.</param>
+        <summary>
+            Creates a protection handler where rights/roles are assigned to specific users.
+            </summary>
+        <returns>The <c>IProtectionHandler</c>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateProtectionHandlerForPublishingAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt; CreateProtectionHandlerForPublishingAsync (Microsoft.InformationProtection.Protection.PublishingSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.Protection.IProtectionHandler&gt; CreateProtectionHandlerForPublishingAsync(class Microsoft.InformationProtection.Protection.PublishingSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.CreateProtectionHandlerForPublishingAsync(Microsoft.InformationProtection.Protection.PublishingSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateProtectionHandlerForPublishingAsync (settings As PublishingSettings) As Task(Of IProtectionHandler)" />
+      <MemberSignature Language="F#" Value="abstract member CreateProtectionHandlerForPublishingAsync : Microsoft.InformationProtection.Protection.PublishingSettings -&gt; System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;" Usage="iProtectionEngine.CreateProtectionHandlerForPublishingAsync settings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.PublishingSettings" />
+      </Parameters>
+      <Docs>
+        <param name="settings">Protection settings.</param>
+        <summary>
+            Starts creating a protection handler where rights/roles are assigned to specific users.
+            </summary>
+        <returns>A task that represents the asynchronous create operation. The value of the <c>TResult</c> parameter contains <c>IProtectionHandler</c>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRightsForLabelId">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;string&gt; GetRightsForLabelId (string documentId, string labelId, string ownerEmail, string delegatedUserEmail);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;string&gt; GetRightsForLabelId(string documentId, string labelId, string ownerEmail, string delegatedUserEmail) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetRightsForLabelId(System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRightsForLabelId (documentId As String, labelId As String, ownerEmail As String, delegatedUserEmail As String) As List(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member GetRightsForLabelId : string * string * string * string -&gt; System.Collections.Generic.List&lt;string&gt;" Usage="iProtectionEngine.GetRightsForLabelId (documentId, labelId, ownerEmail, delegatedUserEmail)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="documentId" Type="System.String" />
+        <Parameter Name="labelId" Type="System.String" />
+        <Parameter Name="ownerEmail" Type="System.String" />
+        <Parameter Name="delegatedUserEmail" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="documentId">Document ID associated with the document metadata.</param>
+        <param name="labelId">Label ID associated with the document metadata with which the document created.</param>
+        <param name="ownerEmail">Owner of the document.</param>
+        <param name="delegatedUserEmail">A delegated user is specified when the authenticating user/application is acting on behalf of another user, empty if none.</param>
+        <summary>
+            Get collection of rights available to a user for a label ID.
+            </summary>
+        <returns>List of rights.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRightsForLabelIdAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt; GetRightsForLabelIdAsync (string documentId, string labelId, string ownerEmail, string delegatedUserEmail);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;string&gt;&gt; GetRightsForLabelIdAsync(string documentId, string labelId, string ownerEmail, string delegatedUserEmail) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetRightsForLabelIdAsync(System.String,System.String,System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRightsForLabelIdAsync (documentId As String, labelId As String, ownerEmail As String, delegatedUserEmail As String) As Task(Of List(Of String))" />
+      <MemberSignature Language="F#" Value="abstract member GetRightsForLabelIdAsync : string * string * string * string -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt;" Usage="iProtectionEngine.GetRightsForLabelIdAsync (documentId, labelId, ownerEmail, delegatedUserEmail)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="documentId" Type="System.String" />
+        <Parameter Name="labelId" Type="System.String" />
+        <Parameter Name="ownerEmail" Type="System.String" />
+        <Parameter Name="delegatedUserEmail" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="documentId">Document ID associated with the document metadata.</param>
+        <param name="labelId">Label ID associated with the document metadata with which the document created.</param>
+        <param name="ownerEmail">Owner of the document.</param>
+        <param name="delegatedUserEmail">A delegated user is specified when the authenticating user/application is acting on behalf of another user, empty if none.</param>
+        <summary>
+            Starts getting collection of rights available to a user for a label ID.
+            </summary>
+        <returns>A task that represents the asynchronous create operation. The value of the <c>TResult</c> parameter contains the list of rights.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTemplates">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt; GetTemplates ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Protection.TemplateDescriptor&gt; GetTemplates() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetTemplates" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTemplates () As List(Of TemplateDescriptor)" />
+      <MemberSignature Language="F#" Value="abstract member GetTemplates : unit -&gt; System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;" Usage="iProtectionEngine.GetTemplates " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Get collection of templates available to a user.
+            </summary>
+        <returns>List of template IDs.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTemplatesAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt; GetTemplatesAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt; GetTemplatesAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetTemplatesAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTemplatesAsync () As Task(Of List(Of TemplateDescriptor))" />
+      <MemberSignature Language="F#" Value="abstract member GetTemplatesAsync : unit -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt;" Usage="iProtectionEngine.GetTemplatesAsync " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Starts getting collection of templates available to a user.
+            </summary>
+        <returns>A task that represents the asynchronous create operation. The value of the <c>TResult</c> parameter contains the list of template IDs.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Settings">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.ProtectionEngineSettings Settings { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Protection.ProtectionEngineSettings Settings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.IProtectionEngine.Settings" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Settings As ProtectionEngineSettings" />
+      <MemberSignature Language="F#" Value="member this.Settings : Microsoft.InformationProtection.Protection.ProtectionEngineSettings" Usage="Microsoft.InformationProtection.Protection.IProtectionEngine.Settings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.ProtectionEngineSettings</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Returns the engine settings.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

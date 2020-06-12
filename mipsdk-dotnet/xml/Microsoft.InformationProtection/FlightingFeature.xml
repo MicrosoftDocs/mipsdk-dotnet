@@ -1,0 +1,295 @@
+<Type Name="FlightingFeature" FullName="Microsoft.InformationProtection.FlightingFeature">
+  <TypeSignature Language="C#" Value="public enum FlightingFeature" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FlightingFeature extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.FlightingFeature" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FlightingFeature" />
+  <TypeSignature Language="F#" Value="type FlightingFeature = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines configurable features by name
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AuthInfoCache">
+      <MemberSignature Language="C#" Value="AuthInfoCache" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature AuthInfoCache = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.AuthInfoCache" />
+      <MemberSignature Language="VB.NET" Value="AuthInfoCache" />
+      <MemberSignature Language="F#" Value="AuthInfoCache = 1" Usage="Microsoft.InformationProtection.FlightingFeature.AuthInfoCache" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Cache OAuth2 challenges per domain/tenant to reduce unnecessary 401 responses. Disable for apps/services that manage their own HTTP auth (like SPO, Edge). Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DoubleKey">
+      <MemberSignature Language="C#" Value="DoubleKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature DoubleKey = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.DoubleKey" />
+      <MemberSignature Language="VB.NET" Value="DoubleKey" />
+      <MemberSignature Language="F#" Value="DoubleKey = 7" Usage="Microsoft.InformationProtection.FlightingFeature.DoubleKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+            Enable double key protection feature to use a customer key to encrypt with. Default disabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EnforceTls12">
+      <MemberSignature Language="C#" Value="EnforceTls12" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature EnforceTls12 = int32(12)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.EnforceTls12" />
+      <MemberSignature Language="VB.NET" Value="EnforceTls12" />
+      <MemberSignature Language="F#" Value="EnforceTls12 = 12" Usage="Microsoft.InformationProtection.FlightingFeature.EnforceTls12" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>12</MemberValue>
+      <Docs>
+        <summary>
+            Enforce TLS 1.2 for non-ADRMS HTTPS connections. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LinuxEncryptedCache">
+      <MemberSignature Language="C#" Value="LinuxEncryptedCache" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature LinuxEncryptedCache = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.LinuxEncryptedCache" />
+      <MemberSignature Language="VB.NET" Value="LinuxEncryptedCache" />
+      <MemberSignature Language="F#" Value="LinuxEncryptedCache = 2" Usage="Microsoft.InformationProtection.FlightingFeature.LinuxEncryptedCache" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Enable encrypted caching for Linux platforms (Please read the prerequisites for this feature). Default disabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OptimizePdfMemory">
+      <MemberSignature Language="C#" Value="OptimizePdfMemory" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature OptimizePdfMemory = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.OptimizePdfMemory" />
+      <MemberSignature Language="VB.NET" Value="OptimizePdfMemory" />
+      <MemberSignature Language="F#" Value="OptimizePdfMemory = 10" Usage="Microsoft.InformationProtection.FlightingFeature.OptimizePdfMemory" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+            Enable Optimize Pdf Memory Creator in protect and unprotect PDF files. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyAuth">
+      <MemberSignature Language="C#" Value="PolicyAuth" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature PolicyAuth = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.PolicyAuth" />
+      <MemberSignature Language="VB.NET" Value="PolicyAuth" />
+      <MemberSignature Language="F#" Value="PolicyAuth = 4" Usage="Microsoft.InformationProtection.FlightingFeature.PolicyAuth" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Enable automatic HTTP authentication for requests sent to Policy service. Disable for apps/services that manage their own HTTP auth (like SPO, Edge). Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PreLicensing">
+      <MemberSignature Language="C#" Value="PreLicensing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature PreLicensing = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.PreLicensing" />
+      <MemberSignature Language="VB.NET" Value="PreLicensing" />
+      <MemberSignature Language="F#" Value="PreLicensing = 6" Usage="Microsoft.InformationProtection.FlightingFeature.PreLicensing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            Enable pre license api check. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RemoveDeletedLabelMd">
+      <MemberSignature Language="C#" Value="RemoveDeletedLabelMd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature RemoveDeletedLabelMd = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.RemoveDeletedLabelMd" />
+      <MemberSignature Language="VB.NET" Value="RemoveDeletedLabelMd" />
+      <MemberSignature Language="F#" Value="RemoveDeletedLabelMd = 11" Usage="Microsoft.InformationProtection.FlightingFeature.RemoveDeletedLabelMd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>
+            Enable removing delete label's meta data. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ServiceDiscovery">
+      <MemberSignature Language="C#" Value="ServiceDiscovery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature ServiceDiscovery = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.ServiceDiscovery" />
+      <MemberSignature Language="VB.NET" Value="ServiceDiscovery" />
+      <MemberSignature Language="F#" Value="ServiceDiscovery = 0" Usage="Microsoft.InformationProtection.FlightingFeature.ServiceDiscovery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Rely on separate HTTP call to determine RMS service endpoints. Default disabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SingleDomainName">
+      <MemberSignature Language="C#" Value="SingleDomainName" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature SingleDomainName = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.SingleDomainName" />
+      <MemberSignature Language="VB.NET" Value="SingleDomainName" />
+      <MemberSignature Language="F#" Value="SingleDomainName = 3" Usage="Microsoft.InformationProtection.FlightingFeature.SingleDomainName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Enable single company name for dns lookup. e.g. https://corprights. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UrlRedirectCache">
+      <MemberSignature Language="C#" Value="UrlRedirectCache" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature UrlRedirectCache = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.UrlRedirectCache" />
+      <MemberSignature Language="VB.NET" Value="UrlRedirectCache" />
+      <MemberSignature Language="F#" Value="UrlRedirectCache = 5" Usage="Microsoft.InformationProtection.FlightingFeature.UrlRedirectCache" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            Cache URL redirects to reduce number of HTTP operations. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VariablePolicyTtl">
+      <MemberSignature Language="C#" Value="VariablePolicyTtl" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature VariablePolicyTtl = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.VariablePolicyTtl" />
+      <MemberSignature Language="VB.NET" Value="VariablePolicyTtl" />
+      <MemberSignature Language="F#" Value="VariablePolicyTtl = 8" Usage="Microsoft.InformationProtection.FlightingFeature.VariablePolicyTtl" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            Enable variable policy time to live, disabling reverts to infinite policy. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="VariableTextMarking">
+      <MemberSignature Language="C#" Value="VariableTextMarking" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature VariableTextMarking = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.VariableTextMarking" />
+      <MemberSignature Language="VB.NET" Value="VariableTextMarking" />
+      <MemberSignature Language="F#" Value="VariableTextMarking = 9" Usage="Microsoft.InformationProtection.FlightingFeature.VariableTextMarking" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+            Enable variable text marking. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

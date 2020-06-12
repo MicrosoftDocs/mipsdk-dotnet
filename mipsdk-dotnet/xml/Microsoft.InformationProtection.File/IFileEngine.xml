@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -26,15 +27,17 @@
   </Docs>
   <Members>
     <Member MemberName="CreateFileHandlerAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt; CreateFileHandlerAsync (System.IO.Stream inputStream, string inputFilePath, bool isAuditDiscoveryEnabled, Microsoft.InformationProtection.File.FileExecutionState fileExecutionState = null);" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt; CreateFileHandlerAsync (System.IO.Stream inputStream, string inputFilePath, bool isAuditDiscoveryEnabled, Microsoft.InformationProtection.File.FileExecutionState fileExecutionState = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.File.IFileHandler&gt; CreateFileHandlerAsync(class System.IO.Stream inputStream, string inputFilePath, bool isAuditDiscoveryEnabled, class Microsoft.InformationProtection.File.FileExecutionState fileExecutionState) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileEngine.CreateFileHandlerAsync(System.IO.Stream,System.String,System.Boolean,Microsoft.InformationProtection.File.FileExecutionState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateFileHandlerAsync (inputStream As Stream, inputFilePath As String, isAuditDiscoveryEnabled As Boolean, Optional fileExecutionState As FileExecutionState = null) As Task(Of IFileHandler)" />
       <MemberSignature Language="F#" Value="abstract member CreateFileHandlerAsync : System.IO.Stream * string * bool * Microsoft.InformationProtection.File.FileExecutionState -&gt; System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;" Usage="iFileEngine.CreateFileHandlerAsync (inputStream, inputFilePath, isAuditDiscoveryEnabled, fileExecutionState)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;</ReturnType>
@@ -58,15 +61,17 @@
       </Docs>
     </Member>
     <Member MemberName="CreateFileHandlerAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt; CreateFileHandlerAsync (string inputFilePath, string actualFilePath, bool isAuditDiscoveryEnabled, Microsoft.InformationProtection.File.FileExecutionState fileExecutionState = null);" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt; CreateFileHandlerAsync (string inputFilePath, string actualFilePath, bool isAuditDiscoveryEnabled, Microsoft.InformationProtection.File.FileExecutionState fileExecutionState = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.File.IFileHandler&gt; CreateFileHandlerAsync(string inputFilePath, string actualFilePath, bool isAuditDiscoveryEnabled, class Microsoft.InformationProtection.File.FileExecutionState fileExecutionState) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileEngine.CreateFileHandlerAsync(System.String,System.String,System.Boolean,Microsoft.InformationProtection.File.FileExecutionState)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateFileHandlerAsync (inputFilePath As String, actualFilePath As String, isAuditDiscoveryEnabled As Boolean, Optional fileExecutionState As FileExecutionState = null) As Task(Of IFileHandler)" />
       <MemberSignature Language="F#" Value="abstract member CreateFileHandlerAsync : string * string * bool * Microsoft.InformationProtection.File.FileExecutionState -&gt; System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;" Usage="iFileEngine.CreateFileHandlerAsync (inputFilePath, actualFilePath, isAuditDiscoveryEnabled, fileExecutionState)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;</ReturnType>
@@ -104,6 +109,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -127,6 +133,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -149,6 +156,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -176,6 +184,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -203,6 +212,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -226,6 +236,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -253,6 +264,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -262,6 +274,28 @@
             Provide a url for looking up more information regarding the policy/labels.
             </summary>
         <value>A url in string format.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyDataXml">
+      <MemberSignature Language="C#" Value="public string PolicyDataXml { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string PolicyDataXml" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileEngine.PolicyDataXml" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PolicyDataXml As String" />
+      <MemberSignature Language="F#" Value="member this.PolicyDataXml : string" Usage="Microsoft.InformationProtection.File.IFileEngine.PolicyDataXml" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets policy data XML which describes the settings, labels, and rules associated with this policy
+            </summary>
+        <value>Policy data XML</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -275,6 +309,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -302,6 +337,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -336,6 +372,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
@@ -363,6 +400,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt;</ReturnType>
@@ -372,6 +410,28 @@
             List the sensitivity types associated with the policy engine.
             </summary>
         <value>A list of sensitivity labels. empty if LoadSensitivityTypesEnabled was false</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SensitivityTypesFileId">
+      <MemberSignature Language="C#" Value="public string SensitivityTypesFileId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string SensitivityTypesFileId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IFileEngine.SensitivityTypesFileId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SensitivityTypesFileId As String" />
+      <MemberSignature Language="F#" Value="member this.SensitivityTypesFileId : string" Usage="Microsoft.InformationProtection.File.IFileEngine.SensitivityTypesFileId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Provide the sensitivity types file ID.
+            </summary>
+        <value>A string with the sensitivity types ID</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -390,6 +450,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.File.FileEngineSettings</ReturnType>

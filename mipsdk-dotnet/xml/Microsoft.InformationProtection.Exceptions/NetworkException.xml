@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Exception</BaseTypeName>
@@ -30,29 +31,72 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public NetworkException (string message);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Exceptions.NetworkException.#ctor(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
-      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Exceptions.NetworkException : string -&gt; Microsoft.InformationProtection.Exceptions.NetworkException" Usage="new Microsoft.InformationProtection.Exceptions.NetworkException message" />
+      <MemberSignature Language="C#" Value="public NetworkException (Microsoft.InformationProtection.NetworkExceptionCategory category, int statusCode, string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.InformationProtection.NetworkExceptionCategory category, int32 statusCode, string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Exceptions.NetworkException.#ctor(Microsoft.InformationProtection.NetworkExceptionCategory,System.Int32,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (category As NetworkExceptionCategory, statusCode As Integer, message As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Exceptions.NetworkException : Microsoft.InformationProtection.NetworkExceptionCategory * int * string -&gt; Microsoft.InformationProtection.Exceptions.NetworkException" Usage="new Microsoft.InformationProtection.Exceptions.NetworkException (category, statusCode, message)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
+        <Parameter Name="category" Type="Microsoft.InformationProtection.NetworkExceptionCategory" />
+        <Parameter Name="statusCode" Type="System.Int32" />
         <Parameter Name="message" Type="System.String" />
       </Parameters>
       <Docs>
+        <param name="category">The category of network failure</param>
+        <param name="statusCode">HTTP response status code, 0 if none</param>
         <param name="message">The message that describes the error</param>
         <summary>
             Constructor for NetworkException
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Category">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.NetworkExceptionCategory Category { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.NetworkExceptionCategory Category" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Exceptions.NetworkException.Category" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Category As NetworkExceptionCategory" />
+      <MemberSignature Language="F#" Value="member this.Category : Microsoft.InformationProtection.NetworkExceptionCategory" Usage="Microsoft.InformationProtection.Exceptions.NetworkException.Category" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the category of network failure.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ResponseStatusCode">
+      <MemberSignature Language="C#" Value="public int ResponseStatusCode { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 ResponseStatusCode" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Exceptions.NetworkException.ResponseStatusCode" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResponseStatusCode As Integer" />
+      <MemberSignature Language="F#" Value="member this.ResponseStatusCode : int" Usage="Microsoft.InformationProtection.Exceptions.NetworkException.ResponseStatusCode" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            HTTP response status code, 0 if none.
+            </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
