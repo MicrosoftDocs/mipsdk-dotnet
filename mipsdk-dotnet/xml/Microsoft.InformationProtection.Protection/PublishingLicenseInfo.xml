@@ -1,0 +1,139 @@
+<Type Name="PublishingLicenseInfo" FullName="Microsoft.InformationProtection.Protection.PublishingLicenseInfo">
+  <TypeSignature Language="C#" Value="public class PublishingLicenseInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PublishingLicenseInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.PublishingLicenseInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class PublishingLicenseInfo" />
+  <TypeSignature Language="F#" Value="type PublishingLicenseInfo = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Holds the details of a Publishing License used to create a <c>IProtectionHandler</c>.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Domains">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;string&gt; Domains { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;string&gt; Domains" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.Domains" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Domains As List(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Domains : System.Collections.Generic.List&lt;string&gt;" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.Domains" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Domains
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPublishingLicenseInfo">
+      <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.Protection.PublishingLicenseInfo GetPublishingLicenseInfo (System.Collections.Generic.List&lt;byte&gt; serializedPublishingLicense);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.Protection.PublishingLicenseInfo GetPublishingLicenseInfo(class System.Collections.Generic.List`1&lt;unsigned int8&gt; serializedPublishingLicense) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.GetPublishingLicenseInfo(System.Collections.Generic.List{System.Byte})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetPublishingLicenseInfo (serializedPublishingLicense As List(Of Byte)) As PublishingLicenseInfo" />
+      <MemberSignature Language="F#" Value="static member GetPublishingLicenseInfo : System.Collections.Generic.List&lt;byte&gt; -&gt; Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.GetPublishingLicenseInfo serializedPublishingLicense" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="serializedPublishingLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" /></param>
+        <summary>
+            PublishingLicenseInfo constructor
+            </summary>
+        <returns>
+            The PublishingLicenseInfo
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IssuerId">
+      <MemberSignature Language="C#" Value="public string IssuerId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string IssuerId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.IssuerId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IssuerId As String" />
+      <MemberSignature Language="F#" Value="member this.IssuerId : string" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.IssuerId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            IssuerId
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerializedPublishingLicense">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;byte&gt; SerializedPublishingLicense { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;unsigned int8&gt; SerializedPublishingLicense" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SerializedPublishingLicense As List(Of Byte)" />
+      <MemberSignature Language="F#" Value="member this.SerializedPublishingLicense : System.Collections.Generic.List&lt;byte&gt;" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Serialized publishing license
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ServerPublicCertificate">
+      <MemberSignature Language="C#" Value="public string ServerPublicCertificate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ServerPublicCertificate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.ServerPublicCertificate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ServerPublicCertificate As String" />
+      <MemberSignature Language="F#" Value="member this.ServerPublicCertificate : string" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.ServerPublicCertificate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            ServerPublicCertificate
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

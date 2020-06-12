@@ -11,15 +11,18 @@
       "type_mapping": {
         "Conceptual": "Content",
         "ManagedReference": "Content",
-        "RestApi": "Content"
+        "RestApi": "Content",
+        "NetEnum": "Content",
+        "NetDelegate": "Content",
+        "NetNamespace": "Content",
+        "NetMember": "Content",
+        "NetType": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "base_path": "dotnet",
       "site_name": "Docs",
-      "customized_template_paths": [
-        "_dependentPackages/memberpage.plugins/content"
-      ],
+      "customized_template_paths": [],
       "customized_tasks": {
         "docset_prebuild": [
           "_dependentPackages/ECMA2Yaml/tools/Run.ps1",
@@ -34,7 +37,8 @@
         "SourceXmlFolder": "mipsdk-dotnet/xml",
         "OutputYamlFolder": "mipsdk-dotnet/api",
         "Flatten": true,
-        "id": "mipsdk-dotnet"
+        "id": "mipsdk-dotnet",
+        "SDPMode": "true"
       },
       "SplitTOC": [
         "mipsdk-dotnet/api/mipsdk-dotnet/toc.yml"

@@ -1,0 +1,156 @@
+<Type Name="IMsgAttachmentData" FullName="Microsoft.InformationProtection.File.IMsgAttachmentData">
+  <TypeSignature Language="C#" Value="public interface IMsgAttachmentData : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IMsgAttachmentData implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.IMsgAttachmentData" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IMsgAttachmentData&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type IMsgAttachmentData = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            Interface for all msg attachment handling.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Bytes">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;byte&gt; Bytes { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;unsigned int8&gt; Bytes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IMsgAttachmentData.Bytes" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Bytes As List(Of Byte)" />
+      <MemberSignature Language="F#" Value="member this.Bytes : System.Collections.Generic.List&lt;byte&gt;" Usage="Microsoft.InformationProtection.File.IMsgAttachmentData.Bytes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the raw bytes of message stream.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongName">
+      <MemberSignature Language="C#" Value="public string LongName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LongName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IMsgAttachmentData.LongName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LongName As String" />
+      <MemberSignature Language="F#" Value="member this.LongName : string" Usage="Microsoft.InformationProtection.File.IMsgAttachmentData.LongName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get attachment long name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LongPath">
+      <MemberSignature Language="C#" Value="public string LongPath { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LongPath" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IMsgAttachmentData.LongPath" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LongPath As String" />
+      <MemberSignature Language="F#" Value="member this.LongPath : string" Usage="Microsoft.InformationProtection.File.IMsgAttachmentData.LongPath" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get attachment long path.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IMsgAttachmentData.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.InformationProtection.File.IMsgAttachmentData.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get attachment name.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public string Path { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IMsgAttachmentData.Path" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.InformationProtection.File.IMsgAttachmentData.Path" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get attachment path.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Stream">
+      <MemberSignature Language="C#" Value="public System.IO.Stream Stream { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.IO.Stream Stream" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.IMsgAttachmentData.Stream" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Stream As Stream" />
+      <MemberSignature Language="F#" Value="member this.Stream : System.IO.Stream" Usage="Microsoft.InformationProtection.File.IMsgAttachmentData.Stream" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.IO.Stream</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Get the message attachment as stream.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

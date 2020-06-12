@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -40,6 +41,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.Actions.Action&gt;&gt;</ReturnType>
@@ -49,7 +51,7 @@
         <summary>
             Executes the rules in the engine based on the provided state and returns the list of actions to be executed.
             </summary>
-        <returns>list of automatic and recommanded actions that should be applied on the content.</returns>
+        <returns>list of automatic and recommended actions that should be applied on the content.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -68,6 +70,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -99,6 +102,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Boolean&gt;</ReturnType>
@@ -119,6 +123,7 @@
       <MemberSignature Language="C#" Value="public void DeleteLabel (Microsoft.InformationProtection.File.LabelingOptions labelingOptions);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteLabel(class Microsoft.InformationProtection.File.LabelingOptions labelingOptions) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.DeleteLabel(Microsoft.InformationProtection.File.LabelingOptions)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteLabel (labelingOptions As LabelingOptions)" />
       <MemberSignature Language="F#" Value="abstract member DeleteLabel : Microsoft.InformationProtection.File.LabelingOptions -&gt; unit" Usage="iFileHandler.DeleteLabel labelingOptions" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -129,6 +134,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -161,6 +167,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.String&gt;</ReturnType>
@@ -185,6 +192,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.IO.Stream&gt;</ReturnType>
@@ -197,6 +205,52 @@
         <returns>Reference to temporary stream</returns>
         <remarks>To be added.</remarks>
         <exception cref="T:System.NotSupportedException">If the file is not protected</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="InspectAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileInspector&gt; InspectAsync ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.File.IFileInspector&gt; InspectAsync() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.InspectAsync" />
+      <MemberSignature Language="VB.NET" Value="Public Function InspectAsync () As Task(Of IFileInspector)" />
+      <MemberSignature Language="F#" Value="abstract member InspectAsync : unit -&gt; System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileInspector&gt;" Usage="iFileHandler.InspectAsync " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileInspector&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Create file inspector for the object if possible, useful when trying to inspect (e.g.reading body) supported formats.
+            </summary>
+        <returns>A task that represents the asynchronous File inspect operation. The value of the <c>TResult</c> parameter contains the inspector.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsModified">
+      <MemberSignature Language="C#" Value="public bool IsModified ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsModified() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.IsModified" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsModified () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member IsModified : unit -&gt; bool" Usage="iFileHandler.IsModified " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>		
+            Finds if there are changes to apply on the file.		
+            </summary>
+        <returns>Whether there are changes to commit to the file</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="Label">
@@ -214,6 +268,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ContentLabel</ReturnType>
@@ -241,6 +296,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -271,6 +327,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -298,6 +355,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
@@ -325,6 +383,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -332,7 +391,10 @@
       <Parameters />
       <Docs>
         <summary>
-            Removes protection from the file. If the file is labeled, the label will be lost.
+            Removes protection from the file. 
+            If the original file format does not support labeling, 
+              the label will be lost when protection is removed. 
+            When the native format supports labeling, the label metadata is maintained.
             </summary>
         <remarks>Changes will not be written to the file until CommitAsync will be called.</remarks>
       </Docs>
@@ -341,11 +403,13 @@
       <MemberSignature Language="C#" Value="public void SetLabel (Microsoft.InformationProtection.Label label, Microsoft.InformationProtection.File.LabelingOptions labelingOptions, Microsoft.InformationProtection.File.ProtectionSettings protectionSettings);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetLabel(class Microsoft.InformationProtection.Label label, class Microsoft.InformationProtection.File.LabelingOptions labelingOptions, class Microsoft.InformationProtection.File.ProtectionSettings protectionSettings) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.SetLabel(Microsoft.InformationProtection.Label,Microsoft.InformationProtection.File.LabelingOptions,Microsoft.InformationProtection.File.ProtectionSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetLabel (label As Label, labelingOptions As LabelingOptions, protectionSettings As ProtectionSettings)" />
       <MemberSignature Language="F#" Value="abstract member SetLabel : Microsoft.InformationProtection.Label * Microsoft.InformationProtection.File.LabelingOptions * Microsoft.InformationProtection.File.ProtectionSettings -&gt; unit" Usage="iFileHandler.SetLabel (label, labelingOptions, protectionSettings)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -369,14 +433,41 @@
       </Docs>
     </Member>
     <Member MemberName="SetProtection">
+      <MemberSignature Language="C#" Value="public void SetProtection (Microsoft.InformationProtection.Protection.IProtectionHandler protectionHandler);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetProtection(class Microsoft.InformationProtection.Protection.IProtectionHandler protectionHandler) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.SetProtection(Microsoft.InformationProtection.Protection.IProtectionHandler)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetProtection (protectionHandler As IProtectionHandler)" />
+      <MemberSignature Language="F#" Value="abstract member SetProtection : Microsoft.InformationProtection.Protection.IProtectionHandler -&gt; unit" Usage="iFileHandler.SetProtection protectionHandler" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="protectionHandler" Type="Microsoft.InformationProtection.Protection.IProtectionHandler" />
+      </Parameters>
+      <Docs>
+        <param name="protectionHandler">To be added.</param>
+        <summary>
+            Sets custom permissions to the file.
+            </summary>
+        <remarks>Changes will not be written to the file until CommitAsync will be called.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetProtection">
       <MemberSignature Language="C#" Value="public void SetProtection (Microsoft.InformationProtection.ProtectionDescriptor protectionDescriptor, Microsoft.InformationProtection.File.ProtectionSettings protectionSettings);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetProtection(class Microsoft.InformationProtection.ProtectionDescriptor protectionDescriptor, class Microsoft.InformationProtection.File.ProtectionSettings protectionSettings) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileHandler.SetProtection(Microsoft.InformationProtection.ProtectionDescriptor,Microsoft.InformationProtection.File.ProtectionSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetProtection (protectionDescriptor As ProtectionDescriptor, protectionSettings As ProtectionSettings)" />
       <MemberSignature Language="F#" Value="abstract member SetProtection : Microsoft.InformationProtection.ProtectionDescriptor * Microsoft.InformationProtection.File.ProtectionSettings -&gt; unit" Usage="iFileHandler.SetProtection (protectionDescriptor, protectionSettings)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

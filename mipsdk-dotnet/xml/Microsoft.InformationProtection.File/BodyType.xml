@@ -1,0 +1,106 @@
+<Type Name="BodyType" FullName="Microsoft.InformationProtection.File.BodyType">
+  <TypeSignature Language="C#" Value="public enum BodyType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BodyType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.BodyType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum BodyType" />
+  <TypeSignature Language="F#" Value="type BodyType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Body type enumerator.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="HTML">
+      <MemberSignature Language="C#" Value="HTML" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.File.BodyType HTML = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.File.BodyType.HTML" />
+      <MemberSignature Language="VB.NET" Value="HTML" />
+      <MemberSignature Language="F#" Value="HTML = 2" Usage="Microsoft.InformationProtection.File.BodyType.HTML" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.BodyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            HTML style body type, encoding is returned as utf8.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="RTF">
+      <MemberSignature Language="C#" Value="RTF" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.File.BodyType RTF = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.File.BodyType.RTF" />
+      <MemberSignature Language="VB.NET" Value="RTF" />
+      <MemberSignature Language="F#" Value="RTF = 3" Usage="Microsoft.InformationProtection.File.BodyType.RTF" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.BodyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            RTF style body type, a binary format.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TXT">
+      <MemberSignature Language="C#" Value="TXT" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.File.BodyType TXT = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.File.BodyType.TXT" />
+      <MemberSignature Language="VB.NET" Value="TXT" />
+      <MemberSignature Language="F#" Value="TXT = 1" Usage="Microsoft.InformationProtection.File.BodyType.TXT" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.BodyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Text style body type, encoding is returned as utf8.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UNKNOWN">
+      <MemberSignature Language="C#" Value="UNKNOWN" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.File.BodyType UNKNOWN = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.File.BodyType.UNKNOWN" />
+      <MemberSignature Language="VB.NET" Value="UNKNOWN" />
+      <MemberSignature Language="F#" Value="UNKNOWN = 0" Usage="Microsoft.InformationProtection.File.BodyType.UNKNOWN" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.BodyType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Unkown body type.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

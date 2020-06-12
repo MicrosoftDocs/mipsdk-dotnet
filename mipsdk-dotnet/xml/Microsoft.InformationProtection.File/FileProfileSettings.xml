@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -25,125 +26,28 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public FileProfileSettings (Microsoft.InformationProtection.MipContext mipContext, Microsoft.InformationProtection.CacheStorageType cacheStorageType, Microsoft.InformationProtection.IAuthDelegate authDelegate, Microsoft.InformationProtection.IConsentDelegate consentDelegate);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.InformationProtection.MipContext mipContext, valuetype Microsoft.InformationProtection.CacheStorageType cacheStorageType, class Microsoft.InformationProtection.IAuthDelegate authDelegate, class Microsoft.InformationProtection.IConsentDelegate consentDelegate) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileProfileSettings.#ctor(Microsoft.InformationProtection.MipContext,Microsoft.InformationProtection.CacheStorageType,Microsoft.InformationProtection.IAuthDelegate,Microsoft.InformationProtection.IConsentDelegate)" />
-      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.File.FileProfileSettings : Microsoft.InformationProtection.MipContext * Microsoft.InformationProtection.CacheStorageType * Microsoft.InformationProtection.IAuthDelegate * Microsoft.InformationProtection.IConsentDelegate -&gt; Microsoft.InformationProtection.File.FileProfileSettings" Usage="new Microsoft.InformationProtection.File.FileProfileSettings (mipContext, cacheStorageType, authDelegate, consentDelegate)" />
+      <MemberSignature Language="C#" Value="public FileProfileSettings (Microsoft.InformationProtection.MipContext mipContext, Microsoft.InformationProtection.CacheStorageType cacheStorageType, Microsoft.InformationProtection.IConsentDelegate consentDelegate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.InformationProtection.MipContext mipContext, valuetype Microsoft.InformationProtection.CacheStorageType cacheStorageType, class Microsoft.InformationProtection.IConsentDelegate consentDelegate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileProfileSettings.#ctor(Microsoft.InformationProtection.MipContext,Microsoft.InformationProtection.CacheStorageType,Microsoft.InformationProtection.IConsentDelegate)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (mipContext As MipContext, cacheStorageType As CacheStorageType, consentDelegate As IConsentDelegate)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.File.FileProfileSettings : Microsoft.InformationProtection.MipContext * Microsoft.InformationProtection.CacheStorageType * Microsoft.InformationProtection.IConsentDelegate -&gt; Microsoft.InformationProtection.File.FileProfileSettings" Usage="new Microsoft.InformationProtection.File.FileProfileSettings (mipContext, cacheStorageType, consentDelegate)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" />
         <Parameter Name="cacheStorageType" Type="Microsoft.InformationProtection.CacheStorageType" />
-        <Parameter Name="authDelegate" Type="Microsoft.InformationProtection.IAuthDelegate" />
         <Parameter Name="consentDelegate" Type="Microsoft.InformationProtection.IConsentDelegate" />
       </Parameters>
       <Docs>
         <param name="mipContext">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.MipContext" /></param>
         <param name="cacheStorageType">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.CacheStorageType" /></param>
-        <param name="authDelegate">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.AuthDelegate" /></param>
         <param name="consentDelegate">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.ConsentDelegate" /></param>
         <summary>
             FileProfileSettings constructor
             </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public FileProfileSettings (string path, Microsoft.InformationProtection.CacheStorageType cacheStorageType, Microsoft.InformationProtection.IAuthDelegate authDelegate, Microsoft.InformationProtection.IConsentDelegate consentDelegate, Microsoft.InformationProtection.ApplicationInfo applicationInfo, Microsoft.InformationProtection.LogLevel minimumLogLevel);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path, valuetype Microsoft.InformationProtection.CacheStorageType cacheStorageType, class Microsoft.InformationProtection.IAuthDelegate authDelegate, class Microsoft.InformationProtection.IConsentDelegate consentDelegate, class Microsoft.InformationProtection.ApplicationInfo applicationInfo, valuetype Microsoft.InformationProtection.LogLevel minimumLogLevel) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileProfileSettings.#ctor(System.String,Microsoft.InformationProtection.CacheStorageType,Microsoft.InformationProtection.IAuthDelegate,Microsoft.InformationProtection.IConsentDelegate,Microsoft.InformationProtection.ApplicationInfo,Microsoft.InformationProtection.LogLevel)" />
-      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.File.FileProfileSettings : string * Microsoft.InformationProtection.CacheStorageType * Microsoft.InformationProtection.IAuthDelegate * Microsoft.InformationProtection.IConsentDelegate * Microsoft.InformationProtection.ApplicationInfo * Microsoft.InformationProtection.LogLevel -&gt; Microsoft.InformationProtection.File.FileProfileSettings" Usage="new Microsoft.InformationProtection.File.FileProfileSettings (path, cacheStorageType, authDelegate, consentDelegate, applicationInfo, minimumLogLevel)" />
-      <MemberType>Constructor</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("This constructor is deprecated in favor of the one that accepts a 'MipContext'")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <Parameters>
-        <Parameter Name="path" Type="System.String" />
-        <Parameter Name="cacheStorageType" Type="Microsoft.InformationProtection.CacheStorageType" />
-        <Parameter Name="authDelegate" Type="Microsoft.InformationProtection.IAuthDelegate" />
-        <Parameter Name="consentDelegate" Type="Microsoft.InformationProtection.IConsentDelegate" />
-        <Parameter Name="applicationInfo" Type="Microsoft.InformationProtection.ApplicationInfo" />
-        <Parameter Name="minimumLogLevel" Type="Microsoft.InformationProtection.LogLevel" />
-      </Parameters>
-      <Docs>
-        <param name="path">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.Path" /></param>
-        <param name="cacheStorageType">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.CacheStorageType" /></param>
-        <param name="authDelegate">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.AuthDelegate" /></param>
-        <param name="consentDelegate">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.ConsentDelegate" /></param>
-        <param name="applicationInfo">The <see cref="P:Microsoft.InformationProtection.File.FileProfileSettings.ApplicationInfo" /></param>
-        <param name="minimumLogLevel">
-        </param>
-        <summary>
-            FileProfileSettings constructor
-            </summary>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="ApplicationInfo">
-      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ApplicationInfo ApplicationInfo { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.ApplicationInfo ApplicationInfo" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.ApplicationInfo" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationInfo As ApplicationInfo" />
-      <MemberSignature Language="F#" Value="member this.ApplicationInfo : Microsoft.InformationProtection.ApplicationInfo" Usage="Microsoft.InformationProtection.File.FileProfileSettings.ApplicationInfo" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("This property is deprecated in favor of 'MipContext'")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>Microsoft.InformationProtection.ApplicationInfo</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Info regarding application that is consuming the SDK
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="AuthDelegate">
-      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.IAuthDelegate AuthDelegate { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.IAuthDelegate AuthDelegate" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.AuthDelegate" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AuthDelegate As IAuthDelegate" />
-      <MemberSignature Language="F#" Value="member this.AuthDelegate : Microsoft.InformationProtection.IAuthDelegate" Usage="Microsoft.InformationProtection.File.FileProfileSettings.AuthDelegate" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>Microsoft.InformationProtection.IAuthDelegate</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            The auth delegate used for acquiring authentication tokens
-            </summary>
-        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -157,6 +61,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.CacheStorageType</ReturnType>
@@ -179,6 +84,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -206,6 +112,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.IConsentDelegate</ReturnType>
@@ -213,70 +120,6 @@
       <Docs>
         <summary>
             The consent delegate used to connect to external URLs
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="LoggerDelegate">
-      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ILoggerDelegate LoggerDelegate { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.ILoggerDelegate LoggerDelegate" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.LoggerDelegate" />
-      <MemberSignature Language="VB.NET" Value="Public Property LoggerDelegate As ILoggerDelegate" />
-      <MemberSignature Language="F#" Value="member this.LoggerDelegate : Microsoft.InformationProtection.ILoggerDelegate with get, set" Usage="Microsoft.InformationProtection.File.FileProfileSettings.LoggerDelegate" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("This property is deprecated in favor of 'MipContext'")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>Microsoft.InformationProtection.ILoggerDelegate</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            The logger delegate used to override default logging provider
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="MinimumLogLevel">
-      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.LogLevel MinimumLogLevel { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.LogLevel MinimumLogLevel" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.MinimumLogLevel" />
-      <MemberSignature Language="VB.NET" Value="Public Property MinimumLogLevel As LogLevel" />
-      <MemberSignature Language="F#" Value="member this.MinimumLogLevel : Microsoft.InformationProtection.LogLevel with get, set" Usage="Microsoft.InformationProtection.File.FileProfileSettings.MinimumLogLevel" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("This property is deprecated in favor of 'MipContext'")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>Microsoft.InformationProtection.LogLevel</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Minimum log level to be written to log file
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -292,6 +135,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.MipContext</ReturnType>
@@ -299,70 +143,6 @@
       <Docs>
         <summary>
             Global MIP context state
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="OptOutTelemetry">
-      <MemberSignature Language="C#" Value="public bool OptOutTelemetry { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance bool OptOutTelemetry" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.OptOutTelemetry" />
-      <MemberSignature Language="VB.NET" Value="Public Property OptOutTelemetry As Boolean" />
-      <MemberSignature Language="F#" Value="member this.OptOutTelemetry : bool with get, set" Usage="Microsoft.InformationProtection.File.FileProfileSettings.OptOutTelemetry" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("This property is deprecated in favor of 'MipContext'")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            Whether or not telemetry should be entirely disabled based on user preference
-            </summary>
-        <value>To be added.</value>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="Path">
-      <MemberSignature Language="C#" Value="public string Path { get; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.File.FileProfileSettings.Path" />
-      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
-      <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.InformationProtection.File.FileProfileSettings.Path" />
-      <MemberType>Property</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("This property is deprecated in favor of 'MipContext'")</AttributeName>
-        </Attribute>
-      </Attributes>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-      </ReturnValue>
-      <Docs>
-        <summary>
-            The path under which logging, telemetry, and other persistent state is stored.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

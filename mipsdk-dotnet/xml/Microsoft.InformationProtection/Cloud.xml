@@ -1,0 +1,253 @@
+<Type Name="Cloud" FullName="Microsoft.InformationProtection.Cloud">
+  <TypeSignature Language="C#" Value="public enum Cloud" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Cloud extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Cloud" />
+  <TypeSignature Language="VB.NET" Value="Public Enum Cloud" />
+  <TypeSignature Language="F#" Value="type Cloud = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Azure cloud identifier
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="China_01">
+      <MemberSignature Language="C#" Value="China_01" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Cloud China_01 = int32(10)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Cloud.China_01" />
+      <MemberSignature Language="VB.NET" Value="China_01" />
+      <MemberSignature Language="F#" Value="China_01 = 10" Usage="Microsoft.InformationProtection.Cloud.China_01" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <MemberValue>10</MemberValue>
+      <Docs>
+        <summary>
+            China sovereign cloud
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Commercial">
+      <MemberSignature Language="C#" Value="Commercial" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Cloud Commercial = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Cloud.Commercial" />
+      <MemberSignature Language="VB.NET" Value="Commercial" />
+      <MemberSignature Language="F#" Value="Commercial = 3" Usage="Microsoft.InformationProtection.Cloud.Commercial" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Global commerical cloud
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Custom">
+      <MemberSignature Language="C#" Value="Custom" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Cloud Custom = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Cloud.Custom" />
+      <MemberSignature Language="VB.NET" Value="Custom" />
+      <MemberSignature Language="F#" Value="Custom = 1" Usage="Microsoft.InformationProtection.Cloud.Custom" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Custom cloud: endpoint base URL manually specified by applicatio
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Germany">
+      <MemberSignature Language="C#" Value="Germany" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Cloud Germany = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Cloud.Germany" />
+      <MemberSignature Language="VB.NET" Value="Germany" />
+      <MemberSignature Language="F#" Value="Germany = 4" Usage="Microsoft.InformationProtection.Cloud.Germany" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Germany sovereign cloud
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Test">
+      <MemberSignature Language="C#" Value="Test" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Cloud Test = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Cloud.Test" />
+      <MemberSignature Language="VB.NET" Value="Test" />
+      <MemberSignature Language="F#" Value="Test = 2" Usage="Microsoft.InformationProtection.Cloud.Test" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Test cloud
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Unknown">
+      <MemberSignature Language="C#" Value="Unknown" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Cloud Unknown = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Cloud.Unknown" />
+      <MemberSignature Language="VB.NET" Value="Unknown" />
+      <MemberSignature Language="F#" Value="Unknown = 0" Usage="Microsoft.InformationProtection.Cloud.Unknown" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Cloud not specified or URL not recognized as an Azure cloud
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="US_DoD">
+      <MemberSignature Language="C#" Value="US_DoD" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Cloud US_DoD = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Cloud.US_DoD" />
+      <MemberSignature Language="VB.NET" Value="US_DoD" />
+      <MemberSignature Language="F#" Value="US_DoD = 5" Usage="Microsoft.InformationProtection.Cloud.US_DoD" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            US sovereign cloud (DoD)
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="US_GCC">
+      <MemberSignature Language="C#" Value="US_GCC" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Cloud US_GCC = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Cloud.US_GCC" />
+      <MemberSignature Language="VB.NET" Value="US_GCC" />
+      <MemberSignature Language="F#" Value="US_GCC = 6" Usage="Microsoft.InformationProtection.Cloud.US_GCC" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            US sovereign cloud (GCC)
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="US_GCC_High">
+      <MemberSignature Language="C#" Value="US_GCC_High" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Cloud US_GCC_High = int32(7)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Cloud.US_GCC_High" />
+      <MemberSignature Language="VB.NET" Value="US_GCC_High" />
+      <MemberSignature Language="F#" Value="US_GCC_High = 7" Usage="Microsoft.InformationProtection.Cloud.US_GCC_High" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <MemberValue>7</MemberValue>
+      <Docs>
+        <summary>
+            US sovereign cloud (GCC-High)
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="US_Nat">
+      <MemberSignature Language="C#" Value="US_Nat" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Cloud US_Nat = int32(9)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Cloud.US_Nat" />
+      <MemberSignature Language="VB.NET" Value="US_Nat" />
+      <MemberSignature Language="F#" Value="US_Nat = 9" Usage="Microsoft.InformationProtection.Cloud.US_Nat" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <MemberValue>9</MemberValue>
+      <Docs>
+        <summary>
+            US sovereign cloud (Nat)
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="US_Sec">
+      <MemberSignature Language="C#" Value="US_Sec" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Cloud US_Sec = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Cloud.US_Sec" />
+      <MemberSignature Language="VB.NET" Value="US_Sec" />
+      <MemberSignature Language="F#" Value="US_Sec = 8" Usage="Microsoft.InformationProtection.Cloud.US_Sec" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            US sovereign cloud (Sec)
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -25,14 +26,15 @@
   </Docs>
   <Members>
     <Member MemberName="CreateMipContext">
-      <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.MipContext CreateMipContext (Microsoft.InformationProtection.ApplicationInfo appInfo, string path, Microsoft.InformationProtection.LogLevel logLevel, Microsoft.InformationProtection.ILoggerDelegate loggerDelegateOverride, Microsoft.InformationProtection.TelemetryConfiguration telemetryOverride);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.MipContext CreateMipContext(class Microsoft.InformationProtection.ApplicationInfo appInfo, string path, valuetype Microsoft.InformationProtection.LogLevel logLevel, class Microsoft.InformationProtection.ILoggerDelegate loggerDelegateOverride, class Microsoft.InformationProtection.TelemetryConfiguration telemetryOverride) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.CreateMipContext(Microsoft.InformationProtection.ApplicationInfo,System.String,Microsoft.InformationProtection.LogLevel,Microsoft.InformationProtection.ILoggerDelegate,Microsoft.InformationProtection.TelemetryConfiguration)" />
-      <MemberSignature Language="F#" Value="static member CreateMipContext : Microsoft.InformationProtection.ApplicationInfo * string * Microsoft.InformationProtection.LogLevel * Microsoft.InformationProtection.ILoggerDelegate * Microsoft.InformationProtection.TelemetryConfiguration -&gt; Microsoft.InformationProtection.MipContext" Usage="Microsoft.InformationProtection.MIP.CreateMipContext (appInfo, path, logLevel, loggerDelegateOverride, telemetryOverride)" />
+      <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.MipContext CreateMipContext (Microsoft.InformationProtection.ApplicationInfo appInfo, string path, Microsoft.InformationProtection.LogLevel logLevel, Microsoft.InformationProtection.ILoggerDelegate loggerDelegateOverride, Microsoft.InformationProtection.TelemetryConfiguration telemetryOverride, System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,bool&gt; featureSettingsOverride = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.MipContext CreateMipContext(class Microsoft.InformationProtection.ApplicationInfo appInfo, string path, valuetype Microsoft.InformationProtection.LogLevel logLevel, class Microsoft.InformationProtection.ILoggerDelegate loggerDelegateOverride, class Microsoft.InformationProtection.TelemetryConfiguration telemetryOverride, class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.InformationProtection.FlightingFeature, bool&gt; featureSettingsOverride) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.CreateMipContext(Microsoft.InformationProtection.ApplicationInfo,System.String,Microsoft.InformationProtection.LogLevel,Microsoft.InformationProtection.ILoggerDelegate,Microsoft.InformationProtection.TelemetryConfiguration,System.Collections.Generic.Dictionary{Microsoft.InformationProtection.FlightingFeature,System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateMipContext (appInfo As ApplicationInfo, path As String, logLevel As LogLevel, loggerDelegateOverride As ILoggerDelegate, telemetryOverride As TelemetryConfiguration, Optional featureSettingsOverride As Dictionary(Of FlightingFeature, Boolean) = null) As MipContext" />
+      <MemberSignature Language="F#" Value="static member CreateMipContext : Microsoft.InformationProtection.ApplicationInfo * string * Microsoft.InformationProtection.LogLevel * Microsoft.InformationProtection.ILoggerDelegate * Microsoft.InformationProtection.TelemetryConfiguration * System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature, bool&gt; -&gt; Microsoft.InformationProtection.MipContext" Usage="Microsoft.InformationProtection.MIP.CreateMipContext (appInfo, path, logLevel, loggerDelegateOverride, telemetryOverride, featureSettingsOverride)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.MipContext</ReturnType>
@@ -43,13 +45,15 @@
         <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" />
         <Parameter Name="loggerDelegateOverride" Type="Microsoft.InformationProtection.ILoggerDelegate" />
         <Parameter Name="telemetryOverride" Type="Microsoft.InformationProtection.TelemetryConfiguration" />
+        <Parameter Name="featureSettingsOverride" Type="System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,System.Boolean&gt;" />
       </Parameters>
       <Docs>
         <param name="appInfo">Application info description</param>
         <param name="path">Local storage path for caches, logging, etc.</param>
         <param name="logLevel">Minimum log level to emit to logs</param>
         <param name="loggerDelegateOverride">Optional alternate logger implementation</param>
-        <param name="telemetryOverride">Optional telemetry confiruration settings</param>
+        <param name="telemetryOverride">Optional telemetry configuration settings</param>
+        <param name="featureSettingsOverride">Optional custom flighting feature settings</param>
         <summary>
             Creates a MIP context to be used when initializing profiles
             </summary>
@@ -58,9 +62,10 @@
       </Docs>
     </Member>
     <Member MemberName="Initialize">
-      <MemberSignature Language="C#" Value="public static void Initialize (Microsoft.InformationProtection.MipComponent mipComponent, string path = null);" />
+      <MemberSignature Language="C#" Value="public static void Initialize (Microsoft.InformationProtection.MipComponent mipComponent, string path = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Initialize(valuetype Microsoft.InformationProtection.MipComponent mipComponent, string path) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.Initialize(Microsoft.InformationProtection.MipComponent,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Initialize (mipComponent As MipComponent, Optional path As String = null)" />
       <MemberSignature Language="F#" Value="static member Initialize : Microsoft.InformationProtection.MipComponent * string -&gt; unit" Usage="Microsoft.InformationProtection.MIP.Initialize (mipComponent, path)" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -71,6 +76,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -109,6 +115,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileProfile&gt;</ReturnType>
@@ -140,6 +147,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Policy.IPolicyProfile&gt;</ReturnType>
@@ -156,35 +164,55 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="ReleaseAllResources">
-      <MemberSignature Language="C#" Value="public static void ReleaseAllResources ();" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ReleaseAllResources() cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.ReleaseAllResources" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub ReleaseAllResources ()" />
-      <MemberSignature Language="F#" Value="static member ReleaseAllResources : unit -&gt; unit" Usage="Microsoft.InformationProtection.MIP.ReleaseAllResources " />
+    <Member MemberName="LoadProtectionProfile">
+      <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.Protection.IProtectionProfile LoadProtectionProfile (Microsoft.InformationProtection.Protection.ProtectionProfileSettings profileSettings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.Protection.IProtectionProfile LoadProtectionProfile(class Microsoft.InformationProtection.Protection.ProtectionProfileSettings profileSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.LoadProtectionProfile(Microsoft.InformationProtection.Protection.ProtectionProfileSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadProtectionProfile (profileSettings As ProtectionProfileSettings) As IProtectionProfile" />
+      <MemberSignature Language="F#" Value="static member LoadProtectionProfile : Microsoft.InformationProtection.Protection.ProtectionProfileSettings -&gt; Microsoft.InformationProtection.Protection.IProtectionProfile" Usage="Microsoft.InformationProtection.MIP.LoadProtectionProfile profileSettings" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
-        <AssemblyName>mip_dotnet_api</AssemblyName>
-        <AssemblyVersion>1.1.210.0</AssemblyVersion>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.IProtectionProfile</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="profileSettings" Type="Microsoft.InformationProtection.Protection.ProtectionProfileSettings" />
+      </Parameters>
+      <Docs>
+        <param name="profileSettings">Settings used by ProtectionProfile during its initialization and throughout its lifetime</param>
+        <summary>
+            Loads a profile based on the provided settings.
+            </summary>
+        <returns>Newly created profile.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoadProtectionProfileAsync">
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionProfile&gt; LoadProtectionProfileAsync (Microsoft.InformationProtection.Protection.ProtectionProfileSettings profileSettings);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class Microsoft.InformationProtection.Protection.IProtectionProfile&gt; LoadProtectionProfileAsync(class Microsoft.InformationProtection.Protection.ProtectionProfileSettings profileSettings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.LoadProtectionProfileAsync(Microsoft.InformationProtection.Protection.ProtectionProfileSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LoadProtectionProfileAsync (profileSettings As ProtectionProfileSettings) As Task(Of IProtectionProfile)" />
+      <MemberSignature Language="F#" Value="static member LoadProtectionProfileAsync : Microsoft.InformationProtection.Protection.ProtectionProfileSettings -&gt; System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionProfile&gt;" Usage="Microsoft.InformationProtection.MIP.LoadProtectionProfileAsync profileSettings" />
+      <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.2.153.0</AssemblyVersion>
-        <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName>System.Obsolete("This method is deprecated in favor of calling 'MipContext.Dispose' or 'MipContext.ShutDown'")</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionProfile&gt;</ReturnType>
       </ReturnValue>
-      <Parameters />
+      <Parameters>
+        <Parameter Name="profileSettings" Type="Microsoft.InformationProtection.Protection.ProtectionProfileSettings" />
+      </Parameters>
       <Docs>
+        <param name="profileSettings">Settings used by ProtectionProfile during its initialization and throughout its lifetime</param>
         <summary>
-            Releases all MIP resources.
+            Starts loading a profile based on the provided settings.
             </summary>
+        <returns>A task that represents the asynchronous load operation. The value of the <c>TResult</c> parameter contains the <c>IProtectionProfile</c>.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

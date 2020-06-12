@@ -1,0 +1,117 @@
+<Type Name="ConsumptionSettings" FullName="Microsoft.InformationProtection.Protection.ConsumptionSettings">
+  <TypeSignature Language="C#" Value="public class ConsumptionSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ConsumptionSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.ConsumptionSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class ConsumptionSettings" />
+  <TypeSignature Language="F#" Value="type ConsumptionSettings = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Settings used to create a <c>IProtectionHandler</c> to consume existing content.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ConsumptionSettings (Microsoft.InformationProtection.Protection.PublishingLicenseInfo publishingLicenseInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo publishingLicenseInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.ConsumptionSettings.#ctor(Microsoft.InformationProtection.Protection.PublishingLicenseInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (publishingLicenseInfo As PublishingLicenseInfo)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Protection.ConsumptionSettings : Microsoft.InformationProtection.Protection.PublishingLicenseInfo -&gt; Microsoft.InformationProtection.Protection.ConsumptionSettings" Usage="new Microsoft.InformationProtection.Protection.ConsumptionSettings publishingLicenseInfo" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="publishingLicenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" />
+      </Parameters>
+      <Docs>
+        <param name="publishingLicenseInfo">The <see cref="P:Microsoft.InformationProtection.Protection.ConsumptionSettings.PublishingLicenseInfo" /></param>
+        <summary>
+            ProtectionConsumptionSettings constructor
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatedUserEmail">
+      <MemberSignature Language="C#" Value="public string DelegatedUserEmail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DelegatedUserEmail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.ConsumptionSettings.DelegatedUserEmail" />
+      <MemberSignature Language="VB.NET" Value="Public Property DelegatedUserEmail As String" />
+      <MemberSignature Language="F#" Value="member this.DelegatedUserEmail : string with get, set" Usage="Microsoft.InformationProtection.Protection.ConsumptionSettings.DelegatedUserEmail" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Delegated user
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOfflineOnly">
+      <MemberSignature Language="C#" Value="public bool IsOfflineOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOfflineOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.ConsumptionSettings.IsOfflineOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOfflineOnly As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsOfflineOnly : bool with get, set" Usage="Microsoft.InformationProtection.Protection.ConsumptionSettings.IsOfflineOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not <c>IProtectionHandler</c> creation allows for online HTTP operations. 
+            </summary>
+        <value>
+            True if HTTP operations are disallowed, else false
+            </value>
+        <remarks>
+            If this is set to true, <c>IProtectionHandler</c> creation will only succeed if content has already been
+            previously decrypted and its unexpired license is cached. A mip::NetworkError will be thrown if cached
+            content is not found.
+            </remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishingLicenseInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.PublishingLicenseInfo PublishingLicenseInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Protection.PublishingLicenseInfo PublishingLicenseInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.ConsumptionSettings.PublishingLicenseInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PublishingLicenseInfo As PublishingLicenseInfo" />
+      <MemberSignature Language="F#" Value="member this.PublishingLicenseInfo : Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Usage="Microsoft.InformationProtection.Protection.ConsumptionSettings.PublishingLicenseInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Publishing license information
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

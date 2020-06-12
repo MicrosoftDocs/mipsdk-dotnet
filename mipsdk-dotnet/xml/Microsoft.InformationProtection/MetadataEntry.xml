@@ -1,0 +1,115 @@
+<Type Name="MetadataEntry" FullName="Microsoft.InformationProtection.MetadataEntry">
+  <TypeSignature Language="C#" Value="public class MetadataEntry" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MetadataEntry extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.MetadataEntry" />
+  <TypeSignature Language="VB.NET" Value="Public Class MetadataEntry" />
+  <TypeSignature Language="F#" Value="type MetadataEntry = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Abstraction for a single Microsoft Information Protection MetadataEntry.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MetadataEntry (string key, string value, uint version);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string key, string value, unsigned int32 version) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MetadataEntry.#ctor(System.String,System.String,System.UInt32)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (key As String, value As String, version As UInteger)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.MetadataEntry : string * string * uint32 -&gt; Microsoft.InformationProtection.MetadataEntry" Usage="new Microsoft.InformationProtection.MetadataEntry (key, value, version)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="key" Type="System.String" />
+        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="version" Type="System.UInt32" />
+      </Parameters>
+      <Docs>
+        <param name="key">Metadata key </param>
+        <param name="value">Metadata value </param>
+        <param name="version">Metadata version </param>
+        <summary>
+            Constructor for MetadataEntry
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Key">
+      <MemberSignature Language="C#" Value="public string Key { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Key" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.MetadataEntry.Key" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Key As String" />
+      <MemberSignature Language="F#" Value="member this.Key : string" Usage="Microsoft.InformationProtection.MetadataEntry.Key" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The metadata key
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Value">
+      <MemberSignature Language="C#" Value="public string Value { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.MetadataEntry.Value" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As String" />
+      <MemberSignature Language="F#" Value="member this.Value : string" Usage="Microsoft.InformationProtection.MetadataEntry.Value" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The metadata value
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Version">
+      <MemberSignature Language="C#" Value="public uint Version { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 Version" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.MetadataEntry.Version" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Version As UInteger" />
+      <MemberSignature Language="F#" Value="member this.Version : uint32" Usage="Microsoft.InformationProtection.MetadataEntry.Version" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The metadata version
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

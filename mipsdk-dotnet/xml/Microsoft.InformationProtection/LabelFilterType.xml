@@ -1,0 +1,196 @@
+<Type Name="LabelFilterType" FullName="Microsoft.InformationProtection.LabelFilterType">
+  <TypeSignature Language="C#" Value="public enum LabelFilterType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LabelFilterType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.LabelFilterType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LabelFilterType" />
+  <TypeSignature Language="F#" Value="type LabelFilterType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName>System.Flags</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Label filter types, optional set of properties that can be used to filter labels when calling list sensitivity 
+            labels.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AdhocProtection">
+      <MemberSignature Language="C#" Value="AdhocProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.LabelFilterType AdhocProtection = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.LabelFilterType.AdhocProtection" />
+      <MemberSignature Language="VB.NET" Value="AdhocProtection" />
+      <MemberSignature Language="F#" Value="AdhocProtection = 8" Usage="Microsoft.InformationProtection.LabelFilterType.AdhocProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LabelFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in ad-hoc protection
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomProtection">
+      <MemberSignature Language="C#" Value="CustomProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.LabelFilterType CustomProtection = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.LabelFilterType.CustomProtection" />
+      <MemberSignature Language="VB.NET" Value="CustomProtection" />
+      <MemberSignature Language="F#" Value="CustomProtection = 1" Usage="Microsoft.InformationProtection.LabelFilterType.CustomProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LabelFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in do not custom protection
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DoNotForwardProtection">
+      <MemberSignature Language="C#" Value="DoNotForwardProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.LabelFilterType DoNotForwardProtection = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.LabelFilterType.DoNotForwardProtection" />
+      <MemberSignature Language="VB.NET" Value="DoNotForwardProtection" />
+      <MemberSignature Language="F#" Value="DoNotForwardProtection = 4" Usage="Microsoft.InformationProtection.LabelFilterType.DoNotForwardProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LabelFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in do not forward protection
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DoubleKeyProtection">
+      <MemberSignature Language="C#" Value="DoubleKeyProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.LabelFilterType DoubleKeyProtection = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.LabelFilterType.DoubleKeyProtection" />
+      <MemberSignature Language="VB.NET" Value="DoubleKeyProtection" />
+      <MemberSignature Language="F#" Value="DoubleKeyProtection = 64" Usage="Microsoft.InformationProtection.LabelFilterType.DoubleKeyProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LabelFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in a double key encryption action.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HyokProtection">
+      <MemberSignature Language="C#" Value="HyokProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.LabelFilterType HyokProtection = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.LabelFilterType.HyokProtection" />
+      <MemberSignature Language="VB.NET" Value="HyokProtection" />
+      <MemberSignature Language="F#" Value="HyokProtection = 16" Usage="Microsoft.InformationProtection.LabelFilterType.HyokProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LabelFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in hyok protection
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.LabelFilterType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.LabelFilterType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.InformationProtection.LabelFilterType.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LabelFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Disable any default filtering if exists
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PredefinedTemplateProtection">
+      <MemberSignature Language="C#" Value="PredefinedTemplateProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.LabelFilterType PredefinedTemplateProtection = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.LabelFilterType.PredefinedTemplateProtection" />
+      <MemberSignature Language="VB.NET" Value="PredefinedTemplateProtection" />
+      <MemberSignature Language="F#" Value="PredefinedTemplateProtection = 32" Usage="Microsoft.InformationProtection.LabelFilterType.PredefinedTemplateProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LabelFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in predefined template protection
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TemplateProtection">
+      <MemberSignature Language="C#" Value="TemplateProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.LabelFilterType TemplateProtection = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.LabelFilterType.TemplateProtection" />
+      <MemberSignature Language="VB.NET" Value="TemplateProtection" />
+      <MemberSignature Language="F#" Value="TemplateProtection = 2" Usage="Microsoft.InformationProtection.LabelFilterType.TemplateProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LabelFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in template protection
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

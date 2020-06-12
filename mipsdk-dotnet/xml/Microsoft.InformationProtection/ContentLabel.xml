@@ -12,6 +12,7 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
+    <AssemblyVersion>1.6.113.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,11 +29,13 @@
       <MemberSignature Language="C#" Value="public ContentLabel (Microsoft.InformationProtection.Label label, DateTime creationTime, Microsoft.InformationProtection.AssignmentMethod assignmentMethod, bool isProtectionAppliedFromLabel);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.InformationProtection.Label label, valuetype System.DateTime creationTime, valuetype Microsoft.InformationProtection.AssignmentMethod assignmentMethod, bool isProtectionAppliedFromLabel) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ContentLabel.#ctor(Microsoft.InformationProtection.Label,System.DateTime,Microsoft.InformationProtection.AssignmentMethod,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (label As Label, creationTime As DateTime, assignmentMethod As AssignmentMethod, isProtectionAppliedFromLabel As Boolean)" />
       <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.ContentLabel : Microsoft.InformationProtection.Label * DateTime * Microsoft.InformationProtection.AssignmentMethod * bool -&gt; Microsoft.InformationProtection.ContentLabel" Usage="new Microsoft.InformationProtection.ContentLabel (label, creationTime, assignmentMethod, isProtectionAppliedFromLabel)" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="label" Type="Microsoft.InformationProtection.Label" />
@@ -66,6 +69,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.AssignmentMethod</ReturnType>
@@ -93,6 +97,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -120,6 +125,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -147,6 +153,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
+        <AssemblyVersion>1.6.113.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
