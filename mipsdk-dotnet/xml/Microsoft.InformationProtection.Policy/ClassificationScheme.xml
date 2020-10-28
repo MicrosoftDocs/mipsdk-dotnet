@@ -1,0 +1,65 @@
+<Type Name="ClassificationScheme" FullName="Microsoft.InformationProtection.Policy.ClassificationScheme">
+  <TypeSignature Language="C#" Value="public enum ClassificationScheme" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ClassificationScheme extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.ClassificationScheme" />
+  <TypeSignature Language="VB.NET" Value="Public Enum ClassificationScheme" />
+  <TypeSignature Language="F#" Value="type ClassificationScheme = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            The type of classification method that the Microsoft Classification Engine should 
+            use to classify and give results, based on the policy settings of the tenant
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AggregatedOnly">
+      <MemberSignature Language="C#" Value="AggregatedOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.ClassificationScheme AggregatedOnly = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.ClassificationScheme.AggregatedOnly" />
+      <MemberSignature Language="VB.NET" Value="AggregatedOnly" />
+      <MemberSignature Language="F#" Value="AggregatedOnly = 0" Usage="Microsoft.InformationProtection.Policy.ClassificationScheme.AggregatedOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.ClassificationScheme</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Result with just the aggregate count and confidence for the sensitive type
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DetailedResults">
+      <MemberSignature Language="C#" Value="DetailedResults" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.ClassificationScheme DetailedResults = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.ClassificationScheme.DetailedResults" />
+      <MemberSignature Language="VB.NET" Value="DetailedResults" />
+      <MemberSignature Language="F#" Value="DetailedResults = 1" Usage="Microsoft.InformationProtection.Policy.ClassificationScheme.DetailedResults" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.ClassificationScheme</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Result with detailed internal results of counts at different confidence
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

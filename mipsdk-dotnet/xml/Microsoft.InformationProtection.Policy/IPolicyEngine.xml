@@ -13,6 +13,8 @@
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
+    <AssemblyVersion>1.6.152.0</AssemblyVersion>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -26,6 +28,29 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="ClassificationScheme">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Policy.ClassificationScheme ClassificationScheme { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.Policy.ClassificationScheme ClassificationScheme" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.ClassificationScheme" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClassificationScheme As ClassificationScheme" />
+      <MemberSignature Language="F#" Value="member this.ClassificationScheme : Microsoft.InformationProtection.Policy.ClassificationScheme" Usage="Microsoft.InformationProtection.Policy.IPolicyEngine.ClassificationScheme" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.ClassificationScheme</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the tenant-selected algorithm that the Microsoft Classification Engine will apply
+            and the type of results to expect
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="CreatePolicyHandler">
       <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Policy.IPolicyHandler CreatePolicyHandler (bool isAuditDiscoveryEnabled);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.Policy.IPolicyHandler CreatePolicyHandler(bool isAuditDiscoveryEnabled) cil managed" />
@@ -42,6 +67,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.IPolicyHandler</ReturnType>
@@ -74,6 +101,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -102,6 +131,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -125,6 +156,8 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -153,6 +186,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -181,6 +216,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -205,6 +242,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -233,6 +272,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -261,6 +302,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -284,6 +327,8 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -312,6 +357,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -347,6 +394,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
@@ -375,6 +424,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt;</ReturnType>
@@ -398,6 +449,8 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -420,6 +473,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -448,6 +503,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.PolicyEngineSettings</ReturnType>
@@ -470,6 +527,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -492,6 +551,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.UInt32</ReturnType>

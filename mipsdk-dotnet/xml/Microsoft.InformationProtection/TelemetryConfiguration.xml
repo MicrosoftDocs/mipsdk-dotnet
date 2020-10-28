@@ -8,6 +8,8 @@
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
+    <AssemblyVersion>1.6.152.0</AssemblyVersion>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -30,6 +32,8 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -47,6 +51,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -70,6 +76,8 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -93,6 +101,8 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -100,6 +110,28 @@
       <Docs>
         <summary>
             Is local caching/logging permitted for telemetry/audit component
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMinimalTelemetryEnabled">
+      <MemberSignature Language="C#" Value="public bool IsMinimalTelemetryEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMinimalTelemetryEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.TelemetryConfiguration.IsMinimalTelemetryEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMinimalTelemetryEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsMinimalTelemetryEnabled : bool with get, set" Usage="Microsoft.InformationProtection.TelemetryConfiguration.IsMinimalTelemetryEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Is non-critical telemetry disabled
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -115,6 +147,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -138,6 +172,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -160,6 +195,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -182,6 +219,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>

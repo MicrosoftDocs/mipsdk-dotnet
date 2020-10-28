@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
+    <AssemblyVersion>1.6.152.0</AssemblyVersion>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +31,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
@@ -51,6 +55,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
@@ -60,6 +66,36 @@
       </Parameters>
       <Docs>
         <param name="serializedPublishingLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" /></param>
+        <summary>
+            PublishingLicenseInfo constructor
+            </summary>
+        <returns>
+            The PublishingLicenseInfo
+            </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPublishingLicenseInfo">
+      <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.Protection.PublishingLicenseInfo GetPublishingLicenseInfo (System.Collections.Generic.List&lt;byte&gt; serializedPublishingLicense, System.Collections.Generic.List&lt;byte&gt; serializedPreLicense);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.Protection.PublishingLicenseInfo GetPublishingLicenseInfo(class System.Collections.Generic.List`1&lt;unsigned int8&gt; serializedPublishingLicense, class System.Collections.Generic.List`1&lt;unsigned int8&gt; serializedPreLicense) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.GetPublishingLicenseInfo(System.Collections.Generic.List{System.Byte},System.Collections.Generic.List{System.Byte})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetPublishingLicenseInfo (serializedPublishingLicense As List(Of Byte), serializedPreLicense As List(Of Byte)) As PublishingLicenseInfo" />
+      <MemberSignature Language="F#" Value="static member GetPublishingLicenseInfo : System.Collections.Generic.List&lt;byte&gt; * System.Collections.Generic.List&lt;byte&gt; -&gt; Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.GetPublishingLicenseInfo (serializedPublishingLicense, serializedPreLicense)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7" />
+        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.7" />
+      </Parameters>
+      <Docs>
+        <param name="serializedPublishingLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" /></param>
+        <param name="serializedPreLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPreLicense" /></param>
         <summary>
             PublishingLicenseInfo constructor
             </summary>
@@ -79,6 +115,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -86,6 +124,28 @@
       <Docs>
         <summary>
             IssuerId
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerializedPreLicense">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;byte&gt; SerializedPreLicense { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;unsigned int8&gt; SerializedPreLicense" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPreLicense" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SerializedPreLicense As List(Of Byte)" />
+      <MemberSignature Language="F#" Value="member this.SerializedPreLicense : System.Collections.Generic.List&lt;byte&gt;" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPreLicense" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Serialized Prelicense
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -101,6 +161,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
@@ -123,6 +185,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

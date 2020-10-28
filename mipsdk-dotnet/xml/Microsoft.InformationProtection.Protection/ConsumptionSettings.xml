@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
+    <AssemblyVersion>1.6.152.0</AssemblyVersion>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +31,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="publishingLicenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" />
@@ -38,6 +42,28 @@
         <summary>
             ProtectionConsumptionSettings constructor
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentName">
+      <MemberSignature Language="C#" Value="public string ContentName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.ConsumptionSettings.ContentName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ContentName As String" />
+      <MemberSignature Language="F#" Value="member this.ContentName : string with get, set" Usage="Microsoft.InformationProtection.Protection.ConsumptionSettings.ContentName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Content Name for performing registration during consumption if not already done
+            </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -51,6 +77,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -73,6 +101,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -101,6 +131,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
