@@ -1,0 +1,281 @@
+<Type Name="FunctionalityFilterType" FullName="Microsoft.InformationProtection.FunctionalityFilterType">
+  <TypeSignature Language="C#" Value="public enum FunctionalityFilterType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed FunctionalityFilterType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.FunctionalityFilterType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum FunctionalityFilterType" />
+  <TypeSignature Language="F#" Value="type FunctionalityFilterType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Flags]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Flags&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Functionality filter types, optional set of properties that can be used to filter labels when calling list sensitivity 
+            labels. Also used to filter general functionality of MIP, like toggling specific classifiers for autolabeling.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="AdhocProtection">
+      <MemberSignature Language="C#" Value="AdhocProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType AdhocProtection = int32(8)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.AdhocProtection" />
+      <MemberSignature Language="VB.NET" Value="AdhocProtection" />
+      <MemberSignature Language="F#" Value="AdhocProtection = 8" Usage="Microsoft.InformationProtection.FunctionalityFilterType.AdhocProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>8</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in ad-hoc protection
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomProtection">
+      <MemberSignature Language="C#" Value="CustomProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType CustomProtection = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.CustomProtection" />
+      <MemberSignature Language="VB.NET" Value="CustomProtection" />
+      <MemberSignature Language="F#" Value="CustomProtection = 1" Usage="Microsoft.InformationProtection.FunctionalityFilterType.CustomProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in do not custom protection
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DoNotForwardProtection">
+      <MemberSignature Language="C#" Value="DoNotForwardProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType DoNotForwardProtection = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.DoNotForwardProtection" />
+      <MemberSignature Language="VB.NET" Value="DoNotForwardProtection" />
+      <MemberSignature Language="F#" Value="DoNotForwardProtection = 4" Usage="Microsoft.InformationProtection.FunctionalityFilterType.DoNotForwardProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in do not forward protection
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DoubleKeyProtection">
+      <MemberSignature Language="C#" Value="DoubleKeyProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType DoubleKeyProtection = int32(64)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.DoubleKeyProtection" />
+      <MemberSignature Language="VB.NET" Value="DoubleKeyProtection" />
+      <MemberSignature Language="F#" Value="DoubleKeyProtection = 64" Usage="Microsoft.InformationProtection.FunctionalityFilterType.DoubleKeyProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>64</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in a double key encryption template action.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="DoubleKeyUserDefinedProtection">
+      <MemberSignature Language="C#" Value="DoubleKeyUserDefinedProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType DoubleKeyUserDefinedProtection = int32(128)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.DoubleKeyUserDefinedProtection" />
+      <MemberSignature Language="VB.NET" Value="DoubleKeyUserDefinedProtection" />
+      <MemberSignature Language="F#" Value="DoubleKeyUserDefinedProtection = 128" Usage="Microsoft.InformationProtection.FunctionalityFilterType.DoubleKeyUserDefinedProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>128</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in a double key encryption UDP action.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptOnlyProtection">
+      <MemberSignature Language="C#" Value="EncryptOnlyProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType EncryptOnlyProtection = int32(256)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.EncryptOnlyProtection" />
+      <MemberSignature Language="VB.NET" Value="EncryptOnlyProtection" />
+      <MemberSignature Language="F#" Value="EncryptOnlyProtection = 256" Usage="Microsoft.InformationProtection.FunctionalityFilterType.EncryptOnlyProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>256</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in an encrypt only action.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="HyokProtection">
+      <MemberSignature Language="C#" Value="HyokProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType HyokProtection = int32(16)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.HyokProtection" />
+      <MemberSignature Language="VB.NET" Value="HyokProtection" />
+      <MemberSignature Language="F#" Value="HyokProtection = 16" Usage="Microsoft.InformationProtection.FunctionalityFilterType.HyokProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>16</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in hyok protection
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MachineLearningClassifier">
+      <MemberSignature Language="C#" Value="MachineLearningClassifier" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType MachineLearningClassifier = int32(1024)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.MachineLearningClassifier" />
+      <MemberSignature Language="VB.NET" Value="MachineLearningClassifier" />
+      <MemberSignature Language="F#" Value="MachineLearningClassifier = 1024" Usage="Microsoft.InformationProtection.FunctionalityFilterType.MachineLearningClassifier" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1024</MemberValue>
+      <Docs>
+        <summary>
+            Classifier Based on Machine Learning (e.g. Offensive Language)
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.InformationProtection.FunctionalityFilterType.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Disable any default filtering if exists
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="PredefinedTemplateProtection">
+      <MemberSignature Language="C#" Value="PredefinedTemplateProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType PredefinedTemplateProtection = int32(32)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.PredefinedTemplateProtection" />
+      <MemberSignature Language="VB.NET" Value="PredefinedTemplateProtection" />
+      <MemberSignature Language="F#" Value="PredefinedTemplateProtection = 32" Usage="Microsoft.InformationProtection.FunctionalityFilterType.PredefinedTemplateProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in predefined template protection
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SensitiveInformationClassifier">
+      <MemberSignature Language="C#" Value="SensitiveInformationClassifier" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType SensitiveInformationClassifier = int32(512)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.SensitiveInformationClassifier" />
+      <MemberSignature Language="VB.NET" Value="SensitiveInformationClassifier" />
+      <MemberSignature Language="F#" Value="SensitiveInformationClassifier = 512" Usage="Microsoft.InformationProtection.FunctionalityFilterType.SensitiveInformationClassifier" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>512</MemberValue>
+      <Docs>
+        <summary>
+            Classifier Based on Sensitive Information Detection (e.g. Credit card number or SSN)
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TemplateProtection">
+      <MemberSignature Language="C#" Value="TemplateProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FunctionalityFilterType TemplateProtection = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FunctionalityFilterType.TemplateProtection" />
+      <MemberSignature Language="VB.NET" Value="TemplateProtection" />
+      <MemberSignature Language="F#" Value="TemplateProtection = 2" Usage="Microsoft.InformationProtection.FunctionalityFilterType.TemplateProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FunctionalityFilterType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Label filter that may result in template protection
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

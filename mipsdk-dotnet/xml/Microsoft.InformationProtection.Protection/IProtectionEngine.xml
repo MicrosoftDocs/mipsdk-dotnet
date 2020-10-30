@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
+    <AssemblyVersion>1.6.152.0</AssemblyVersion>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -30,6 +32,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
@@ -56,6 +60,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;</ReturnType>
@@ -82,6 +88,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
@@ -108,6 +116,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;</ReturnType>
@@ -134,6 +144,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
@@ -166,6 +178,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
@@ -198,6 +212,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;</ReturnType>
@@ -221,6 +237,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt;</ReturnType>
@@ -234,6 +252,116 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="RegisterContentForTrackingAndRevocation">
+      <MemberSignature Language="C#" Value="public void RegisterContentForTrackingAndRevocation (Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, string contentName, bool isOwnerNotificationEnabled);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RegisterContentForTrackingAndRevocation(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, string contentName, bool isOwnerNotificationEnabled) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.RegisterContentForTrackingAndRevocation(Microsoft.InformationProtection.Protection.PublishingLicenseInfo,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RegisterContentForTrackingAndRevocation (licenseInfo As PublishingLicenseInfo, contentName As String, isOwnerNotificationEnabled As Boolean)" />
+      <MemberSignature Language="F#" Value="abstract member RegisterContentForTrackingAndRevocation : Microsoft.InformationProtection.Protection.PublishingLicenseInfo * string * bool -&gt; unit" Usage="iProtectionEngine.RegisterContentForTrackingAndRevocation (licenseInfo, contentName, isOwnerNotificationEnabled)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7" />
+        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.7" />
+        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.7" />
+      </Parameters>
+      <Docs>
+        <param name="licenseInfo">Publishing license from the protected content.</param>
+        <param name="contentName">The name to associate with the content specified by the serializedPublishingLicense. If the serializedPublishingLicense specifies a content name, that value will take precedence.</param>
+        <param name="isOwnerNotificationEnabled">Set to true to notify the owner via email whenever the document is decrypted, or false to not send the notification.</param>
+        <summary>
+            Register publishing license (PL) for document tracking and revocation.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegisterContentForTrackingAndRevocationAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task RegisterContentForTrackingAndRevocationAsync (Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, string contentName, bool isOwnerNotificationEnabled);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task RegisterContentForTrackingAndRevocationAsync(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, string contentName, bool isOwnerNotificationEnabled) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.RegisterContentForTrackingAndRevocationAsync(Microsoft.InformationProtection.Protection.PublishingLicenseInfo,System.String,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RegisterContentForTrackingAndRevocationAsync (licenseInfo As PublishingLicenseInfo, contentName As String, isOwnerNotificationEnabled As Boolean) As Task" />
+      <MemberSignature Language="F#" Value="abstract member RegisterContentForTrackingAndRevocationAsync : Microsoft.InformationProtection.Protection.PublishingLicenseInfo * string * bool -&gt; System.Threading.Tasks.Task" Usage="iProtectionEngine.RegisterContentForTrackingAndRevocationAsync (licenseInfo, contentName, isOwnerNotificationEnabled)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7" />
+        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.7" />
+        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.7" />
+      </Parameters>
+      <Docs>
+        <param name="licenseInfo">Publishing license from the protected content.</param>
+        <param name="contentName">The name to associate with the content specified by the serializedPublishingLicense. If the serializedPublishingLicense specifies a content name, that value will take precedence.</param>
+        <param name="isOwnerNotificationEnabled">Set to true to notify the owner via email whenever the document is decrypted, or false to not send the notification.</param>
+        <summary>
+            Register publishing license (PL) for document tracking and revocation.
+            </summary>
+        <returns>A task that represents the asynchronous create operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RevokeContent">
+      <MemberSignature Language="C#" Value="public void RevokeContent (Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RevokeContent(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.RevokeContent(Microsoft.InformationProtection.Protection.PublishingLicenseInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RevokeContent (licenseInfo As PublishingLicenseInfo)" />
+      <MemberSignature Language="F#" Value="abstract member RevokeContent : Microsoft.InformationProtection.Protection.PublishingLicenseInfo -&gt; unit" Usage="iProtectionEngine.RevokeContent licenseInfo" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7" />
+      </Parameters>
+      <Docs>
+        <param name="licenseInfo">Publishing license from the protected content.</param>
+        <summary>
+            Perform revocation for content.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RevokeContentAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task RevokeContentAsync (Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task RevokeContentAsync(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.RevokeContentAsync(Microsoft.InformationProtection.Protection.PublishingLicenseInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RevokeContentAsync (licenseInfo As PublishingLicenseInfo) As Task" />
+      <MemberSignature Language="F#" Value="abstract member RevokeContentAsync : Microsoft.InformationProtection.Protection.PublishingLicenseInfo -&gt; System.Threading.Tasks.Task" Usage="iProtectionEngine.RevokeContentAsync licenseInfo" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7" />
+      </Parameters>
+      <Docs>
+        <param name="licenseInfo">Publishing license from the protected content.</param>
+        <summary>
+            Perform revocation for content.
+            </summary>
+        <returns>A task that represents the asynchronous create operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Settings">
       <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.ProtectionEngineSettings Settings { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Protection.ProtectionEngineSettings Settings" />
@@ -244,6 +372,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.ProtectionEngineSettings</ReturnType>

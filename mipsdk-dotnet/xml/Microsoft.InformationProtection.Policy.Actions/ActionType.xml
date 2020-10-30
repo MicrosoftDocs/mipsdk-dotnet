@@ -13,13 +13,16 @@
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
+    <AssemblyVersion>1.6.152.0</AssemblyVersion>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Attributes>
     <Attribute>
-      <AttributeName>System.Flags</AttributeName>
+      <AttributeName Language="C#">[System.Flags]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Flags&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -45,6 +48,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -72,6 +77,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -99,6 +106,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -112,10 +121,12 @@
     </Member>
     <Member MemberName="All">
       <MemberSignature Language="C#" Value="All" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType All = unsigned int32(65535)" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType All = unsigned int32(65535)" FrameworkAlternate="mipsdk-dotnet-1.6" />
       <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.All" />
       <MemberSignature Language="VB.NET" Value="All" />
-      <MemberSignature Language="F#" Value="All = 65535" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.All" />
+      <MemberSignature Language="F#" Value="All = 65535" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.All" FrameworkAlternate="mipsdk-dotnet-1.6" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType All = unsigned int32(1048575)" FrameworkAlternate="mipsdk-dotnet-1.7" />
+      <MemberSignature Language="F#" Value="All = 1048575" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.All" FrameworkAlternate="mipsdk-dotnet-1.7" />
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>mip_dotnet_api</AssemblyName>
@@ -126,11 +137,13 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
       </ReturnValue>
-      <MemberValue>65535</MemberValue>
+      <MemberValue>1048575</MemberValue>
       <Docs>
         <summary>
             All possible action types. Used for testing
@@ -153,6 +166,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -180,6 +195,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -208,6 +225,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -235,6 +254,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -262,6 +283,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -289,6 +312,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -297,6 +322,48 @@
       <Docs>
         <summary>
             A protect by adhoc policy action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectAdhocDoubleKey">
+      <MemberSignature Language="C#" Value="ProtectAdhocDoubleKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType ProtectAdhocDoubleKey = unsigned int32(32768)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectAdhocDoubleKey" />
+      <MemberSignature Language="VB.NET" Value="ProtectAdhocDoubleKey" />
+      <MemberSignature Language="F#" Value="ProtectAdhocDoubleKey = 32768" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectAdhocDoubleKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>32768</MemberValue>
+      <Docs>
+        <summary>
+            A protect by double key adhoc policy action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectByEncryptOnly">
+      <MemberSignature Language="C#" Value="ProtectByEncryptOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType ProtectByEncryptOnly = unsigned int32(262144)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectByEncryptOnly" />
+      <MemberSignature Language="VB.NET" Value="ProtectByEncryptOnly" />
+      <MemberSignature Language="F#" Value="ProtectByEncryptOnly = 262144" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectByEncryptOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>262144</MemberValue>
+      <Docs>
+        <summary>
+            A protect by encrypt only action type.
             </summary>
       </Docs>
     </Member>
@@ -316,6 +383,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -343,6 +412,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -351,6 +422,27 @@
       <Docs>
         <summary>
              A protect by do not forward action type.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectDoNotForwardDoubleKey">
+      <MemberSignature Language="C#" Value="ProtectDoNotForwardDoubleKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType ProtectDoNotForwardDoubleKey = unsigned int32(131072)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectDoNotForwardDoubleKey" />
+      <MemberSignature Language="VB.NET" Value="ProtectDoNotForwardDoubleKey" />
+      <MemberSignature Language="F#" Value="ProtectDoNotForwardDoubleKey = 131072" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.ProtectDoNotForwardDoubleKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
+      </ReturnValue>
+      <MemberValue>131072</MemberValue>
+      <Docs>
+        <summary>
+            A protect by double key do not forward action type.
             </summary>
       </Docs>
     </Member>
@@ -370,6 +462,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -397,6 +491,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -424,6 +520,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -451,6 +549,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -478,6 +578,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
