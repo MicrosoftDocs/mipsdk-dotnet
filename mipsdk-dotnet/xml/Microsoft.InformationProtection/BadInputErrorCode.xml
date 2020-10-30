@@ -1,0 +1,64 @@
+<Type Name="BadInputErrorCode" FullName="Microsoft.InformationProtection.BadInputErrorCode">
+  <TypeSignature Language="C#" Value="public enum BadInputErrorCode" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed BadInputErrorCode extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.BadInputErrorCode" />
+  <TypeSignature Language="VB.NET" Value="Public Enum BadInputErrorCode" />
+  <TypeSignature Language="F#" Value="type BadInputErrorCode = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Category of bad input error. (See BadInputException)
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="FileIsTooLargeForProtection">
+      <MemberSignature Language="C#" Value="FileIsTooLargeForProtection" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.BadInputErrorCode FileIsTooLargeForProtection = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.BadInputErrorCode.FileIsTooLargeForProtection" />
+      <MemberSignature Language="VB.NET" Value="FileIsTooLargeForProtection" />
+      <MemberSignature Language="F#" Value="FileIsTooLargeForProtection = 1" Usage="Microsoft.InformationProtection.BadInputErrorCode.FileIsTooLargeForProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.BadInputErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            HTTP response code indicates failure
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="General">
+      <MemberSignature Language="C#" Value="General" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.BadInputErrorCode General = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.BadInputErrorCode.General" />
+      <MemberSignature Language="VB.NET" Value="General" />
+      <MemberSignature Language="F#" Value="General = 0" Usage="Microsoft.InformationProtection.BadInputErrorCode.General" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.BadInputErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            General bad input error
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

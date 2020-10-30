@@ -1,0 +1,64 @@
+<Type Name="PreLicenseFormat" FullName="Microsoft.InformationProtection.Protection.PreLicenseFormat">
+  <TypeSignature Language="C#" Value="public enum PreLicenseFormat" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed PreLicenseFormat extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.PreLicenseFormat" />
+  <TypeSignature Language="VB.NET" Value="Public Enum PreLicenseFormat" />
+  <TypeSignature Language="F#" Value="type PreLicenseFormat = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Defines the prelicense format
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Json">
+      <MemberSignature Language="C#" Value="Json" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Protection.PreLicenseFormat Json = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.PreLicenseFormat.Json" />
+      <MemberSignature Language="VB.NET" Value="Json" />
+      <MemberSignature Language="F#" Value="Json = 1" Usage="Microsoft.InformationProtection.Protection.PreLicenseFormat.Json" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.PreLicenseFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Json format
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Xml">
+      <MemberSignature Language="C#" Value="Xml" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Protection.PreLicenseFormat Xml = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.PreLicenseFormat.Xml" />
+      <MemberSignature Language="VB.NET" Value="Xml" />
+      <MemberSignature Language="F#" Value="Xml = 0" Usage="Microsoft.InformationProtection.Protection.PreLicenseFormat.Xml" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.PreLicenseFormat</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Xml format
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

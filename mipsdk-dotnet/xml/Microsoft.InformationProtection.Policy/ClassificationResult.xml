@@ -13,6 +13,8 @@
     <AssemblyVersion>1.2.153.0</AssemblyVersion>
     <AssemblyVersion>1.3.191.0</AssemblyVersion>
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
+    <AssemblyVersion>1.6.152.0</AssemblyVersion>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -40,6 +42,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -63,6 +67,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -91,6 +97,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -98,6 +106,28 @@
       <Docs>
         <summary>
             Classification Unique count.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DetailedClassificationAttributes">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.DetailedClassificationResult&gt; DetailedClassificationAttributes { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Policy.DetailedClassificationResult&gt; DetailedClassificationAttributes" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.ClassificationResult.DetailedClassificationAttributes" />
+      <MemberSignature Language="VB.NET" Value="Public Property DetailedClassificationAttributes As List(Of DetailedClassificationResult)" />
+      <MemberSignature Language="F#" Value="member this.DetailedClassificationAttributes : System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.DetailedClassificationResult&gt; with get, set" Usage="Microsoft.InformationProtection.Policy.ClassificationResult.DetailedClassificationAttributes" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.DetailedClassificationResult&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Classifier matches at specific thresholds
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -119,6 +149,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -141,6 +173,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -165,6 +199,8 @@
         <AssemblyVersion>1.2.153.0</AssemblyVersion>
         <AssemblyVersion>1.3.191.0</AssemblyVersion>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
+        <AssemblyVersion>1.6.152.0</AssemblyVersion>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

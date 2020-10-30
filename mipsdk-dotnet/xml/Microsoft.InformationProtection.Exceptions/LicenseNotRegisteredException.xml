@@ -1,0 +1,51 @@
+<Type Name="LicenseNotRegisteredException" FullName="Microsoft.InformationProtection.Exceptions.LicenseNotRegisteredException">
+  <TypeSignature Language="C#" Value="public class LicenseNotRegisteredException : Microsoft.InformationProtection.Exceptions.BadInputException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit LicenseNotRegisteredException extends Microsoft.InformationProtection.Exceptions.BadInputException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Exceptions.LicenseNotRegisteredException" />
+  <TypeSignature Language="VB.NET" Value="Public Class LicenseNotRegisteredException&#xA;Inherits BadInputException" />
+  <TypeSignature Language="F#" Value="type LicenseNotRegisteredException = class&#xA;    inherit BadInputException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.7.133.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.InformationProtection.Exceptions.BadInputException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Serializable&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Publishing License not Registered
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LicenseNotRegisteredException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Exceptions.LicenseNotRegisteredException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Exceptions.LicenseNotRegisteredException : string -&gt; Microsoft.InformationProtection.Exceptions.LicenseNotRegisteredException" Usage="new Microsoft.InformationProtection.Exceptions.LicenseNotRegisteredException message" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.7.133.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">The message that describes the error</param>
+        <summary>
+            Constructor for LicenseNotRegisteredException
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
