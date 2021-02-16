@@ -10,6 +10,8 @@
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
     <AssemblyVersion>1.6.152.0</AssemblyVersion>
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
+    <AssemblyVersion>1.7.147.0</AssemblyVersion>
+    <AssemblyVersion>1.8.94.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -42,6 +44,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -67,6 +71,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

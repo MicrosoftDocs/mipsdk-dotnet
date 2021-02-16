@@ -1,0 +1,111 @@
+<Type Name="DelegationLicenseSettings" FullName="Microsoft.InformationProtection.Protection.DelegationLicenseSettings">
+  <TypeSignature Language="C#" Value="public class DelegationLicenseSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DelegationLicenseSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.DelegationLicenseSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class DelegationLicenseSettings" />
+  <TypeSignature Language="F#" Value="type DelegationLicenseSettings = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.8.94.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Settings used to obtain delegation licenses
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegationLicenseSettings (Microsoft.InformationProtection.Protection.PublishingLicenseInfo publishingLicenseInfo);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo publishingLicenseInfo) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.DelegationLicenseSettings.#ctor(Microsoft.InformationProtection.Protection.PublishingLicenseInfo)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (publishingLicenseInfo As PublishingLicenseInfo)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Protection.DelegationLicenseSettings : Microsoft.InformationProtection.Protection.PublishingLicenseInfo -&gt; Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Usage="new Microsoft.InformationProtection.Protection.DelegationLicenseSettings publishingLicenseInfo" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="publishingLicenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" />
+      </Parameters>
+      <Docs>
+        <param name="publishingLicenseInfo">The <see cref="P:Microsoft.InformationProtection.Protection.DelegationLicenseSettings.PublishingLicenseInfo" /></param>
+        <summary>
+            DelegationLicenseSettings constructor
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AcquireEndUserLicenses">
+      <MemberSignature Language="C#" Value="public bool AcquireEndUserLicenses { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AcquireEndUserLicenses" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.DelegationLicenseSettings.AcquireEndUserLicenses" />
+      <MemberSignature Language="VB.NET" Value="Public Property AcquireEndUserLicenses As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AcquireEndUserLicenses : bool with get, set" Usage="Microsoft.InformationProtection.Protection.DelegationLicenseSettings.AcquireEndUserLicenses" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not to obtain end user licenses
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PublishingLicenseInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.PublishingLicenseInfo PublishingLicenseInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Protection.PublishingLicenseInfo PublishingLicenseInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.DelegationLicenseSettings.PublishingLicenseInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublishingLicenseInfo As PublishingLicenseInfo" />
+      <MemberSignature Language="F#" Value="member this.PublishingLicenseInfo : Microsoft.InformationProtection.Protection.PublishingLicenseInfo with get, set" Usage="Microsoft.InformationProtection.Protection.DelegationLicenseSettings.PublishingLicenseInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The publishing license to obtain delegated licenses for
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Users">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;string&gt; Users { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;string&gt; Users" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.DelegationLicenseSettings.Users" />
+      <MemberSignature Language="VB.NET" Value="Public Property Users As List(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Users : System.Collections.Generic.List&lt;string&gt; with get, set" Usage="Microsoft.InformationProtection.Protection.DelegationLicenseSettings.Users" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The users to obtain delegated licenses for
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

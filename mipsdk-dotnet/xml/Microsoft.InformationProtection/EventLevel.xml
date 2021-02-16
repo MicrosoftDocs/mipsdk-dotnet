@@ -1,0 +1,64 @@
+<Type Name="EventLevel" FullName="Microsoft.InformationProtection.EventLevel">
+  <TypeSignature Language="C#" Value="public enum EventLevel" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EventLevel extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.EventLevel" />
+  <TypeSignature Language="VB.NET" Value="Public Enum EventLevel" />
+  <TypeSignature Language="F#" Value="type EventLevel = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.8.94.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Description of event importance
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Basic">
+      <MemberSignature Language="C#" Value="Basic" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.EventLevel Basic = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.EventLevel.Basic" />
+      <MemberSignature Language="VB.NET" Value="Basic" />
+      <MemberSignature Language="F#" Value="Basic = 0" Usage="Microsoft.InformationProtection.EventLevel.Basic" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.EventLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Data is used only for telemetry/logging purposes
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="NecessaryServiceData">
+      <MemberSignature Language="C#" Value="NecessaryServiceData" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.EventLevel NecessaryServiceData = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.EventLevel.NecessaryServiceData" />
+      <MemberSignature Language="VB.NET" Value="NecessaryServiceData" />
+      <MemberSignature Language="F#" Value="NecessaryServiceData = 1" Usage="Microsoft.InformationProtection.EventLevel.NecessaryServiceData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.EventLevel</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Data is necessary as a critical feature (e.g. audit)
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

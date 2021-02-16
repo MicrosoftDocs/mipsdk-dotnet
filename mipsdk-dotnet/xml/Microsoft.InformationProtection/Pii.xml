@@ -1,0 +1,128 @@
+<Type Name="Pii" FullName="Microsoft.InformationProtection.Pii">
+  <TypeSignature Language="C#" Value="public enum Pii" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Pii extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Pii" />
+  <TypeSignature Language="VB.NET" Value="Public Enum Pii" />
+  <TypeSignature Language="F#" Value="type Pii = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.8.94.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Type of PII data, if any.
+            If an event is sent through audit pipeline, this value should be forced to 'None'.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Fqdn">
+      <MemberSignature Language="C#" Value="Fqdn" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Pii Fqdn = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Pii.Fqdn" />
+      <MemberSignature Language="VB.NET" Value="Fqdn" />
+      <MemberSignature Language="F#" Value="Fqdn = 4" Usage="Microsoft.InformationProtection.Pii.Fqdn" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Data contains a FQDN
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Identity">
+      <MemberSignature Language="C#" Value="Identity" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Pii Identity = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Pii.Identity" />
+      <MemberSignature Language="VB.NET" Value="Identity" />
+      <MemberSignature Language="F#" Value="Identity = 2" Usage="Microsoft.InformationProtection.Pii.Identity" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Data contains an identity
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="None">
+      <MemberSignature Language="C#" Value="None" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Pii None = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Pii.None" />
+      <MemberSignature Language="VB.NET" Value="None" />
+      <MemberSignature Language="F#" Value="None = 0" Usage="Microsoft.InformationProtection.Pii.None" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Data is not PII
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SmtpAddress">
+      <MemberSignature Language="C#" Value="SmtpAddress" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Pii SmtpAddress = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Pii.SmtpAddress" />
+      <MemberSignature Language="VB.NET" Value="SmtpAddress" />
+      <MemberSignature Language="F#" Value="SmtpAddress = 1" Usage="Microsoft.InformationProtection.Pii.SmtpAddress" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Data contains an SMTP address
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Uri">
+      <MemberSignature Language="C#" Value="Uri" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Pii Uri = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Pii.Uri" />
+      <MemberSignature Language="VB.NET" Value="Uri" />
+      <MemberSignature Language="F#" Value="Uri = 3" Usage="Microsoft.InformationProtection.Pii.Uri" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Data contains a URI
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

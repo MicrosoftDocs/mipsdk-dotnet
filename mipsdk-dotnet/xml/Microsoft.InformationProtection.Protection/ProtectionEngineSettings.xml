@@ -9,6 +9,8 @@
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
     <AssemblyVersion>1.6.152.0</AssemblyVersion>
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
+    <AssemblyVersion>1.7.147.0</AssemblyVersion>
+    <AssemblyVersion>1.8.94.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -33,6 +35,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="engineId" Type="System.String" />
@@ -51,6 +55,28 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="AllowCloudServiceOnly">
+      <MemberSignature Language="C#" Value="public bool AllowCloudServiceOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool AllowCloudServiceOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.ProtectionEngineSettings.AllowCloudServiceOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property AllowCloudServiceOnly As Boolean" />
+      <MemberSignature Language="F#" Value="member this.AllowCloudServiceOnly : bool with get, set" Usage="Microsoft.InformationProtection.Protection.ProtectionEngineSettings.AllowCloudServiceOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Sets whether or not only cloud service is allowed
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="ClientData">
       <MemberSignature Language="C#" Value="public string ClientData { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string ClientData" />
@@ -63,6 +89,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -87,6 +115,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
@@ -112,6 +142,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -137,6 +169,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -161,6 +195,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -185,6 +221,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Identity</ReturnType>
@@ -209,6 +247,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -233,6 +273,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -255,6 +297,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

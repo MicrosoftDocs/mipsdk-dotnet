@@ -1,9 +1,13 @@
 <Type Name="ContentFormat" FullName="Microsoft.InformationProtection.Policy.ContentFormat">
-  <TypeSignature Language="C#" Value="public enum ContentFormat" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContentFormat extends System.Enum" />
+  <TypeSignature Language="C#" Value="public enum ContentFormat" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed ContentFormat extends System.Enum" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.ContentFormat" />
-  <TypeSignature Language="VB.NET" Value="Public Enum ContentFormat" />
-  <TypeSignature Language="F#" Value="type ContentFormat = " />
+  <TypeSignature Language="VB.NET" Value="Public Enum ContentFormat" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
+  <TypeSignature Language="F#" Value="type ContentFormat = " FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
+  <TypeSignature Language="C#" Value="public static class ContentFormat" FrameworkAlternate="mipsdk-dotnet-1.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ContentFormat extends System.Object" FrameworkAlternate="mipsdk-dotnet-1.8" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContentFormat" FrameworkAlternate="mipsdk-dotnet-1.8" />
+  <TypeSignature Language="F#" Value="type ContentFormat = class" FrameworkAlternate="mipsdk-dotnet-1.8" />
   <AssemblyInfo>
     <AssemblyName>mip_dotnet_api</AssemblyName>
     <AssemblyVersion>1.1.210.0</AssemblyVersion>
@@ -15,13 +19,17 @@
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
     <AssemblyVersion>1.6.152.0</AssemblyVersion>
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
+    <AssemblyVersion>1.7.147.0</AssemblyVersion>
+    <AssemblyVersion>1.8.94.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="mipsdk-dotnet-1.8">System.Object</BaseTypeName>
   </Base>
+  <Interfaces />
   <Docs>
     <summary>
-            Content format.
+            Provides a list of content formats
             </summary>
     <remarks>To be added.</remarks>
   </Docs>
@@ -44,6 +52,7 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.ContentFormat</ReturnType>
@@ -53,6 +62,27 @@
         <summary>
             Content format is standard file format
             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Email">
+      <MemberSignature Language="C#" Value="public const string Email;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string Email" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.ContentFormat.Email" />
+      <MemberSignature Language="VB.NET" Value="Public Const Email As String " />
+      <MemberSignature Language="F#" Value="val mutable Email : string" Usage="Microsoft.InformationProtection.Policy.ContentFormat.Email" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            'email' content format
+            </summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="EMail">
@@ -73,6 +103,7 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.ContentFormat</ReturnType>
@@ -82,6 +113,27 @@
         <summary>
             Content format is email format
             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="File">
+      <MemberSignature Language="C#" Value="public const string File;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string File" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.ContentFormat.File" />
+      <MemberSignature Language="VB.NET" Value="Public Const File As String " />
+      <MemberSignature Language="F#" Value="val mutable File : string" Usage="Microsoft.InformationProtection.Policy.ContentFormat.File" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            'file' content format
+            </summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

@@ -15,6 +15,8 @@
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
     <AssemblyVersion>1.6.152.0</AssemblyVersion>
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
+    <AssemblyVersion>1.7.147.0</AssemblyVersion>
+    <AssemblyVersion>1.8.94.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -38,6 +40,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.ClassificationScheme</ReturnType>
@@ -69,6 +72,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.IPolicyHandler</ReturnType>
@@ -103,6 +108,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -133,6 +140,7 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -142,6 +150,32 @@
             Gets the default sensitivity label. 
             </summary>
         <value>Default sensitivy label if exists, <c>null</c>if there is no default label set.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetDefaultSensitivityLabel">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Label GetDefaultSensitivityLabel (string contentFormat = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.Label GetDefaultSensitivityLabel(string contentFormat) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyEngine.GetDefaultSensitivityLabel(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetDefaultSensitivityLabel (Optional contentFormat As String = &quot;&quot;) As Label" />
+      <MemberSignature Language="F#" Value="abstract member GetDefaultSensitivityLabel : string -&gt; Microsoft.InformationProtection.Label" Usage="iPolicyEngine.GetDefaultSensitivityLabel contentFormat" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contentFormat" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8" />
+      </Parameters>
+      <Docs>
+        <param name="contentFormat">a string representing the format such as "file", "email" etc</param>
+        <summary>
+            Gets the default sensitivity label. 
+            </summary>
+        <returns>Default sensitivy label if exists according to the provided contentFormat, <c>null</c>if there is no default label set.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -158,6 +192,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -175,6 +211,32 @@
       </Docs>
     </Member>
     <Member MemberName="HasClassificationRules">
+      <MemberSignature Language="C#" Value="public bool HasClassificationRules (string[] contentFormats = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool HasClassificationRules(string[] contentFormats) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyEngine.HasClassificationRules(System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function HasClassificationRules (Optional contentFormats As String() = Nothing) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member HasClassificationRules : string[] -&gt; bool" Usage="iPolicyEngine.HasClassificationRules contentFormats" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contentFormats" Type="System.String[]" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8" />
+      </Parameters>
+      <Docs>
+        <param name="contentFormats">a string array representing the list of formats such as "file", "email" etc</param>
+        <summary>
+            Gets if the policy has automatic or recommendation rules.
+            </summary>
+        <returns>True if the policy contains automatic or recommendation rules according to provided contentFormats, else false.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasClassificationRules">
       <MemberSignature Language="C#" Value="public bool HasClassificationRules { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool HasClassificationRules" />
       <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.IPolicyEngine.HasClassificationRules" />
@@ -188,6 +250,7 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -197,6 +260,32 @@
             Gets if the policy has automatic or recommendation rules.
             </summary>
         <value>True if the policy contains automatic or recommendation rules, else false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLabelingRequired">
+      <MemberSignature Language="C#" Value="public bool IsLabelingRequired (string contentFormat = &quot;&quot;);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsLabelingRequired(string contentFormat) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyEngine.IsLabelingRequired(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsLabelingRequired (Optional contentFormat As String = &quot;&quot;) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member IsLabelingRequired : string -&gt; bool" Usage="iPolicyEngine.IsLabelingRequired contentFormat" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contentFormat" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8" />
+      </Parameters>
+      <Docs>
+        <param name="contentFormat">a string representing the format such as "file", "email" etc</param>
+        <summary>
+            Checks whether or not the policy dictates that a document must be labeled.
+            </summary>
+        <returns>True if labelling is mandatory according to the provided contentFormat, else false.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -218,6 +307,7 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -244,6 +334,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -253,6 +345,32 @@
             Provide the time when the policy was last fetched.
             </summary>
         <value>The last policy fetch Time</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListSensitivityLabels">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt; ListSensitivityLabels (string[] contentFormats = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.InformationProtection.Label&gt; ListSensitivityLabels(string[] contentFormats) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyEngine.ListSensitivityLabels(System.String[])" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListSensitivityLabels (Optional contentFormats As String() = Nothing) As ReadOnlyCollection(Of Label)" />
+      <MemberSignature Language="F#" Value="abstract member ListSensitivityLabels : string[] -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;" Usage="iPolicyEngine.ListSensitivityLabels contentFormats" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="contentFormats" Type="System.String[]" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8" />
+      </Parameters>
+      <Docs>
+        <param name="contentFormats">a string array representing the list of formats such as "file", "email" etc</param>
+        <summary>
+            List the sensitivity labels associated with the policy engine.
+            </summary>
+        <returns>A list of sensitivity labels according to the provided contentFormats.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -274,6 +392,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -304,6 +424,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -329,6 +451,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -359,6 +483,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -396,6 +522,7 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
@@ -426,6 +553,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt;</ReturnType>
@@ -451,6 +580,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -475,6 +606,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -505,6 +638,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.PolicyEngineSettings</ReturnType>
@@ -529,6 +664,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -553,6 +690,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.UInt32</ReturnType>

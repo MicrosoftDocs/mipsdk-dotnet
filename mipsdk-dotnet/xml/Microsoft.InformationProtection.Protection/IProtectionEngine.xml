@@ -9,6 +9,8 @@
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
     <AssemblyVersion>1.6.152.0</AssemblyVersion>
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
+    <AssemblyVersion>1.7.147.0</AssemblyVersion>
+    <AssemblyVersion>1.8.94.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -22,6 +24,58 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="CreateDelegationLicenses">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.IDelegationLicense&gt; CreateDelegationLicenses (Microsoft.InformationProtection.Protection.DelegationLicenseSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Protection.IDelegationLicense&gt; CreateDelegationLicenses(class Microsoft.InformationProtection.Protection.DelegationLicenseSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.CreateDelegationLicenses(Microsoft.InformationProtection.Protection.DelegationLicenseSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateDelegationLicenses (settings As DelegationLicenseSettings) As List(Of IDelegationLicense)" />
+      <MemberSignature Language="F#" Value="abstract member CreateDelegationLicenses : Microsoft.InformationProtection.Protection.DelegationLicenseSettings -&gt; System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.IDelegationLicense&gt;" Usage="iProtectionEngine.CreateDelegationLicenses settings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.IDelegationLicense&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8" />
+      </Parameters>
+      <Docs>
+        <param name="settings">The delegation settings.</param>
+        <summary>
+            Creates a delegated license.
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateDelegationLicensesAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.IDelegationLicense&gt;&gt; CreateDelegationLicensesAsync (Microsoft.InformationProtection.Protection.DelegationLicenseSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Protection.IDelegationLicense&gt;&gt; CreateDelegationLicensesAsync(class Microsoft.InformationProtection.Protection.DelegationLicenseSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.CreateDelegationLicensesAsync(Microsoft.InformationProtection.Protection.DelegationLicenseSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateDelegationLicensesAsync (settings As DelegationLicenseSettings) As Task(Of List(Of IDelegationLicense))" />
+      <MemberSignature Language="F#" Value="abstract member CreateDelegationLicensesAsync : Microsoft.InformationProtection.Protection.DelegationLicenseSettings -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.IDelegationLicense&gt;&gt;" Usage="iProtectionEngine.CreateDelegationLicensesAsync settings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.IDelegationLicense&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8" />
+      </Parameters>
+      <Docs>
+        <param name="settings">The delegation settings.</param>
+        <summary>
+            Creates a delegated license.
+            </summary>
+        <returns>A task that represents the asynchronous create operation. The value of the <c>TResult</c> parameter contains <c>IDelegationLicense</c>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="CreateProtectionHandlerForConsumption">
       <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.IProtectionHandler CreateProtectionHandlerForConsumption (Microsoft.InformationProtection.Protection.ConsumptionSettings settings);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.Protection.IProtectionHandler CreateProtectionHandlerForConsumption(class Microsoft.InformationProtection.Protection.ConsumptionSettings settings) cil managed" />
@@ -34,6 +88,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
@@ -62,6 +118,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;</ReturnType>
@@ -90,6 +148,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
@@ -118,6 +178,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;</ReturnType>
@@ -146,6 +208,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
@@ -180,6 +244,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
@@ -214,6 +280,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;</ReturnType>
@@ -239,6 +307,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt;</ReturnType>
@@ -262,14 +332,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7" />
-        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.7" />
-        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.7" />
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="licenseInfo">Publishing license from the protected content.</param>
@@ -291,14 +363,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7" />
-        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.7" />
-        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.7" />
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="licenseInfo">Publishing license from the protected content.</param>
@@ -321,12 +395,14 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7" />
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="licenseInfo">Publishing license from the protected content.</param>
@@ -346,12 +422,14 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7" />
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="licenseInfo">Publishing license from the protected content.</param>
@@ -374,6 +452,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.ProtectionEngineSettings</ReturnType>
