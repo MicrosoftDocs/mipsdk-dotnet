@@ -11,6 +11,8 @@
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
     <AssemblyVersion>1.6.152.0</AssemblyVersion>
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
+    <AssemblyVersion>1.7.147.0</AssemblyVersion>
+    <AssemblyVersion>1.8.94.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -40,6 +42,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -61,6 +65,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -92,6 +98,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.InformationProtection.Policy.ClassificationResult&gt;</ReturnType>
@@ -109,11 +117,15 @@
       </Docs>
     </Member>
     <Member MemberName="GetContentFormat">
-      <MemberSignature Language="C#" Value="public abstract Microsoft.InformationProtection.Policy.ContentFormat GetContentFormat ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.Policy.ContentFormat GetContentFormat() cil managed" />
+      <MemberSignature Language="C#" Value="public abstract Microsoft.InformationProtection.Policy.ContentFormat GetContentFormat ();" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype Microsoft.InformationProtection.Policy.ContentFormat GetContentFormat() cil managed" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetContentFormat" />
-      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetContentFormat () As ContentFormat" />
-      <MemberSignature Language="F#" Value="abstract member GetContentFormat : unit -&gt; Microsoft.InformationProtection.Policy.ContentFormat" Usage="executionState.GetContentFormat " />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetContentFormat () As ContentFormat" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
+      <MemberSignature Language="F#" Value="abstract member GetContentFormat : unit -&gt; Microsoft.InformationProtection.Policy.ContentFormat" Usage="executionState.GetContentFormat " FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
+      <MemberSignature Language="C#" Value="public abstract string GetContentFormat ();" FrameworkAlternate="mipsdk-dotnet-1.8" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetContentFormat() cil managed" FrameworkAlternate="mipsdk-dotnet-1.8" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetContentFormat () As String" FrameworkAlternate="mipsdk-dotnet-1.8" />
+      <MemberSignature Language="F#" Value="abstract member GetContentFormat : unit -&gt; string" Usage="executionState.GetContentFormat " FrameworkAlternate="mipsdk-dotnet-1.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
@@ -122,9 +134,12 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Microsoft.InformationProtection.Policy.ContentFormat</ReturnType>
+        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7">Microsoft.InformationProtection.Policy.ContentFormat</ReturnType>
+        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.8">System.String</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -149,6 +164,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -170,9 +187,9 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetContentMetadata(System.Collections.Generic.List{System.String},System.Collections.Generic.List{System.String})" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetContentMetadata (names As List(Of String), namePrefixes As List(Of String)) As List(Of MetadataEntry)" />
       <MemberSignature Language="F#" Value="abstract member GetContentMetadata : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;string&gt; -&gt; System.Collections.Generic.List&lt;Microsoft.InformationProtection.MetadataEntry&gt;" Usage="executionState.GetContentMetadata (names, namePrefixes)" FrameworkAlternate="mipsdk-dotnet-1.6" />
-      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.MetadataEntry&gt; GetContentMetadata (System.Collections.Generic.List&lt;string&gt; names, System.Collections.Generic.List&lt;string&gt; namePrefixes);" FrameworkAlternate="mipsdk-dotnet-1.7" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Policy.MetadataEntry&gt; GetContentMetadata(class System.Collections.Generic.List`1&lt;string&gt; names, class System.Collections.Generic.List`1&lt;string&gt; namePrefixes) cil managed" FrameworkAlternate="mipsdk-dotnet-1.7" />
-      <MemberSignature Language="F#" Value="abstract member GetContentMetadata : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;string&gt; -&gt; System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.MetadataEntry&gt;" Usage="executionState.GetContentMetadata (names, namePrefixes)" FrameworkAlternate="mipsdk-dotnet-1.7" />
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.MetadataEntry&gt; GetContentMetadata (System.Collections.Generic.List&lt;string&gt; names, System.Collections.Generic.List&lt;string&gt; namePrefixes);" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Policy.MetadataEntry&gt; GetContentMetadata(class System.Collections.Generic.List`1&lt;string&gt; names, class System.Collections.Generic.List`1&lt;string&gt; namePrefixes) cil managed" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+      <MemberSignature Language="F#" Value="abstract member GetContentMetadata : System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;string&gt; -&gt; System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.MetadataEntry&gt;" Usage="executionState.GetContentMetadata (names, namePrefixes)" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
@@ -181,10 +198,12 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType FrameworkAlternate="mipsdk-dotnet-1.6">System.Collections.Generic.List&lt;Microsoft.InformationProtection.MetadataEntry&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.7">System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.MetadataEntry&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8">System.Collections.Generic.List&lt;Microsoft.InformationProtection.Policy.MetadataEntry&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="names" Type="System.Collections.Generic.List&lt;System.String&gt;" />
@@ -206,20 +225,22 @@
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.ExecutionState.GetContentMetadataVersion" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetContentMetadataVersion () As UInteger" FrameworkAlternate="mipsdk-dotnet-1.6" />
       <MemberSignature Language="F#" Value="abstract member GetContentMetadataVersion : unit -&gt; uint32&#xA;override this.GetContentMetadataVersion : unit -&gt; uint32" Usage="executionState.GetContentMetadataVersion " FrameworkAlternate="mipsdk-dotnet-1.6" />
-      <MemberSignature Language="C#" Value="public virtual Microsoft.InformationProtection.Policy.MetadataVersion GetContentMetadataVersion ();" FrameworkAlternate="mipsdk-dotnet-1.7" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.Policy.MetadataVersion GetContentMetadataVersion() cil managed" FrameworkAlternate="mipsdk-dotnet-1.7" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetContentMetadataVersion () As MetadataVersion" FrameworkAlternate="mipsdk-dotnet-1.7" />
-      <MemberSignature Language="F#" Value="abstract member GetContentMetadataVersion : unit -&gt; Microsoft.InformationProtection.Policy.MetadataVersion&#xA;override this.GetContentMetadataVersion : unit -&gt; Microsoft.InformationProtection.Policy.MetadataVersion" Usage="executionState.GetContentMetadataVersion " FrameworkAlternate="mipsdk-dotnet-1.7" />
+      <MemberSignature Language="C#" Value="public virtual Microsoft.InformationProtection.Policy.MetadataVersion GetContentMetadataVersion ();" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.Policy.MetadataVersion GetContentMetadataVersion() cil managed" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetContentMetadataVersion () As MetadataVersion" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+      <MemberSignature Language="F#" Value="abstract member GetContentMetadataVersion : unit -&gt; Microsoft.InformationProtection.Policy.MetadataVersion&#xA;override this.GetContentMetadataVersion : unit -&gt; Microsoft.InformationProtection.Policy.MetadataVersion" Usage="executionState.GetContentMetadataVersion " FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType FrameworkAlternate="mipsdk-dotnet-1.6">System.UInt32</ReturnType>
-        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.7">Microsoft.InformationProtection.Policy.MetadataVersion</ReturnType>
+        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8">Microsoft.InformationProtection.Policy.MetadataVersion</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -246,6 +267,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>
@@ -272,6 +295,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -299,6 +324,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.AssignmentMethod</ReturnType>
@@ -326,6 +353,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -353,6 +382,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ProtectionDescriptor</ReturnType>
@@ -380,6 +411,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -407,6 +440,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
