@@ -1,0 +1,215 @@
+<Type Name="DiagnosticConfiguration" FullName="Microsoft.InformationProtection.DiagnosticConfiguration">
+  <TypeSignature Language="C#" Value="public class DiagnosticConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DiagnosticConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.DiagnosticConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class DiagnosticConfiguration" />
+  <TypeSignature Language="F#" Value="type DiagnosticConfiguration = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.8.94.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Represents custom telemetry settings
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DiagnosticConfiguration ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.DiagnosticConfiguration.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AuditDelegate">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.IAuditDelegate AuditDelegate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.IAuditDelegate AuditDelegate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.AuditDelegate" />
+      <MemberSignature Language="VB.NET" Value="Public Property AuditDelegate As IAuditDelegate" />
+      <MemberSignature Language="F#" Value="member this.AuditDelegate : Microsoft.InformationProtection.IAuditDelegate with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.AuditDelegate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.IAuditDelegate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Delegate override to write audit events
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomSettings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; CustomSettings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; CustomSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.CustomSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomSettings As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.CustomSettings : System.Collections.Generic.Dictionary&lt;string, string&gt; with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.CustomSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Custom settings of telemetry
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsFastShutdownEnabled">
+      <MemberSignature Language="C#" Value="public bool IsFastShutdownEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsFastShutdownEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.IsFastShutdownEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsFastShutdownEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsFastShutdownEnabled : bool with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.IsFastShutdownEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Is telemetry fast shutdown enabled or not
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLocalCachingEnabled">
+      <MemberSignature Language="C#" Value="public bool IsLocalCachingEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsLocalCachingEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.IsLocalCachingEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsLocalCachingEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsLocalCachingEnabled : bool with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.IsLocalCachingEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Is local caching/logging permitted for telemetry/audit component
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMinimalTelemetryEnabled">
+      <MemberSignature Language="C#" Value="public bool IsMinimalTelemetryEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMinimalTelemetryEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.IsMinimalTelemetryEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMinimalTelemetryEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsMinimalTelemetryEnabled : bool with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.IsMinimalTelemetryEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Is non-critical telemetry disabled
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsNetworkDetectionEnabled">
+      <MemberSignature Language="C#" Value="public bool IsNetworkDetectionEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsNetworkDetectionEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.IsNetworkDetectionEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsNetworkDetectionEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsNetworkDetectionEnabled : bool with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.IsNetworkDetectionEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Is network status checked on a background thread
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsTraceLoggingEnabled">
+      <MemberSignature Language="C#" Value="public bool IsTraceLoggingEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsTraceLoggingEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.IsTraceLoggingEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsTraceLoggingEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsTraceLoggingEnabled : bool with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.IsTraceLoggingEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Is on-disk trace logging enabled for telemetry/audit component
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaskedProperties">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; MaskedProperties { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; MaskedProperties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.MaskedProperties" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaskedProperties As Dictionary(Of String, List(Of String))" />
+      <MemberSignature Language="F#" Value="member this.MaskedProperties : System.Collections.Generic.Dictionary&lt;string, System.Collections.Generic.List&lt;string&gt;&gt; with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.MaskedProperties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Telemetry events/properties which should be masked
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

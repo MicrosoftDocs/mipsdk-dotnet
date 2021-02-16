@@ -15,6 +15,8 @@
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
     <AssemblyVersion>1.6.152.0</AssemblyVersion>
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
+    <AssemblyVersion>1.7.147.0</AssemblyVersion>
+    <AssemblyVersion>1.8.94.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -28,6 +30,42 @@
   </Docs>
   <Members>
     <Member MemberName="CreateMipContext">
+      <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.MipContext CreateMipContext (Microsoft.InformationProtection.ApplicationInfo appInfo, string path, Microsoft.InformationProtection.LogLevel logLevel, Microsoft.InformationProtection.ILoggerDelegate loggerDelegateOverride, Microsoft.InformationProtection.DiagnosticConfiguration diagnosticOverride, System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,bool&gt; featureSettingsOverride = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.MipContext CreateMipContext(class Microsoft.InformationProtection.ApplicationInfo appInfo, string path, valuetype Microsoft.InformationProtection.LogLevel logLevel, class Microsoft.InformationProtection.ILoggerDelegate loggerDelegateOverride, class Microsoft.InformationProtection.DiagnosticConfiguration diagnosticOverride, class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.InformationProtection.FlightingFeature, bool&gt; featureSettingsOverride) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.CreateMipContext(Microsoft.InformationProtection.ApplicationInfo,System.String,Microsoft.InformationProtection.LogLevel,Microsoft.InformationProtection.ILoggerDelegate,Microsoft.InformationProtection.DiagnosticConfiguration,System.Collections.Generic.Dictionary{Microsoft.InformationProtection.FlightingFeature,System.Boolean})" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateMipContext (appInfo As ApplicationInfo, path As String, logLevel As LogLevel, loggerDelegateOverride As ILoggerDelegate, diagnosticOverride As DiagnosticConfiguration, Optional featureSettingsOverride As Dictionary(Of FlightingFeature, Boolean) = Nothing) As MipContext" />
+      <MemberSignature Language="F#" Value="static member CreateMipContext : Microsoft.InformationProtection.ApplicationInfo * string * Microsoft.InformationProtection.LogLevel * Microsoft.InformationProtection.ILoggerDelegate * Microsoft.InformationProtection.DiagnosticConfiguration * System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature, bool&gt; -&gt; Microsoft.InformationProtection.MipContext" Usage="Microsoft.InformationProtection.MIP.CreateMipContext (appInfo, path, logLevel, loggerDelegateOverride, diagnosticOverride, featureSettingsOverride)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.MipContext</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="appInfo" Type="Microsoft.InformationProtection.ApplicationInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8" />
+        <Parameter Name="path" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.8" />
+        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" Index="2" FrameworkAlternate="mipsdk-dotnet-1.8" />
+        <Parameter Name="loggerDelegateOverride" Type="Microsoft.InformationProtection.ILoggerDelegate" Index="3" FrameworkAlternate="mipsdk-dotnet-1.8" />
+        <Parameter Name="diagnosticOverride" Type="Microsoft.InformationProtection.DiagnosticConfiguration" Index="4" FrameworkAlternate="mipsdk-dotnet-1.8" />
+        <Parameter Name="featureSettingsOverride" Type="System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,System.Boolean&gt;" Index="5" FrameworkAlternate="mipsdk-dotnet-1.8" />
+      </Parameters>
+      <Docs>
+        <param name="appInfo">Application info description</param>
+        <param name="path">Local storage path for caches, logging, etc.</param>
+        <param name="logLevel">Minimum log level to emit to logs</param>
+        <param name="loggerDelegateOverride">Optional alternate logger implementation</param>
+        <param name="diagnosticOverride">Optional telemetry configuration settings</param>
+        <param name="featureSettingsOverride">Optional custom flighting feature settings</param>
+        <summary>
+            Creates a MIP context to be used when initializing profiles
+            </summary>
+        <returns>A MIP context containing shared state applicable to all profiles, engine, handlers, etc.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CreateMipContext">
       <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.MipContext CreateMipContext (Microsoft.InformationProtection.ApplicationInfo appInfo, string path, Microsoft.InformationProtection.LogLevel logLevel, Microsoft.InformationProtection.ILoggerDelegate loggerDelegateOverride, Microsoft.InformationProtection.TelemetryConfiguration telemetryOverride, System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,bool&gt; featureSettingsOverride = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.MipContext CreateMipContext(class Microsoft.InformationProtection.ApplicationInfo appInfo, string path, valuetype Microsoft.InformationProtection.LogLevel logLevel, class Microsoft.InformationProtection.ILoggerDelegate loggerDelegateOverride, class Microsoft.InformationProtection.TelemetryConfiguration telemetryOverride, class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.InformationProtection.FlightingFeature, bool&gt; featureSettingsOverride) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MIP.CreateMipContext(Microsoft.InformationProtection.ApplicationInfo,System.String,Microsoft.InformationProtection.LogLevel,Microsoft.InformationProtection.ILoggerDelegate,Microsoft.InformationProtection.TelemetryConfiguration,System.Collections.Generic.Dictionary{Microsoft.InformationProtection.FlightingFeature,System.Boolean})" />
@@ -39,17 +77,18 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.MipContext</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="appInfo" Type="Microsoft.InformationProtection.ApplicationInfo" />
-        <Parameter Name="path" Type="System.String" />
-        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" />
-        <Parameter Name="loggerDelegateOverride" Type="Microsoft.InformationProtection.ILoggerDelegate" />
-        <Parameter Name="telemetryOverride" Type="Microsoft.InformationProtection.TelemetryConfiguration" />
-        <Parameter Name="featureSettingsOverride" Type="System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,System.Boolean&gt;" />
+        <Parameter Name="appInfo" Type="Microsoft.InformationProtection.ApplicationInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
+        <Parameter Name="path" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
+        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" Index="2" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
+        <Parameter Name="loggerDelegateOverride" Type="Microsoft.InformationProtection.ILoggerDelegate" Index="3" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
+        <Parameter Name="telemetryOverride" Type="Microsoft.InformationProtection.TelemetryConfiguration" Index="4" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
+        <Parameter Name="featureSettingsOverride" Type="System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,System.Boolean&gt;" Index="5" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
       </Parameters>
       <Docs>
         <param name="appInfo">Application info description</param>
@@ -83,6 +122,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -124,6 +165,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileProfile&gt;</ReturnType>
@@ -158,6 +201,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Policy.IPolicyProfile&gt;</ReturnType>
@@ -186,6 +231,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.IProtectionProfile</ReturnType>
@@ -214,6 +261,8 @@
         <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
+        <AssemblyVersion>1.7.147.0</AssemblyVersion>
+        <AssemblyVersion>1.8.94.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionProfile&gt;</ReturnType>
