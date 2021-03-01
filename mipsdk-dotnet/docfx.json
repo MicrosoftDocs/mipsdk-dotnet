@@ -43,7 +43,8 @@
     "globalMetadata": {
       "apiPlatform": "dotnet",
       "breadcrumb_path": "~/breadcrumb/toc.yml",
-      "ms.author": "tommos"
+      "ms.author": "tommos",
+      "ms.topioc": "language-reference"
     },
     "fileMetadata": {
       "author": {
