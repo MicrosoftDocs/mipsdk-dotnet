@@ -44,7 +44,7 @@
       "apiPlatform": "dotnet",
       "breadcrumb_path": "~/breadcrumb/toc.yml",
       "ms.author": "tommos",
-      "ms.topioc": "language-reference"
+      "ms.topic": "language-reference"
     },
     "fileMetadata": {
       "author": {
