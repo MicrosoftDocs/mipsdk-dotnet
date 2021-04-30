@@ -17,6 +17,8 @@
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
     <AssemblyVersion>1.7.147.0</AssemblyVersion>
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
+    <AssemblyVersion>1.8.102.0</AssemblyVersion>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -44,6 +46,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -58,6 +62,33 @@
         <summary>
             Trigger an authentication callback
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="AddEngine">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Policy.IPolicyEngine AddEngine (Microsoft.InformationProtection.Policy.PolicyEngineSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.InformationProtection.Policy.IPolicyEngine AddEngine(class Microsoft.InformationProtection.Policy.PolicyEngineSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyProfile.AddEngine(Microsoft.InformationProtection.Policy.PolicyEngineSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function AddEngine (settings As PolicyEngineSettings) As IPolicyEngine" />
+      <MemberSignature Language="F#" Value="abstract member AddEngine : Microsoft.InformationProtection.Policy.PolicyEngineSettings -&gt; Microsoft.InformationProtection.Policy.IPolicyEngine" Usage="iPolicyProfile.AddEngine settings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Policy.IPolicyEngine</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Policy.PolicyEngineSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="settings">the settings object that specifies the engines parameters.</param>
+        <summary>
+            Starts adding a new policy engine to the profile.
+            </summary>
+        <returns>Newly created PolicyEngine.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -81,6 +112,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Policy.IPolicyEngine&gt;</ReturnType>
@@ -94,6 +127,32 @@
             Starts adding a new policy engine to the profile.
             </summary>
         <returns>A task that represents the asynchronous add engine operation. The value of the <c>TResult</c> parameter contains the <c>IPolicyEngine</c>.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DeleteEngine">
+      <MemberSignature Language="C#" Value="public void DeleteEngine (string id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void DeleteEngine(string id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyProfile.DeleteEngine(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub DeleteEngine (id As String)" />
+      <MemberSignature Language="F#" Value="abstract member DeleteEngine : string -&gt; unit" Usage="iPolicyProfile.DeleteEngine id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="id">the unique engine id.</param>
+        <summary>
+            Starts deleting the policy engine with the given id. All data for the given profile will be completely deleted.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -117,6 +176,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -130,6 +191,30 @@
             Starts deleting the policy engine with the given id. All data for the given profile will be completely deleted.
             </summary>
         <returns>A task that represents the asynchronous delete engine operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ListEngines">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;string&gt; ListEngines ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;string&gt; ListEngines() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyProfile.ListEngines" />
+      <MemberSignature Language="VB.NET" Value="Public Function ListEngines () As List(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member ListEngines : unit -&gt; System.Collections.Generic.List&lt;string&gt;" Usage="iPolicyProfile.ListEngines " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Starts list engines operation.
+            </summary>
+        <returns>the list of engine ids.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -153,6 +238,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
@@ -186,6 +273,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.InformationProtection.AddingEngineEventArgs&gt;</ReturnType>
@@ -217,6 +306,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.EventHandler&lt;Microsoft.InformationProtection.PolicyChangedEventArgs&gt;</ReturnType>
@@ -248,6 +339,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.PolicyProfileSettings</ReturnType>
@@ -257,6 +350,32 @@
             Get the settings set on the profile.
             </summary>
         <value>settings set on the profile.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UnloadEngine">
+      <MemberSignature Language="C#" Value="public void UnloadEngine (string id);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void UnloadEngine(string id) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyProfile.UnloadEngine(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub UnloadEngine (id As String)" />
+      <MemberSignature Language="F#" Value="abstract member UnloadEngine : string -&gt; unit" Usage="iPolicyProfile.UnloadEngine id" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="id" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="id">the unique engine id.</param>
+        <summary>
+            Starts unloading the policy engine with the given id.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -280,6 +399,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>

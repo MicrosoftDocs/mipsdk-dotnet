@@ -17,6 +17,8 @@
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
     <AssemblyVersion>1.7.147.0</AssemblyVersion>
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
+    <AssemblyVersion>1.8.102.0</AssemblyVersion>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -114,16 +116,18 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8" />
-        <Parameter Name="inputFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.8" />
-        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.8" />
-        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.8" />
-        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.8" />
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="inputStream">A stream that represents the file.</param>
@@ -148,16 +152,18 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputFilePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8" />
-        <Parameter Name="actualFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.8" />
-        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.8" />
-        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.8" />
-        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.8" />
+        <Parameter Name="inputFilePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="actualFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="inputFilePath">The file to open. The path must include the file name and, if one exists, the file name extension. </param>
@@ -192,6 +198,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -220,6 +228,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -247,6 +257,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -279,6 +291,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -288,6 +302,32 @@
             Gets if the policy has automatic or recommandation rules.
             </summary>
         <value>True if the policy contains automatic or recommendation rules, else false.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="HasWorkloadConsent">
+      <MemberSignature Language="C#" Value="public bool HasWorkloadConsent (Microsoft.InformationProtection.Workload workload);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool HasWorkloadConsent(valuetype Microsoft.InformationProtection.Workload workload) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileEngine.HasWorkloadConsent(Microsoft.InformationProtection.Workload)" />
+      <MemberSignature Language="VB.NET" Value="Public Function HasWorkloadConsent (workload As Workload) As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member HasWorkloadConsent : Microsoft.InformationProtection.Workload -&gt; bool" Usage="iFileEngine.HasWorkloadConsent workload" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="workload" Type="Microsoft.InformationProtection.Workload" Index="0" FrameworkAlternate="mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="workload">To be added.</param>
+        <summary>
+            Checks workload consent
+            </summary>
+        <returns>Checks if workload is consented, true if not specified</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -311,6 +351,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -339,6 +381,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -371,6 +415,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -397,6 +443,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -424,6 +472,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -456,6 +506,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -495,6 +547,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
@@ -527,6 +581,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt;</ReturnType>
@@ -553,6 +609,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -585,6 +643,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.File.FileEngineSettings</ReturnType>

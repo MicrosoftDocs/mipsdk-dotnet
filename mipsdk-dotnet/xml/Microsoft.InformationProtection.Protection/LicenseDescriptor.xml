@@ -1,0 +1,67 @@
+<Type Name="LicenseDescriptor" FullName="Microsoft.InformationProtection.Protection.LicenseDescriptor">
+  <TypeSignature Language="C#" Value="public class LicenseDescriptor" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LicenseDescriptor extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.LicenseDescriptor" />
+  <TypeSignature Language="VB.NET" Value="Public Class LicenseDescriptor" />
+  <TypeSignature Language="F#" Value="type LicenseDescriptor = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The descriptor from a license.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DescriptorItems">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem&gt; DescriptorItems { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem&gt; DescriptorItems" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.LicenseDescriptor.DescriptorItems" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DescriptorItems As List(Of LicenseNameAndDescriptionItem)" />
+      <MemberSignature Language="F#" Value="member this.DescriptorItems : System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem&gt;" Usage="Microsoft.InformationProtection.Protection.LicenseDescriptor.DescriptorItems" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The descriptors in the license
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Id">
+      <MemberSignature Language="C#" Value="public string Id { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Id" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.LicenseDescriptor.Id" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Id As String" />
+      <MemberSignature Language="F#" Value="member this.Id : string" Usage="Microsoft.InformationProtection.Protection.LicenseDescriptor.Id" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The license id
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -13,6 +13,8 @@
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
     <AssemblyVersion>1.7.147.0</AssemblyVersion>
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
+    <AssemblyVersion>1.8.102.0</AssemblyVersion>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -40,6 +42,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>
@@ -67,6 +71,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>
@@ -94,6 +100,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>

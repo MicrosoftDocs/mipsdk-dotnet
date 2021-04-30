@@ -1,0 +1,64 @@
+<Type Name="Workload" FullName="Microsoft.InformationProtection.Workload">
+  <TypeSignature Language="C#" Value="public enum Workload" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed Workload extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Workload" />
+  <TypeSignature Language="VB.NET" Value="Public Enum Workload" />
+  <TypeSignature Language="F#" Value="type Workload = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Different workloads
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Office">
+      <MemberSignature Language="C#" Value="Office" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Workload Office = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Workload.Office" />
+      <MemberSignature Language="VB.NET" Value="Office" />
+      <MemberSignature Language="F#" Value="Office = 0" Usage="Microsoft.InformationProtection.Workload.Office" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Workload</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Office type workload
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Purview">
+      <MemberSignature Language="C#" Value="Purview" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Workload Purview = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Workload.Purview" />
+      <MemberSignature Language="VB.NET" Value="Purview" />
+      <MemberSignature Language="F#" Value="Purview = 1" Usage="Microsoft.InformationProtection.Workload.Purview" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Workload</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Purview type workload
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -13,6 +13,8 @@
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
     <AssemblyVersion>1.7.147.0</AssemblyVersion>
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
+    <AssemblyVersion>1.8.102.0</AssemblyVersion>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -39,10 +41,35 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
         <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetApplicationScenarioId">
+      <MemberSignature Language="C#" Value="public virtual string GetApplicationScenarioId ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string GetApplicationScenarioId() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileExecutionState.GetApplicationScenarioId" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetApplicationScenarioId () As String" />
+      <MemberSignature Language="F#" Value="abstract member GetApplicationScenarioId : unit -&gt; string&#xA;override this.GetApplicationScenarioId : unit -&gt; string" Usage="fileExecutionState.GetApplicationScenarioId " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Return an identifier which correlates application events with the corresponding protection service REST requests.
+            </summary>
+        <returns>An identifier (usually specified as a GUID).</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -62,6 +89,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -97,6 +126,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.InformationProtection.Policy.ClassificationResult&gt;</ReturnType>
@@ -131,6 +162,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.DataState</ReturnType>

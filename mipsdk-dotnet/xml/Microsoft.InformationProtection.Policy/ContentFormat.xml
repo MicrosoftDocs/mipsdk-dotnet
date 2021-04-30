@@ -4,10 +4,10 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Policy.ContentFormat" />
   <TypeSignature Language="VB.NET" Value="Public Enum ContentFormat" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
   <TypeSignature Language="F#" Value="type ContentFormat = " FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7" />
-  <TypeSignature Language="C#" Value="public static class ContentFormat" FrameworkAlternate="mipsdk-dotnet-1.8" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ContentFormat extends System.Object" FrameworkAlternate="mipsdk-dotnet-1.8" />
-  <TypeSignature Language="VB.NET" Value="Public Class ContentFormat" FrameworkAlternate="mipsdk-dotnet-1.8" />
-  <TypeSignature Language="F#" Value="type ContentFormat = class" FrameworkAlternate="mipsdk-dotnet-1.8" />
+  <TypeSignature Language="C#" Value="public static class ContentFormat" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit ContentFormat extends System.Object" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="VB.NET" Value="Public Class ContentFormat" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="F#" Value="type ContentFormat = class" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
   <AssemblyInfo>
     <AssemblyName>mip_dotnet_api</AssemblyName>
     <AssemblyVersion>1.1.210.0</AssemblyVersion>
@@ -21,10 +21,12 @@
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
     <AssemblyVersion>1.7.147.0</AssemblyVersion>
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
+    <AssemblyVersion>1.8.102.0</AssemblyVersion>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="mipsdk-dotnet-1.8">System.Object</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9">System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -74,6 +76,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -125,6 +129,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

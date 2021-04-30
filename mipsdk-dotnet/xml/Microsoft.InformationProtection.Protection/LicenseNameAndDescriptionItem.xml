@@ -1,0 +1,89 @@
+<Type Name="LicenseNameAndDescriptionItem" FullName="Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem">
+  <TypeSignature Language="C#" Value="public class LicenseNameAndDescriptionItem" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LicenseNameAndDescriptionItem extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem" />
+  <TypeSignature Language="VB.NET" Value="Public Class LicenseNameAndDescriptionItem" />
+  <TypeSignature Language="F#" Value="type LicenseNameAndDescriptionItem = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            The descriptor line item from a license.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Description">
+      <MemberSignature Language="C#" Value="public string Description { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Description" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem.Description" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Description As String" />
+      <MemberSignature Language="F#" Value="member this.Description : string" Usage="Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem.Description" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The description
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Lcid">
+      <MemberSignature Language="C#" Value="public uint Lcid { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance unsigned int32 Lcid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem.Lcid" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Lcid As UInteger" />
+      <MemberSignature Language="F#" Value="member this.Lcid : uint32" Usage="Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem.Lcid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.UInt32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The lcid
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The name
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
