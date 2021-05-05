@@ -1,0 +1,85 @@
+<Type Name="EnableAuditSetting" FullName="Microsoft.InformationProtection.EnableAuditSetting">
+  <TypeSignature Language="C#" Value="public enum EnableAuditSetting" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed EnableAuditSetting extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.EnableAuditSetting" />
+  <TypeSignature Language="VB.NET" Value="Public Enum EnableAuditSetting" />
+  <TypeSignature Language="F#" Value="type EnableAuditSetting = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Different log levels used across the MIP SDK.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Disabled">
+      <MemberSignature Language="C#" Value="Disabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.EnableAuditSetting Disabled = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.EnableAuditSetting.Disabled" />
+      <MemberSignature Language="VB.NET" Value="Disabled" />
+      <MemberSignature Language="F#" Value="Disabled = 2" Usage="Microsoft.InformationProtection.EnableAuditSetting.Disabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.EnableAuditSetting</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            EnableAudit set to false in policy.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Enabled">
+      <MemberSignature Language="C#" Value="Enabled" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.EnableAuditSetting Enabled = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.EnableAuditSetting.Enabled" />
+      <MemberSignature Language="VB.NET" Value="Enabled" />
+      <MemberSignature Language="F#" Value="Enabled = 1" Usage="Microsoft.InformationProtection.EnableAuditSetting.Enabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.EnableAuditSetting</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            EnableAudit set to true in policy.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Undefined">
+      <MemberSignature Language="C#" Value="Undefined" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.EnableAuditSetting Undefined = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.EnableAuditSetting.Undefined" />
+      <MemberSignature Language="VB.NET" Value="Undefined" />
+      <MemberSignature Language="F#" Value="Undefined = 0" Usage="Microsoft.InformationProtection.EnableAuditSetting.Undefined" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.EnableAuditSetting</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            No Audit setting set in policy.
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

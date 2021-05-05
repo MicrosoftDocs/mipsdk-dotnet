@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="mipsdk-dotnet-1.8">
   <Assemblies>
-    <Assembly Name="Microsoft.InformationProtection" Version="1.8.94.0" />
+    <Assembly Name="Microsoft.InformationProtection" Version="1.8.102.0" />
   </Assemblies>
   <Namespace Name="Microsoft.InformationProtection">
     <Type Name="Microsoft.InformationProtection.ActionSource" Id="T:Microsoft.InformationProtection.ActionSource">
@@ -658,9 +658,13 @@
       <Member Id="E:Microsoft.InformationProtection.Policy.IPolicyProfile.OnAddingEngine" />
       <Member Id="E:Microsoft.InformationProtection.Policy.IPolicyProfile.OnPolicyChanged" />
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyProfile.AcquireAuthToken(Microsoft.InformationProtection.Cloud,Microsoft.InformationProtection.IAuthDelegate)" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyProfile.AddEngine(Microsoft.InformationProtection.Policy.PolicyEngineSettings)" />
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyProfile.AddEngineAsync(Microsoft.InformationProtection.Policy.PolicyEngineSettings)" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyProfile.DeleteEngine(System.String)" />
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyProfile.DeleteEngineAsync(System.String)" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyProfile.ListEngines" />
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyProfile.ListEnginesAsync" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyProfile.UnloadEngine(System.String)" />
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyProfile.UnloadEngineAsync(System.String)" />
       <Member Id="P:Microsoft.InformationProtection.Policy.IPolicyProfile.Settings" />
     </Type>
