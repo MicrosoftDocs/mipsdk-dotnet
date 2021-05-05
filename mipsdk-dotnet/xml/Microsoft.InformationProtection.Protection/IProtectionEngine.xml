@@ -11,6 +11,8 @@
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
     <AssemblyVersion>1.7.147.0</AssemblyVersion>
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
+    <AssemblyVersion>1.8.102.0</AssemblyVersion>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -34,19 +36,21 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.IDelegationLicense&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="settings">The delegation settings.</param>
         <summary>
             Creates a delegated license.
             </summary>
-        <returns>To be added.</returns>
+        <returns>List of <c>IDelegationLicense</c></returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -60,12 +64,14 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.IDelegationLicense&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="settings">The delegation settings.</param>
@@ -90,6 +96,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
@@ -120,6 +128,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;</ReturnType>
@@ -150,6 +160,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
@@ -180,6 +192,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;</ReturnType>
@@ -210,20 +224,55 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="documentId" Type="System.String" />
-        <Parameter Name="labelId" Type="System.String" />
-        <Parameter Name="ownerEmail" Type="System.String" />
-        <Parameter Name="delegatedUserEmail" Type="System.String" />
+        <Parameter Name="documentId" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="labelId" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="ownerEmail" Type="System.String" Index="2" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="delegatedUserEmail" Type="System.String" Index="3" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="documentId">Document ID associated with the document metadata.</param>
         <param name="labelId">Label ID associated with the document metadata with which the document created.</param>
         <param name="ownerEmail">Owner of the document.</param>
+        <param name="delegatedUserEmail">A delegated user is specified when the authenticating user/application is acting on behalf of another user, empty if none.</param>
+        <summary>
+            Get collection of rights available to a user for a label ID.
+            </summary>
+        <returns>List of rights.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRightsForLabelId">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;string&gt; GetRightsForLabelId (string documentId, string labelId, string ownerEmail, string delegatedUserEmail, Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;string&gt; GetRightsForLabelId(string documentId, string labelId, string ownerEmail, string delegatedUserEmail, class Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetRightsForLabelId(System.String,System.String,System.String,System.String,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRightsForLabelId (documentId As String, labelId As String, ownerEmail As String, delegatedUserEmail As String, Optional settings As ProtectionCommonSettings = Nothing) As List(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member GetRightsForLabelId : string * string * string * string * Microsoft.InformationProtection.Protection.ProtectionCommonSettings -&gt; System.Collections.Generic.List&lt;string&gt;" Usage="iProtectionEngine.GetRightsForLabelId (documentId, labelId, ownerEmail, delegatedUserEmail, settings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="documentId" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="labelId" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="ownerEmail" Type="System.String" Index="2" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="delegatedUserEmail" Type="System.String" Index="3" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="4" FrameworkAlternate="mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="documentId">Document ID associated with the document metadata.</param>
+        <param name="labelId">Label ID associated with the document metadata with which the document created.</param>
+        <param name="ownerEmail">Owner of the document.</param>
+        <param name="settings">Common settings for protection</param>
         <param name="delegatedUserEmail">A delegated user is specified when the authenticating user/application is acting on behalf of another user, empty if none.</param>
         <summary>
             Get collection of rights available to a user for a label ID.
@@ -246,21 +295,56 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="documentId" Type="System.String" />
-        <Parameter Name="labelId" Type="System.String" />
-        <Parameter Name="ownerEmail" Type="System.String" />
-        <Parameter Name="delegatedUserEmail" Type="System.String" />
+        <Parameter Name="documentId" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="labelId" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="ownerEmail" Type="System.String" Index="2" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="delegatedUserEmail" Type="System.String" Index="3" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="documentId">Document ID associated with the document metadata.</param>
         <param name="labelId">Label ID associated with the document metadata with which the document created.</param>
         <param name="ownerEmail">Owner of the document.</param>
         <param name="delegatedUserEmail">A delegated user is specified when the authenticating user/application is acting on behalf of another user, empty if none.</param>
+        <summary>
+            Starts getting collection of rights available to a user for a label ID.
+            </summary>
+        <returns>A task that represents the asynchronous create operation. The value of the <c>TResult</c> parameter contains the list of rights.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRightsForLabelIdAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt; GetRightsForLabelIdAsync (string documentId, string labelId, string ownerEmail, string delegatedUserEmail, Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;string&gt;&gt; GetRightsForLabelIdAsync(string documentId, string labelId, string ownerEmail, string delegatedUserEmail, class Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetRightsForLabelIdAsync(System.String,System.String,System.String,System.String,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRightsForLabelIdAsync (documentId As String, labelId As String, ownerEmail As String, delegatedUserEmail As String, Optional settings As ProtectionCommonSettings = Nothing) As Task(Of List(Of String))" />
+      <MemberSignature Language="F#" Value="abstract member GetRightsForLabelIdAsync : string * string * string * string * Microsoft.InformationProtection.Protection.ProtectionCommonSettings -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt;" Usage="iProtectionEngine.GetRightsForLabelIdAsync (documentId, labelId, ownerEmail, delegatedUserEmail, settings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="documentId" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="labelId" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="ownerEmail" Type="System.String" Index="2" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="delegatedUserEmail" Type="System.String" Index="3" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="4" FrameworkAlternate="mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="documentId">Document ID associated with the document metadata.</param>
+        <param name="labelId">Label ID associated with the document metadata with which the document created.</param>
+        <param name="ownerEmail">Owner of the document.</param>
+        <param name="delegatedUserEmail">A delegated user is specified when the authenticating user/application is acting on behalf of another user, empty if none.</param>
+        <param name="settings">Common settings for protection</param>
         <summary>
             Starts getting collection of rights available to a user for a label ID.
             </summary>
@@ -282,12 +366,40 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
+        <summary>
+            Get collection of templates available to a user.
+            </summary>
+        <returns>List of template IDs.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTemplates">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt; GetTemplates (Microsoft.InformationProtection.Protection.GetTemplatesSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Protection.TemplateDescriptor&gt; GetTemplates(class Microsoft.InformationProtection.Protection.GetTemplatesSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetTemplates(Microsoft.InformationProtection.Protection.GetTemplatesSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTemplates (settings As GetTemplatesSettings) As List(Of TemplateDescriptor)" />
+      <MemberSignature Language="F#" Value="abstract member GetTemplates : Microsoft.InformationProtection.Protection.GetTemplatesSettings -&gt; System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;" Usage="iProtectionEngine.GetTemplates settings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.GetTemplatesSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="settings">Settings to use when obtaining templates</param>
         <summary>
             Get collection of templates available to a user.
             </summary>
@@ -309,12 +421,40 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
+        <summary>
+            Starts getting collection of templates available to a user.
+            </summary>
+        <returns>A task that represents the asynchronous create operation. The value of the <c>TResult</c> parameter contains the list of template IDs.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetTemplatesAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt; GetTemplatesAsync (Microsoft.InformationProtection.Protection.GetTemplatesSettings settings);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt; GetTemplatesAsync(class Microsoft.InformationProtection.Protection.GetTemplatesSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetTemplatesAsync(Microsoft.InformationProtection.Protection.GetTemplatesSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetTemplatesAsync (settings As GetTemplatesSettings) As Task(Of List(Of TemplateDescriptor))" />
+      <MemberSignature Language="F#" Value="abstract member GetTemplatesAsync : Microsoft.InformationProtection.Protection.GetTemplatesSettings -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt;" Usage="iProtectionEngine.GetTemplatesAsync settings" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.GetTemplatesSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="settings">Settings to use when obtaining templates</param>
         <summary>
             Starts getting collection of templates available to a user.
             </summary>
@@ -334,6 +474,7 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -353,6 +494,37 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="RegisterContentForTrackingAndRevocation">
+      <MemberSignature Language="C#" Value="public void RegisterContentForTrackingAndRevocation (Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, string contentName, bool isOwnerNotificationEnabled, Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RegisterContentForTrackingAndRevocation(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, string contentName, bool isOwnerNotificationEnabled, class Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.RegisterContentForTrackingAndRevocation(Microsoft.InformationProtection.Protection.PublishingLicenseInfo,System.String,System.Boolean,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RegisterContentForTrackingAndRevocation (licenseInfo As PublishingLicenseInfo, contentName As String, isOwnerNotificationEnabled As Boolean, Optional settings As ProtectionCommonSettings = Nothing)" />
+      <MemberSignature Language="F#" Value="abstract member RegisterContentForTrackingAndRevocation : Microsoft.InformationProtection.Protection.PublishingLicenseInfo * string * bool * Microsoft.InformationProtection.Protection.ProtectionCommonSettings -&gt; unit" Usage="iProtectionEngine.RegisterContentForTrackingAndRevocation (licenseInfo, contentName, isOwnerNotificationEnabled, settings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="3" FrameworkAlternate="mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="licenseInfo">Publishing license from the protected content.</param>
+        <param name="contentName">The name to associate with the content specified by the serializedPublishingLicense. If the serializedPublishingLicense specifies a content name, that value will take precedence.</param>
+        <param name="isOwnerNotificationEnabled">Set to true to notify the owner via email whenever the document is decrypted, or false to not send the notification.</param>
+        <param name="settings">Common settings for protection</param>
+        <summary>
+            Register publishing license (PL) for document tracking and revocation.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="RegisterContentForTrackingAndRevocationAsync">
       <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task RegisterContentForTrackingAndRevocationAsync (Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, string contentName, bool isOwnerNotificationEnabled);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task RegisterContentForTrackingAndRevocationAsync(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, string contentName, bool isOwnerNotificationEnabled) cil managed" />
@@ -365,6 +537,7 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -385,6 +558,38 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="RegisterContentForTrackingAndRevocationAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task RegisterContentForTrackingAndRevocationAsync (Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, string contentName, bool isOwnerNotificationEnabled, Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task RegisterContentForTrackingAndRevocationAsync(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, string contentName, bool isOwnerNotificationEnabled, class Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.RegisterContentForTrackingAndRevocationAsync(Microsoft.InformationProtection.Protection.PublishingLicenseInfo,System.String,System.Boolean,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RegisterContentForTrackingAndRevocationAsync (licenseInfo As PublishingLicenseInfo, contentName As String, isOwnerNotificationEnabled As Boolean, Optional settings As ProtectionCommonSettings = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="abstract member RegisterContentForTrackingAndRevocationAsync : Microsoft.InformationProtection.Protection.PublishingLicenseInfo * string * bool * Microsoft.InformationProtection.Protection.ProtectionCommonSettings -&gt; System.Threading.Tasks.Task" Usage="iProtectionEngine.RegisterContentForTrackingAndRevocationAsync (licenseInfo, contentName, isOwnerNotificationEnabled, settings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="3" FrameworkAlternate="mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="licenseInfo">Publishing license from the protected content.</param>
+        <param name="contentName">The name to associate with the content specified by the serializedPublishingLicense. If the serializedPublishingLicense specifies a content name, that value will take precedence.</param>
+        <param name="isOwnerNotificationEnabled">Set to true to notify the owner via email whenever the document is decrypted, or false to not send the notification.</param>
+        <param name="settings">Common settings for protection</param>
+        <summary>
+            Register publishing license (PL) for document tracking and revocation.
+            </summary>
+        <returns>A task that represents the asynchronous create operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="RevokeContent">
       <MemberSignature Language="C#" Value="public void RevokeContent (Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RevokeContent(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo) cil managed" />
@@ -397,6 +602,7 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -406,6 +612,33 @@
       </Parameters>
       <Docs>
         <param name="licenseInfo">Publishing license from the protected content.</param>
+        <summary>
+            Perform revocation for content.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RevokeContent">
+      <MemberSignature Language="C#" Value="public void RevokeContent (Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void RevokeContent(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, class Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.RevokeContent(Microsoft.InformationProtection.Protection.PublishingLicenseInfo,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RevokeContent (licenseInfo As PublishingLicenseInfo, Optional settings As ProtectionCommonSettings = Nothing)" />
+      <MemberSignature Language="F#" Value="abstract member RevokeContent : Microsoft.InformationProtection.Protection.PublishingLicenseInfo * Microsoft.InformationProtection.Protection.ProtectionCommonSettings -&gt; unit" Usage="iProtectionEngine.RevokeContent (licenseInfo, settings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="1" FrameworkAlternate="mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="licenseInfo">Publishing license from the protected content.</param>
+        <param name="settings">Common settings for protection</param>
         <summary>
             Perform revocation for content.
             </summary>
@@ -424,6 +657,7 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
@@ -433,6 +667,34 @@
       </Parameters>
       <Docs>
         <param name="licenseInfo">Publishing license from the protected content.</param>
+        <summary>
+            Perform revocation for content.
+            </summary>
+        <returns>A task that represents the asynchronous create operation.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RevokeContentAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task RevokeContentAsync (Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task RevokeContentAsync(class Microsoft.InformationProtection.Protection.PublishingLicenseInfo licenseInfo, class Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.IProtectionEngine.RevokeContentAsync(Microsoft.InformationProtection.Protection.PublishingLicenseInfo,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function RevokeContentAsync (licenseInfo As PublishingLicenseInfo, Optional settings As ProtectionCommonSettings = Nothing) As Task" />
+      <MemberSignature Language="F#" Value="abstract member RevokeContentAsync : Microsoft.InformationProtection.Protection.PublishingLicenseInfo * Microsoft.InformationProtection.Protection.ProtectionCommonSettings -&gt; System.Threading.Tasks.Task" Usage="iProtectionEngine.RevokeContentAsync (licenseInfo, settings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="1" FrameworkAlternate="mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="licenseInfo">Publishing license from the protected content.</param>
+        <param name="settings">Common settings for protection</param>
         <summary>
             Perform revocation for content.
             </summary>
@@ -454,6 +716,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.ProtectionEngineSettings</ReturnType>

@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
+    <AssemblyVersion>1.8.102.0</AssemblyVersion>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -26,6 +28,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -34,6 +38,31 @@
       <Docs>
         <summary>
             Flush the delegate.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SetEnableAuditSetting">
+      <MemberSignature Language="C#" Value="public void SetEnableAuditSetting (Microsoft.InformationProtection.EnableAuditSetting enableAuditSetting);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetEnableAuditSetting(valuetype Microsoft.InformationProtection.EnableAuditSetting enableAuditSetting) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.IAuditDelegate.SetEnableAuditSetting(Microsoft.InformationProtection.EnableAuditSetting)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetEnableAuditSetting (enableAuditSetting As EnableAuditSetting)" />
+      <MemberSignature Language="F#" Value="abstract member SetEnableAuditSetting : Microsoft.InformationProtection.EnableAuditSetting -&gt; unit" Usage="iAuditDelegate.SetEnableAuditSetting enableAuditSetting" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="enableAuditSetting" Type="Microsoft.InformationProtection.EnableAuditSetting" Index="0" FrameworkAlternate="mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="enableAuditSetting">Audit settings to set.</param>
+        <summary>
+            Sets the audit setting as present in policy that can be used while writting the event.
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -48,6 +77,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

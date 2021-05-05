@@ -11,6 +11,8 @@
     <AssemblyVersion>1.7.133.0</AssemblyVersion>
     <AssemblyVersion>1.7.147.0</AssemblyVersion>
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
+    <AssemblyVersion>1.8.102.0</AssemblyVersion>
+    <AssemblyVersion>1.9.78.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -23,6 +25,72 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="ConnectionInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.LicenseConnectionInfo ConnectionInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Protection.LicenseConnectionInfo ConnectionInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.ConnectionInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ConnectionInfo As LicenseConnectionInfo" />
+      <MemberSignature Language="F#" Value="member this.ConnectionInfo : Microsoft.InformationProtection.Protection.LicenseConnectionInfo" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.ConnectionInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.LicenseConnectionInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The connection info
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ContentId">
+      <MemberSignature Language="C#" Value="public string ContentId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ContentId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.ContentId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContentId As String" />
+      <MemberSignature Language="F#" Value="member this.ContentId : string" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.ContentId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            ContentId
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Descriptor">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.LicenseDescriptor Descriptor { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Protection.LicenseDescriptor Descriptor" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.Descriptor" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Descriptor As LicenseDescriptor" />
+      <MemberSignature Language="F#" Value="member this.Descriptor : Microsoft.InformationProtection.Protection.LicenseDescriptor" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.Descriptor" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.LicenseDescriptor</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The descriptor
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Domains">
       <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;string&gt; Domains { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;string&gt; Domains" />
@@ -37,6 +105,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
@@ -63,6 +133,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
@@ -93,13 +165,15 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
-        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="serializedPublishingLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" /></param>
@@ -110,6 +184,28 @@
         <returns>
             The PublishingLicenseInfo
             </returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IssuedTime">
+      <MemberSignature Language="C#" Value="public DateTime IssuedTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime IssuedTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.IssuedTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IssuedTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.IssuedTime : DateTime" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.IssuedTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The issued time
+            </summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -127,6 +223,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -134,6 +232,50 @@
       <Docs>
         <summary>
             IssuerId
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Owner">
+      <MemberSignature Language="C#" Value="public string Owner { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Owner" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.Owner" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Owner As String" />
+      <MemberSignature Language="F#" Value="member this.Owner : string" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.Owner" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The owner
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ReferralInfoUrl">
+      <MemberSignature Language="C#" Value="public string ReferralInfoUrl { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ReferralInfoUrl" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.ReferralInfoUrl" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReferralInfoUrl As String" />
+      <MemberSignature Language="F#" Value="member this.ReferralInfoUrl : string" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.ReferralInfoUrl" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The referral info url
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -151,6 +293,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
@@ -177,6 +321,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
@@ -203,6 +349,8 @@
         <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
+        <AssemblyVersion>1.8.102.0</AssemblyVersion>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -210,6 +358,28 @@
       <Docs>
         <summary>
             ServerPublicCertificate
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SignedApplicationData">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.LicenseApplicationData&gt; SignedApplicationData { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.Protection.LicenseApplicationData&gt; SignedApplicationData" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SignedApplicationData" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SignedApplicationData As List(Of LicenseApplicationData)" />
+      <MemberSignature Language="F#" Value="member this.SignedApplicationData : System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.LicenseApplicationData&gt;" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SignedApplicationData" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.78.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.LicenseApplicationData&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The signed app data
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
