@@ -13,6 +13,8 @@
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
     <AssemblyVersion>1.8.102.0</AssemblyVersion>
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
+    <AssemblyVersion>1.9.90.0</AssemblyVersion>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -35,6 +37,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.LicenseConnectionInfo</ReturnType>
@@ -57,6 +61,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -79,6 +85,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.LicenseDescriptor</ReturnType>
@@ -107,6 +115,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
@@ -135,7 +145,15 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10">
+          <AttributeName Language="C#">[System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, MipContext)", false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, MipContext)", false)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
       </ReturnValue>
@@ -154,6 +172,32 @@
       </Docs>
     </Member>
     <Member MemberName="GetPublishingLicenseInfo">
+      <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.Protection.PublishingLicenseInfo GetPublishingLicenseInfo (System.Collections.Generic.List&lt;byte&gt; serializedPublishingLicense, Microsoft.InformationProtection.MipContext mipContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.Protection.PublishingLicenseInfo GetPublishingLicenseInfo(class System.Collections.Generic.List`1&lt;unsigned int8&gt; serializedPublishingLicense, class Microsoft.InformationProtection.MipContext mipContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.GetPublishingLicenseInfo(System.Collections.Generic.List{System.Byte},Microsoft.InformationProtection.MipContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetPublishingLicenseInfo (serializedPublishingLicense As List(Of Byte), mipContext As MipContext) As PublishingLicenseInfo" />
+      <MemberSignature Language="F#" Value="static member GetPublishingLicenseInfo : System.Collections.Generic.List&lt;byte&gt; * Microsoft.InformationProtection.MipContext -&gt; Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.GetPublishingLicenseInfo (serializedPublishingLicense, mipContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10" />
+      </Parameters>
+      <Docs>
+        <param name="serializedPublishingLicense">To be added.</param>
+        <param name="mipContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetPublishingLicenseInfo">
       <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.Protection.PublishingLicenseInfo GetPublishingLicenseInfo (System.Collections.Generic.List&lt;byte&gt; serializedPublishingLicense, System.Collections.Generic.List&lt;byte&gt; serializedPreLicense);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.Protection.PublishingLicenseInfo GetPublishingLicenseInfo(class System.Collections.Generic.List`1&lt;unsigned int8&gt; serializedPublishingLicense, class System.Collections.Generic.List`1&lt;unsigned int8&gt; serializedPreLicense) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.GetPublishingLicenseInfo(System.Collections.Generic.List{System.Byte},System.Collections.Generic.List{System.Byte})" />
@@ -167,13 +211,21 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10">
+          <AttributeName Language="C#">[System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;, MipContext)", false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;, MipContext)", false)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="serializedPublishingLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" /></param>
@@ -187,6 +239,34 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="GetPublishingLicenseInfo">
+      <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.Protection.PublishingLicenseInfo GetPublishingLicenseInfo (System.Collections.Generic.List&lt;byte&gt; serializedPublishingLicense, System.Collections.Generic.List&lt;byte&gt; serializedPreLicense, Microsoft.InformationProtection.MipContext mipContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.Protection.PublishingLicenseInfo GetPublishingLicenseInfo(class System.Collections.Generic.List`1&lt;unsigned int8&gt; serializedPublishingLicense, class System.Collections.Generic.List`1&lt;unsigned int8&gt; serializedPreLicense, class Microsoft.InformationProtection.MipContext mipContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.GetPublishingLicenseInfo(System.Collections.Generic.List{System.Byte},System.Collections.Generic.List{System.Byte},Microsoft.InformationProtection.MipContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetPublishingLicenseInfo (serializedPublishingLicense As List(Of Byte), serializedPreLicense As List(Of Byte), mipContext As MipContext) As PublishingLicenseInfo" />
+      <MemberSignature Language="F#" Value="static member GetPublishingLicenseInfo : System.Collections.Generic.List&lt;byte&gt; * System.Collections.Generic.List&lt;byte&gt; * Microsoft.InformationProtection.MipContext -&gt; Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Usage="Microsoft.InformationProtection.Protection.PublishingLicenseInfo.GetPublishingLicenseInfo (serializedPublishingLicense, serializedPreLicense, mipContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10" />
+        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10" />
+      </Parameters>
+      <Docs>
+        <param name="serializedPublishingLicense">To be added.</param>
+        <param name="serializedPreLicense">To be added.</param>
+        <param name="mipContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="IssuedTime">
       <MemberSignature Language="C#" Value="public DateTime IssuedTime { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime IssuedTime" />
@@ -197,6 +277,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -225,6 +307,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -247,6 +331,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -269,6 +355,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -295,6 +383,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
@@ -323,6 +413,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
@@ -351,6 +443,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -373,6 +467,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.LicenseApplicationData&gt;</ReturnType>

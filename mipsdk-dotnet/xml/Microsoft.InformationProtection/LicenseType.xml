@@ -1,0 +1,58 @@
+<Type Name="LicenseType" FullName="Microsoft.InformationProtection.LicenseType">
+  <TypeSignature Language="C#" Value="public enum LicenseType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed LicenseType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.LicenseType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum LicenseType" />
+  <TypeSignature Language="F#" Value="type LicenseType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="DoNotForward">
+      <MemberSignature Language="C#" Value="DoNotForward" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.LicenseType DoNotForward = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.LicenseType.DoNotForward" />
+      <MemberSignature Language="VB.NET" Value="DoNotForward" />
+      <MemberSignature Language="F#" Value="DoNotForward = 0" Usage="Microsoft.InformationProtection.LicenseType.DoNotForward" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LicenseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptOnly">
+      <MemberSignature Language="C#" Value="EncryptOnly" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.LicenseType EncryptOnly = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.LicenseType.EncryptOnly" />
+      <MemberSignature Language="VB.NET" Value="EncryptOnly" />
+      <MemberSignature Language="F#" Value="EncryptOnly = 1" Usage="Microsoft.InformationProtection.LicenseType.EncryptOnly" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LicenseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

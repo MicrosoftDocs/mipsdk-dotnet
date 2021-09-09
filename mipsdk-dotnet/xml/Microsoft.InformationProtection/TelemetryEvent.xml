@@ -1,0 +1,47 @@
+<Type Name="TelemetryEvent" FullName="Microsoft.InformationProtection.TelemetryEvent">
+  <TypeSignature Language="C#" Value="public class TelemetryEvent : Microsoft.InformationProtection.Event" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit TelemetryEvent extends Microsoft.InformationProtection.Event" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.TelemetryEvent" />
+  <TypeSignature Language="VB.NET" Value="Public Class TelemetryEvent&#xA;Inherits Event" />
+  <TypeSignature Language="F#" Value="type TelemetryEvent = class&#xA;    inherit Event" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.InformationProtection.Event</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public TelemetryEvent (string name, Microsoft.InformationProtection.EventLevel level, DateTime startTime, System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.EventProperty&gt; properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype Microsoft.InformationProtection.EventLevel level, valuetype System.DateTime startTime, class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.InformationProtection.EventProperty&gt; properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.TelemetryEvent.#ctor(System.String,Microsoft.InformationProtection.EventLevel,System.DateTime,System.Collections.ObjectModel.ReadOnlyCollection{Microsoft.InformationProtection.EventProperty})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, level As EventLevel, startTime As DateTime, properties As ReadOnlyCollection(Of EventProperty))" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.TelemetryEvent : string * Microsoft.InformationProtection.EventLevel * DateTime * System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.EventProperty&gt; -&gt; Microsoft.InformationProtection.TelemetryEvent" Usage="new Microsoft.InformationProtection.TelemetryEvent (name, level, startTime, properties)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="level" Type="Microsoft.InformationProtection.EventLevel" />
+        <Parameter Name="startTime" Type="System.DateTime" />
+        <Parameter Name="properties" Type="System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.EventProperty&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="level">To be added.</param>
+        <param name="startTime">To be added.</param>
+        <param name="properties">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
