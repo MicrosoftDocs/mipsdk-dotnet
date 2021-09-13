@@ -11,6 +11,8 @@
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
     <AssemblyVersion>1.8.102.0</AssemblyVersion>
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
+    <AssemblyVersion>1.9.90.0</AssemblyVersion>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -22,6 +24,25 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="DoubleKey">
+      <MemberSignature Language="C#" Value="DoubleKey" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.BadInputErrorCode DoubleKey = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.BadInputErrorCode.DoubleKey" />
+      <MemberSignature Language="VB.NET" Value="DoubleKey" />
+      <MemberSignature Language="F#" Value="DoubleKey = 4" Usage="Microsoft.InformationProtection.BadInputErrorCode.DoubleKey" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.BadInputErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
     <Member MemberName="FileIsTooLargeForProtection">
       <MemberSignature Language="C#" Value="FileIsTooLargeForProtection" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.BadInputErrorCode FileIsTooLargeForProtection = int32(1)" />
@@ -36,6 +57,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.BadInputErrorCode</ReturnType>
@@ -61,6 +84,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.BadInputErrorCode</ReturnType>
@@ -70,6 +95,44 @@
         <summary>
             General bad input error
             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LicenseNotTrusted">
+      <MemberSignature Language="C#" Value="LicenseNotTrusted" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.BadInputErrorCode LicenseNotTrusted = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.BadInputErrorCode.LicenseNotTrusted" />
+      <MemberSignature Language="VB.NET" Value="LicenseNotTrusted" />
+      <MemberSignature Language="F#" Value="LicenseNotTrusted = 3" Usage="Microsoft.InformationProtection.BadInputErrorCode.LicenseNotTrusted" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.BadInputErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ParameterParsing">
+      <MemberSignature Language="C#" Value="ParameterParsing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.BadInputErrorCode ParameterParsing = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.BadInputErrorCode.ParameterParsing" />
+      <MemberSignature Language="VB.NET" Value="ParameterParsing" />
+      <MemberSignature Language="F#" Value="ParameterParsing = 2" Usage="Microsoft.InformationProtection.BadInputErrorCode.ParameterParsing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.BadInputErrorCode</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
   </Members>

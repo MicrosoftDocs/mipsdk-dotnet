@@ -1,0 +1,61 @@
+<Type Name="ILoggerDelegateV2" FullName="Microsoft.InformationProtection.ILoggerDelegateV2">
+  <TypeSignature Language="C#" Value="public interface ILoggerDelegateV2 : Microsoft.InformationProtection.ILoggerDelegate" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILoggerDelegateV2 implements class Microsoft.InformationProtection.ILoggerDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.ILoggerDelegateV2" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ILoggerDelegateV2&#xA;Implements ILoggerDelegate" />
+  <TypeSignature Language="F#" Value="type ILoggerDelegateV2 = interface&#xA;    interface ILoggerDelegate" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.9.90.0</AssemblyVersion>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>Microsoft.InformationProtection.ILoggerDelegate</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>
+            The interface to the MIP SDK logger with support for a loggerContext that was passed in on an API call
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="WriteToLog">
+      <MemberSignature Language="C#" Value="public void WriteToLog (Microsoft.InformationProtection.LogLevel logLevel, string message, string functionName, string fileName, int lineNo, object loggerContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WriteToLog(valuetype Microsoft.InformationProtection.LogLevel logLevel, string message, string functionName, string fileName, int32 lineNo, object loggerContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ILoggerDelegateV2.WriteToLog(Microsoft.InformationProtection.LogLevel,System.String,System.String,System.String,System.Int32,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteToLog (logLevel As LogLevel, message As String, functionName As String, fileName As String, lineNo As Integer, loggerContext As Object)" />
+      <MemberSignature Language="F#" Value="abstract member WriteToLog : Microsoft.InformationProtection.LogLevel * string * string * string * int * obj -&gt; unit" Usage="iLoggerDelegateV2.WriteToLog (logLevel, message, functionName, fileName, lineNo, loggerContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="functionName" Type="System.String" />
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="lineNo" Type="System.Int32" />
+        <Parameter Name="loggerContext" Type="System.Object" />
+      </Parameters>
+      <Docs>
+        <param name="logLevel">The log level for the log statement.</param>
+        <param name="message">The message for the log statement.</param>
+        <param name="functionName">The function name for the log statement.</param>
+        <param name="fileName">The file name where log statement was generated.</param>
+        <param name="lineNo">The line number where the log statement was generated.</param>
+        <param name="loggerContext">Client context that was passed into the call that generated this log message</param>
+        <summary>
+            Write a log statement to log file.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

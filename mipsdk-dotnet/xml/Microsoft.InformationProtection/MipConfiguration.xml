@@ -1,0 +1,187 @@
+<Type Name="MipConfiguration" FullName="Microsoft.InformationProtection.MipConfiguration">
+  <TypeSignature Language="C#" Value="public class MipConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit MipConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.MipConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class MipConfiguration" />
+  <TypeSignature Language="F#" Value="type MipConfiguration = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MipConfiguration (Microsoft.InformationProtection.ApplicationInfo appInfo, string path, Microsoft.InformationProtection.LogLevel logLevel, bool isOfflineOnly);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.InformationProtection.ApplicationInfo appInfo, string path, valuetype Microsoft.InformationProtection.LogLevel logLevel, bool isOfflineOnly) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MipConfiguration.#ctor(Microsoft.InformationProtection.ApplicationInfo,System.String,Microsoft.InformationProtection.LogLevel,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (appInfo As ApplicationInfo, path As String, logLevel As LogLevel, isOfflineOnly As Boolean)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.MipConfiguration : Microsoft.InformationProtection.ApplicationInfo * string * Microsoft.InformationProtection.LogLevel * bool -&gt; Microsoft.InformationProtection.MipConfiguration" Usage="new Microsoft.InformationProtection.MipConfiguration (appInfo, path, logLevel, isOfflineOnly)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="appInfo" Type="Microsoft.InformationProtection.ApplicationInfo" />
+        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" />
+        <Parameter Name="isOfflineOnly" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="appInfo">To be added.</param>
+        <param name="path">To be added.</param>
+        <param name="logLevel">To be added.</param>
+        <param name="isOfflineOnly">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ApplicationInfo">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ApplicationInfo ApplicationInfo { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.ApplicationInfo ApplicationInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.MipConfiguration.ApplicationInfo" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationInfo As ApplicationInfo" />
+      <MemberSignature Language="F#" Value="member this.ApplicationInfo : Microsoft.InformationProtection.ApplicationInfo" Usage="Microsoft.InformationProtection.MipConfiguration.ApplicationInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ApplicationInfo</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DiagnosticOverride">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.DiagnosticConfiguration DiagnosticOverride { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.DiagnosticConfiguration DiagnosticOverride" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.MipConfiguration.DiagnosticOverride" />
+      <MemberSignature Language="VB.NET" Value="Public Property DiagnosticOverride As DiagnosticConfiguration" />
+      <MemberSignature Language="F#" Value="member this.DiagnosticOverride : Microsoft.InformationProtection.DiagnosticConfiguration with get, set" Usage="Microsoft.InformationProtection.MipConfiguration.DiagnosticOverride" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DiagnosticConfiguration</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FeatureSettingsOverride">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,bool&gt; FeatureSettingsOverride { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;valuetype Microsoft.InformationProtection.FlightingFeature, bool&gt; FeatureSettingsOverride" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.MipConfiguration.FeatureSettingsOverride" />
+      <MemberSignature Language="VB.NET" Value="Public Property FeatureSettingsOverride As Dictionary(Of FlightingFeature, Boolean)" />
+      <MemberSignature Language="F#" Value="member this.FeatureSettingsOverride : System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature, bool&gt; with get, set" Usage="Microsoft.InformationProtection.MipConfiguration.FeatureSettingsOverride" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOfflineOnly">
+      <MemberSignature Language="C#" Value="public bool IsOfflineOnly { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOfflineOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.MipConfiguration.IsOfflineOnly" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsOfflineOnly As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsOfflineOnly : bool" Usage="Microsoft.InformationProtection.MipConfiguration.IsOfflineOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoggerDelegateOverride">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.ILoggerDelegate LoggerDelegateOverride { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.ILoggerDelegate LoggerDelegateOverride" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.MipConfiguration.LoggerDelegateOverride" />
+      <MemberSignature Language="VB.NET" Value="Public Property LoggerDelegateOverride As ILoggerDelegate" />
+      <MemberSignature Language="F#" Value="member this.LoggerDelegateOverride : Microsoft.InformationProtection.ILoggerDelegate with get, set" Usage="Microsoft.InformationProtection.MipConfiguration.LoggerDelegateOverride" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.ILoggerDelegate</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LogLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.LogLevel LogLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.LogLevel LogLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.MipConfiguration.LogLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LogLevel As LogLevel" />
+      <MemberSignature Language="F#" Value="member this.LogLevel : Microsoft.InformationProtection.LogLevel" Usage="Microsoft.InformationProtection.MipConfiguration.LogLevel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LogLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Path">
+      <MemberSignature Language="C#" Value="public string Path { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Path" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.MipConfiguration.Path" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
+      <MemberSignature Language="F#" Value="member this.Path : string" Usage="Microsoft.InformationProtection.MipConfiguration.Path" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="mipsdk-dotnet-1.9">
   <Assemblies>
-    <Assembly Name="Microsoft.InformationProtection" Version="1.9.78.0" />
+    <Assembly Name="Microsoft.InformationProtection" Version="1.9.90.0" />
   </Assemblies>
   <Namespace Name="Microsoft.InformationProtection">
     <Type Name="Microsoft.InformationProtection.ActionSource" Id="T:Microsoft.InformationProtection.ActionSource">
@@ -154,6 +154,9 @@
       <Member Id="M:Microsoft.InformationProtection.ILoggerDelegate.Flush" />
       <Member Id="M:Microsoft.InformationProtection.ILoggerDelegate.Init(System.String)" />
       <Member Id="M:Microsoft.InformationProtection.ILoggerDelegate.WriteToLog(Microsoft.InformationProtection.LogLevel,System.String,System.String,System.String,System.Int32)" />
+    </Type>
+    <Type Name="Microsoft.InformationProtection.ILoggerDelegateV2" Id="T:Microsoft.InformationProtection.ILoggerDelegateV2">
+      <Member Id="M:Microsoft.InformationProtection.ILoggerDelegateV2.WriteToLog(Microsoft.InformationProtection.LogLevel,System.String,System.String,System.String,System.Int32,System.Object)" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Label" Id="T:Microsoft.InformationProtection.Label">
       <Member Id="M:Microsoft.InformationProtection.Label.#ctor(System.String,Microsoft.InformationProtection.ActionSource)" />
@@ -364,6 +367,7 @@
       <Member Id="P:Microsoft.InformationProtection.File.FileEngineSettings.LabelFilter" />
       <Member Id="P:Microsoft.InformationProtection.File.FileEngineSettings.LoadSensitivityTypes" />
       <Member Id="P:Microsoft.InformationProtection.File.FileEngineSettings.Locale" />
+      <Member Id="P:Microsoft.InformationProtection.File.FileEngineSettings.LoggerContext" />
       <Member Id="P:Microsoft.InformationProtection.File.FileEngineSettings.PolicyCloudEndpointBaseUrl" />
       <Member Id="P:Microsoft.InformationProtection.File.FileEngineSettings.ProtectionCloudEndpointBaseUrl" />
       <Member Id="P:Microsoft.InformationProtection.File.FileEngineSettings.ProtectionOnlyEngine" />
@@ -377,18 +381,19 @@
       <Member Id="M:Microsoft.InformationProtection.File.FileExecutionState.GetDataState" />
     </Type>
     <Type Name="Microsoft.InformationProtection.File.FileHandler" Id="T:Microsoft.InformationProtection.File.FileHandler">
-      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext)" />
-      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.String,Microsoft.InformationProtection.MipContext)" />
-      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.IsLabeledOrProtected(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext)" />
-      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.IsLabeledOrProtected(System.String,Microsoft.InformationProtection.MipContext)" />
-      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.IsProtected(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext)" />
-      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.IsProtected(System.String,Microsoft.InformationProtection.MipContext)" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.IsLabeledOrProtected(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.IsLabeledOrProtected(System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.IsProtected(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.IsProtected(System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
     </Type>
     <Type Name="Microsoft.InformationProtection.File.FileProfileSettings" Id="T:Microsoft.InformationProtection.File.FileProfileSettings">
       <Member Id="M:Microsoft.InformationProtection.File.FileProfileSettings.#ctor(Microsoft.InformationProtection.MipContext,Microsoft.InformationProtection.CacheStorageType,Microsoft.InformationProtection.IConsentDelegate)" />
       <Member Id="P:Microsoft.InformationProtection.File.FileProfileSettings.CacheStorageType" />
       <Member Id="P:Microsoft.InformationProtection.File.FileProfileSettings.CanCacheLicenses" />
       <Member Id="P:Microsoft.InformationProtection.File.FileProfileSettings.ConsentDelegate" />
+      <Member Id="P:Microsoft.InformationProtection.File.FileProfileSettings.LoggerContext" />
       <Member Id="P:Microsoft.InformationProtection.File.FileProfileSettings.MipContext" />
     </Type>
     <Type Name="Microsoft.InformationProtection.File.IFileEngine" Id="T:Microsoft.InformationProtection.File.IFileEngine">
@@ -710,12 +715,14 @@
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.LabelFilter" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.LoadSensitivityTypes" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.Locale" />
+      <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.LoggerContext" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.SessionId" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.VariableTextMarking" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Policy.PolicyProfileSettings" Id="T:Microsoft.InformationProtection.Policy.PolicyProfileSettings">
       <Member Id="M:Microsoft.InformationProtection.Policy.PolicyProfileSettings.#ctor(Microsoft.InformationProtection.MipContext,Microsoft.InformationProtection.CacheStorageType)" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.CacheStorageType" />
+      <Member Id="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.LoggerContext" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.MipContext" />
       <Member Id="P:Microsoft.InformationProtection.Policy.PolicyProfileSettings.SessionId" />
     </Type>
@@ -832,6 +839,7 @@
       <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionEngineSettings.EngineId" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionEngineSettings.Identity" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionEngineSettings.Locale" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionEngineSettings.LoggerContext" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionEngineSettings.SessionId" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionEngineSettings.UnderlyingApplicationId" />
     </Type>
@@ -840,6 +848,7 @@
       <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionProfileSettings.CacheStorageType" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionProfileSettings.CanCacheLicenses" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionProfileSettings.ConsentDelegate" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionProfileSettings.LoggerContext" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionProfileSettings.MipContext" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionProfileSettings.RedirectionUris" />
     </Type>

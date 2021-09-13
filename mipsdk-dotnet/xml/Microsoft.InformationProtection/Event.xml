@@ -1,0 +1,127 @@
+<Type Name="Event" FullName="Microsoft.InformationProtection.Event">
+  <TypeSignature Language="C#" Value="public abstract class Event" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract beforefieldinit Event extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Event" />
+  <TypeSignature Language="VB.NET" Value="Public MustInherit Class Event" />
+  <TypeSignature Language="F#" Value="type Event = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public Event (string name, Microsoft.InformationProtection.EventLevel level, DateTime startTime, System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.EventProperty&gt; properties);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype Microsoft.InformationProtection.EventLevel level, valuetype System.DateTime startTime, class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.InformationProtection.EventProperty&gt; properties) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Event.#ctor(System.String,Microsoft.InformationProtection.EventLevel,System.DateTime,System.Collections.ObjectModel.ReadOnlyCollection{Microsoft.InformationProtection.EventProperty})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, level As EventLevel, startTime As DateTime, properties As ReadOnlyCollection(Of EventProperty))" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Event : string * Microsoft.InformationProtection.EventLevel * DateTime * System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.EventProperty&gt; -&gt; Microsoft.InformationProtection.Event" Usage="new Microsoft.InformationProtection.Event (name, level, startTime, properties)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" />
+        <Parameter Name="level" Type="Microsoft.InformationProtection.EventLevel" />
+        <Parameter Name="startTime" Type="System.DateTime" />
+        <Parameter Name="properties" Type="System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.EventProperty&gt;" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="level">To be added.</param>
+        <param name="startTime">To be added.</param>
+        <param name="properties">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Level">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.EventLevel Level { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.EventLevel Level" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Event.Level" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Level As EventLevel" />
+      <MemberSignature Language="F#" Value="member this.Level : Microsoft.InformationProtection.EventLevel" Usage="Microsoft.InformationProtection.Event.Level" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.EventLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Name">
+      <MemberSignature Language="C#" Value="public string Name { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Name" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Event.Name" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
+      <MemberSignature Language="F#" Value="member this.Name : string" Usage="Microsoft.InformationProtection.Event.Name" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Properties">
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.EventProperty&gt; Properties { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;class Microsoft.InformationProtection.EventProperty&gt; Properties" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Event.Properties" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As ReadOnlyCollection(Of EventProperty)" />
+      <MemberSignature Language="F#" Value="member this.Properties : System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.EventProperty&gt;" Usage="Microsoft.InformationProtection.Event.Properties" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.EventProperty&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="StartTime">
+      <MemberSignature Language="C#" Value="public DateTime StartTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime StartTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Event.StartTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property StartTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.StartTime : DateTime" Usage="Microsoft.InformationProtection.Event.StartTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
