@@ -1,0 +1,85 @@
+<Type Name="IFileStatus" FullName="Microsoft.InformationProtection.File.IFileStatus">
+  <TypeSignature Language="C#" Value="public interface IFileStatus : IDisposable" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract IFileStatus implements class System.IDisposable" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.IFileStatus" />
+  <TypeSignature Language="VB.NET" Value="Public Interface IFileStatus&#xA;Implements IDisposable" />
+  <TypeSignature Language="F#" Value="type IFileStatus = interface&#xA;    interface IDisposable" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces>
+    <Interface>
+      <InterfaceName>System.IDisposable</InterfaceName>
+    </Interface>
+  </Interfaces>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContainsProtectedObjects">
+      <MemberSignature Language="C#" Value="public bool ContainsProtectedObjects ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool ContainsProtectedObjects() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileStatus.ContainsProtectedObjects" />
+      <MemberSignature Language="VB.NET" Value="Public Function ContainsProtectedObjects () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member ContainsProtectedObjects : unit -&gt; bool" Usage="iFileStatus.ContainsProtectedObjects " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLabeled">
+      <MemberSignature Language="C#" Value="public bool IsLabeled ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsLabeled() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileStatus.IsLabeled" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsLabeled () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member IsLabeled : unit -&gt; bool" Usage="iFileStatus.IsLabeled " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsProtected">
+      <MemberSignature Language="C#" Value="public bool IsProtected ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsProtected() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileStatus.IsProtected" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsProtected () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member IsProtected : unit -&gt; bool" Usage="iFileStatus.IsProtected " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

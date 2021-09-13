@@ -1,17 +1,24 @@
 <Type Name="AuditEvent" FullName="Microsoft.InformationProtection.AuditEvent">
-  <TypeSignature Language="C#" Value="public class AuditEvent" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AuditEvent extends System.Object" />
+  <TypeSignature Language="C#" Value="public class AuditEvent : Microsoft.InformationProtection.Event" FrameworkAlternate="mipsdk-dotnet-1.10" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AuditEvent extends Microsoft.InformationProtection.Event" FrameworkAlternate="mipsdk-dotnet-1.10" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.AuditEvent" />
-  <TypeSignature Language="VB.NET" Value="Public Class AuditEvent" />
-  <TypeSignature Language="F#" Value="type AuditEvent = class" />
+  <TypeSignature Language="VB.NET" Value="Public Class AuditEvent&#xA;Inherits Event" FrameworkAlternate="mipsdk-dotnet-1.10" />
+  <TypeSignature Language="F#" Value="type AuditEvent = class&#xA;    inherit Event" FrameworkAlternate="mipsdk-dotnet-1.10" />
+  <TypeSignature Language="C#" Value="public class AuditEvent" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AuditEvent extends System.Object" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="VB.NET" Value="Public Class AuditEvent" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="F#" Value="type AuditEvent = class" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
     <AssemblyVersion>1.8.102.0</AssemblyVersion>
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
+    <AssemblyVersion>1.9.90.0</AssemblyVersion>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.Object</BaseTypeName>
+    <BaseTypeName>Microsoft.InformationProtection.Event</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9">System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -33,6 +40,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -63,6 +72,7 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.EventLevel</ReturnType>
@@ -87,6 +97,7 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -111,6 +122,7 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.EventProperty&gt;</ReturnType>
@@ -135,6 +147,7 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>

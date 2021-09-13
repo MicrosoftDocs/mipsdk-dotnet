@@ -19,6 +19,8 @@
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
     <AssemblyVersion>1.8.102.0</AssemblyVersion>
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
+    <AssemblyVersion>1.9.90.0</AssemblyVersion>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -53,6 +55,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="userRights" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt;" />
@@ -87,6 +91,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="userRoles" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt;" />
@@ -121,6 +127,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="templateId" Type="System.String" />
@@ -130,6 +138,28 @@
         <summary>
             Constructor for ProtectionDescriptor for Template
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ProtectionDescriptor (Microsoft.InformationProtection.LicenseType licenseType, System.Collections.Generic.List&lt;string&gt; users);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.InformationProtection.LicenseType licenseType, class System.Collections.Generic.List`1&lt;string&gt; users) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ProtectionDescriptor.#ctor(Microsoft.InformationProtection.LicenseType,System.Collections.Generic.List{System.String})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (licenseType As LicenseType, users As List(Of String))" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.ProtectionDescriptor : Microsoft.InformationProtection.LicenseType * System.Collections.Generic.List&lt;string&gt; -&gt; Microsoft.InformationProtection.ProtectionDescriptor" Usage="new Microsoft.InformationProtection.ProtectionDescriptor (licenseType, users)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="licenseType" Type="Microsoft.InformationProtection.LicenseType" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10" />
+        <Parameter Name="users" Type="System.Collections.Generic.List&lt;System.String&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10" />
+      </Parameters>
+      <Docs>
+        <param name="licenseType">To be added.</param>
+        <param name="users">To be added.</param>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -155,6 +185,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -189,6 +221,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -223,6 +257,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -257,6 +293,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -285,6 +323,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -319,6 +359,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -353,6 +395,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -363,6 +407,26 @@
             This property will only be populated in ProtectionDescriptors for preexisting protected content. i.e. It is
             a field populated by the server at the moment protected content is consumed.
             </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LicenseType">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.LicenseType? LicenseType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.InformationProtection.LicenseType&gt; LicenseType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.LicenseType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LicenseType As Nullable(Of LicenseType)" />
+      <MemberSignature Language="F#" Value="member this.LicenseType : Nullable&lt;Microsoft.InformationProtection.LicenseType&gt;" Usage="Microsoft.InformationProtection.ProtectionDescriptor.LicenseType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.InformationProtection.LicenseType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -389,6 +453,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -423,6 +489,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -457,6 +525,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ProtectionType</ReturnType>
@@ -491,6 +561,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -525,6 +597,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -559,6 +633,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -593,6 +669,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt;</ReturnType>
@@ -627,6 +705,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt;</ReturnType>

@@ -13,6 +13,8 @@
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
     <AssemblyVersion>1.8.102.0</AssemblyVersion>
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
+    <AssemblyVersion>1.9.90.0</AssemblyVersion>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -40,6 +42,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
@@ -67,6 +71,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
@@ -94,6 +100,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
@@ -103,6 +111,25 @@
         <summary>
             HTTP response code indicates failure
             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FunctionNotImplemented">
+      <MemberSignature Language="C#" Value="FunctionNotImplemented" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.NetworkExceptionCategory FunctionNotImplemented = int32(11)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.NetworkExceptionCategory.FunctionNotImplemented" />
+      <MemberSignature Language="VB.NET" Value="FunctionNotImplemented" />
+      <MemberSignature Language="F#" Value="FunctionNotImplemented = 11" Usage="Microsoft.InformationProtection.NetworkExceptionCategory.FunctionNotImplemented" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
+      </ReturnValue>
+      <MemberValue>11</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="NoConnection">
@@ -121,6 +148,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
@@ -148,6 +177,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
@@ -175,6 +206,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
@@ -202,6 +235,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
@@ -229,6 +264,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
@@ -256,6 +293,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
@@ -283,6 +322,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
@@ -310,6 +351,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>

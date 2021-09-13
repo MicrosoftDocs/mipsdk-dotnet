@@ -1,0 +1,67 @@
+<Type Name="DelegateResponseException" FullName="Microsoft.InformationProtection.Exceptions.DelegateResponseException">
+  <TypeSignature Language="C#" Value="public class DelegateResponseException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit DelegateResponseException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Exceptions.DelegateResponseException" />
+  <TypeSignature Language="VB.NET" Value="Public Class DelegateResponseException&#xA;Inherits Exception" />
+  <TypeSignature Language="F#" Value="type DelegateResponseException = class&#xA;    inherit Exception" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Serializable&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DelegateResponseException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Exceptions.DelegateResponseException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Exceptions.DelegateResponseException : string -&gt; Microsoft.InformationProtection.Exceptions.DelegateResponseException" Usage="new Microsoft.InformationProtection.Exceptions.DelegateResponseException message" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DebugInfo">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; DebugInfo { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; DebugInfo" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Exceptions.DelegateResponseException.DebugInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Property DebugInfo As Dictionary(Of String, String)" />
+      <MemberSignature Language="F#" Value="member this.DebugInfo : System.Collections.Generic.Dictionary&lt;string, string&gt; with get, set" Usage="Microsoft.InformationProtection.Exceptions.DelegateResponseException.DebugInfo" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -19,6 +19,8 @@
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
     <AssemblyVersion>1.8.102.0</AssemblyVersion>
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
+    <AssemblyVersion>1.9.90.0</AssemblyVersion>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -31,6 +33,64 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="GetFileStatus">
+      <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.File.IFileStatus GetFileStatus (string filePath, Microsoft.InformationProtection.MipContext mipContext, object logContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.File.IFileStatus GetFileStatus(string filePath, class Microsoft.InformationProtection.MipContext mipContext, object logContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileHandler.GetFileStatus(System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetFileStatus (filePath As String, mipContext As MipContext, Optional logContext As Object = Nothing) As IFileStatus" />
+      <MemberSignature Language="F#" Value="static member GetFileStatus : string * Microsoft.InformationProtection.MipContext * obj -&gt; Microsoft.InformationProtection.File.IFileStatus" Usage="Microsoft.InformationProtection.File.FileHandler.GetFileStatus (filePath, mipContext, logContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.IFileStatus</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10" />
+        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10" />
+      </Parameters>
+      <Docs>
+        <param name="filePath">To be added.</param>
+        <param name="mipContext">To be added.</param>
+        <param name="logContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFileStatus">
+      <MemberSignature Language="C#" Value="public static Microsoft.InformationProtection.File.IFileStatus GetFileStatus (System.IO.Stream inputStream, string filePath, Microsoft.InformationProtection.MipContext mipContext, object logContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class Microsoft.InformationProtection.File.IFileStatus GetFileStatus(class System.IO.Stream inputStream, string filePath, class Microsoft.InformationProtection.MipContext mipContext, object logContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileHandler.GetFileStatus(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetFileStatus (inputStream As Stream, filePath As String, mipContext As MipContext, Optional logContext As Object = Nothing) As IFileStatus" />
+      <MemberSignature Language="F#" Value="static member GetFileStatus : System.IO.Stream * string * Microsoft.InformationProtection.MipContext * obj -&gt; Microsoft.InformationProtection.File.IFileStatus" Usage="Microsoft.InformationProtection.File.FileHandler.GetFileStatus (inputStream, filePath, mipContext, logContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.File.IFileStatus</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10" />
+        <Parameter Name="filePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10" />
+        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10" />
+      </Parameters>
+      <Docs>
+        <param name="inputStream">To be added.</param>
+        <param name="filePath">To be added.</param>
+        <param name="mipContext">To be added.</param>
+        <param name="logContext">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="GetSerializedPublishingLicense">
       <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;byte&gt; GetSerializedPublishingLicense (string filePath, Microsoft.InformationProtection.MipContext mipContext);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;unsigned int8&gt; GetSerializedPublishingLicense(string filePath, class Microsoft.InformationProtection.MipContext mipContext) cil managed" />
@@ -53,8 +113,8 @@
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="filePath" Type="System.String" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" />
+        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="filePath" />
@@ -88,14 +148,78 @@
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputStream" Type="System.IO.Stream" />
-        <Parameter Name="inputFileName" Type="System.String" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" />
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="inputStream" />
         <param name="inputFileName" />
         <param name="mipContext" />
+        <summary>
+            Return Publishing License if file has it.
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSerializedPublishingLicense">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;byte&gt; GetSerializedPublishingLicense (string filePath, Microsoft.InformationProtection.MipContext mipContext, object logContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;unsigned int8&gt; GetSerializedPublishingLicense(string filePath, class Microsoft.InformationProtection.MipContext mipContext, object logContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetSerializedPublishingLicense (filePath As String, mipContext As MipContext, Optional logContext As Object = Nothing) As List(Of Byte)" />
+      <MemberSignature Language="F#" Value="static member GetSerializedPublishingLicense : string * Microsoft.InformationProtection.MipContext * obj -&gt; System.Collections.Generic.List&lt;byte&gt;" Usage="Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense (filePath, mipContext, logContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="filePath" />
+        <param name="mipContext" />
+        <param name="logContext">Logger context that will be opaquely passed to the logger delegate</param>
+        <summary>
+            Return Publishing License if file has it.
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetSerializedPublishingLicense">
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.List&lt;byte&gt; GetSerializedPublishingLicense (System.IO.Stream inputStream, string inputFileName, Microsoft.InformationProtection.MipContext mipContext, object logContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.List`1&lt;unsigned int8&gt; GetSerializedPublishingLicense(class System.IO.Stream inputStream, string inputFileName, class Microsoft.InformationProtection.MipContext mipContext, object logContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetSerializedPublishingLicense (inputStream As Stream, inputFileName As String, mipContext As MipContext, Optional logContext As Object = Nothing) As List(Of Byte)" />
+      <MemberSignature Language="F#" Value="static member GetSerializedPublishingLicense : System.IO.Stream * string * Microsoft.InformationProtection.MipContext * obj -&gt; System.Collections.Generic.List&lt;byte&gt;" Usage="Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense (inputStream, inputFileName, mipContext, logContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="inputStream" />
+        <param name="inputFileName" />
+        <param name="mipContext" />
+        <param name="logContext">Logger context that will be opaquely passed to the logger delegate</param>
         <summary>
             Return Publishing License if file has it.
             </summary>
@@ -124,8 +248,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="filePath" Type="System.String" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" />
+        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="filePath">The file path</param>
@@ -158,14 +282,78 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputStream" Type="System.IO.Stream" />
-        <Parameter Name="inputFileName" Type="System.String" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" />
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="inputStream" />
         <param name="inputFileName" />
         <param name="mipContext" />
+        <summary>
+            Checks whether a stream is labeled/protected or not.
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLabeledOrProtected">
+      <MemberSignature Language="C#" Value="public static bool IsLabeledOrProtected (string filePath, Microsoft.InformationProtection.MipContext mipContext, object logContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsLabeledOrProtected(string filePath, class Microsoft.InformationProtection.MipContext mipContext, object logContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileHandler.IsLabeledOrProtected(System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IsLabeledOrProtected (filePath As String, mipContext As MipContext, Optional logContext As Object = Nothing) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsLabeledOrProtected : string * Microsoft.InformationProtection.MipContext * obj -&gt; bool" Usage="Microsoft.InformationProtection.File.FileHandler.IsLabeledOrProtected (filePath, mipContext, logContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="filePath">The file path</param>
+        <param name="mipContext" />
+        <param name="logContext">Logger context that will be opaquely passed to the logger delegate</param>
+        <summary>
+            Checks whether a file is labeled/protected or not.
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsLabeledOrProtected">
+      <MemberSignature Language="C#" Value="public static bool IsLabeledOrProtected (System.IO.Stream inputStream, string inputFileName, Microsoft.InformationProtection.MipContext mipContext, object logContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsLabeledOrProtected(class System.IO.Stream inputStream, string inputFileName, class Microsoft.InformationProtection.MipContext mipContext, object logContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileHandler.IsLabeledOrProtected(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IsLabeledOrProtected (inputStream As Stream, inputFileName As String, mipContext As MipContext, Optional logContext As Object = Nothing) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsLabeledOrProtected : System.IO.Stream * string * Microsoft.InformationProtection.MipContext * obj -&gt; bool" Usage="Microsoft.InformationProtection.File.FileHandler.IsLabeledOrProtected (inputStream, inputFileName, mipContext, logContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="inputStream" />
+        <param name="inputFileName" />
+        <param name="mipContext" />
+        <param name="logContext">Logger context that will be opaquely passed to the logger delegate</param>
         <summary>
             Checks whether a stream is labeled/protected or not.
             </summary>
@@ -195,8 +383,8 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="filePath" Type="System.String" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" />
+        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="filePath">The file path</param>
@@ -230,14 +418,78 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputStream" Type="System.IO.Stream" />
-        <Parameter Name="inputFileName" Type="System.String" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" />
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
       </Parameters>
       <Docs>
         <param name="inputStream" />
         <param name="inputFileName" />
         <param name="mipContext" />
+        <summary>
+            Checks whether a stream is protected or not.
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsProtected">
+      <MemberSignature Language="C#" Value="public static bool IsProtected (string filePath, Microsoft.InformationProtection.MipContext mipContext, object logContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsProtected(string filePath, class Microsoft.InformationProtection.MipContext mipContext, object logContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileHandler.IsProtected(System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IsProtected (filePath As String, mipContext As MipContext, Optional logContext As Object = Nothing) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsProtected : string * Microsoft.InformationProtection.MipContext * obj -&gt; bool" Usage="Microsoft.InformationProtection.File.FileHandler.IsProtected (filePath, mipContext, logContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="filePath">The file path</param>
+        <param name="mipContext" />
+        <param name="logContext">Logger context that will be opaquely passed to the logger delegate</param>
+        <summary>
+            Checks whether a file is protected or not.
+            </summary>
+        <returns />
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsProtected">
+      <MemberSignature Language="C#" Value="public static bool IsProtected (System.IO.Stream inputStream, string inputFileName, Microsoft.InformationProtection.MipContext mipContext, object logContext = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool IsProtected(class System.IO.Stream inputStream, string inputFileName, class Microsoft.InformationProtection.MipContext mipContext, object logContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileHandler.IsProtected(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IsProtected (inputStream As Stream, inputFileName As String, mipContext As MipContext, Optional logContext As Object = Nothing) As Boolean" />
+      <MemberSignature Language="F#" Value="static member IsProtected : System.IO.Stream * string * Microsoft.InformationProtection.MipContext * obj -&gt; bool" Usage="Microsoft.InformationProtection.File.FileHandler.IsProtected (inputStream, inputFileName, mipContext, logContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+      </Parameters>
+      <Docs>
+        <param name="inputStream" />
+        <param name="inputFileName" />
+        <param name="mipContext" />
+        <param name="logContext">Logger context that will be opaquely passed to the logger delegate</param>
         <summary>
             Checks whether a stream is protected or not.
             </summary>

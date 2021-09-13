@@ -13,6 +13,8 @@
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
     <AssemblyVersion>1.8.102.0</AssemblyVersion>
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
+    <AssemblyVersion>1.9.90.0</AssemblyVersion>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -40,6 +42,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.File.PFileExtensionBehavior</ReturnType>
@@ -67,6 +71,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.File.PFileExtensionBehavior</ReturnType>
@@ -94,6 +100,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.File.PFileExtensionBehavior</ReturnType>

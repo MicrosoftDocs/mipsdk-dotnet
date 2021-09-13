@@ -13,6 +13,8 @@
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
     <AssemblyVersion>1.8.102.0</AssemblyVersion>
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
+    <AssemblyVersion>1.9.90.0</AssemblyVersion>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -41,6 +43,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="engineId" Type="System.String" />
@@ -71,6 +75,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -99,6 +105,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -127,6 +135,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
@@ -156,6 +166,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -185,6 +197,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -213,6 +227,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -241,6 +257,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Identity</ReturnType>
@@ -269,6 +287,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -276,6 +296,29 @@
       <Docs>
         <summary>
             The engine locale
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoggerContext">
+      <MemberSignature Language="C#" Value="public object LoggerContext { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object LoggerContext" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.ProtectionEngineSettings.LoggerContext" />
+      <MemberSignature Language="VB.NET" Value="Public Property LoggerContext As Object" />
+      <MemberSignature Language="F#" Value="member this.LoggerContext : obj" Usage="Microsoft.InformationProtection.Protection.ProtectionEngineSettings.LoggerContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Logger context that will be opaquely passed to the logger delegate for logs associated with the created engine
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -297,6 +340,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -323,6 +368,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

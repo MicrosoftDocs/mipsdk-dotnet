@@ -1,0 +1,61 @@
+<Type Name="ITelemetryDelegate" FullName="Microsoft.InformationProtection.ITelemetryDelegate">
+  <TypeSignature Language="C#" Value="public interface ITelemetryDelegate" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ITelemetryDelegate" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.ITelemetryDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ITelemetryDelegate" />
+  <TypeSignature Language="F#" Value="type ITelemetryDelegate = interface" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Flush">
+      <MemberSignature Language="C#" Value="public void Flush ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Flush() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ITelemetryDelegate.Flush" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Flush ()" />
+      <MemberSignature Language="F#" Value="abstract member Flush : unit -&gt; unit" Usage="iTelemetryDelegate.Flush " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteEvent">
+      <MemberSignature Language="C#" Value="public void WriteEvent (Microsoft.InformationProtection.TelemetryEvent telemetryEvent);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WriteEvent(class Microsoft.InformationProtection.TelemetryEvent telemetryEvent) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ITelemetryDelegate.WriteEvent(Microsoft.InformationProtection.TelemetryEvent)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteEvent (telemetryEvent As TelemetryEvent)" />
+      <MemberSignature Language="F#" Value="abstract member WriteEvent : Microsoft.InformationProtection.TelemetryEvent -&gt; unit" Usage="iTelemetryDelegate.WriteEvent telemetryEvent" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="telemetryEvent" Type="Microsoft.InformationProtection.TelemetryEvent" />
+      </Parameters>
+      <Docs>
+        <param name="telemetryEvent">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

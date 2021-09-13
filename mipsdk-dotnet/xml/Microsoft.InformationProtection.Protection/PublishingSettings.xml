@@ -1,13 +1,13 @@
 <Type Name="PublishingSettings" FullName="Microsoft.InformationProtection.Protection.PublishingSettings">
+  <TypeSignature Language="C#" Value="public class PublishingSettings : Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PublishingSettings extends Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.PublishingSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class PublishingSettings&#xA;Inherits ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="F#" Value="type PublishingSettings = class&#xA;    inherit ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
   <TypeSignature Language="C#" Value="public class PublishingSettings" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PublishingSettings extends System.Object" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
-  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.PublishingSettings" />
   <TypeSignature Language="VB.NET" Value="Public Class PublishingSettings" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
   <TypeSignature Language="F#" Value="type PublishingSettings = class" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
-  <TypeSignature Language="C#" Value="public class PublishingSettings : Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.9" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PublishingSettings extends Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.9" />
-  <TypeSignature Language="VB.NET" Value="Public Class PublishingSettings&#xA;Inherits ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.9" />
-  <TypeSignature Language="F#" Value="type PublishingSettings = class&#xA;    inherit ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.9" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
@@ -17,10 +17,12 @@
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
     <AssemblyVersion>1.8.102.0</AssemblyVersion>
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
+    <AssemblyVersion>1.9.90.0</AssemblyVersion>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.Object</BaseTypeName>
-    <BaseTypeName FrameworkAlternate="mipsdk-dotnet-1.9">Microsoft.InformationProtection.Protection.ProtectionCommonSettings</BaseTypeName>
+    <BaseTypeName>Microsoft.InformationProtection.Protection.ProtectionCommonSettings</BaseTypeName>
+    <BaseTypeName FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8">System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
@@ -46,6 +48,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="protectionDescriptor" Type="Microsoft.InformationProtection.ProtectionDescriptor" />
@@ -74,6 +78,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -104,6 +110,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -132,6 +140,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -158,6 +168,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -186,6 +198,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ProtectionDescriptor</ReturnType>
@@ -214,6 +228,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -236,6 +252,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>

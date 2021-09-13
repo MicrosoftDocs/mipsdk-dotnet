@@ -19,6 +19,8 @@
     <AssemblyVersion>1.8.94.0</AssemblyVersion>
     <AssemblyVersion>1.8.102.0</AssemblyVersion>
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
+    <AssemblyVersion>1.9.90.0</AssemblyVersion>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -47,6 +49,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
@@ -87,6 +91,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -115,6 +121,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
@@ -144,6 +152,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -171,6 +181,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FunctionalityFilterType,System.Boolean&gt;</ReturnType>
@@ -206,6 +218,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -235,6 +249,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -269,6 +285,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -299,6 +317,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Identity</ReturnType>
@@ -312,15 +332,15 @@
       </Docs>
     </Member>
     <Member MemberName="LabelFilter">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.FunctionalityFilterType? LabelFilter { get; set; }" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.InformationProtection.FunctionalityFilterType&gt; LabelFilter" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.LabelFilter" />
+      <MemberSignature Language="VB.NET" Value="Public Property LabelFilter As Nullable(Of FunctionalityFilterType)" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+      <MemberSignature Language="F#" Value="member this.LabelFilter : Nullable&lt;Microsoft.InformationProtection.FunctionalityFilterType&gt; with get, set" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.LabelFilter" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.LabelFilterType? LabelFilter { get; set; }" FrameworkAlternate="mipsdk-dotnet-1.6" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.InformationProtection.LabelFilterType&gt; LabelFilter" FrameworkAlternate="mipsdk-dotnet-1.6" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.LabelFilter" />
       <MemberSignature Language="VB.NET" Value="Public Property LabelFilter As Nullable(Of LabelFilterType)" FrameworkAlternate="mipsdk-dotnet-1.6" />
       <MemberSignature Language="F#" Value="member this.LabelFilter : Nullable&lt;Microsoft.InformationProtection.LabelFilterType&gt; with get, set" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.LabelFilter" FrameworkAlternate="mipsdk-dotnet-1.6" />
-      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.FunctionalityFilterType? LabelFilter { get; set; }" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.InformationProtection.FunctionalityFilterType&gt; LabelFilter" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-      <MemberSignature Language="VB.NET" Value="Public Property LabelFilter As Nullable(Of FunctionalityFilterType)" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-      <MemberSignature Language="F#" Value="member this.LabelFilter : Nullable&lt;Microsoft.InformationProtection.FunctionalityFilterType&gt; with get, set" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.LabelFilter" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
@@ -331,16 +351,18 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9">
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9">
           <AttributeName Language="C#">[System.Obsolete("Use ConfiguredFunctionality instead.", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Use ConfiguredFunctionality instead.", false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
+        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9">System.Nullable&lt;Microsoft.InformationProtection.FunctionalityFilterType&gt;</ReturnType>
         <ReturnType FrameworkAlternate="mipsdk-dotnet-1.6">System.Nullable&lt;Microsoft.InformationProtection.LabelFilterType&gt;</ReturnType>
-        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9">System.Nullable&lt;Microsoft.InformationProtection.FunctionalityFilterType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -373,6 +395,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -407,6 +431,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -414,6 +440,29 @@
       <Docs>
         <summary>
             Get the Locale set in the settings.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoggerContext">
+      <MemberSignature Language="C#" Value="public object LoggerContext { set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object LoggerContext" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Policy.PolicyEngineSettings.LoggerContext" />
+      <MemberSignature Language="VB.NET" Value="Public Property LoggerContext As Object" />
+      <MemberSignature Language="F#" Value="member this.LoggerContext : obj" Usage="Microsoft.InformationProtection.Policy.PolicyEngineSettings.LoggerContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Logger context that will be opaquely passed to the logger delegate for logs associated with the created engine
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -441,6 +490,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -469,6 +520,8 @@
         <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
+        <AssemblyVersion>1.9.90.0</AssemblyVersion>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.VariableTextMarkingType</ReturnType>

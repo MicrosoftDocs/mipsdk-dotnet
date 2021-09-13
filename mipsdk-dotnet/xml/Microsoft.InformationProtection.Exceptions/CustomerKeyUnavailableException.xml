@@ -1,0 +1,47 @@
+<Type Name="CustomerKeyUnavailableException" FullName="Microsoft.InformationProtection.Exceptions.CustomerKeyUnavailableException">
+  <TypeSignature Language="C#" Value="public class CustomerKeyUnavailableException : Microsoft.InformationProtection.Exceptions.AccessDeniedException" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit CustomerKeyUnavailableException extends Microsoft.InformationProtection.Exceptions.AccessDeniedException" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Exceptions.CustomerKeyUnavailableException" />
+  <TypeSignature Language="VB.NET" Value="Public Class CustomerKeyUnavailableException&#xA;Inherits AccessDeniedException" />
+  <TypeSignature Language="F#" Value="type CustomerKeyUnavailableException = class&#xA;    inherit AccessDeniedException" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.10.93.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>Microsoft.InformationProtection.Exceptions.AccessDeniedException</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Serializable&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public CustomerKeyUnavailableException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Exceptions.CustomerKeyUnavailableException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Exceptions.CustomerKeyUnavailableException : string -&gt; Microsoft.InformationProtection.Exceptions.CustomerKeyUnavailableException" Usage="new Microsoft.InformationProtection.Exceptions.CustomerKeyUnavailableException message" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.10.93.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
