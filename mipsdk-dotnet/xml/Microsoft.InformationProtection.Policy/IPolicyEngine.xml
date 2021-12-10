@@ -21,6 +21,8 @@
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
     <AssemblyVersion>1.9.90.0</AssemblyVersion>
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
+    <AssemblyVersion>1.10.98.0</AssemblyVersion>
+    <AssemblyVersion>1.11.53.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -82,6 +84,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.IPolicyHandler</ReturnType>
@@ -122,6 +126,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -179,12 +185,14 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="contentFormat" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="contentFormat" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="contentFormat">a string representing the format such as "file", "email" etc</param>
@@ -214,6 +222,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -244,12 +254,14 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="contentFormats" Type="System.String[]" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="contentFormats" Type="System.String[]" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="contentFormats">a string array representing the list of formats such as "file", "email" etc</param>
@@ -299,12 +311,14 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="workload" Type="Microsoft.InformationProtection.Workload" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="workload" Type="Microsoft.InformationProtection.Workload" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="workload">To be added.</param>
@@ -312,6 +326,27 @@
             Checks workload consent
             </summary>
         <returns>Checks if workload is consented, true if not specified</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsDowngradeJustificationRequired">
+      <MemberSignature Language="C#" Value="public bool IsDowngradeJustificationRequired ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool IsDowngradeJustificationRequired() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Policy.IPolicyEngine.IsDowngradeJustificationRequired" />
+      <MemberSignature Language="VB.NET" Value="Public Function IsDowngradeJustificationRequired () As Boolean" />
+      <MemberSignature Language="F#" Value="abstract member IsDowngradeJustificationRequired : unit -&gt; bool" Usage="iPolicyEngine.IsDowngradeJustificationRequired " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -329,12 +364,14 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="contentFormat" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="contentFormat" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="contentFormat">a string representing the format such as "file", "email" etc</param>
@@ -396,6 +433,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -422,12 +461,14 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="contentFormats" Type="System.String[]" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="contentFormats" Type="System.String[]" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="contentFormats">a string array representing the list of formats such as "file", "email" etc</param>
@@ -462,6 +503,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -498,6 +541,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -529,6 +574,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -565,6 +612,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -639,6 +688,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt;</ReturnType>
@@ -670,6 +721,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -700,6 +753,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -736,6 +791,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.PolicyEngineSettings</ReturnType>
@@ -766,6 +823,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -796,6 +855,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.UInt32</ReturnType>

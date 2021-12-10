@@ -11,6 +11,8 @@
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
     <AssemblyVersion>1.9.90.0</AssemblyVersion>
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
+    <AssemblyVersion>1.10.98.0</AssemblyVersion>
+    <AssemblyVersion>1.11.53.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -34,6 +36,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -58,12 +62,14 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="enableAuditSetting" Type="Microsoft.InformationProtection.EnableAuditSetting" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="enableAuditSetting" Type="Microsoft.InformationProtection.EnableAuditSetting" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="enableAuditSetting">Audit settings to set.</param>
@@ -87,6 +93,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
