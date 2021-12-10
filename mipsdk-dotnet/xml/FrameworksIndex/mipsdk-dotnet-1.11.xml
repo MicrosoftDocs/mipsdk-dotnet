@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Framework Name="mipsdk-dotnet-1.10">
+<Framework Name="mipsdk-dotnet-1.11">
   <Assemblies>
-    <Assembly Name="Microsoft.InformationProtection" Version="1.10.98.0" />
+    <Assembly Name="Microsoft.InformationProtection" Version="1.11.53.0" />
   </Assemblies>
   <Namespace Name="Microsoft.InformationProtection">
     <Type Name="Microsoft.InformationProtection.ActionSource" Id="T:Microsoft.InformationProtection.ActionSource">
@@ -113,7 +113,9 @@
     <Type Name="Microsoft.InformationProtection.FlightingFeature" Id="T:Microsoft.InformationProtection.FlightingFeature">
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.AuthInfoCache" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.DoubleKey" />
+      <Member Id="F:Microsoft.InformationProtection.FlightingFeature.EncryptedDatabaseIntegrityChecking" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.EnforceTls12" />
+      <Member Id="F:Microsoft.InformationProtection.FlightingFeature.FipsValidatedCryptography" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.LinuxEncryptedCache" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.OptimizePdfMemory" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.PolicyAuth" />
@@ -231,6 +233,7 @@
       <Member Id="F:Microsoft.InformationProtection.NetworkExceptionCategory.NoConnection" />
       <Member Id="F:Microsoft.InformationProtection.NetworkExceptionCategory.Offline" />
       <Member Id="F:Microsoft.InformationProtection.NetworkExceptionCategory.Proxy" />
+      <Member Id="F:Microsoft.InformationProtection.NetworkExceptionCategory.ServiceUnavailable" />
       <Member Id="F:Microsoft.InformationProtection.NetworkExceptionCategory.SSL" />
       <Member Id="F:Microsoft.InformationProtection.NetworkExceptionCategory.Throttled" />
       <Member Id="F:Microsoft.InformationProtection.NetworkExceptionCategory.Timeout" />
@@ -248,7 +251,7 @@
       <Member Id="P:Microsoft.InformationProtection.PolicyChangedEventArgs.EngineId" />
     </Type>
     <Type Name="Microsoft.InformationProtection.ProtectionDescriptor" Id="T:Microsoft.InformationProtection.ProtectionDescriptor">
-      <Member Id="M:Microsoft.InformationProtection.ProtectionDescriptor.#ctor(Microsoft.InformationProtection.LicenseType,System.Collections.Generic.List{System.String})" />
+      <Member Id="M:Microsoft.InformationProtection.ProtectionDescriptor.#ctor(Microsoft.InformationProtection.LicenseType,System.Collections.Generic.List{System.String},System.Collections.Generic.List{Microsoft.InformationProtection.UserRights})" />
       <Member Id="M:Microsoft.InformationProtection.ProtectionDescriptor.#ctor(System.Collections.Generic.List{Microsoft.InformationProtection.UserRights})" />
       <Member Id="M:Microsoft.InformationProtection.ProtectionDescriptor.#ctor(System.Collections.Generic.List{Microsoft.InformationProtection.UserRoles})" />
       <Member Id="M:Microsoft.InformationProtection.ProtectionDescriptor.#ctor(System.String)" />
@@ -426,6 +429,8 @@
     <Type Name="Microsoft.InformationProtection.File.FileHandler" Id="T:Microsoft.InformationProtection.File.FileHandler">
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetFileStatus(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetFileStatus(System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetProperties(System.IO.Stream,System.String,System.UInt32,Microsoft.InformationProtection.MipContext,System.Object)" />
+      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetProperties(System.String,System.UInt32,Microsoft.InformationProtection.MipContext,System.Object)" />
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.IsLabeledOrProtected(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
@@ -703,6 +708,7 @@
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyEngine.GetLabelById(System.String)" />
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyEngine.HasClassificationRules(System.String[])" />
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyEngine.HasWorkloadConsent(Microsoft.InformationProtection.Workload)" />
+      <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyEngine.IsDowngradeJustificationRequired" />
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyEngine.IsLabelingRequired(System.String)" />
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyEngine.ListSensitivityLabels(System.String[])" />
       <Member Id="M:Microsoft.InformationProtection.Policy.IPolicyEngine.SendApplicationAuditEvent(System.String,System.String,System.String)" />
@@ -926,10 +932,16 @@
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.DelegatedUserEmail" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.IsAuditedExtractionAllowed" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.IsDeprecatedAlgorithmPreferred" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.PreLicenseRequest" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.PreLicenseUserEmail" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.ProtectionDescriptor" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.PublishingFormatJson" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.PublishingLicenseForRepublish" />
+    </Type>
+    <Type Name="Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest" Id="T:Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest">
+      <Member Id="M:Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest.#ctor" />
+      <Member Id="M:Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest.#ctor(System.String)" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest.DelegatedUserEmail" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Protection.Rights" Id="T:Microsoft.InformationProtection.Protection.Rights">
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.AuditedExtract" />

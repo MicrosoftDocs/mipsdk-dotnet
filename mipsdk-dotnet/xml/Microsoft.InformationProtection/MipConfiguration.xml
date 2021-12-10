@@ -7,6 +7,8 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
+    <AssemblyVersion>1.10.98.0</AssemblyVersion>
+    <AssemblyVersion>1.11.53.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -27,6 +29,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="appInfo" Type="Microsoft.InformationProtection.ApplicationInfo" />
@@ -53,6 +57,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ApplicationInfo</ReturnType>
@@ -73,6 +79,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.DiagnosticConfiguration</ReturnType>
@@ -93,6 +101,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,System.Boolean&gt;</ReturnType>
@@ -113,6 +123,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -133,6 +145,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ILoggerDelegate</ReturnType>
@@ -153,6 +167,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.LogLevel</ReturnType>
@@ -173,6 +189,8 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

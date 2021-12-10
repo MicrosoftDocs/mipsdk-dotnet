@@ -15,6 +15,8 @@
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
     <AssemblyVersion>1.9.90.0</AssemblyVersion>
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
+    <AssemblyVersion>1.10.98.0</AssemblyVersion>
+    <AssemblyVersion>1.11.53.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -42,12 +44,14 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.IDelegationLicense&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="settings">The delegation settings.</param>
@@ -72,12 +76,14 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.IDelegationLicense&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="settings">The delegation settings.</param>
@@ -106,6 +112,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
@@ -140,6 +148,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;</ReturnType>
@@ -174,6 +184,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.IProtectionHandler</ReturnType>
@@ -208,6 +220,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionHandler&gt;</ReturnType>
@@ -273,16 +287,18 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="documentId" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="labelId" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="ownerEmail" Type="System.String" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="delegatedUserEmail" Type="System.String" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="documentId" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="labelId" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="ownerEmail" Type="System.String" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="delegatedUserEmail" Type="System.String" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="documentId">Document ID associated with the document metadata.</param>
@@ -346,16 +362,18 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="documentId" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="labelId" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="ownerEmail" Type="System.String" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="delegatedUserEmail" Type="System.String" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="documentId" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="labelId" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="ownerEmail" Type="System.String" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="delegatedUserEmail" Type="System.String" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="documentId">Document ID associated with the document metadata.</param>
@@ -388,6 +406,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;</ReturnType>
@@ -413,12 +433,14 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.GetTemplatesSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.GetTemplatesSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="settings">Settings to use when obtaining templates</param>
@@ -447,6 +469,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt;</ReturnType>
@@ -472,12 +496,14 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.TemplateDescriptor&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.GetTemplatesSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.GetTemplatesSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="settings">Settings to use when obtaining templates</param>
@@ -532,15 +558,17 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="licenseInfo">Publishing license from the protected content.</param>
@@ -598,15 +626,17 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="contentName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="isOwnerNotificationEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="licenseInfo">Publishing license from the protected content.</param>
@@ -660,13 +690,15 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="licenseInfo">Publishing license from the protected content.</param>
@@ -718,13 +750,15 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.9" />
+        <Parameter Name="licenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="licenseInfo">Publishing license from the protected content.</param>
@@ -754,6 +788,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.ProtectionEngineSettings</ReturnType>
