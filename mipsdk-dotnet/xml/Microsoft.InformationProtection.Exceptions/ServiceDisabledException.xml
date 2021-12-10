@@ -21,6 +21,8 @@
     <AssemblyVersion>1.9.78.0</AssemblyVersion>
     <AssemblyVersion>1.9.90.0</AssemblyVersion>
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
+    <AssemblyVersion>1.10.98.0</AssemblyVersion>
+    <AssemblyVersion>1.11.53.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.InformationProtection.Exceptions.AccessDeniedException</BaseTypeName>
@@ -63,6 +65,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="extent" Type="Microsoft.InformationProtection.ServiceDisablementExtent" />
@@ -101,6 +105,8 @@
         <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
+        <AssemblyVersion>1.10.98.0</AssemblyVersion>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ServiceDisablementExtent</ReturnType>

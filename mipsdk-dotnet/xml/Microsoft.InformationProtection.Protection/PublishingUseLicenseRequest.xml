@@ -1,0 +1,77 @@
+<Type Name="PublishingUseLicenseRequest" FullName="Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest">
+  <TypeSignature Language="C#" Value="public class PublishingUseLicenseRequest" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PublishingUseLicenseRequest extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest" />
+  <TypeSignature Language="VB.NET" Value="Public Class PublishingUseLicenseRequest" />
+  <TypeSignature Language="F#" Value="type PublishingUseLicenseRequest = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.11.53.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PublishingUseLicenseRequest ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PublishingUseLicenseRequest (string delegatedUserEmail);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string delegatedUserEmail) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (delegatedUserEmail As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest : string -&gt; Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest" Usage="new Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest delegatedUserEmail" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="delegatedUserEmail" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="delegatedUserEmail">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegatedUserEmail">
+      <MemberSignature Language="C#" Value="public string DelegatedUserEmail { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DelegatedUserEmail" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest.DelegatedUserEmail" />
+      <MemberSignature Language="VB.NET" Value="Public Property DelegatedUserEmail As String" />
+      <MemberSignature Language="F#" Value="member this.DelegatedUserEmail : string with get, set" Usage="Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest.DelegatedUserEmail" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.11.53.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
