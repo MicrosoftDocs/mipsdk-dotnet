@@ -1,0 +1,231 @@
+<Type Name="LogMessageData" FullName="Microsoft.InformationProtection.LogMessageData">
+  <TypeSignature Language="C#" Value="public class LogMessageData" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LogMessageData extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.LogMessageData" />
+  <TypeSignature Language="VB.NET" Value="Public Class LogMessageData" />
+  <TypeSignature Language="F#" Value="type LogMessageData = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.12.61.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>To be added.</summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LogMessageData (Microsoft.InformationProtection.LogLevel logLevel, string message, string functionName, string fileName, int lineNumber, object loggerContext, DateTime messageTime, string messageThreadId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.InformationProtection.LogLevel logLevel, string message, string functionName, string fileName, int32 lineNumber, object loggerContext, valuetype System.DateTime messageTime, string messageThreadId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.LogMessageData.#ctor(Microsoft.InformationProtection.LogLevel,System.String,System.String,System.String,System.Int32,System.Object,System.DateTime,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (logLevel As LogLevel, message As String, functionName As String, fileName As String, lineNumber As Integer, loggerContext As Object, messageTime As DateTime, messageThreadId As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.LogMessageData : Microsoft.InformationProtection.LogLevel * string * string * string * int * obj * DateTime * string -&gt; Microsoft.InformationProtection.LogMessageData" Usage="new Microsoft.InformationProtection.LogMessageData (logLevel, message, functionName, fileName, lineNumber, loggerContext, messageTime, messageThreadId)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" />
+        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="functionName" Type="System.String" />
+        <Parameter Name="fileName" Type="System.String" />
+        <Parameter Name="lineNumber" Type="System.Int32" />
+        <Parameter Name="loggerContext" Type="System.Object" />
+        <Parameter Name="messageTime" Type="System.DateTime" />
+        <Parameter Name="messageThreadId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="logLevel">To be added.</param>
+        <param name="message">To be added.</param>
+        <param name="functionName">To be added.</param>
+        <param name="fileName">To be added.</param>
+        <param name="lineNumber">To be added.</param>
+        <param name="loggerContext">To be added.</param>
+        <param name="messageTime">To be added.</param>
+        <param name="messageThreadId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FileName">
+      <MemberSignature Language="C#" Value="public string FileName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FileName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LogMessageData.FileName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As String" />
+      <MemberSignature Language="F#" Value="member this.FileName : string" Usage="Microsoft.InformationProtection.LogMessageData.FileName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The file name for the log statement
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="FunctionName">
+      <MemberSignature Language="C#" Value="public string FunctionName { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string FunctionName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LogMessageData.FunctionName" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FunctionName As String" />
+      <MemberSignature Language="F#" Value="member this.FunctionName : string" Usage="Microsoft.InformationProtection.LogMessageData.FunctionName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The function name for the log statement
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LineNumber">
+      <MemberSignature Language="C#" Value="public int LineNumber { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 LineNumber" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LogMessageData.LineNumber" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LineNumber As Integer" />
+      <MemberSignature Language="F#" Value="member this.LineNumber : int" Usage="Microsoft.InformationProtection.LogMessageData.LineNumber" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The line number for the log statement
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LoggerContext">
+      <MemberSignature Language="C#" Value="public object LoggerContext { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance object LoggerContext" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LogMessageData.LoggerContext" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LoggerContext As Object" />
+      <MemberSignature Language="F#" Value="member this.LoggerContext : obj" Usage="Microsoft.InformationProtection.LogMessageData.LoggerContext" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Object</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The logger context for the log statement
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LogLevel">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.LogLevel LogLevel { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.LogLevel LogLevel" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LogMessageData.LogLevel" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LogLevel As LogLevel" />
+      <MemberSignature Language="F#" Value="member this.LogLevel : Microsoft.InformationProtection.LogLevel" Usage="Microsoft.InformationProtection.LogMessageData.LogLevel" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LogLevel</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The log level for the log statement
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Message">
+      <MemberSignature Language="C#" Value="public string Message { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Message" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LogMessageData.Message" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Message As String" />
+      <MemberSignature Language="F#" Value="member this.Message : string" Usage="Microsoft.InformationProtection.LogMessageData.Message" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The message for the log statement
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageThreadId">
+      <MemberSignature Language="C#" Value="public string MessageThreadId { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string MessageThreadId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LogMessageData.MessageThreadId" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MessageThreadId As String" />
+      <MemberSignature Language="F#" Value="member this.MessageThreadId : string" Usage="Microsoft.InformationProtection.LogMessageData.MessageThreadId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The thread id of the log statement
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MessageTime">
+      <MemberSignature Language="C#" Value="public DateTime MessageTime { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.DateTime MessageTime" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LogMessageData.MessageTime" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MessageTime As DateTime" />
+      <MemberSignature Language="F#" Value="member this.MessageTime : DateTime" Usage="Microsoft.InformationProtection.LogMessageData.MessageTime" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.DateTime</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The message time of the log statement
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

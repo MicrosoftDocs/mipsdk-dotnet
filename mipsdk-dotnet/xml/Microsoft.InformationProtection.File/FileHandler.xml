@@ -23,6 +23,8 @@
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
     <AssemblyVersion>1.10.98.0</AssemblyVersion>
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
+    <AssemblyVersion>1.11.96.0</AssemblyVersion>
+    <AssemblyVersion>1.12.61.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -47,21 +49,25 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.File.IFileStatus</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
-        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
+        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
+        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
       </Parameters>
       <Docs>
-        <param name="filePath">To be added.</param>
-        <param name="mipContext">To be added.</param>
-        <param name="logContext">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="filePath">Path of file to check</param>
+        <param name="mipContext">Global MIP context state</param>
+        <param name="logContext">Logger context that will be opaquely passed to the logger delegate</param>
+        <summary>
+            Checks whether a file is labeled, protected or contains protected objects.
+            </summary>
+        <returns>a FileStatus object</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -77,85 +83,27 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.File.IFileStatus</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
-        <Parameter Name="filePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
-        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
+        <Parameter Name="filePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
+        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
       </Parameters>
       <Docs>
-        <param name="inputStream">To be added.</param>
-        <param name="filePath">To be added.</param>
-        <param name="mipContext">To be added.</param>
-        <param name="logContext">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetProperties">
-      <MemberSignature Language="C#" Value="public static System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; GetProperties (string filePath, uint version, Microsoft.InformationProtection.MipContext mipContext, object logContext = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; GetProperties(string filePath, unsigned int32 version, class Microsoft.InformationProtection.MipContext mipContext, object logContext) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileHandler.GetProperties(System.String,System.UInt32,Microsoft.InformationProtection.MipContext,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function GetProperties (filePath As String, version As UInteger, mipContext As MipContext, Optional logContext As Object = Nothing) As ReadOnlyCollection(Of KeyValuePair(Of String, String))" />
-      <MemberSignature Language="F#" Value="static member GetProperties : string * uint32 * Microsoft.InformationProtection.MipContext * obj -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="Microsoft.InformationProtection.File.FileHandler.GetProperties (filePath, version, mipContext, logContext)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.11" />
-        <Parameter Name="version" Type="System.UInt32" Index="1" FrameworkAlternate="mipsdk-dotnet-1.11" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.11" />
-        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.11" />
-      </Parameters>
-      <Docs>
-        <param name="filePath">To be added.</param>
-        <param name="version">To be added.</param>
-        <param name="mipContext">To be added.</param>
-        <param name="logContext">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
-        <remarks>To be added.</remarks>
-      </Docs>
-    </Member>
-    <Member MemberName="GetProperties">
-      <MemberSignature Language="C#" Value="public static System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; GetProperties (System.IO.Stream inputStream, string filePath, uint version, Microsoft.InformationProtection.MipContext mipContext, object logContext = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; GetProperties(class System.IO.Stream inputStream, string filePath, unsigned int32 version, class Microsoft.InformationProtection.MipContext mipContext, object logContext) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.FileHandler.GetProperties(System.IO.Stream,System.String,System.UInt32,Microsoft.InformationProtection.MipContext,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function GetProperties (inputStream As Stream, filePath As String, version As UInteger, mipContext As MipContext, Optional logContext As Object = Nothing) As ReadOnlyCollection(Of KeyValuePair(Of String, String))" />
-      <MemberSignature Language="F#" Value="static member GetProperties : System.IO.Stream * string * uint32 * Microsoft.InformationProtection.MipContext * obj -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="Microsoft.InformationProtection.File.FileHandler.GetProperties (inputStream, filePath, version, mipContext, logContext)" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.11" />
-        <Parameter Name="filePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.11" />
-        <Parameter Name="version" Type="System.UInt32" Index="2" FrameworkAlternate="mipsdk-dotnet-1.11" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="3" FrameworkAlternate="mipsdk-dotnet-1.11" />
-        <Parameter Name="logContext" Type="System.Object" Index="4" FrameworkAlternate="mipsdk-dotnet-1.11" />
-      </Parameters>
-      <Docs>
-        <param name="inputStream">To be added.</param>
-        <param name="filePath">To be added.</param>
-        <param name="version">To be added.</param>
-        <param name="mipContext">To be added.</param>
-        <param name="logContext">To be added.</param>
-        <summary>To be added.</summary>
-        <returns>To be added.</returns>
+        <param name="inputStream">Stream containing file data to check</param>
+        <param name="filePath">File path associated with data in 'inputStream'</param>
+        <param name="mipContext">Global MIP context state</param>
+        <param name="logContext">Logger context that will be opaquely passed to the logger delegate</param>
+        <summary>
+            Checks whether a file is labeled, protected or contains protected objects.
+            </summary>
+        <returns>a FileStatus object</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -244,14 +192,16 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="filePath" />
@@ -277,15 +227,17 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="inputStream" />
@@ -382,14 +334,16 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="filePath">The file path</param>
@@ -415,15 +369,17 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="inputStream" />
@@ -522,14 +478,16 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="filePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="filePath">The file path</param>
@@ -555,15 +513,17 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
-        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputFileName" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+        <Parameter Name="logContext" Type="System.Object" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="inputStream" />

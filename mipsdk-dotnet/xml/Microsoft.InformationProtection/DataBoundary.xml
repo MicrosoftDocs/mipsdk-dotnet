@@ -1,0 +1,127 @@
+<Type Name="DataBoundary" FullName="Microsoft.InformationProtection.DataBoundary">
+  <TypeSignature Language="C#" Value="public enum DataBoundary" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DataBoundary extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.DataBoundary" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DataBoundary" />
+  <TypeSignature Language="F#" Value="type DataBoundary = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.12.61.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Azure dataBoundary identifier
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="Asia">
+      <MemberSignature Language="C#" Value="Asia" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.DataBoundary Asia = int32(4)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.DataBoundary.Asia" />
+      <MemberSignature Language="VB.NET" Value="Asia" />
+      <MemberSignature Language="F#" Value="Asia = 4" Usage="Microsoft.InformationProtection.DataBoundary.Asia" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DataBoundary</ReturnType>
+      </ReturnValue>
+      <MemberValue>4</MemberValue>
+      <Docs>
+        <summary>
+            Asia region data boundary
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Default">
+      <MemberSignature Language="C#" Value="Default" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.DataBoundary Default = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.DataBoundary.Default" />
+      <MemberSignature Language="VB.NET" Value="Default" />
+      <MemberSignature Language="F#" Value="Default = 0" Usage="Microsoft.InformationProtection.DataBoundary.Default" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DataBoundary</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Default data boundary
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="Europe_MiddleEast_Africa">
+      <MemberSignature Language="C#" Value="Europe_MiddleEast_Africa" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.DataBoundary Europe_MiddleEast_Africa = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.DataBoundary.Europe_MiddleEast_Africa" />
+      <MemberSignature Language="VB.NET" Value="Europe_MiddleEast_Africa" />
+      <MemberSignature Language="F#" Value="Europe_MiddleEast_Africa = 3" Usage="Microsoft.InformationProtection.DataBoundary.Europe_MiddleEast_Africa" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DataBoundary</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Europe, Middle East and Africa (EMEA) region data boundary
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="European_Union">
+      <MemberSignature Language="C#" Value="European_Union" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.DataBoundary European_Union = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.DataBoundary.European_Union" />
+      <MemberSignature Language="VB.NET" Value="European_Union" />
+      <MemberSignature Language="F#" Value="European_Union = 2" Usage="Microsoft.InformationProtection.DataBoundary.European_Union" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DataBoundary</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            European Union region data boundary
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="North_America">
+      <MemberSignature Language="C#" Value="North_America" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.DataBoundary North_America = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.DataBoundary.North_America" />
+      <MemberSignature Language="VB.NET" Value="North_America" />
+      <MemberSignature Language="F#" Value="North_America = 1" Usage="Microsoft.InformationProtection.DataBoundary.North_America" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DataBoundary</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            North America region data boundary
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

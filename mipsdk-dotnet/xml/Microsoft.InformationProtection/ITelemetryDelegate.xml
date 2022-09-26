@@ -9,10 +9,14 @@
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
     <AssemblyVersion>1.10.98.0</AssemblyVersion>
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
+    <AssemblyVersion>1.11.96.0</AssemblyVersion>
+    <AssemblyVersion>1.12.61.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            The interface to the MIP SDK telemetry.
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -28,13 +32,17 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Flush the delegate.
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -50,16 +58,44 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="telemetryEvent" Type="Microsoft.InformationProtection.TelemetryEvent" />
+        <Parameter Name="telemetryEvent" Type="Microsoft.InformationProtection.TelemetryEvent" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
       </Parameters>
       <Docs>
         <param name="telemetryEvent">To be added.</param>
         <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteEvent">
+      <MemberSignature Language="C#" Value="public void WriteEvent (Microsoft.InformationProtection.TelemetryEvent telemetryEvent, Microsoft.InformationProtection.EventContext eventContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WriteEvent(class Microsoft.InformationProtection.TelemetryEvent telemetryEvent, class Microsoft.InformationProtection.EventContext eventContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ITelemetryDelegate.WriteEvent(Microsoft.InformationProtection.TelemetryEvent,Microsoft.InformationProtection.EventContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteEvent (telemetryEvent As TelemetryEvent, eventContext As EventContext)" />
+      <MemberSignature Language="F#" Value="abstract member WriteEvent : Microsoft.InformationProtection.TelemetryEvent * Microsoft.InformationProtection.EventContext -&gt; unit" Usage="iTelemetryDelegate.WriteEvent (telemetryEvent, eventContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="telemetryEvent" Type="Microsoft.InformationProtection.TelemetryEvent" Index="0" FrameworkAlternate="mipsdk-dotnet-1.12" />
+        <Parameter Name="eventContext" Type="Microsoft.InformationProtection.EventContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.12" />
+      </Parameters>
+      <Docs>
+        <param name="telemetryEvent">Telemetry event to write.</param>
+        <param name="eventContext">Event Context for telemetryEvent</param>
+        <summary>
+            Writes an Telemetry event
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
