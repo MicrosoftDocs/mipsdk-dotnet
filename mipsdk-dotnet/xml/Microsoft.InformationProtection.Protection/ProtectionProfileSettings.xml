@@ -17,6 +17,8 @@
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
     <AssemblyVersion>1.10.98.0</AssemblyVersion>
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
+    <AssemblyVersion>1.11.96.0</AssemblyVersion>
+    <AssemblyVersion>1.12.61.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -49,6 +51,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" />
@@ -85,6 +89,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.CacheStorageType</ReturnType>
@@ -117,6 +123,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -149,6 +157,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.IConsentDelegate</ReturnType>
@@ -174,6 +184,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -206,6 +218,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.MipContext</ReturnType>
@@ -213,6 +227,28 @@
       <Docs>
         <summary>
             Global MIP context state
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="OfflinePublishing">
+      <MemberSignature Language="C#" Value="public bool? OfflinePublishing { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;bool&gt; OfflinePublishing" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.ProtectionProfileSettings.OfflinePublishing" />
+      <MemberSignature Language="VB.NET" Value="Public Property OfflinePublishing As Nullable(Of Boolean)" />
+      <MemberSignature Language="F#" Value="member this.OfflinePublishing : Nullable&lt;bool&gt; with get, set" Usage="Microsoft.InformationProtection.Protection.ProtectionProfileSettings.OfflinePublishing" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Configures whether or not offline publishing is enabled
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -232,6 +268,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>

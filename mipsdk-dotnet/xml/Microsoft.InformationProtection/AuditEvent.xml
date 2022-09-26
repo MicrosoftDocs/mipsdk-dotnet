@@ -1,9 +1,9 @@
 <Type Name="AuditEvent" FullName="Microsoft.InformationProtection.AuditEvent">
-  <TypeSignature Language="C#" Value="public class AuditEvent : Microsoft.InformationProtection.Event" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AuditEvent extends Microsoft.InformationProtection.Event" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
+  <TypeSignature Language="C#" Value="public class AuditEvent : Microsoft.InformationProtection.Event" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AuditEvent extends Microsoft.InformationProtection.Event" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.AuditEvent" />
-  <TypeSignature Language="VB.NET" Value="Public Class AuditEvent&#xA;Inherits Event" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
-  <TypeSignature Language="F#" Value="type AuditEvent = class&#xA;    inherit Event" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11" />
+  <TypeSignature Language="VB.NET" Value="Public Class AuditEvent&#xA;Inherits Event" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
+  <TypeSignature Language="F#" Value="type AuditEvent = class&#xA;    inherit Event" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
   <TypeSignature Language="C#" Value="public class AuditEvent" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AuditEvent extends System.Object" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
   <TypeSignature Language="VB.NET" Value="Public Class AuditEvent" FrameworkAlternate="mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
@@ -17,6 +17,8 @@
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
     <AssemblyVersion>1.10.98.0</AssemblyVersion>
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
+    <AssemblyVersion>1.11.96.0</AssemblyVersion>
+    <AssemblyVersion>1.12.61.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.InformationProtection.Event</BaseTypeName>
@@ -46,6 +48,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />

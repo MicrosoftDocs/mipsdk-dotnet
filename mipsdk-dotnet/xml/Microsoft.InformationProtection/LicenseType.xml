@@ -9,12 +9,16 @@
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
     <AssemblyVersion>1.10.98.0</AssemblyVersion>
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
+    <AssemblyVersion>1.11.96.0</AssemblyVersion>
+    <AssemblyVersion>1.12.61.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            License type to create a specialized license
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -30,13 +34,17 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.LicenseType</ReturnType>
       </ReturnValue>
       <MemberValue>0</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Defines a do not forward license type
+            </summary>
       </Docs>
     </Member>
     <Member MemberName="EncryptOnly">
@@ -51,13 +59,44 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.LicenseType</ReturnType>
       </ReturnValue>
       <MemberValue>1</MemberValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Defines an encrypt only license type
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="InternetConfidential">
+      <MemberSignature Language="C#" Value="InternetConfidential" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.LicenseType InternetConfidential = int32(5000)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.LicenseType.InternetConfidential" />
+      <MemberSignature Language="VB.NET" Value="InternetConfidential" />
+      <MemberSignature Language="F#" Value="InternetConfidential = 5000" Usage="Microsoft.InformationProtection.LicenseType.InternetConfidential" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.12">
+          <AttributeName Language="C#">[System.Obsolete]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.LicenseType</ReturnType>
+      </ReturnValue>
+      <MemberValue>5000</MemberValue>
+      <Docs>
+        <summary>
+            Defines an internet confidential license type.  Only available temporarily, will be removed in the future
+            </summary>
       </Docs>
     </Member>
   </Members>

@@ -13,6 +13,8 @@
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
     <AssemblyVersion>1.10.98.0</AssemblyVersion>
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
+    <AssemblyVersion>1.11.96.0</AssemblyVersion>
+    <AssemblyVersion>1.12.61.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -38,6 +40,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -64,12 +68,14 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="enableAuditSetting" Type="Microsoft.InformationProtection.EnableAuditSetting" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.9" />
+        <Parameter Name="enableAuditSetting" Type="Microsoft.InformationProtection.EnableAuditSetting" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="enableAuditSetting">Audit settings to set.</param>
@@ -95,14 +101,42 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="auditEvent" Type="Microsoft.InformationProtection.AuditEvent" />
+        <Parameter Name="auditEvent" Type="Microsoft.InformationProtection.AuditEvent" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
+        <param name="auditEvent">Audit event to write.</param>
+        <summary>
+            Writes an audit event
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="WriteEvent">
+      <MemberSignature Language="C#" Value="public void WriteEvent (Microsoft.InformationProtection.AuditEvent auditEvent, Microsoft.InformationProtection.EventContext eventContext);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void WriteEvent(class Microsoft.InformationProtection.AuditEvent auditEvent, class Microsoft.InformationProtection.EventContext eventContext) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.IAuditDelegate.WriteEvent(Microsoft.InformationProtection.AuditEvent,Microsoft.InformationProtection.EventContext)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub WriteEvent (auditEvent As AuditEvent, eventContext As EventContext)" />
+      <MemberSignature Language="F#" Value="abstract member WriteEvent : Microsoft.InformationProtection.AuditEvent * Microsoft.InformationProtection.EventContext -&gt; unit" Usage="iAuditDelegate.WriteEvent (auditEvent, eventContext)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="auditEvent" Type="Microsoft.InformationProtection.AuditEvent" Index="0" FrameworkAlternate="mipsdk-dotnet-1.12" />
+        <Parameter Name="eventContext" Type="Microsoft.InformationProtection.EventContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.12" />
+      </Parameters>
+      <Docs>
+        <param name="eventContext">To be added.</param>
         <param name="auditEvent">Audit event to write.</param>
         <summary>
             Writes an audit event

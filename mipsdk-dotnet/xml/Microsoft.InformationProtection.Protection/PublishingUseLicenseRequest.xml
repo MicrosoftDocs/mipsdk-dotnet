@@ -7,13 +7,17 @@
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
+    <AssemblyVersion>1.11.96.0</AssemblyVersion>
+    <AssemblyVersion>1.12.61.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
   </Base>
   <Interfaces />
   <Docs>
-    <summary>To be added.</summary>
+    <summary>
+            Request for a use license in the publishing request
+            </summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -26,10 +30,14 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Creates a PublishingUseLicenseRequest for the user in the token
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -43,13 +51,17 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="delegatedUserEmail" Type="System.String" />
       </Parameters>
       <Docs>
         <param name="delegatedUserEmail">To be added.</param>
-        <summary>To be added.</summary>
+        <summary>
+            Creates a PublishingUseLicenseRequest for the user in delegatedUserEmail
+            <param name="delegatedUserEmail">Email of the user to obtain the use license for</param></summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -63,12 +75,16 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Optional delegated user.  If this is not set then the prelicense is for the user in the token
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
