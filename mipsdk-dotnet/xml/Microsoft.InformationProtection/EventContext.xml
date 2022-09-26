@@ -1,0 +1,91 @@
+<Type Name="EventContext" FullName="Microsoft.InformationProtection.EventContext">
+  <TypeSignature Language="C#" Value="public class EventContext" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit EventContext extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.EventContext" />
+  <TypeSignature Language="VB.NET" Value="Public Class EventContext" />
+  <TypeSignature Language="F#" Value="type EventContext = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.12.61.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Azure cloud identifier
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public EventContext (Microsoft.InformationProtection.Cloud cloud, Microsoft.InformationProtection.DataBoundary dataBoundary);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.InformationProtection.Cloud cloud, valuetype Microsoft.InformationProtection.DataBoundary dataBoundary) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.EventContext.#ctor(Microsoft.InformationProtection.Cloud,Microsoft.InformationProtection.DataBoundary)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (cloud As Cloud, dataBoundary As DataBoundary)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.EventContext : Microsoft.InformationProtection.Cloud * Microsoft.InformationProtection.DataBoundary -&gt; Microsoft.InformationProtection.EventContext" Usage="new Microsoft.InformationProtection.EventContext (cloud, dataBoundary)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="cloud" Type="Microsoft.InformationProtection.Cloud" />
+        <Parameter Name="dataBoundary" Type="Microsoft.InformationProtection.DataBoundary" />
+      </Parameters>
+      <Docs>
+        <param name="cloud">The cloud identifier</param>
+        <param name="dataBoundary">The data region</param>
+        <summary>
+            Constructor for EventContext
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Cloud">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Cloud Cloud { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.Cloud Cloud" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.EventContext.Cloud" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Cloud As Cloud" />
+      <MemberSignature Language="F#" Value="member this.Cloud : Microsoft.InformationProtection.Cloud" Usage="Microsoft.InformationProtection.EventContext.Cloud" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The underlying data type for this property.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataBoundary">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.DataBoundary DataBoundary { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.DataBoundary DataBoundary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.EventContext.DataBoundary" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DataBoundary As DataBoundary" />
+      <MemberSignature Language="F#" Value="member this.DataBoundary : Microsoft.InformationProtection.DataBoundary" Usage="Microsoft.InformationProtection.EventContext.DataBoundary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.DataBoundary</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not this property is restricted to the audit pipeline.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

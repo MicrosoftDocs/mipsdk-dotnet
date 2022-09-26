@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="mipsdk-dotnet-1.11">
   <Assemblies>
-    <Assembly Name="Microsoft.InformationProtection" Version="1.11.53.0" />
+    <Assembly Name="Microsoft.InformationProtection" Version="1.11.96.0" />
   </Assemblies>
   <Namespace Name="Microsoft.InformationProtection">
     <Type Name="Microsoft.InformationProtection.ActionSource" Id="T:Microsoft.InformationProtection.ActionSource">
@@ -72,6 +72,7 @@
     <Type Name="Microsoft.InformationProtection.DiagnosticConfiguration" Id="T:Microsoft.InformationProtection.DiagnosticConfiguration">
       <Member Id="M:Microsoft.InformationProtection.DiagnosticConfiguration.#ctor" />
       <Member Id="P:Microsoft.InformationProtection.DiagnosticConfiguration.AuditDelegate" />
+      <Member Id="P:Microsoft.InformationProtection.DiagnosticConfiguration.Cloud" />
       <Member Id="P:Microsoft.InformationProtection.DiagnosticConfiguration.CustomSettings" />
       <Member Id="P:Microsoft.InformationProtection.DiagnosticConfiguration.IsFastShutdownEnabled" />
       <Member Id="P:Microsoft.InformationProtection.DiagnosticConfiguration.IsLocalCachingEnabled" />
@@ -113,6 +114,7 @@
     <Type Name="Microsoft.InformationProtection.FlightingFeature" Id="T:Microsoft.InformationProtection.FlightingFeature">
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.AuthInfoCache" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.DoubleKey" />
+      <Member Id="F:Microsoft.InformationProtection.FlightingFeature.EnableAuditAndTelemetryForSovereignClouds" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.EncryptedDatabaseIntegrityChecking" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.EnforceTls12" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.FipsValidatedCryptography" />
@@ -429,8 +431,6 @@
     <Type Name="Microsoft.InformationProtection.File.FileHandler" Id="T:Microsoft.InformationProtection.File.FileHandler">
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetFileStatus(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetFileStatus(System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
-      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetProperties(System.IO.Stream,System.String,System.UInt32,Microsoft.InformationProtection.MipContext,System.Object)" />
-      <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetProperties(System.String,System.UInt32,Microsoft.InformationProtection.MipContext,System.Object)" />
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.GetSerializedPublishingLicense(System.String,Microsoft.InformationProtection.MipContext,System.Object)" />
       <Member Id="M:Microsoft.InformationProtection.File.FileHandler.IsLabeledOrProtected(System.IO.Stream,System.String,Microsoft.InformationProtection.MipContext,System.Object)" />

@@ -23,6 +23,8 @@
     <AssemblyVersion>1.10.93.0</AssemblyVersion>
     <AssemblyVersion>1.10.98.0</AssemblyVersion>
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
+    <AssemblyVersion>1.11.96.0</AssemblyVersion>
+    <AssemblyVersion>1.12.61.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -61,6 +63,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="userRights" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt;" />
@@ -99,6 +103,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="userRoles" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt;" />
@@ -107,6 +113,28 @@
         <param name="userRoles">Collection of users-to-roles mappings</param>
         <summary>
             Constructor for ProtectionDescriptor for Adhoc
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public ProtectionDescriptor (System.Collections.Generic.List&lt;byte&gt; serializedTemplate);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.List`1&lt;unsigned int8&gt; serializedTemplate) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ProtectionDescriptor.#ctor(System.Collections.Generic.List{System.Byte})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (serializedTemplate As List(Of Byte))" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.ProtectionDescriptor : System.Collections.Generic.List&lt;byte&gt; -&gt; Microsoft.InformationProtection.ProtectionDescriptor" Usage="new Microsoft.InformationProtection.ProtectionDescriptor serializedTemplate" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="serializedTemplate" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.12" />
+      </Parameters>
+      <Docs>
+        <param name="serializedTemplate">protection serialized template</param>
+        <summary>
+            Constructor for ProtectionDescriptor for Template
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -137,6 +165,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="templateId" Type="System.String" />
@@ -173,26 +203,36 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ProtectionDescriptor (Microsoft.InformationProtection.LicenseType licenseType, System.Collections.Generic.List&lt;string&gt; users, System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt; additionalUsersAndRights);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.InformationProtection.LicenseType licenseType, class System.Collections.Generic.List`1&lt;string&gt; users, class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.UserRights&gt; additionalUsersAndRights) cil managed" />
+      <MemberSignature Language="C#" Value="public ProtectionDescriptor (Microsoft.InformationProtection.LicenseType licenseType, System.Collections.Generic.List&lt;string&gt; users, System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt; additionalUsersAndRights);" FrameworkAlternate="mipsdk-dotnet-1.11" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.InformationProtection.LicenseType licenseType, class System.Collections.Generic.List`1&lt;string&gt; users, class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.UserRights&gt; additionalUsersAndRights) cil managed" FrameworkAlternate="mipsdk-dotnet-1.11" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.ProtectionDescriptor.#ctor(Microsoft.InformationProtection.LicenseType,System.Collections.Generic.List{System.String},System.Collections.Generic.List{Microsoft.InformationProtection.UserRights})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (licenseType As LicenseType, users As List(Of String), additionalUsersAndRights As List(Of UserRights))" />
-      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.ProtectionDescriptor : Microsoft.InformationProtection.LicenseType * System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt; -&gt; Microsoft.InformationProtection.ProtectionDescriptor" Usage="new Microsoft.InformationProtection.ProtectionDescriptor (licenseType, users, additionalUsersAndRights)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (licenseType As LicenseType, users As List(Of String), additionalUsersAndRights As List(Of UserRights))" FrameworkAlternate="mipsdk-dotnet-1.11" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.ProtectionDescriptor : Microsoft.InformationProtection.LicenseType * System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt; -&gt; Microsoft.InformationProtection.ProtectionDescriptor" Usage="new Microsoft.InformationProtection.ProtectionDescriptor (licenseType, users, additionalUsersAndRights)" FrameworkAlternate="mipsdk-dotnet-1.11" />
+      <MemberSignature Language="C#" Value="public ProtectionDescriptor (Microsoft.InformationProtection.LicenseType licenseType, System.Collections.Generic.List&lt;string&gt; usersWithDefaultRights, System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt; additionalUsersAndRights);" FrameworkAlternate="mipsdk-dotnet-1.12" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype Microsoft.InformationProtection.LicenseType licenseType, class System.Collections.Generic.List`1&lt;string&gt; usersWithDefaultRights, class System.Collections.Generic.List`1&lt;class Microsoft.InformationProtection.UserRights&gt; additionalUsersAndRights) cil managed" FrameworkAlternate="mipsdk-dotnet-1.12" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (licenseType As LicenseType, usersWithDefaultRights As List(Of String), additionalUsersAndRights As List(Of UserRights))" FrameworkAlternate="mipsdk-dotnet-1.12" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.ProtectionDescriptor : Microsoft.InformationProtection.LicenseType * System.Collections.Generic.List&lt;string&gt; * System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt; -&gt; Microsoft.InformationProtection.ProtectionDescriptor" Usage="new Microsoft.InformationProtection.ProtectionDescriptor (licenseType, usersWithDefaultRights, additionalUsersAndRights)" FrameworkAlternate="mipsdk-dotnet-1.12" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="licenseType" Type="Microsoft.InformationProtection.LicenseType" Index="0" FrameworkAlternate="mipsdk-dotnet-1.11" />
+        <Parameter Name="licenseType" Type="Microsoft.InformationProtection.LicenseType" Index="0" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
         <Parameter Name="users" Type="System.Collections.Generic.List&lt;System.String&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.11" />
-        <Parameter Name="additionalUsersAndRights" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt;" Index="2" FrameworkAlternate="mipsdk-dotnet-1.11" />
+        <Parameter Name="usersWithDefaultRights" Type="System.Collections.Generic.List&lt;System.String&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.12" />
+        <Parameter Name="additionalUsersAndRights" Type="System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt;" Index="2" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
       </Parameters>
       <Docs>
-        <param name="licenseType">To be added.</param>
         <param name="users">To be added.</param>
-        <param name="additionalUsersAndRights">To be added.</param>
-        <summary>To be added.</summary>
+        <param name="licenseType">The license type to create this ProtectionDescriptor for</param>
+        <param name="usersWithDefaultRights">Collection of users to add to the license with default rights for the specific type</param>
+        <param name="additionalUsersAndRights">Additional rights to assign users</param>
+        <summary>
+            Constructor for ProtectionDescriptor for Adhoc with license type
+            </summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -222,6 +262,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -260,6 +302,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -298,6 +342,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.DateTime&gt;</ReturnType>
@@ -336,6 +382,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -368,6 +416,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -406,6 +456,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -444,6 +496,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -470,12 +524,16 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Microsoft.InformationProtection.LicenseType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            The license type if this instance was created with it
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -506,6 +564,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -544,6 +604,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -582,6 +644,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ProtectionType</ReturnType>
@@ -620,6 +684,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -627,6 +693,28 @@
       <Docs>
         <summary>
             Protection referrer address
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerializedTemplate">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;byte&gt; SerializedTemplate { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;unsigned int8&gt; SerializedTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.ProtectionDescriptor.SerializedTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public Property SerializedTemplate As List(Of Byte)" />
+      <MemberSignature Language="F#" Value="member this.SerializedTemplate : System.Collections.Generic.List&lt;byte&gt; with get, set" Usage="Microsoft.InformationProtection.ProtectionDescriptor.SerializedTemplate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Gets the serialized template, if any
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -658,6 +746,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -696,13 +786,15 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
-            The RMS template id, if any
+            The RMS template id for template protection, license id for adhoc protection, if any
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -734,6 +826,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRights&gt;</ReturnType>
@@ -772,6 +866,8 @@
         <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
+        <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.61.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.UserRoles&gt;</ReturnType>
