@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="mipsdk-dotnet-1.12">
   <Assemblies>
-    <Assembly Name="Microsoft.InformationProtection" Version="1.12.61.0" />
+    <Assembly Name="Microsoft.InformationProtection" Version="1.12.101.0" />
   </Assemblies>
   <Namespace Name="Microsoft.InformationProtection">
     <Type Name="Microsoft.InformationProtection.ActionSource" Id="T:Microsoft.InformationProtection.ActionSource">
@@ -29,6 +29,7 @@
     </Type>
     <Type Name="Microsoft.InformationProtection.BadInputErrorCode" Id="T:Microsoft.InformationProtection.BadInputErrorCode">
       <Member Id="F:Microsoft.InformationProtection.BadInputErrorCode.DoubleKey" />
+      <Member Id="F:Microsoft.InformationProtection.BadInputErrorCode.FileFormatNotSupported" />
       <Member Id="F:Microsoft.InformationProtection.BadInputErrorCode.FileIsTooLargeForProtection" />
       <Member Id="F:Microsoft.InformationProtection.BadInputErrorCode.General" />
       <Member Id="F:Microsoft.InformationProtection.BadInputErrorCode.LicenseNotTrusted" />
@@ -79,6 +80,7 @@
     <Type Name="Microsoft.InformationProtection.DiagnosticConfiguration" Id="T:Microsoft.InformationProtection.DiagnosticConfiguration">
       <Member Id="M:Microsoft.InformationProtection.DiagnosticConfiguration.#ctor" />
       <Member Id="P:Microsoft.InformationProtection.DiagnosticConfiguration.AuditDelegate" />
+      <Member Id="P:Microsoft.InformationProtection.DiagnosticConfiguration.Cloud" />
       <Member Id="P:Microsoft.InformationProtection.DiagnosticConfiguration.CustomSettings" />
       <Member Id="P:Microsoft.InformationProtection.DiagnosticConfiguration.IsFastShutdownEnabled" />
       <Member Id="P:Microsoft.InformationProtection.DiagnosticConfiguration.IsLocalCachingEnabled" />
@@ -828,7 +830,6 @@
       <Member Id="M:Microsoft.InformationProtection.Protection.ConsumptionSettings.#ctor(Microsoft.InformationProtection.Protection.PublishingLicenseInfo)" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ConsumptionSettings.ContentName" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ConsumptionSettings.DelegatedUserEmail" />
-      <Member Id="P:Microsoft.InformationProtection.Protection.ConsumptionSettings.IsOfflineOnly" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ConsumptionSettings.PublishingLicenseInfo" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Protection.DelegationLicenseSettings" Id="T:Microsoft.InformationProtection.Protection.DelegationLicenseSettings">
@@ -838,6 +839,24 @@
       <Member Id="P:Microsoft.InformationProtection.Protection.DelegationLicenseSettings.MipContext" />
       <Member Id="P:Microsoft.InformationProtection.Protection.DelegationLicenseSettings.PublishingLicenseInfo" />
       <Member Id="P:Microsoft.InformationProtection.Protection.DelegationLicenseSettings.Users" />
+    </Type>
+    <Type Name="Microsoft.InformationProtection.Protection.DirectoryObject" Id="T:Microsoft.InformationProtection.Protection.DirectoryObject">
+      <Member Id="M:Microsoft.InformationProtection.Protection.DirectoryObject.#ctor" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.DirectoryObject.DirectoryObjectType" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.DirectoryObject.Email" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.DirectoryObject.ObjectId" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.DirectoryObject.Puid" />
+    </Type>
+    <Type Name="Microsoft.InformationProtection.Protection.DirectoryObjectRights" Id="T:Microsoft.InformationProtection.Protection.DirectoryObjectRights">
+      <Member Id="M:Microsoft.InformationProtection.Protection.DirectoryObjectRights.#ctor" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.DirectoryObjectRights.DirectoryObject" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.DirectoryObjectRights.Rights" />
+    </Type>
+    <Type Name="Microsoft.InformationProtection.Protection.DirectoryObjectType" Id="T:Microsoft.InformationProtection.Protection.DirectoryObjectType">
+      <Member Id="F:Microsoft.InformationProtection.Protection.DirectoryObjectType.GROUP" />
+      <Member Id="F:Microsoft.InformationProtection.Protection.DirectoryObjectType.INTERNAL" />
+      <Member Id="F:Microsoft.InformationProtection.Protection.DirectoryObjectType.UNKNOWN" />
+      <Member Id="F:Microsoft.InformationProtection.Protection.DirectoryObjectType.USER" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Protection.GetTemplatesSettings" Id="T:Microsoft.InformationProtection.Protection.GetTemplatesSettings">
       <Member Id="M:Microsoft.InformationProtection.Protection.GetTemplatesSettings.#ctor" />
@@ -858,6 +877,8 @@
       <Member Id="M:Microsoft.InformationProtection.Protection.IProtectionEngine.CreateProtectionHandlerForConsumptionAsync(Microsoft.InformationProtection.Protection.ConsumptionSettings)" />
       <Member Id="M:Microsoft.InformationProtection.Protection.IProtectionEngine.CreateProtectionHandlerForPublishing(Microsoft.InformationProtection.Protection.PublishingSettings)" />
       <Member Id="M:Microsoft.InformationProtection.Protection.IProtectionEngine.CreateProtectionHandlerForPublishingAsync(Microsoft.InformationProtection.Protection.PublishingSettings)" />
+      <Member Id="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetLicenseRightsData(Microsoft.InformationProtection.Protection.PublishingLicenseInfo,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
+      <Member Id="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetLicenseRightsDataAsync(Microsoft.InformationProtection.Protection.PublishingLicenseInfo,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
       <Member Id="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetRightsForLabelId(System.String,System.String,System.String,System.String,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
       <Member Id="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetRightsForLabelIdAsync(System.String,System.String,System.String,System.String,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
       <Member Id="M:Microsoft.InformationProtection.Protection.IProtectionEngine.GetTemplates" />
@@ -899,6 +920,8 @@
       <Member Id="P:Microsoft.InformationProtection.Protection.IProtectionProfile.Settings" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Protection.ITenantInformation" Id="T:Microsoft.InformationProtection.Protection.ITenantInformation">
+      <Member Id="P:Microsoft.InformationProtection.Protection.ITenantInformation.ExtranetUrl" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.ITenantInformation.IntranetUrl" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ITenantInformation.IssuerName" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Protection.LicenseApplicationData" Id="T:Microsoft.InformationProtection.Protection.LicenseApplicationData">
@@ -918,6 +941,12 @@
       <Member Id="P:Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem.Lcid" />
       <Member Id="P:Microsoft.InformationProtection.Protection.LicenseNameAndDescriptionItem.Name" />
     </Type>
+    <Type Name="Microsoft.InformationProtection.Protection.LicenseRightsData" Id="T:Microsoft.InformationProtection.Protection.LicenseRightsData">
+      <Member Id="M:Microsoft.InformationProtection.Protection.LicenseRightsData.#ctor" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.LicenseRightsData.ContentValidUntil" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.LicenseRightsData.DirectoryObjectsRights" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.LicenseRightsData.ProtectionType" />
+    </Type>
     <Type Name="Microsoft.InformationProtection.Protection.PreLicenseFormat" Id="T:Microsoft.InformationProtection.Protection.PreLicenseFormat">
       <Member Id="F:Microsoft.InformationProtection.Protection.PreLicenseFormat.Json" />
       <Member Id="F:Microsoft.InformationProtection.Protection.PreLicenseFormat.Xml" />
@@ -925,6 +954,7 @@
     <Type Name="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Id="T:Microsoft.InformationProtection.Protection.ProtectionCommonSettings">
       <Member Id="M:Microsoft.InformationProtection.Protection.ProtectionCommonSettings.#ctor" />
       <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionCommonSettings.ApplicationScenarioId" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.ProtectionCommonSettings.IsOfflineOnly" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Protection.ProtectionEngineSettings" Id="T:Microsoft.InformationProtection.Protection.ProtectionEngineSettings">
       <Member Id="M:Microsoft.InformationProtection.Protection.ProtectionEngineSettings.#ctor(System.String,Microsoft.InformationProtection.IAuthDelegate,System.String,System.String)" />

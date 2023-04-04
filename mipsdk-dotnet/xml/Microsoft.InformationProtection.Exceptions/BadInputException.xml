@@ -25,6 +25,8 @@
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
     <AssemblyVersion>1.11.96.0</AssemblyVersion>
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
+    <AssemblyVersion>1.12.101.0</AssemblyVersion>
+    <AssemblyVersion>1.13.161.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Exception</BaseTypeName>
@@ -65,9 +67,11 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.6" />
+        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.6" />
       </Parameters>
       <Docs>
         <param name="message">The message that describes the error</param>
@@ -78,10 +82,10 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public BadInputException (string message, Microsoft.InformationProtection.BadInputErrorCode errorCode);" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
+      <MemberSignature Language="C#" Value="public BadInputException (string message, Microsoft.InformationProtection.BadInputErrorCode errorCode);" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, valuetype Microsoft.InformationProtection.BadInputErrorCode errorCode) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Exceptions.BadInputException.#ctor(System.String,Microsoft.InformationProtection.BadInputErrorCode)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, errorCode As BadInputErrorCode)" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, errorCode As BadInputErrorCode)" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13" />
       <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Exceptions.BadInputException : string * Microsoft.InformationProtection.BadInputErrorCode -&gt; Microsoft.InformationProtection.Exceptions.BadInputException" Usage="new Microsoft.InformationProtection.Exceptions.BadInputException (message, errorCode)" />
       <MemberSignature Language="C#" Value="public BadInputException (string message, Microsoft.InformationProtection.BadInputErrorCode errorCode = Microsoft.InformationProtection.BadInputErrorCode.General);" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, Optional errorCode As BadInputErrorCode = Microsoft.InformationProtection.BadInputErrorCode.General)" FrameworkAlternate="mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
@@ -99,10 +103,12 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="errorCode" Type="Microsoft.InformationProtection.BadInputErrorCode" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="errorCode" Type="Microsoft.InformationProtection.BadInputErrorCode" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="message">The message that describes the error</param>
@@ -133,6 +139,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.BadInputErrorCode</ReturnType>

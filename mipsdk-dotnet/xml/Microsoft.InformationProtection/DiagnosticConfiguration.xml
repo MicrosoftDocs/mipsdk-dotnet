@@ -15,6 +15,8 @@
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
     <AssemblyVersion>1.11.96.0</AssemblyVersion>
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
+    <AssemblyVersion>1.12.101.0</AssemblyVersion>
+    <AssemblyVersion>1.13.161.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -44,6 +46,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -69,6 +73,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.IAuditDelegate</ReturnType>
@@ -82,21 +88,30 @@
       </Docs>
     </Member>
     <Member MemberName="Cloud">
-      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Cloud? Cloud { get; set; }" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.InformationProtection.Cloud&gt; Cloud" />
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Cloud? Cloud { get; set; }" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.InformationProtection.Cloud&gt; Cloud" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13" />
       <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.Cloud" />
-      <MemberSignature Language="VB.NET" Value="Public Property Cloud As Nullable(Of Cloud)" />
-      <MemberSignature Language="F#" Value="member this.Cloud : Nullable&lt;Microsoft.InformationProtection.Cloud&gt; with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.Cloud" />
+      <MemberSignature Language="VB.NET" Value="Public Property Cloud As Nullable(Of Cloud)" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13" />
+      <MemberSignature Language="F#" Value="member this.Cloud : Nullable&lt;Microsoft.InformationProtection.Cloud&gt; with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.Cloud" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13" />
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Cloud Cloud { get; set; }" FrameworkAlternate="mipsdk-dotnet-1.12" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.Cloud Cloud" FrameworkAlternate="mipsdk-dotnet-1.12" />
+      <MemberSignature Language="VB.NET" Value="Public Property Cloud As Cloud" FrameworkAlternate="mipsdk-dotnet-1.12" />
+      <MemberSignature Language="F#" Value="member this.Cloud : Microsoft.InformationProtection.Cloud with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.Cloud" FrameworkAlternate="mipsdk-dotnet-1.12" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Nullable&lt;Microsoft.InformationProtection.Cloud&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13">System.Nullable&lt;Microsoft.InformationProtection.Cloud&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.12">Microsoft.InformationProtection.Cloud</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>To be added.</summary>
+        <summary>
+            Cloud type for controlling telemetry and audit events for sovereign cloud scenario
+            </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
@@ -119,6 +134,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -126,6 +143,28 @@
       <Docs>
         <summary>
             Custom settings of telemetry
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DataBoundary">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.DataBoundary? DataBoundary { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.InformationProtection.DataBoundary&gt; DataBoundary" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.DataBoundary" />
+      <MemberSignature Language="VB.NET" Value="Public Property DataBoundary As Nullable(Of DataBoundary)" />
+      <MemberSignature Language="F#" Value="member this.DataBoundary : Nullable&lt;Microsoft.InformationProtection.DataBoundary&gt; with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.DataBoundary" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.InformationProtection.DataBoundary&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Default regional boundary that defines where telemetry and audit events are stored.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -149,6 +188,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -179,6 +220,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -209,6 +252,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -239,6 +284,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -269,6 +316,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -299,6 +348,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
@@ -325,6 +376,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ITelemetryDelegate</ReturnType>
