@@ -15,6 +15,8 @@
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
     <AssemblyVersion>1.11.96.0</AssemblyVersion>
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
+    <AssemblyVersion>1.12.101.0</AssemblyVersion>
+    <AssemblyVersion>1.13.161.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -27,6 +29,27 @@
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
+    <Member MemberName="EUPI">
+      <MemberSignature Language="C#" Value="EUPI" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Pii EUPI = int32(5)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Pii.EUPI" />
+      <MemberSignature Language="VB.NET" Value="EUPI" />
+      <MemberSignature Language="F#" Value="EUPI = 5" Usage="Microsoft.InformationProtection.Pii.EUPI" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>
+      </ReturnValue>
+      <MemberValue>5</MemberValue>
+      <Docs>
+        <summary>
+            Data contains a End User Pseudonymous Information
+            </summary>
+      </Docs>
+    </Member>
     <Member MemberName="Fqdn">
       <MemberSignature Language="C#" Value="Fqdn" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Pii Fqdn = int32(4)" />
@@ -45,6 +68,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>
@@ -74,6 +99,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>
@@ -103,6 +130,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>
@@ -111,6 +140,27 @@
       <Docs>
         <summary>
             Data is not PII
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="OII">
+      <MemberSignature Language="C#" Value="OII" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Pii OII = int32(6)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Pii.OII" />
+      <MemberSignature Language="VB.NET" Value="OII" />
+      <MemberSignature Language="F#" Value="OII = 6" Usage="Microsoft.InformationProtection.Pii.OII" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>
+      </ReturnValue>
+      <MemberValue>6</MemberValue>
+      <Docs>
+        <summary>
+            Data contains a Organization Identifiable Information
             </summary>
       </Docs>
     </Member>
@@ -132,6 +182,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>
@@ -161,6 +213,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Pii</ReturnType>

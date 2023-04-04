@@ -1,0 +1,111 @@
+<Type Name="DirectoryObjectType" FullName="Microsoft.InformationProtection.Protection.DirectoryObjectType">
+  <TypeSignature Language="C#" Value="public enum DirectoryObjectType" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed DirectoryObjectType extends System.Enum" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.DirectoryObjectType" />
+  <TypeSignature Language="VB.NET" Value="Public Enum DirectoryObjectType" />
+  <TypeSignature Language="F#" Value="type DirectoryObjectType = " />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.12.101.0</AssemblyVersion>
+    <AssemblyVersion>1.13.161.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Enum</BaseTypeName>
+  </Base>
+  <Docs>
+    <summary>
+            Type of directory object
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="GROUP">
+      <MemberSignature Language="C#" Value="GROUP" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Protection.DirectoryObjectType GROUP = int32(3)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.DirectoryObjectType.GROUP" />
+      <MemberSignature Language="VB.NET" Value="GROUP" />
+      <MemberSignature Language="F#" Value="GROUP = 3" Usage="Microsoft.InformationProtection.Protection.DirectoryObjectType.GROUP" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.DirectoryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>3</MemberValue>
+      <Docs>
+        <summary>
+            Group
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="INTERNAL">
+      <MemberSignature Language="C#" Value="INTERNAL" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Protection.DirectoryObjectType INTERNAL = int32(1)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.DirectoryObjectType.INTERNAL" />
+      <MemberSignature Language="VB.NET" Value="INTERNAL" />
+      <MemberSignature Language="F#" Value="INTERNAL = 1" Usage="Microsoft.InformationProtection.Protection.DirectoryObjectType.INTERNAL" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.DirectoryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>1</MemberValue>
+      <Docs>
+        <summary>
+            Internal user - ANYONE
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UNKNOWN">
+      <MemberSignature Language="C#" Value="UNKNOWN" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Protection.DirectoryObjectType UNKNOWN = int32(0)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.DirectoryObjectType.UNKNOWN" />
+      <MemberSignature Language="VB.NET" Value="UNKNOWN" />
+      <MemberSignature Language="F#" Value="UNKNOWN = 0" Usage="Microsoft.InformationProtection.Protection.DirectoryObjectType.UNKNOWN" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.DirectoryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>0</MemberValue>
+      <Docs>
+        <summary>
+            Unknown type which may be external user, contact etc
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="USER">
+      <MemberSignature Language="C#" Value="USER" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Protection.DirectoryObjectType USER = int32(2)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.DirectoryObjectType.USER" />
+      <MemberSignature Language="VB.NET" Value="USER" />
+      <MemberSignature Language="F#" Value="USER = 2" Usage="Microsoft.InformationProtection.Protection.DirectoryObjectType.USER" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.DirectoryObjectType</ReturnType>
+      </ReturnValue>
+      <MemberValue>2</MemberValue>
+      <Docs>
+        <summary>
+            Individual user
+            </summary>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

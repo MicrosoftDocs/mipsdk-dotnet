@@ -1,0 +1,87 @@
+<Type Name="DirectoryObjectRights" FullName="Microsoft.InformationProtection.Protection.DirectoryObjectRights">
+  <TypeSignature Language="C#" Value="public class DirectoryObjectRights" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DirectoryObjectRights extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.DirectoryObjectRights" />
+  <TypeSignature Language="VB.NET" Value="Public Class DirectoryObjectRights" />
+  <TypeSignature Language="F#" Value="type DirectoryObjectRights = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.12.101.0</AssemblyVersion>
+    <AssemblyVersion>1.13.161.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Holds the details of directory object with rights.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DirectoryObjectRights ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.DirectoryObjectRights.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryObject">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.DirectoryObject DirectoryObject { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.InformationProtection.Protection.DirectoryObject DirectoryObject" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.DirectoryObjectRights.DirectoryObject" />
+      <MemberSignature Language="VB.NET" Value="Public Property DirectoryObject As DirectoryObject" />
+      <MemberSignature Language="F#" Value="member this.DirectoryObject : Microsoft.InformationProtection.Protection.DirectoryObject with get, set" Usage="Microsoft.InformationProtection.Protection.DirectoryObjectRights.DirectoryObject" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.DirectoryObject</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The directory object
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Rights">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;string&gt; Rights { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;string&gt; Rights" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.DirectoryObjectRights.Rights" />
+      <MemberSignature Language="VB.NET" Value="Public Property Rights As List(Of String)" />
+      <MemberSignature Language="F#" Value="member this.Rights : System.Collections.Generic.List&lt;string&gt; with get, set" Usage="Microsoft.InformationProtection.Protection.DirectoryObjectRights.Rights" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Rights associated with the directory object
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
