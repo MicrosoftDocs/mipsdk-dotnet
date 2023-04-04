@@ -1,0 +1,105 @@
+<Type Name="LabelInfo" FullName="Microsoft.InformationProtection.LabelInfo">
+  <TypeSignature Language="C#" Value="public class LabelInfo" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LabelInfo extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.LabelInfo" />
+  <TypeSignature Language="VB.NET" Value="Public Class LabelInfo" />
+  <TypeSignature Language="F#" Value="type LabelInfo = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.13.161.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Information about label set on protected content
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LabelInfo ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.LabelInfo.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LabelInfo (string labelId, string tenantId);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string labelId, string tenantId) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.LabelInfo.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (labelId As String, tenantId As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.LabelInfo : string * string -&gt; Microsoft.InformationProtection.LabelInfo" Usage="new Microsoft.InformationProtection.LabelInfo (labelId, tenantId)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="labelId" Type="System.String" />
+        <Parameter Name="tenantId" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="labelId">To be added.</param>
+        <param name="tenantId">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelId">
+      <MemberSignature Language="C#" Value="public string LabelId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string LabelId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LabelInfo.LabelId" />
+      <MemberSignature Language="VB.NET" Value="Public Property LabelId As String" />
+      <MemberSignature Language="F#" Value="member this.LabelId : string with get, set" Usage="Microsoft.InformationProtection.LabelInfo.LabelId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The unique GUID for the label within the tenant
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TenantId">
+      <MemberSignature Language="C#" Value="public string TenantId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string TenantId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LabelInfo.TenantId" />
+      <MemberSignature Language="VB.NET" Value="Public Property TenantId As String" />
+      <MemberSignature Language="F#" Value="member this.TenantId : string with get, set" Usage="Microsoft.InformationProtection.LabelInfo.TenantId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            GUID of the tenant that owns the label
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

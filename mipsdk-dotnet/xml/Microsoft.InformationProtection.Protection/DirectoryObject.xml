@@ -1,0 +1,133 @@
+<Type Name="DirectoryObject" FullName="Microsoft.InformationProtection.Protection.DirectoryObject">
+  <TypeSignature Language="C#" Value="public class DirectoryObject" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DirectoryObject extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.DirectoryObject" />
+  <TypeSignature Language="VB.NET" Value="Public Class DirectoryObject" />
+  <TypeSignature Language="F#" Value="type DirectoryObject = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.12.101.0</AssemblyVersion>
+    <AssemblyVersion>1.13.161.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Holds the details of directory object.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DirectoryObject ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.DirectoryObject.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DirectoryObjectType">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Protection.DirectoryObjectType DirectoryObjectType { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.Protection.DirectoryObjectType DirectoryObjectType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.DirectoryObject.DirectoryObjectType" />
+      <MemberSignature Language="VB.NET" Value="Public Property DirectoryObjectType As DirectoryObjectType" />
+      <MemberSignature Language="F#" Value="member this.DirectoryObjectType : Microsoft.InformationProtection.Protection.DirectoryObjectType with get, set" Usage="Microsoft.InformationProtection.Protection.DirectoryObject.DirectoryObjectType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.Protection.DirectoryObjectType</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The directory object type
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Email">
+      <MemberSignature Language="C#" Value="public string Email { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Email" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.DirectoryObject.Email" />
+      <MemberSignature Language="VB.NET" Value="Public Property Email As String" />
+      <MemberSignature Language="F#" Value="member this.Email : string with get, set" Usage="Microsoft.InformationProtection.Protection.DirectoryObject.Email" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The email address of directory object
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectId">
+      <MemberSignature Language="C#" Value="public string ObjectId { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ObjectId" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.DirectoryObject.ObjectId" />
+      <MemberSignature Language="VB.NET" Value="Public Property ObjectId As String" />
+      <MemberSignature Language="F#" Value="member this.ObjectId : string with get, set" Usage="Microsoft.InformationProtection.Protection.DirectoryObject.ObjectId" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The object ID of directory object
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Puid">
+      <MemberSignature Language="C#" Value="public string Puid { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string Puid" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.DirectoryObject.Puid" />
+      <MemberSignature Language="VB.NET" Value="Public Property Puid As String" />
+      <MemberSignature Language="F#" Value="member this.Puid : string with get, set" Usage="Microsoft.InformationProtection.Protection.DirectoryObject.Puid" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The PUID of directory object
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

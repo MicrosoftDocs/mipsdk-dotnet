@@ -13,6 +13,8 @@
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
     <AssemblyVersion>1.11.96.0</AssemblyVersion>
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
+    <AssemblyVersion>1.12.101.0</AssemblyVersion>
+    <AssemblyVersion>1.13.161.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -40,6 +42,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -63,6 +67,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -73,6 +79,59 @@
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CustomSettings">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; CustomSettings { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; CustomSettings" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.ProtectionCommonSettings.CustomSettings" />
+      <MemberSignature Language="VB.NET" Value="Public Property CustomSettings As List(Of KeyValuePair(Of String, String))" />
+      <MemberSignature Language="F#" Value="member this.CustomSettings : System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt; with get, set" Usage="Microsoft.InformationProtection.Protection.ProtectionCommonSettings.CustomSettings" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            A list of name/value pairs used for testing and experimentation.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsOfflineOnly">
+      <MemberSignature Language="C#" Value="public bool IsOfflineOnly { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsOfflineOnly" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.ProtectionCommonSettings.IsOfflineOnly" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsOfflineOnly As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsOfflineOnly : bool with get, set" Usage="Microsoft.InformationProtection.Protection.ProtectionCommonSettings.IsOfflineOnly" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not <c>IProtectionHandler</c> creation allows for online HTTP operations. 
+            </summary>
+        <value>
+            True if HTTP operations are disallowed, else false
+            </value>
+        <remarks>
+            If this is set to true, operation will only succeed if necessary content has already been cached.
+            A mip::NetworkError will be thrown if needed info is not found.
+            Consumption - content has already been previously decrypted and its unexpired license is cached.
+            Protection  - unexpired templates have been cached and user cert is loaded
+            Others - undefined
+            </remarks>
       </Docs>
     </Member>
   </Members>

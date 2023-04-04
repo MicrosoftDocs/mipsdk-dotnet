@@ -25,6 +25,8 @@
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
     <AssemblyVersion>1.11.96.0</AssemblyVersion>
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
+    <AssemblyVersion>1.12.101.0</AssemblyVersion>
+    <AssemblyVersion>1.13.161.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Exception</BaseTypeName>
@@ -65,6 +67,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="category" Type="Microsoft.InformationProtection.NetworkExceptionCategory" />
@@ -103,6 +107,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.NetworkExceptionCategory</ReturnType>
@@ -137,6 +143,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>

@@ -1,9 +1,9 @@
 <Type Name="PublishingSettings" FullName="Microsoft.InformationProtection.Protection.PublishingSettings">
-  <TypeSignature Language="C#" Value="public class PublishingSettings : Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PublishingSettings extends Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="C#" Value="public class PublishingSettings : Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PublishingSettings extends Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.9" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.PublishingSettings" />
-  <TypeSignature Language="VB.NET" Value="Public Class PublishingSettings&#xA;Inherits ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
-  <TypeSignature Language="F#" Value="type PublishingSettings = class&#xA;    inherit ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="VB.NET" Value="Public Class PublishingSettings&#xA;Inherits ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="F#" Value="type PublishingSettings = class&#xA;    inherit ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.9" />
   <TypeSignature Language="C#" Value="public class PublishingSettings" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit PublishingSettings extends System.Object" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
   <TypeSignature Language="VB.NET" Value="Public Class PublishingSettings" FrameworkAlternate="mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8" />
@@ -23,6 +23,8 @@
     <AssemblyVersion>1.11.53.0</AssemblyVersion>
     <AssemblyVersion>1.11.96.0</AssemblyVersion>
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
+    <AssemblyVersion>1.12.101.0</AssemblyVersion>
+    <AssemblyVersion>1.13.161.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.InformationProtection.Protection.ProtectionCommonSettings</BaseTypeName>
@@ -58,11 +60,37 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="protectionDescriptor" Type="Microsoft.InformationProtection.ProtectionDescriptor" />
       </Parameters>
       <Docs>
+        <param name="protectionDescriptor">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingSettings.ProtectionDescriptor" /></param>
+        <summary>
+            ProtectionPublishingSettings constructor
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public PublishingSettings (Microsoft.InformationProtection.ProtectionDescriptor protectionDescriptor, System.Collections.Generic.List&lt;byte&gt; publishingLicenseForRepublish);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.InformationProtection.ProtectionDescriptor protectionDescriptor, class System.Collections.Generic.List`1&lt;unsigned int8&gt; publishingLicenseForRepublish) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.PublishingSettings.#ctor(Microsoft.InformationProtection.ProtectionDescriptor,System.Collections.Generic.List{System.Byte})" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (protectionDescriptor As ProtectionDescriptor, publishingLicenseForRepublish As List(Of Byte))" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Protection.PublishingSettings : Microsoft.InformationProtection.ProtectionDescriptor * System.Collections.Generic.List&lt;byte&gt; -&gt; Microsoft.InformationProtection.Protection.PublishingSettings" Usage="new Microsoft.InformationProtection.Protection.PublishingSettings (protectionDescriptor, publishingLicenseForRepublish)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="protectionDescriptor" Type="Microsoft.InformationProtection.ProtectionDescriptor" Index="0" FrameworkAlternate="mipsdk-dotnet-1.13" />
+        <Parameter Name="publishingLicenseForRepublish" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.13" />
+      </Parameters>
+      <Docs>
+        <param name="publishingLicenseForRepublish">To be added.</param>
         <param name="protectionDescriptor">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingSettings.ProtectionDescriptor" /></param>
         <summary>
             ProtectionPublishingSettings constructor
@@ -92,6 +120,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -128,6 +158,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -162,6 +194,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -186,6 +220,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingUseLicenseRequest</ReturnType>
@@ -218,9 +254,11 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.12">
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13">
           <AttributeName Language="C#">[System.Obsolete("Use PreLicenseRequest instead.", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Use PreLicenseRequest instead.", false)&gt;]</AttributeName>
         </Attribute>
@@ -258,6 +296,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ProtectionDescriptor</ReturnType>
@@ -292,6 +332,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -305,11 +347,14 @@
       </Docs>
     </Member>
     <Member MemberName="PublishingLicenseForRepublish">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;byte&gt; PublishingLicenseForRepublish { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;byte&gt; PublishingLicenseForRepublish { get; set; }" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;unsigned int8&gt; PublishingLicenseForRepublish" />
       <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingSettings.PublishingLicenseForRepublish" />
-      <MemberSignature Language="VB.NET" Value="Public Property PublishingLicenseForRepublish As List(Of Byte)" />
-      <MemberSignature Language="F#" Value="member this.PublishingLicenseForRepublish : System.Collections.Generic.List&lt;byte&gt; with get, set" Usage="Microsoft.InformationProtection.Protection.PublishingSettings.PublishingLicenseForRepublish" />
+      <MemberSignature Language="VB.NET" Value="Public Property PublishingLicenseForRepublish As List(Of Byte)" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+      <MemberSignature Language="F#" Value="member this.PublishingLicenseForRepublish : System.Collections.Generic.List&lt;byte&gt; with get, set" Usage="Microsoft.InformationProtection.Protection.PublishingSettings.PublishingLicenseForRepublish" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.9" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;byte&gt; PublishingLicenseForRepublish { get; }" FrameworkAlternate="mipsdk-dotnet-1.13" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PublishingLicenseForRepublish As List(Of Byte)" FrameworkAlternate="mipsdk-dotnet-1.13" />
+      <MemberSignature Language="F#" Value="member this.PublishingLicenseForRepublish : System.Collections.Generic.List&lt;byte&gt;" Usage="Microsoft.InformationProtection.Protection.PublishingSettings.PublishingLicenseForRepublish" FrameworkAlternate="mipsdk-dotnet-1.13" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
@@ -320,6 +365,8 @@
         <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.61.0</AssemblyVersion>
+        <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
@@ -327,6 +374,28 @@
       <Docs>
         <summary>
             The serialized republishing license
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="RegenerateContentKey">
+      <MemberSignature Language="C#" Value="public bool RegenerateContentKey { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool RegenerateContentKey" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.PublishingSettings.RegenerateContentKey" />
+      <MemberSignature Language="VB.NET" Value="Public Property RegenerateContentKey As Boolean" />
+      <MemberSignature Language="F#" Value="member this.RegenerateContentKey : bool with get, set" Usage="Microsoft.InformationProtection.Protection.PublishingSettings.RegenerateContentKey" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether or not the content key and id should be regenerated if republishing (not regenerated by default).
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
