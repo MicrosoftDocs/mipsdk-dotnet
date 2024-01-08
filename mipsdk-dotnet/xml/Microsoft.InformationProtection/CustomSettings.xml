@@ -1,0 +1,481 @@
+<Type Name="CustomSettings" FullName="Microsoft.InformationProtection.CustomSettings">
+  <TypeSignature Language="C#" Value="public static class CustomSettings" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi abstract sealed beforefieldinit CustomSettings extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.CustomSettings" />
+  <TypeSignature Language="VB.NET" Value="Public Class CustomSettings" />
+  <TypeSignature Language="F#" Value="type CustomSettings = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.14.108.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Provides a list of custom settings keys.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName="ContainerDecryptionOption">
+      <MemberSignature Language="C#" Value="public const string ContainerDecryptionOption;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ContainerDecryptionOption" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.ContainerDecryptionOption" />
+      <MemberSignature Language="VB.NET" Value="Public Const ContainerDecryptionOption As String " />
+      <MemberSignature Language="F#" Value="val mutable ContainerDecryptionOption : string" Usage="Microsoft.InformationProtection.CustomSettings.ContainerDecryptionOption" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Container (msg) decryption option: "default" (decrypt top level and secondary), "top" (decrypt top only).
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DelegateApplicationInfo">
+      <MemberSignature Language="C#" Value="public const string DelegateApplicationInfo;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DelegateApplicationInfo" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.DelegateApplicationInfo" />
+      <MemberSignature Language="VB.NET" Value="Public Const DelegateApplicationInfo As String " />
+      <MemberSignature Language="F#" Value="val mutable DelegateApplicationInfo : string" Usage="Microsoft.InformationProtection.CustomSettings.DelegateApplicationInfo" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name of the setting to specify delegated application information for MIP service.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableCoAuthMetadata">
+      <MemberSignature Language="C#" Value="public const string EnableCoAuthMetadata;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string EnableCoAuthMetadata" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.EnableCoAuthMetadata" />
+      <MemberSignature Language="VB.NET" Value="Public Const EnableCoAuthMetadata As String " />
+      <MemberSignature Language="F#" Value="val mutable EnableCoAuthMetadata : string" Usage="Microsoft.InformationProtection.CustomSettings.EnableCoAuthMetadata" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Configures whether co-auth metadata versioning is respected for Office file types.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableDeprecatedRemoveActions">
+      <MemberSignature Language="C#" Value="public const string EnableDeprecatedRemoveActions;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string EnableDeprecatedRemoveActions" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.EnableDeprecatedRemoveActions" />
+      <MemberSignature Language="VB.NET" Value="Public Const EnableDeprecatedRemoveActions As String " />
+      <MemberSignature Language="F#" Value="val mutable EnableDeprecatedRemoveActions : string" Usage="Microsoft.InformationProtection.CustomSettings.EnableDeprecatedRemoveActions" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Enable deprecated remove actions.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableMsgFileType">
+      <MemberSignature Language="C#" Value="public const string EnableMsgFileType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string EnableMsgFileType" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.EnableMsgFileType" />
+      <MemberSignature Language="VB.NET" Value="Public Const EnableMsgFileType As String " />
+      <MemberSignature Language="F#" Value="val mutable EnableMsgFileType : string" Usage="Microsoft.InformationProtection.CustomSettings.EnableMsgFileType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Enable msg file type when using the file API (experimental).
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnablePowerBIFileType">
+      <MemberSignature Language="C#" Value="public const string EnablePowerBIFileType;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string EnablePowerBIFileType" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.EnablePowerBIFileType" />
+      <MemberSignature Language="VB.NET" Value="Public Const EnablePowerBIFileType As String " />
+      <MemberSignature Language="F#" Value="val mutable EnablePowerBIFileType : string" Usage="Microsoft.InformationProtection.CustomSettings.EnablePowerBIFileType" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Enable PowerBI file type when using the file API (experimental).
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="EnforceMsgPfileProtection">
+      <MemberSignature Language="C#" Value="public const string EnforceMsgPfileProtection;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string EnforceMsgPfileProtection" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.EnforceMsgPfileProtection" />
+      <MemberSignature Language="VB.NET" Value="Public Const EnforceMsgPfileProtection As String " />
+      <MemberSignature Language="F#" Value="val mutable EnforceMsgPfileProtection : string" Usage="Microsoft.InformationProtection.CustomSettings.EnforceMsgPfileProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Enforce pfile protection on msg file type when using the file API.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ExportPolicyFileName">
+      <MemberSignature Language="C#" Value="public const string ExportPolicyFileName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ExportPolicyFileName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.ExportPolicyFileName" />
+      <MemberSignature Language="VB.NET" Value="Public Const ExportPolicyFileName As String " />
+      <MemberSignature Language="F#" Value="val mutable ExportPolicyFileName : string" Usage="Microsoft.InformationProtection.CustomSettings.ExportPolicyFileName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name of the setting to explicitly specify file path to export SCC policy data to.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="KeepPdfLinearization">
+      <MemberSignature Language="C#" Value="public const string KeepPdfLinearization;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string KeepPdfLinearization" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.KeepPdfLinearization" />
+      <MemberSignature Language="VB.NET" Value="Public Const KeepPdfLinearization As String " />
+      <MemberSignature Language="F#" Value="val mutable KeepPdfLinearization : string" Usage="Microsoft.InformationProtection.CustomSettings.KeepPdfLinearization" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Keep PDF linearization during protection and unprotection.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelCustomPropertiesSyncEnabled">
+      <MemberSignature Language="C#" Value="public const string LabelCustomPropertiesSyncEnabled;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string LabelCustomPropertiesSyncEnabled" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.LabelCustomPropertiesSyncEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Const LabelCustomPropertiesSyncEnabled As String " />
+      <MemberSignature Language="F#" Value="val mutable LabelCustomPropertiesSyncEnabled : string" Usage="Microsoft.InformationProtection.CustomSettings.LabelCustomPropertiesSyncEnabled" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name of the setting that allows enabling label by custom properties and custom properties by label features.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelsForAllContentFormats">
+      <MemberSignature Language="C#" Value="public const string LabelsForAllContentFormats;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string LabelsForAllContentFormats" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.LabelsForAllContentFormats" />
+      <MemberSignature Language="VB.NET" Value="Public Const LabelsForAllContentFormats As String " />
+      <MemberSignature Language="F#" Value="val mutable LabelsForAllContentFormats : string" Usage="Microsoft.InformationProtection.CustomSettings.LabelsForAllContentFormats" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            If set, enable listing sensitivity labels to return all labels regardless of content formats.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LabelWithoutPolicy">
+      <MemberSignature Language="C#" Value="public const string LabelWithoutPolicy;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string LabelWithoutPolicy" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.LabelWithoutPolicy" />
+      <MemberSignature Language="VB.NET" Value="Public Const LabelWithoutPolicy As String " />
+      <MemberSignature Language="F#" Value="val mutable LabelWithoutPolicy : string" Usage="Microsoft.InformationProtection.CustomSettings.LabelWithoutPolicy" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name of the setting for labels without a policy.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="LogMatchedContentToTrace">
+      <MemberSignature Language="C#" Value="public const string LogMatchedContentToTrace;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string LogMatchedContentToTrace" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.LogMatchedContentToTrace" />
+      <MemberSignature Language="VB.NET" Value="Public Const LogMatchedContentToTrace As String " />
+      <MemberSignature Language="F#" Value="val mutable LogMatchedContentToTrace : string" Usage="Microsoft.InformationProtection.CustomSettings.LogMatchedContentToTrace" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Log matched content to trace.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxFileSizeForProtection">
+      <MemberSignature Language="C#" Value="public const string MaxFileSizeForProtection;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string MaxFileSizeForProtection" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.MaxFileSizeForProtection" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxFileSizeForProtection As String " />
+      <MemberSignature Language="F#" Value="val mutable MaxFileSizeForProtection : string" Usage="Microsoft.InformationProtection.CustomSettings.MaxFileSizeForProtection" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name of the setting for the maximum file size for protection.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxPolicyXmlVersion">
+      <MemberSignature Language="C#" Value="public const string MaxPolicyXmlVersion;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string MaxPolicyXmlVersion" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.MaxPolicyXmlVersion" />
+      <MemberSignature Language="VB.NET" Value="Public Const MaxPolicyXmlVersion As String " />
+      <MemberSignature Language="F#" Value="val mutable MaxPolicyXmlVersion : string" Usage="Microsoft.InformationProtection.CustomSettings.MaxPolicyXmlVersion" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name of the setting for the maximum policy XML version.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyDataFile">
+      <MemberSignature Language="C#" Value="public const string PolicyDataFile;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PolicyDataFile" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.PolicyDataFile" />
+      <MemberSignature Language="VB.NET" Value="Public Const PolicyDataFile As String " />
+      <MemberSignature Language="F#" Value="val mutable PolicyDataFile : string" Usage="Microsoft.InformationProtection.CustomSettings.PolicyDataFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name of the setting to explicitly specify policy data file path.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyDataName">
+      <MemberSignature Language="C#" Value="public const string PolicyDataName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PolicyDataName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.PolicyDataName" />
+      <MemberSignature Language="VB.NET" Value="Public Const PolicyDataName As String " />
+      <MemberSignature Language="F#" Value="val mutable PolicyDataName : string" Usage="Microsoft.InformationProtection.CustomSettings.PolicyDataName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name of the setting to explicitly specify policy data.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="PolicyTtlDays">
+      <MemberSignature Language="C#" Value="public const string PolicyTtlDays;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string PolicyTtlDays" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.PolicyTtlDays" />
+      <MemberSignature Language="VB.NET" Value="Public Const PolicyTtlDays As String " />
+      <MemberSignature Language="F#" Value="val mutable PolicyTtlDays : string" Usage="Microsoft.InformationProtection.CustomSettings.PolicyTtlDays" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SensitivityPolicyTtlDays">
+      <MemberSignature Language="C#" Value="public const string SensitivityPolicyTtlDays;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string SensitivityPolicyTtlDays" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.SensitivityPolicyTtlDays" />
+      <MemberSignature Language="VB.NET" Value="Public Const SensitivityPolicyTtlDays As String " />
+      <MemberSignature Language="F#" Value="val mutable SensitivityPolicyTtlDays : string" Usage="Microsoft.InformationProtection.CustomSettings.SensitivityPolicyTtlDays" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SensitivityTypesDataFile">
+      <MemberSignature Language="C#" Value="public const string SensitivityTypesDataFile;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string SensitivityTypesDataFile" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.SensitivityTypesDataFile" />
+      <MemberSignature Language="VB.NET" Value="Public Const SensitivityTypesDataFile As String " />
+      <MemberSignature Language="F#" Value="val mutable SensitivityTypesDataFile : string" Usage="Microsoft.InformationProtection.CustomSettings.SensitivityTypesDataFile" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name of the setting to explicitly specify sensitivity types data file path.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SensitivityTypesDataName">
+      <MemberSignature Language="C#" Value="public const string SensitivityTypesDataName;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string SensitivityTypesDataName" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.SensitivityTypesDataName" />
+      <MemberSignature Language="VB.NET" Value="Public Const SensitivityTypesDataName As String " />
+      <MemberSignature Language="F#" Value="val mutable SensitivityTypesDataName : string" Usage="Microsoft.InformationProtection.CustomSettings.SensitivityTypesDataName" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Name of the setting to explicitly specify sensitivity data.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TaskTimeoutMs">
+      <MemberSignature Language="C#" Value="public const string TaskTimeoutMs;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string TaskTimeoutMs" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.CustomSettings.TaskTimeoutMs" />
+      <MemberSignature Language="VB.NET" Value="Public Const TaskTimeoutMs As String " />
+      <MemberSignature Language="F#" Value="val mutable TaskTimeoutMs : string" Usage="Microsoft.InformationProtection.CustomSettings.TaskTimeoutMs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Task timeout in milliseconds.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

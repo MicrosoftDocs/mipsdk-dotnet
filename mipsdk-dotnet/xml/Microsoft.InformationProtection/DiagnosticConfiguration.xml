@@ -17,6 +17,7 @@
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
     <AssemblyVersion>1.12.101.0</AssemblyVersion>
     <AssemblyVersion>1.13.161.0</AssemblyVersion>
+    <AssemblyVersion>1.14.108.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -37,17 +38,12 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -64,17 +60,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.IAuditDelegate</ReturnType>
@@ -88,11 +79,11 @@
       </Docs>
     </Member>
     <Member MemberName="Cloud">
-      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Cloud? Cloud { get; set; }" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13" />
-      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.InformationProtection.Cloud&gt; Cloud" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13" />
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Cloud? Cloud { get; set; }" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.InformationProtection.Cloud&gt; Cloud" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
       <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.Cloud" />
-      <MemberSignature Language="VB.NET" Value="Public Property Cloud As Nullable(Of Cloud)" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13" />
-      <MemberSignature Language="F#" Value="member this.Cloud : Nullable&lt;Microsoft.InformationProtection.Cloud&gt; with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.Cloud" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13" />
+      <MemberSignature Language="VB.NET" Value="Public Property Cloud As Nullable(Of Cloud)" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
+      <MemberSignature Language="F#" Value="member this.Cloud : Nullable&lt;Microsoft.InformationProtection.Cloud&gt; with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.Cloud" FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
       <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.Cloud Cloud { get; set; }" FrameworkAlternate="mipsdk-dotnet-1.12" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype Microsoft.InformationProtection.Cloud Cloud" FrameworkAlternate="mipsdk-dotnet-1.12" />
       <MemberSignature Language="VB.NET" Value="Public Property Cloud As Cloud" FrameworkAlternate="mipsdk-dotnet-1.12" />
@@ -102,10 +93,10 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13">System.Nullable&lt;Microsoft.InformationProtection.Cloud&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="mipsdk-dotnet-1.11;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14">System.Nullable&lt;Microsoft.InformationProtection.Cloud&gt;</ReturnType>
         <ReturnType FrameworkAlternate="mipsdk-dotnet-1.12">Microsoft.InformationProtection.Cloud</ReturnType>
       </ReturnValue>
       <Docs>
@@ -125,17 +116,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
@@ -157,7 +143,7 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Microsoft.InformationProtection.DataBoundary&gt;</ReturnType>
@@ -165,6 +151,28 @@
       <Docs>
         <summary>
             Default regional boundary that defines where telemetry and audit events are stored.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsAuditPriorityEnhanced">
+      <MemberSignature Language="C#" Value="public bool IsAuditPriorityEnhanced { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsAuditPriorityEnhanced" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.IsAuditPriorityEnhanced" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsAuditPriorityEnhanced As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsAuditPriorityEnhanced : bool with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.IsAuditPriorityEnhanced" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Is audit events priority enahanced
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -179,17 +187,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -211,17 +214,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -229,6 +227,28 @@
       <Docs>
         <summary>
             Is local caching/logging permitted for telemetry/audit component
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsMaxTeardownTimeEnabled">
+      <MemberSignature Language="C#" Value="public bool IsMaxTeardownTimeEnabled { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsMaxTeardownTimeEnabled" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.IsMaxTeardownTimeEnabled" />
+      <MemberSignature Language="VB.NET" Value="Public Property IsMaxTeardownTimeEnabled As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsMaxTeardownTimeEnabled : bool with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.IsMaxTeardownTimeEnabled" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Is Max Teardown time enabled
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -243,17 +263,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -275,17 +290,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -307,17 +317,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -325,6 +330,7 @@
       <Docs>
         <summary>
             Is on-disk trace logging enabled for telemetry/audit component
+            These files can grow to be very large, and may require manual cleanup from the host application.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -339,17 +345,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
@@ -357,6 +358,29 @@
       <Docs>
         <summary>
             Telemetry events/properties which should be masked
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxTeardownTimeSec">
+      <MemberSignature Language="C#" Value="public int MaxTeardownTimeSec { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxTeardownTimeSec" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DiagnosticConfiguration.MaxTeardownTimeSec" />
+      <MemberSignature Language="VB.NET" Value="Public Property MaxTeardownTimeSec As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaxTeardownTimeSec : int with get, set" Usage="Microsoft.InformationProtection.DiagnosticConfiguration.MaxTeardownTimeSec" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Max teardown time in sec
+            Audit and Telemetry events will be submitted on shutdown.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -371,13 +395,10 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ITelemetryDelegate</ReturnType>
