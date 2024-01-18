@@ -1,0 +1,115 @@
+<Type Name="LoggerConfiguration" FullName="Microsoft.InformationProtection.LoggerConfiguration">
+  <TypeSignature Language="C#" Value="public class LoggerConfiguration" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit LoggerConfiguration extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.LoggerConfiguration" />
+  <TypeSignature Language="VB.NET" Value="Public Class LoggerConfiguration" />
+  <TypeSignature Language="F#" Value="type LoggerConfiguration = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.14.108.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Configuration to use when default logging is enabled. This is set only once per process and any change after wont be effective.
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public LoggerConfiguration (int maxLogFileCount, int maxLogFileSizeMb, bool isPiiAllowed = true);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int32 maxLogFileCount, int32 maxLogFileSizeMb, bool isPiiAllowed) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.LoggerConfiguration.#ctor(System.Int32,System.Int32,System.Boolean)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (maxLogFileCount As Integer, maxLogFileSizeMb As Integer, Optional isPiiAllowed As Boolean = true)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.LoggerConfiguration : int * int * bool -&gt; Microsoft.InformationProtection.LoggerConfiguration" Usage="new Microsoft.InformationProtection.LoggerConfiguration (maxLogFileCount, maxLogFileSizeMb, isPiiAllowed)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="maxLogFileCount" Type="System.Int32" />
+        <Parameter Name="maxLogFileSizeMb" Type="System.Int32" />
+        <Parameter Name="isPiiAllowed" Type="System.Boolean" />
+      </Parameters>
+      <Docs>
+        <param name="maxLogFileCount">To be added.</param>
+        <param name="maxLogFileSizeMb">To be added.</param>
+        <param name="isPiiAllowed">To be added.</param>
+        <summary>To be added.</summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="IsPiiAllowed">
+      <MemberSignature Language="C#" Value="public bool IsPiiAllowed { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance bool IsPiiAllowed" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LoggerConfiguration.IsPiiAllowed" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IsPiiAllowed As Boolean" />
+      <MemberSignature Language="F#" Value="member this.IsPiiAllowed : bool" Usage="Microsoft.InformationProtection.LoggerConfiguration.IsPiiAllowed" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Boolean</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Whether to allow PII in the logs (default is true). Set to true to allow Pii in logs. Set to false to mask Pii.
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxLogFileCount">
+      <MemberSignature Language="C#" Value="public int MaxLogFileCount { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxLogFileCount" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LoggerConfiguration.MaxLogFileCount" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxLogFileCount As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaxLogFileCount : int" Usage="Microsoft.InformationProtection.LoggerConfiguration.MaxLogFileCount" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Maximum number of logfiles to store. Default is 2. The logfile name format changes when the value is &gt;= 3. Setting maxLogFileCount to 0 will disable logging. 
+            Setting to -1 indicate no maximum for file count. All other negative values are invalid
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="MaxLogFileSizeMb">
+      <MemberSignature Language="C#" Value="public int MaxLogFileSizeMb { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance int32 MaxLogFileSizeMb" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.LoggerConfiguration.MaxLogFileSizeMb" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MaxLogFileSizeMb As Integer" />
+      <MemberSignature Language="F#" Value="member this.MaxLogFileSizeMb : int" Usage="Microsoft.InformationProtection.LoggerConfiguration.MaxLogFileSizeMb" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Int32</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Maximum size for a logfile in MB. Default is 20 MB. Setting maxLogFileSizeMb to 0 will disable logging. Setting to -1 indicate no maximum size limit. 
+            All other negative values are invalid. Max allowed limit is 1024
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>

@@ -13,6 +13,7 @@
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
     <AssemblyVersion>1.12.101.0</AssemblyVersion>
     <AssemblyVersion>1.13.161.0</AssemblyVersion>
+    <AssemblyVersion>1.14.108.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,13 +35,10 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -68,13 +66,10 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.EventLevel</ReturnType>
@@ -96,13 +91,10 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -124,13 +116,10 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.EventProperty&gt;</ReturnType>
@@ -152,13 +141,10 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>

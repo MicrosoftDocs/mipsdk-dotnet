@@ -21,6 +21,7 @@
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
     <AssemblyVersion>1.12.101.0</AssemblyVersion>
     <AssemblyVersion>1.13.161.0</AssemblyVersion>
+    <AssemblyVersion>1.14.108.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -42,15 +43,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.LicenseConnectionInfo</ReturnType>
@@ -72,15 +69,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -102,15 +95,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.LicenseDescriptor</ReturnType>
@@ -132,21 +121,14 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
-        <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
@@ -168,24 +150,17 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
-        <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13">
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14">
           <AttributeName Language="C#">[System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, MipContext)", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, MipContext)", false)&gt;]</AttributeName>
         </Attribute>
@@ -216,20 +191,17 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13" />
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
       </Parameters>
       <Docs>
         <param name="serializedPublishingLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" /></param>
@@ -252,22 +224,16 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13">
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14">
           <AttributeName Language="C#">[System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;, MipContext)", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;, MipContext)", false)&gt;]</AttributeName>
         </Attribute>
@@ -276,8 +242,8 @@
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="serializedPublishingLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" /></param>
@@ -300,21 +266,18 @@
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13" />
-        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13" />
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
+        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
       </Parameters>
       <Docs>
         <param name="serializedPublishingLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" /></param>
@@ -338,15 +301,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -368,21 +327,14 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
-        <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -404,15 +356,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -434,15 +382,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -464,19 +408,13 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
@@ -498,21 +436,14 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
-        <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
@@ -534,21 +465,14 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
-        <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -570,15 +494,11 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.Protection.LicenseApplicationData&gt;</ReturnType>

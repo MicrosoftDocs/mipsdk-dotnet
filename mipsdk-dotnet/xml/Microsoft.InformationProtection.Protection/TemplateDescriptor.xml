@@ -21,6 +21,7 @@
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
     <AssemblyVersion>1.12.101.0</AssemblyVersion>
     <AssemblyVersion>1.13.161.0</AssemblyVersion>
+    <AssemblyVersion>1.14.108.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -41,21 +42,14 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
-        <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -72,21 +66,14 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
-        <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -108,21 +95,14 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
-        <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -144,21 +124,14 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.6.113.0</AssemblyVersion>
         <AssemblyVersion>1.6.152.0</AssemblyVersion>
-        <AssemblyVersion>1.7.133.0</AssemblyVersion>
         <AssemblyVersion>1.7.147.0</AssemblyVersion>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -166,6 +139,28 @@
       <Docs>
         <summary>
             Template name
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="SerializedTemplate">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;byte&gt; SerializedTemplate { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;unsigned int8&gt; SerializedTemplate" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.Protection.TemplateDescriptor.SerializedTemplate" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SerializedTemplate As List(Of Byte)" />
+      <MemberSignature Language="F#" Value="member this.SerializedTemplate : System.Collections.Generic.List&lt;byte&gt;" Usage="Microsoft.InformationProtection.Protection.TemplateDescriptor.SerializedTemplate" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Serialized template data. Null if data was not retrieved.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>

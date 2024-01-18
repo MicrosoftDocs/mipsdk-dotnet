@@ -1,9 +1,9 @@
 <Type Name="DelegationLicenseSettings" FullName="Microsoft.InformationProtection.Protection.DelegationLicenseSettings">
-  <TypeSignature Language="C#" Value="public class DelegationLicenseSettings : Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.9" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DelegationLicenseSettings extends Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="C#" Value="public class DelegationLicenseSettings : Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DelegationLicenseSettings extends Microsoft.InformationProtection.Protection.ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.9" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.DelegationLicenseSettings" />
-  <TypeSignature Language="VB.NET" Value="Public Class DelegationLicenseSettings&#xA;Inherits ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.9" />
-  <TypeSignature Language="F#" Value="type DelegationLicenseSettings = class&#xA;    inherit ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="VB.NET" Value="Public Class DelegationLicenseSettings&#xA;Inherits ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.9" />
+  <TypeSignature Language="F#" Value="type DelegationLicenseSettings = class&#xA;    inherit ProtectionCommonSettings" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.9" />
   <TypeSignature Language="C#" Value="public class DelegationLicenseSettings" FrameworkAlternate="mipsdk-dotnet-1.8" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DelegationLicenseSettings extends System.Object" FrameworkAlternate="mipsdk-dotnet-1.8" />
   <TypeSignature Language="VB.NET" Value="Public Class DelegationLicenseSettings" FrameworkAlternate="mipsdk-dotnet-1.8" />
@@ -21,6 +21,7 @@
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
     <AssemblyVersion>1.12.101.0</AssemblyVersion>
     <AssemblyVersion>1.13.161.0</AssemblyVersion>
+    <AssemblyVersion>1.14.108.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.InformationProtection.Protection.ProtectionCommonSettings</BaseTypeName>
@@ -43,20 +44,15 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13">
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14">
           <AttributeName Language="C#">[System.Obsolete("DelegationLicenseSettings(PublishingLicenseInfo) is deprecated, use DelegationLicenseSettings(MipContext, PublishingLicenseInfo)", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("DelegationLicenseSettings(PublishingLicenseInfo) is deprecated, use DelegationLicenseSettings(MipContext, PublishingLicenseInfo)", false)&gt;]</AttributeName>
         </Attribute>
@@ -81,13 +77,12 @@
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="0" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13" />
-        <Parameter Name="publishingLicenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="1" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="0" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
+        <Parameter Name="publishingLicenseInfo" Type="Microsoft.InformationProtection.Protection.PublishingLicenseInfo" Index="1" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
       </Parameters>
       <Docs>
         <param name="mipContext">The MipContext object used in object creation</param>
@@ -107,17 +102,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -139,9 +129,8 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.MipContext</ReturnType>
@@ -163,17 +152,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
@@ -195,17 +179,12 @@
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.8.94.0</AssemblyVersion>
         <AssemblyVersion>1.8.102.0</AssemblyVersion>
-        <AssemblyVersion>1.9.78.0</AssemblyVersion>
         <AssemblyVersion>1.9.90.0</AssemblyVersion>
-        <AssemblyVersion>1.10.93.0</AssemblyVersion>
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
-        <AssemblyVersion>1.11.53.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
-        <AssemblyVersion>1.12.61.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
-        <AssemblyVersion>1.13.161.0</AssemblyVersion>
+        <AssemblyVersion>1.14.108.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
