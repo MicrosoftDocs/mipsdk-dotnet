@@ -51,8 +51,8 @@
       "author": {
         "api/**.yml": "dotnet-bot"
       },
-      "ms.prod": {
-        "api/Microsoft.InformationProtection*.yml": "non-product-specific"
+      "ms.service": {
+        "api/Microsoft.InformationProtection*.yml": "information-protection"
       }
     },
     "template": [],
