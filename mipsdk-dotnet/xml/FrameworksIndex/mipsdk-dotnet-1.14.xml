@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="mipsdk-dotnet-1.14">
   <Assemblies>
-    <Assembly Name="Microsoft.InformationProtection" Version="1.14.108.0" />
+    <Assembly Name="Microsoft.InformationProtection" Version="1.15.104.0" />
   </Assemblies>
   <Namespace Name="Microsoft.InformationProtection">
     <Type Name="Microsoft.InformationProtection.ActionSource" Id="T:Microsoft.InformationProtection.ActionSource">
@@ -122,6 +122,14 @@
       <Member Id="F:Microsoft.InformationProtection.DnsRedirection.Disabled" />
       <Member Id="F:Microsoft.InformationProtection.DnsRedirection.MdeDiscovery" />
     </Type>
+    <Type Name="Microsoft.InformationProtection.DynamicWatermark" Id="T:Microsoft.InformationProtection.DynamicWatermark">
+      <Member Id="M:Microsoft.InformationProtection.DynamicWatermark.#ctor" />
+      <Member Id="M:Microsoft.InformationProtection.DynamicWatermark.#ctor(System.String,System.String)" />
+      <Member Id="M:Microsoft.InformationProtection.DynamicWatermark.GetFormatString" />
+      <Member Id="M:Microsoft.InformationProtection.DynamicWatermark.GetText" />
+      <Member Id="P:Microsoft.InformationProtection.DynamicWatermark.ConsumerPrincipalName" />
+      <Member Id="P:Microsoft.InformationProtection.DynamicWatermark.DynamicWatermarkFormatString" />
+    </Type>
     <Type Name="Microsoft.InformationProtection.EnableAuditSetting" Id="T:Microsoft.InformationProtection.EnableAuditSetting">
       <Member Id="F:Microsoft.InformationProtection.EnableAuditSetting.Disabled" />
       <Member Id="F:Microsoft.InformationProtection.EnableAuditSetting.Enabled" />
@@ -161,12 +169,15 @@
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.DoubleKey" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.EnableAuditAndTelemetryForSovereignClouds" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.EncryptedDatabaseIntegrityChecking" />
-      <Member Id="F:Microsoft.InformationProtection.FlightingFeature.EnforceTls12" />
+      <Member Id="F:Microsoft.InformationProtection.FlightingFeature.EnforceMinimumTls12" />
+      <Member Id="F:Microsoft.InformationProtection.FlightingFeature.EnforceMinimumTls13" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.FipsValidatedCryptography" />
+      <Member Id="F:Microsoft.InformationProtection.FlightingFeature.IgnoreEmptyMsipLabelNameParseError" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.LinuxEncryptedCache" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.OptimizePdfMemory" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.PolicyAuth" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.PreLicensing" />
+      <Member Id="F:Microsoft.InformationProtection.FlightingFeature.PrioritizeHtmlInMsgs" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.RemoveDeletedLabelMd" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.ServiceDiscovery" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.SingleDomainName" />
