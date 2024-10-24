@@ -1,0 +1,155 @@
+<Type Name="DynamicWatermark" FullName="Microsoft.InformationProtection.DynamicWatermark">
+  <TypeSignature Language="C#" Value="public class DynamicWatermark" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DynamicWatermark extends System.Object" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.DynamicWatermark" />
+  <TypeSignature Language="VB.NET" Value="Public Class DynamicWatermark" />
+  <TypeSignature Language="F#" Value="type DynamicWatermark = class" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.15.104.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Object</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Docs>
+    <summary>
+            Information about the dynamic watermark that may be associated with protected content
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DynamicWatermark ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.DynamicWatermark.#ctor" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters />
+      <Docs>
+        <summary>
+            Default constructor
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public DynamicWatermark (string dynamicWatermarkFormatString, string consumerPrincipalName);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string dynamicWatermarkFormatString, string consumerPrincipalName) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.DynamicWatermark.#ctor(System.String,System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (dynamicWatermarkFormatString As String, consumerPrincipalName As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.DynamicWatermark : string * string -&gt; Microsoft.InformationProtection.DynamicWatermark" Usage="new Microsoft.InformationProtection.DynamicWatermark (dynamicWatermarkFormatString, consumerPrincipalName)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="dynamicWatermarkFormatString" Type="System.String" />
+        <Parameter Name="consumerPrincipalName" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="dynamicWatermarkFormatString">The format string</param>
+        <param name="consumerPrincipalName">The consumer principal name</param>
+        <summary>
+            Constructor accepting format string and consumer principal.
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ConsumerPrincipalName">
+      <MemberSignature Language="C#" Value="public string ConsumerPrincipalName { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string ConsumerPrincipalName" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DynamicWatermark.ConsumerPrincipalName" />
+      <MemberSignature Language="VB.NET" Value="Public Property ConsumerPrincipalName As String" />
+      <MemberSignature Language="F#" Value="member this.ConsumerPrincipalName : string with get, set" Usage="Microsoft.InformationProtection.DynamicWatermark.ConsumerPrincipalName" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Principal name of the user viewing the document
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DynamicWatermarkFormatString">
+      <MemberSignature Language="C#" Value="public string DynamicWatermarkFormatString { get; set; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance string DynamicWatermarkFormatString" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.DynamicWatermark.DynamicWatermarkFormatString" />
+      <MemberSignature Language="VB.NET" Value="Public Property DynamicWatermarkFormatString As String" />
+      <MemberSignature Language="F#" Value="member this.DynamicWatermarkFormatString : string with get, set" Usage="Microsoft.InformationProtection.DynamicWatermark.DynamicWatermarkFormatString" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            The raw format string configured by the admin which may contain variables to replace
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetFormatString">
+      <MemberSignature Language="C#" Value="public string GetFormatString ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetFormatString() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.DynamicWatermark.GetFormatString" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetFormatString () As String" />
+      <MemberSignature Language="F#" Value="member this.GetFormatString : unit -&gt; string" Usage="dynamicWatermark.GetFormatString " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Get the format string for the dynamic watermark
+            </summary>
+        <returns>The format string without any variable replacements.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetText">
+      <MemberSignature Language="C#" Value="public string GetText ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetText() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.DynamicWatermark.GetText" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetText () As String" />
+      <MemberSignature Language="F#" Value="member this.GetText : unit -&gt; string" Usage="dynamicWatermark.GetText " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            Gets the text with all the variables resolved to their human readable values
+            </summary>
+        <returns>The human readable text for DynamicWatermark</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
