@@ -28,6 +28,7 @@
     <AssemblyVersion>1.12.101.0</AssemblyVersion>
     <AssemblyVersion>1.13.161.0</AssemblyVersion>
     <AssemblyVersion>1.14.108.0</AssemblyVersion>
+    <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
@@ -58,6 +59,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -90,13 +92,14 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.IPolicyEngine</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="settings" Type="Microsoft.InformationProtection.Policy.PolicyEngineSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Policy.PolicyEngineSettings" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="settings">the settings object that specifies the engines parameters.</param>
@@ -127,6 +130,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -158,13 +162,14 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="id" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="id">the unique engine id.</param>
@@ -194,6 +199,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -225,6 +231,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -259,6 +266,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -293,6 +301,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -325,6 +334,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -357,6 +367,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -384,13 +395,14 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="id" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="id" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="id">the unique engine id.</param>
@@ -420,6 +432,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

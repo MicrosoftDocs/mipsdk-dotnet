@@ -28,6 +28,7 @@
     <AssemblyVersion>1.12.101.0</AssemblyVersion>
     <AssemblyVersion>1.13.161.0</AssemblyVersion>
     <AssemblyVersion>1.14.108.0</AssemblyVersion>
+    <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
@@ -58,6 +59,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -91,6 +93,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -125,6 +128,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

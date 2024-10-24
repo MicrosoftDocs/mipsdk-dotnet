@@ -22,6 +22,7 @@
     <AssemblyVersion>1.12.101.0</AssemblyVersion>
     <AssemblyVersion>1.13.161.0</AssemblyVersion>
     <AssemblyVersion>1.14.108.0</AssemblyVersion>
+    <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
@@ -48,6 +49,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -74,6 +76,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -100,6 +103,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -129,6 +133,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -158,10 +163,11 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14">
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15">
           <AttributeName Language="C#">[System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, MipContext)", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, MipContext)", false)&gt;]</AttributeName>
         </Attribute>
@@ -195,14 +201,15 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15" />
       </Parameters>
       <Docs>
         <param name="serializedPublishingLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" /></param>
@@ -231,10 +238,11 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14">
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15">
           <AttributeName Language="C#">[System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;, MipContext)", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;) is deprecated, use GetPublishingLicenseInfo(List&lt;byte&gt;, List&lt;byte&gt;, MipContext)", false)&gt;]</AttributeName>
         </Attribute>
@@ -243,8 +251,8 @@
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="serializedPublishingLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" /></param>
@@ -270,15 +278,16 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.PublishingLicenseInfo</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
-        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
-        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
+        <Parameter Name="serializedPublishingLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15" />
+        <Parameter Name="serializedPreLicense" Type="System.Collections.Generic.List&lt;System.Byte&gt;" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15" />
+        <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15" />
       </Parameters>
       <Docs>
         <param name="serializedPublishingLicense">The <see cref="P:Microsoft.InformationProtection.Protection.PublishingLicenseInfo.SerializedPublishingLicense" /></param>
@@ -306,6 +315,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -335,6 +345,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -361,6 +372,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -387,6 +399,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -415,6 +428,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -444,6 +458,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -473,6 +488,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -499,6 +515,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>

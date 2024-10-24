@@ -18,6 +18,7 @@
     <AssemblyVersion>1.12.101.0</AssemblyVersion>
     <AssemblyVersion>1.13.161.0</AssemblyVersion>
     <AssemblyVersion>1.14.108.0</AssemblyVersion>
+    <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
@@ -42,6 +43,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -68,13 +70,14 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="enableAuditSetting" Type="Microsoft.InformationProtection.EnableAuditSetting" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.9" />
+        <Parameter Name="enableAuditSetting" Type="Microsoft.InformationProtection.EnableAuditSetting" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="enableAuditSetting">Audit settings to set.</param>
@@ -122,14 +125,15 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="auditEvent" Type="Microsoft.InformationProtection.AuditEvent" Index="0" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
-        <Parameter Name="eventContext" Type="Microsoft.InformationProtection.EventContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14" />
+        <Parameter Name="auditEvent" Type="Microsoft.InformationProtection.AuditEvent" Index="0" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15" />
+        <Parameter Name="eventContext" Type="Microsoft.InformationProtection.EventContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15" />
       </Parameters>
       <Docs>
         <param name="eventContext">To be added.</param>

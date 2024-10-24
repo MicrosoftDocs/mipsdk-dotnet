@@ -28,6 +28,7 @@
     <AssemblyVersion>1.12.101.0</AssemblyVersion>
     <AssemblyVersion>1.13.161.0</AssemblyVersion>
     <AssemblyVersion>1.14.108.0</AssemblyVersion>
+    <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
@@ -122,17 +123,18 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="inputFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="inputStream">A stream that represents the file.</param>
@@ -161,17 +163,18 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputFilePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="actualFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputFilePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="actualFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="inputFilePath">The file to open. The path must include the file name and, if one exists, the file extension. </param>
@@ -206,6 +209,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -235,6 +239,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -264,6 +269,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -297,6 +303,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -323,13 +330,14 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="workload" Type="Microsoft.InformationProtection.Workload" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.9" />
+        <Parameter Name="workload" Type="Microsoft.InformationProtection.Workload" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="workload">To be added.</param>
@@ -360,6 +368,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -389,6 +398,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -422,6 +432,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -451,6 +462,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -480,6 +492,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -513,6 +526,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -553,6 +567,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -586,6 +601,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -615,6 +631,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
@@ -648,6 +665,7 @@
         <AssemblyVersion>1.10.98.0</AssemblyVersion>
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
+        <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.104.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
