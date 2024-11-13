@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="mipsdk-dotnet-1.13">
   <Assemblies>
-    <Assembly Name="Microsoft.InformationProtection" Version="1.15.104.0" />
+    <Assembly Name="Microsoft.InformationProtection" Version="1.15.107.0" />
   </Assemblies>
   <Namespace Name="Microsoft.InformationProtection">
     <Type Name="Microsoft.InformationProtection.ActionSource" Id="T:Microsoft.InformationProtection.ActionSource">
