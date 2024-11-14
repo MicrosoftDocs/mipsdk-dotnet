@@ -24,6 +24,7 @@
     <AssemblyVersion>1.14.108.0</AssemblyVersion>
     <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
+    <AssemblyVersion>1.15.107.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -52,7 +53,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -81,7 +82,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -105,7 +106,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -129,7 +130,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -150,7 +151,7 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -171,7 +172,7 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -223,7 +224,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -247,7 +248,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -274,7 +275,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -303,7 +304,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -332,7 +333,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -361,7 +362,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -382,7 +383,7 @@
       <MemberType>Field</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -411,7 +412,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -440,7 +441,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -469,7 +470,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -498,7 +499,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -520,7 +521,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -549,7 +550,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -578,7 +579,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>

@@ -30,6 +30,7 @@
     <AssemblyVersion>1.14.108.0</AssemblyVersion>
     <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
+    <AssemblyVersion>1.15.107.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>Microsoft.InformationProtection.Policy.Actions.Action</BaseTypeName>
@@ -59,7 +60,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="id" Type="System.String" />
@@ -97,7 +98,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
@@ -127,7 +128,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
