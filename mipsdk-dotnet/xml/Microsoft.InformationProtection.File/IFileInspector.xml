@@ -24,6 +24,7 @@
     <AssemblyVersion>1.14.108.0</AssemblyVersion>
     <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
+    <AssemblyVersion>1.15.107.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -54,7 +55,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
@@ -84,7 +85,7 @@
         <AssemblyVersion>1.11.96.0</AssemblyVersion>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.File.InspectorType</ReturnType>

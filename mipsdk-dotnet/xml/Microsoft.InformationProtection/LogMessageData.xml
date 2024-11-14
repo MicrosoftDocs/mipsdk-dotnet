@@ -12,6 +12,7 @@
     <AssemblyVersion>1.14.108.0</AssemblyVersion>
     <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
+    <AssemblyVersion>1.15.107.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -33,7 +34,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" />
@@ -69,7 +70,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -93,7 +94,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -117,7 +118,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -141,7 +142,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -165,7 +166,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.LogLevel</ReturnType>
@@ -189,7 +190,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -213,7 +214,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -237,7 +238,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
-        <AssemblyVersion>1.15.104.0</AssemblyVersion>
+        <AssemblyVersion>1.15.107.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
