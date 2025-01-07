@@ -25,6 +25,7 @@
     <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
+    <AssemblyVersion>1.16.126.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -55,6 +56,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="mipContext" Type="Microsoft.InformationProtection.MipContext" />
@@ -89,6 +91,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.CacheStorageType</ReturnType>
@@ -119,6 +122,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -149,6 +153,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.IConsentDelegate</ReturnType>
@@ -172,6 +177,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;Microsoft.InformationProtection.DnsRedirection&gt;</ReturnType>
@@ -199,6 +205,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -229,6 +236,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.MipContext</ReturnType>
@@ -253,6 +261,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Boolean&gt;</ReturnType>
@@ -280,6 +289,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
