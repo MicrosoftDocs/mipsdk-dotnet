@@ -31,6 +31,7 @@
     <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
+    <AssemblyVersion>1.16.126.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -64,6 +65,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Consent</ReturnType>
@@ -97,6 +99,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Consent</ReturnType>
@@ -130,6 +133,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Consent</ReturnType>
