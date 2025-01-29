@@ -17,6 +17,7 @@
     <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
+    <AssemblyVersion>1.16.126.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -40,6 +41,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -88,13 +90,14 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="telemetryEvent" Type="Microsoft.InformationProtection.TelemetryEvent" Index="0" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15" />
-        <Parameter Name="eventContext" Type="Microsoft.InformationProtection.EventContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15" />
+        <Parameter Name="telemetryEvent" Type="Microsoft.InformationProtection.TelemetryEvent" Index="0" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16" />
+        <Parameter Name="eventContext" Type="Microsoft.InformationProtection.EventContext" Index="1" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16" />
       </Parameters>
       <Docs>
         <param name="telemetryEvent">Telemetry event to write.</param>

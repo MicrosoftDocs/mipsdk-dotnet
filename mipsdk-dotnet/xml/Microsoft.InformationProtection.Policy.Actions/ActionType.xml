@@ -31,6 +31,7 @@
     <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
+    <AssemblyVersion>1.16.126.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -70,6 +71,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -103,6 +105,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -136,6 +139,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -149,10 +153,10 @@
     </Member>
     <Member MemberName="All">
       <MemberSignature Language="C#" Value="All" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType All = unsigned int32(1048575)" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType All = unsigned int32(1048575)" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Policy.Actions.ActionType.All" />
       <MemberSignature Language="VB.NET" Value="All" />
-      <MemberSignature Language="F#" Value="All = 1048575" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.All" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+      <MemberSignature Language="F#" Value="All = 1048575" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.All" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.Policy.Actions.ActionType All = unsigned int32(65535)" FrameworkAlternate="mipsdk-dotnet-1.6" />
       <MemberSignature Language="F#" Value="All = 65535" Usage="Microsoft.InformationProtection.Policy.Actions.ActionType.All" FrameworkAlternate="mipsdk-dotnet-1.6" />
       <MemberType>Field</MemberType>
@@ -171,6 +175,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -204,6 +209,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -237,6 +243,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -271,6 +278,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -304,6 +312,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -337,6 +346,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -370,6 +380,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -398,6 +409,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -426,6 +438,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -459,6 +472,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -492,6 +506,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -520,6 +535,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -553,6 +569,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -586,6 +603,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -619,6 +637,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -652,6 +671,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>
@@ -685,6 +705,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Policy.Actions.ActionType</ReturnType>

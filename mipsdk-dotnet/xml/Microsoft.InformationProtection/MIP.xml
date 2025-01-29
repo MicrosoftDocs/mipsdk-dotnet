@@ -31,6 +31,7 @@
     <AssemblyVersion>1.14.150.0</AssemblyVersion>
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
+    <AssemblyVersion>1.16.126.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -57,12 +58,13 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.MipContext</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="mipConfiguration" Type="Microsoft.InformationProtection.MipConfiguration" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15" />
+        <Parameter Name="mipConfiguration" Type="Microsoft.InformationProtection.MipConfiguration" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16" />
       </Parameters>
       <Docs>
         <param name="mipConfiguration">configuration required for initializing mip </param>
@@ -89,9 +91,10 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15">
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16">
           <AttributeName Language="C#">[System.Obsolete("CreateMipContext(...) is deprecated, use CreateMipContext(MipConfiguration mipConfiguration)", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("CreateMipContext(...) is deprecated, use CreateMipContext(MipConfiguration mipConfiguration)", false)&gt;]</AttributeName>
         </Attribute>
@@ -100,12 +103,12 @@
         <ReturnType>Microsoft.InformationProtection.MipContext</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="appInfo" Type="Microsoft.InformationProtection.ApplicationInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="path" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="loggerDelegateOverride" Type="Microsoft.InformationProtection.ILoggerDelegate" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="diagnosticOverride" Type="Microsoft.InformationProtection.DiagnosticConfiguration" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="featureSettingsOverride" Type="System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,System.Boolean&gt;" Index="5" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="appInfo" Type="Microsoft.InformationProtection.ApplicationInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="path" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="loggerDelegateOverride" Type="Microsoft.InformationProtection.ILoggerDelegate" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="diagnosticOverride" Type="Microsoft.InformationProtection.DiagnosticConfiguration" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="featureSettingsOverride" Type="System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,System.Boolean&gt;" Index="5" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="appInfo">Application info description</param>
@@ -180,6 +183,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -225,6 +229,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileProfile&gt;</ReturnType>
@@ -263,6 +268,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Policy.IPolicyProfile&gt;</ReturnType>
@@ -297,6 +303,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Protection.IProtectionProfile</ReturnType>
@@ -331,6 +338,7 @@
         <AssemblyVersion>1.12.101.0</AssemblyVersion>
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
+        <AssemblyVersion>1.16.126.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.Protection.IProtectionProfile&gt;</ReturnType>

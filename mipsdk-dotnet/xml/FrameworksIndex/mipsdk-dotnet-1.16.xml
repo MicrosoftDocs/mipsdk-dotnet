@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Framework Name="mipsdk-dotnet-1.13">
+<Framework Name="mipsdk-dotnet-1.16">
   <Assemblies>
     <Assembly Name="Microsoft.InformationProtection" Version="1.16.126.0" />
   </Assemblies>
