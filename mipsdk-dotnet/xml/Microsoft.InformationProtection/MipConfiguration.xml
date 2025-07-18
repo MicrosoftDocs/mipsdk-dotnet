@@ -18,6 +18,7 @@
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
     <AssemblyVersion>1.16.126.0</AssemblyVersion>
+    <AssemblyVersion>1.17.154.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -45,7 +46,14 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
+      <Attributes>
+        <Attribute FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17">
+          <AttributeName Language="C#">[System.Obsolete("MipConfiguration(ApplicationInfo, string, LogLevel, bool) is deprecated, use MipConfiguration(ApplicationInfo, string, LogLevel, bool, CacheStorageType)", false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("MipConfiguration(ApplicationInfo, string, LogLevel, bool) is deprecated, use MipConfiguration(ApplicationInfo, string, LogLevel, bool, CacheStorageType)", false)&gt;]</AttributeName>
+        </Attribute>
+      </Attributes>
       <Parameters>
         <Parameter Name="appInfo" Type="Microsoft.InformationProtection.ApplicationInfo" />
         <Parameter Name="path" Type="System.String" />
@@ -57,6 +65,36 @@
         <param name="path">Local storage path for caches, logging, etc.</param>
         <param name="logLevel">Minimum log level to emit to logs</param>
         <param name="isOfflineOnly">Whether Network operations is enabled or disabled(not all actions supported when offline)</param>
+        <summary>
+            Constructor for MipConfiguration
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MipConfiguration (Microsoft.InformationProtection.ApplicationInfo appInfo, string path, Microsoft.InformationProtection.LogLevel logLevel, bool isOfflineOnly, Microsoft.InformationProtection.CacheStorageType cacheStorageType);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class Microsoft.InformationProtection.ApplicationInfo appInfo, string path, valuetype Microsoft.InformationProtection.LogLevel logLevel, bool isOfflineOnly, valuetype Microsoft.InformationProtection.CacheStorageType cacheStorageType) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.MipConfiguration.#ctor(Microsoft.InformationProtection.ApplicationInfo,System.String,Microsoft.InformationProtection.LogLevel,System.Boolean,Microsoft.InformationProtection.CacheStorageType)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (appInfo As ApplicationInfo, path As String, logLevel As LogLevel, isOfflineOnly As Boolean, cacheStorageType As CacheStorageType)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.MipConfiguration : Microsoft.InformationProtection.ApplicationInfo * string * Microsoft.InformationProtection.LogLevel * bool * Microsoft.InformationProtection.CacheStorageType -&gt; Microsoft.InformationProtection.MipConfiguration" Usage="new Microsoft.InformationProtection.MipConfiguration (appInfo, path, logLevel, isOfflineOnly, cacheStorageType)" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="appInfo" Type="Microsoft.InformationProtection.ApplicationInfo" Index="0" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
+        <Parameter Name="path" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
+        <Parameter Name="logLevel" Type="Microsoft.InformationProtection.LogLevel" Index="2" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
+        <Parameter Name="isOfflineOnly" Type="System.Boolean" Index="3" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
+        <Parameter Name="cacheStorageType" Type="Microsoft.InformationProtection.CacheStorageType" Index="4" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
+      </Parameters>
+      <Docs>
+        <param name="appInfo">Application info description</param>
+        <param name="path">Local storage path for caches, logging, etc.</param>
+        <param name="logLevel">Minimum log level to emit to logs</param>
+        <param name="isOfflineOnly">Whether Network operations is enabled or disabled(not all actions supported when offline)</param>
+        <param name="cacheStorageType">Cache storage type to use for storing caches</param>
         <summary>
             Constructor for MipConfiguration
             </summary>
@@ -76,6 +114,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.UInt32&gt;</ReturnType>
@@ -103,6 +142,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ApplicationInfo</ReturnType>
@@ -110,6 +150,28 @@
       <Docs>
         <summary>
             Application info description
+            </summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="CacheStorageType">
+      <MemberSignature Language="C#" Value="public Microsoft.InformationProtection.CacheStorageType? CacheStorageType { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Nullable`1&lt;valuetype Microsoft.InformationProtection.CacheStorageType&gt; CacheStorageType" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.InformationProtection.MipConfiguration.CacheStorageType" />
+      <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CacheStorageType As Nullable(Of CacheStorageType)" />
+      <MemberSignature Language="F#" Value="member this.CacheStorageType : Nullable&lt;Microsoft.InformationProtection.CacheStorageType&gt;" Usage="Microsoft.InformationProtection.MipConfiguration.CacheStorageType" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Nullable&lt;Microsoft.InformationProtection.CacheStorageType&gt;</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            Cache storage type to use for storing caches
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
@@ -130,6 +192,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.DiagnosticConfiguration</ReturnType>
@@ -157,6 +220,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.Dictionary&lt;Microsoft.InformationProtection.FlightingFeature,System.Boolean&gt;</ReturnType>
@@ -184,6 +248,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -208,6 +273,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.LoggerConfiguration</ReturnType>
@@ -235,6 +301,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.ILoggerDelegate</ReturnType>
@@ -262,6 +329,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.LogLevel</ReturnType>
@@ -289,6 +357,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -26,6 +26,7 @@
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
     <AssemblyVersion>1.16.126.0</AssemblyVersion>
+    <AssemblyVersion>1.17.154.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
@@ -56,6 +57,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -64,6 +66,48 @@
       <Docs>
         <summary>
             Cache OAuth2 challenges per domain/tenant to reduce unnecessary 401 responses. Disable for apps/services that manage their own HTTP auth (like SPO, Edge). Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CacheDnsResults">
+      <MemberSignature Language="C#" Value="CacheDnsResults" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature CacheDnsResults = int32(47)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.CacheDnsResults" />
+      <MemberSignature Language="VB.NET" Value="CacheDnsResults" />
+      <MemberSignature Language="F#" Value="CacheDnsResults = 47" Usage="Microsoft.InformationProtection.FlightingFeature.CacheDnsResults" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>47</MemberValue>
+      <Docs>
+        <summary>
+            Enable caching of DNS results to reduce the number of DNS lookups. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="CloudAutoDiscovery">
+      <MemberSignature Language="C#" Value="CloudAutoDiscovery" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature CloudAutoDiscovery = int32(39)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.CloudAutoDiscovery" />
+      <MemberSignature Language="VB.NET" Value="CloudAutoDiscovery" />
+      <MemberSignature Language="F#" Value="CloudAutoDiscovery = 39" Usage="Microsoft.InformationProtection.FlightingFeature.CloudAutoDiscovery" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>39</MemberValue>
+      <Docs>
+        <summary>
+            Enable cloud auto discovery
             </summary>
       </Docs>
     </Member>
@@ -86,6 +130,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -111,6 +156,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -118,7 +164,7 @@
       <MemberValue>14</MemberValue>
       <Docs>
         <summary>
-            Enable telemetry and audit events for sovereign clouds
+            Enable telemetry and audit events for sovereign clouds. Default disabled.
             </summary>
       </Docs>
     </Member>
@@ -132,6 +178,7 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -139,7 +186,28 @@
       <MemberValue>33</MemberValue>
       <Docs>
         <summary>
-            Enable MP4 file support for file protection
+            Enable MP4 file support for file protection. Default disabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="EnableMsgToHandleEmlAttachments">
+      <MemberSignature Language="C#" Value="EnableMsgToHandleEmlAttachments" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature EnableMsgToHandleEmlAttachments = int32(45)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.EnableMsgToHandleEmlAttachments" />
+      <MemberSignature Language="VB.NET" Value="EnableMsgToHandleEmlAttachments" />
+      <MemberSignature Language="F#" Value="EnableMsgToHandleEmlAttachments = 45" Usage="Microsoft.InformationProtection.FlightingFeature.EnableMsgToHandleEmlAttachments" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>45</MemberValue>
+      <Docs>
+        <summary>
+            If true, while decrypting MSGs any EML attachments will be decrypted as well. If true, EML attachments will also be cheked when determining if an MSG contains protected objects. Default enabled.
             </summary>
       </Docs>
     </Member>
@@ -157,6 +225,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -164,7 +233,7 @@
       <MemberValue>20</MemberValue>
       <Docs>
         <summary>
-            Enable database integrity checking
+            Enable database integrity checking. Default enabled.
             </summary>
       </Docs>
     </Member>
@@ -179,6 +248,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -201,6 +271,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -240,6 +311,48 @@
             </summary>
       </Docs>
     </Member>
+    <Member MemberName="ExponentialBackoffRetries">
+      <MemberSignature Language="C#" Value="ExponentialBackoffRetries" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature ExponentialBackoffRetries = int32(41)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.ExponentialBackoffRetries" />
+      <MemberSignature Language="VB.NET" Value="ExponentialBackoffRetries" />
+      <MemberSignature Language="F#" Value="ExponentialBackoffRetries = 41" Usage="Microsoft.InformationProtection.FlightingFeature.ExponentialBackoffRetries" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>41</MemberValue>
+      <Docs>
+        <summary>
+            Enable exponential backoff retries for HTTP requests
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FileSDKOfflinePublishing">
+      <MemberSignature Language="C#" Value="FileSDKOfflinePublishing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature FileSDKOfflinePublishing = int32(48)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.FileSDKOfflinePublishing" />
+      <MemberSignature Language="VB.NET" Value="FileSDKOfflinePublishing" />
+      <MemberSignature Language="F#" Value="FileSDKOfflinePublishing = 48" Usage="Microsoft.InformationProtection.FlightingFeature.FileSDKOfflinePublishing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>48</MemberValue>
+      <Docs>
+        <summary>
+            Enable offline publishing for File SDK. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
     <Member MemberName="FipsValidatedCryptography">
       <MemberSignature Language="C#" Value="FipsValidatedCryptography" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature FipsValidatedCryptography = int32(21)" />
@@ -254,6 +367,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -261,16 +375,79 @@
       <MemberValue>21</MemberValue>
       <Docs>
         <summary>
-            Enable the use of the FIPS-validated Windows CNG APIs instead of OpenSSL on Windows platforms
+            Enable the use of the FIPS-validated Windows CNG APIs instead of OpenSSL on Windows platforms. Default disabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="FixOutlookMultiMsgAttachmentParsing">
+      <MemberSignature Language="C#" Value="FixOutlookMultiMsgAttachmentParsing" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature FixOutlookMultiMsgAttachmentParsing = int32(40)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.FixOutlookMultiMsgAttachmentParsing" />
+      <MemberSignature Language="VB.NET" Value="FixOutlookMultiMsgAttachmentParsing" />
+      <MemberSignature Language="F#" Value="FixOutlookMultiMsgAttachmentParsing = 40" Usage="Microsoft.InformationProtection.FlightingFeature.FixOutlookMultiMsgAttachmentParsing" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>40</MemberValue>
+      <Docs>
+        <summary>
+            Fix msg files protected with multiple msg attachments. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetBinaryHtmlBodyInMsgs">
+      <MemberSignature Language="C#" Value="GetBinaryHtmlBodyInMsgs" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature GetBinaryHtmlBodyInMsgs = int32(42)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.GetBinaryHtmlBodyInMsgs" />
+      <MemberSignature Language="VB.NET" Value="GetBinaryHtmlBodyInMsgs" />
+      <MemberSignature Language="F#" Value="GetBinaryHtmlBodyInMsgs = 42" Usage="Microsoft.InformationProtection.FlightingFeature.GetBinaryHtmlBodyInMsgs" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>42</MemberValue>
+      <Docs>
+        <summary>
+            If true, when retrieving the HTML body when processing MSGs, MIP will attempt to retrieve the binary HTML body if the string HTML body does not exist. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="GetCorrectCodePageInMsgInspectorUnicode">
+      <MemberSignature Language="C#" Value="GetCorrectCodePageInMsgInspectorUnicode" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature GetCorrectCodePageInMsgInspectorUnicode = int32(44)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.GetCorrectCodePageInMsgInspectorUnicode" />
+      <MemberSignature Language="VB.NET" Value="GetCorrectCodePageInMsgInspectorUnicode" />
+      <MemberSignature Language="F#" Value="GetCorrectCodePageInMsgInspectorUnicode = 44" Usage="Microsoft.InformationProtection.FlightingFeature.GetCorrectCodePageInMsgInspectorUnicode" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>44</MemberValue>
+      <Docs>
+        <summary>
+            If true, the MSG inspector will return the code page of the MSG if it's a unicode MSG. If false, unicode MSGs will always have the unicode code page returned. Default enabled.
             </summary>
       </Docs>
     </Member>
     <Member MemberName="IgnoreEmptyMsipLabelNameParseError">
       <MemberSignature Language="C#" Value="IgnoreEmptyMsipLabelNameParseError" />
-      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature IgnoreEmptyMsipLabelNameParseError = int32(31)" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature IgnoreEmptyMsipLabelNameParseError = int32(31)" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17" />
       <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.IgnoreEmptyMsipLabelNameParseError" />
       <MemberSignature Language="VB.NET" Value="IgnoreEmptyMsipLabelNameParseError" />
-      <MemberSignature Language="F#" Value="IgnoreEmptyMsipLabelNameParseError = 31" Usage="Microsoft.InformationProtection.FlightingFeature.IgnoreEmptyMsipLabelNameParseError" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16" />
+      <MemberSignature Language="F#" Value="IgnoreEmptyMsipLabelNameParseError = 31" Usage="Microsoft.InformationProtection.FlightingFeature.IgnoreEmptyMsipLabelNameParseError" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17" />
       <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature IgnoreEmptyMsipLabelNameParseError = int32(27)" FrameworkAlternate="mipsdk-dotnet-1.14" />
       <MemberSignature Language="F#" Value="IgnoreEmptyMsipLabelNameParseError = 27" Usage="Microsoft.InformationProtection.FlightingFeature.IgnoreEmptyMsipLabelNameParseError" FrameworkAlternate="mipsdk-dotnet-1.14" />
       <MemberType>Field</MemberType>
@@ -279,6 +456,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -286,7 +464,28 @@
       <MemberValue>31</MemberValue>
       <Docs>
         <summary>
-            Ignore empty label name parse error, enabled by default.
+            Ignore empty label name parse error. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="LimitMaxDepthWhenProcessingNestedAttachments">
+      <MemberSignature Language="C#" Value="LimitMaxDepthWhenProcessingNestedAttachments" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature LimitMaxDepthWhenProcessingNestedAttachments = int32(46)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.LimitMaxDepthWhenProcessingNestedAttachments" />
+      <MemberSignature Language="VB.NET" Value="LimitMaxDepthWhenProcessingNestedAttachments" />
+      <MemberSignature Language="F#" Value="LimitMaxDepthWhenProcessingNestedAttachments = 46" Usage="Microsoft.InformationProtection.FlightingFeature.LimitMaxDepthWhenProcessingNestedAttachments" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>46</MemberValue>
+      <Docs>
+        <summary>
+            If true, if the max depth passed into MsgFileFormat is 0, removing protection will fail. If this is not set, an EML with attached MSGs may exceed the max depth if remove protection is called on it. Default enabled.
             </summary>
       </Docs>
     </Member>
@@ -309,6 +508,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -317,6 +517,27 @@
       <Docs>
         <summary>
             Enable encrypted caching for Linux platforms (Please read the prerequisites for this feature). Default disabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="MultipleLabelResolution">
+      <MemberSignature Language="C#" Value="MultipleLabelResolution" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature MultipleLabelResolution = int32(52)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.MultipleLabelResolution" />
+      <MemberSignature Language="VB.NET" Value="MultipleLabelResolution" />
+      <MemberSignature Language="F#" Value="MultipleLabelResolution = 52" Usage="Microsoft.InformationProtection.FlightingFeature.MultipleLabelResolution" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>52</MemberValue>
+      <Docs>
+        <summary>
+            Enable logic to handle multiple labels from same tenant on single document. Default enabled.
             </summary>
       </Docs>
     </Member>
@@ -339,6 +560,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -369,6 +591,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -399,6 +622,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -421,6 +645,7 @@
         <AssemblyName>Microsoft.InformationProtection</AssemblyName>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -428,7 +653,49 @@
       <MemberValue>34</MemberValue>
       <Docs>
         <summary>
-            Prioritize HTML body over RTF body in msg files
+            Prioritize HTML body over RTF body in msg files. Default disabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectionAPITelemetryPropertyAdd">
+      <MemberSignature Language="C#" Value="ProtectionAPITelemetryPropertyAdd" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature ProtectionAPITelemetryPropertyAdd = int32(49)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.ProtectionAPITelemetryPropertyAdd" />
+      <MemberSignature Language="VB.NET" Value="ProtectionAPITelemetryPropertyAdd" />
+      <MemberSignature Language="F#" Value="ProtectionAPITelemetryPropertyAdd = 49" Usage="Microsoft.InformationProtection.FlightingFeature.ProtectionAPITelemetryPropertyAdd" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>49</MemberValue>
+      <Docs>
+        <summary>
+            Enable Protection SDK APIs to take in additional telemetry properties.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="ProtectionSDKDataBoundarySetInMipContext">
+      <MemberSignature Language="C#" Value="ProtectionSDKDataBoundarySetInMipContext" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature ProtectionSDKDataBoundarySetInMipContext = int32(50)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.ProtectionSDKDataBoundarySetInMipContext" />
+      <MemberSignature Language="VB.NET" Value="ProtectionSDKDataBoundarySetInMipContext" />
+      <MemberSignature Language="F#" Value="ProtectionSDKDataBoundarySetInMipContext = 50" Usage="Microsoft.InformationProtection.FlightingFeature.ProtectionSDKDataBoundarySetInMipContext" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>50</MemberValue>
+      <Docs>
+        <summary>
+            ProtectionSDK hornors the data boundary set in MipContext.
             </summary>
       </Docs>
     </Member>
@@ -451,6 +718,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -481,6 +749,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -489,6 +758,27 @@
       <Docs>
         <summary>
             Rely on separate HTTP call to determine RMS service endpoints. Default disabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="SetMsgPropertiesAsEmbeddedMessageForRpmsg">
+      <MemberSignature Language="C#" Value="SetMsgPropertiesAsEmbeddedMessageForRpmsg" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature SetMsgPropertiesAsEmbeddedMessageForRpmsg = int32(43)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.SetMsgPropertiesAsEmbeddedMessageForRpmsg" />
+      <MemberSignature Language="VB.NET" Value="SetMsgPropertiesAsEmbeddedMessageForRpmsg" />
+      <MemberSignature Language="F#" Value="SetMsgPropertiesAsEmbeddedMessageForRpmsg = 43" Usage="Microsoft.InformationProtection.FlightingFeature.SetMsgPropertiesAsEmbeddedMessageForRpmsg" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>43</MemberValue>
+      <Docs>
+        <summary>
+            If true, the MSG property headers will be set to type EmbeddedMessage when the MSG type is RPMSG. Without this set to true, MsgInspector will not find the proper codepage. Default enabled.
             </summary>
       </Docs>
     </Member>
@@ -511,6 +801,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -520,6 +811,25 @@
         <summary>
             Enable single company name for dns lookup. e.g. https://corprights. Default enabled.
             </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="TargetCrossCloudProtectionLicenseEndpoint">
+      <MemberSignature Language="C#" Value="TargetCrossCloudProtectionLicenseEndpoint" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature TargetCrossCloudProtectionLicenseEndpoint = int32(53)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.TargetCrossCloudProtectionLicenseEndpoint" />
+      <MemberSignature Language="VB.NET" Value="TargetCrossCloudProtectionLicenseEndpoint" />
+      <MemberSignature Language="F#" Value="TargetCrossCloudProtectionLicenseEndpoint = 53" Usage="Microsoft.InformationProtection.FlightingFeature.TargetCrossCloudProtectionLicenseEndpoint" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>53</MemberValue>
+      <Docs>
+        <summary>To be added.</summary>
       </Docs>
     </Member>
     <Member MemberName="UrlRedirectCache">
@@ -541,6 +851,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -564,6 +875,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -571,7 +883,28 @@
       <MemberValue>23</MemberValue>
       <Docs>
         <summary>
-            Use CBC for Office file encryption
+            Use CBC for Office file encryption. Default enabled.
+            </summary>
+      </Docs>
+    </Member>
+    <Member MemberName="UseSubstrateLabelPolicyEndpoints">
+      <MemberSignature Language="C#" Value="UseSubstrateLabelPolicyEndpoints" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal valuetype Microsoft.InformationProtection.FlightingFeature UseSubstrateLabelPolicyEndpoints = int32(51)" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.FlightingFeature.UseSubstrateLabelPolicyEndpoints" />
+      <MemberSignature Language="VB.NET" Value="UseSubstrateLabelPolicyEndpoints" />
+      <MemberSignature Language="F#" Value="UseSubstrateLabelPolicyEndpoints = 51" Usage="Microsoft.InformationProtection.FlightingFeature.UseSubstrateLabelPolicyEndpoints" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
+      </ReturnValue>
+      <MemberValue>51</MemberValue>
+      <Docs>
+        <summary>
+            Reserved: This flag was introduced for a 1.15 feature that has not been brought forward yet.
             </summary>
       </Docs>
     </Member>
@@ -594,6 +927,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
@@ -624,6 +958,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.FlightingFeature</ReturnType>
