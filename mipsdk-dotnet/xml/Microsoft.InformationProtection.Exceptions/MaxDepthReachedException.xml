@@ -1,0 +1,51 @@
+<Type Name="MaxDepthReachedException" FullName="Microsoft.InformationProtection.Exceptions.MaxDepthReachedException">
+  <TypeSignature Language="C#" Value="public class MaxDepthReachedException : Exception" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi serializable beforefieldinit MaxDepthReachedException extends System.Exception" />
+  <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Exceptions.MaxDepthReachedException" />
+  <TypeSignature Language="VB.NET" Value="Public Class MaxDepthReachedException&#xA;Inherits Exception" />
+  <TypeSignature Language="F#" Value="type MaxDepthReachedException = class&#xA;    inherit Exception" />
+  <AssemblyInfo>
+    <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+    <AssemblyVersion>1.17.154.0</AssemblyVersion>
+  </AssemblyInfo>
+  <Base>
+    <BaseTypeName>System.Exception</BaseTypeName>
+  </Base>
+  <Interfaces />
+  <Attributes>
+    <Attribute>
+      <AttributeName Language="C#">[System.Serializable]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Serializable&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
+  <Docs>
+    <summary>
+            Max depth reached error. This will be thrown while removing protection from MSGs/EMLs if the number of nested messages exceed the maximum depth (defaults to 10).
+            </summary>
+    <remarks>To be added.</remarks>
+  </Docs>
+  <Members>
+    <Member MemberName=".ctor">
+      <MemberSignature Language="C#" Value="public MaxDepthReachedException (string message);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Exceptions.MaxDepthReachedException.#ctor(System.String)" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
+      <MemberSignature Language="F#" Value="new Microsoft.InformationProtection.Exceptions.MaxDepthReachedException : string -&gt; Microsoft.InformationProtection.Exceptions.MaxDepthReachedException" Usage="new Microsoft.InformationProtection.Exceptions.MaxDepthReachedException message" />
+      <MemberType>Constructor</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Parameters>
+        <Parameter Name="message" Type="System.String" />
+      </Parameters>
+      <Docs>
+        <param name="message">The message that describes the error</param>
+        <summary>
+            Constructor for MaxDepthReachedException
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+  </Members>
+</Type>
