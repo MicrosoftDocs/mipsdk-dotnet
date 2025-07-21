@@ -26,7 +26,7 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16">
+    <Attribute FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16">
       <AttributeName Language="C#">[System.Obsolete("ILoggerDelegateV2 is deprecated, use ILoggerDelegateV3.  ILoggerDelegateV2 will be removed in MIP 1.13", false)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Obsolete("ILoggerDelegateV2 is deprecated, use ILoggerDelegateV3.  ILoggerDelegateV2 will be removed in MIP 1.13", false)&gt;]</AttributeName>
     </Attribute>

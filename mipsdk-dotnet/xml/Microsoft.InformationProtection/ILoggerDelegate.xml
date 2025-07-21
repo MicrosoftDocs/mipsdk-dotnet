@@ -1,9 +1,10 @@
 <Type Name="ILoggerDelegate" FullName="Microsoft.InformationProtection.ILoggerDelegate">
   <TypeSignature Language="C#" Value="public interface ILoggerDelegate" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILoggerDelegate" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILoggerDelegate" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.6;mipsdk-dotnet-1.7;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.ILoggerDelegate" />
   <TypeSignature Language="VB.NET" Value="Public Interface ILoggerDelegate" />
   <TypeSignature Language="F#" Value="type ILoggerDelegate = interface" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ILoggerDelegate" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
   <AssemblyInfo>
     <AssemblyName>mip_dotnet_api</AssemblyName>
     <AssemblyVersion>1.1.210.0</AssemblyVersion>
@@ -32,10 +33,11 @@
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
     <AssemblyVersion>1.16.126.0</AssemblyVersion>
+    <AssemblyVersion>1.17.154.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16">
+    <Attribute FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17">
       <AttributeName Language="C#">[System.Obsolete("ILoggerDelegate is deprecated, use ILoggerDelegateV3.  WriteToLog(LogLevel, string, string, string, int) will be replaced with WriteToLog(LogMessageData) in MIP 1.13", false)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Obsolete("ILoggerDelegate is deprecated, use ILoggerDelegateV3.  WriteToLog(LogLevel, string, string, string, int) will be replaced with WriteToLog(LogMessageData) in MIP 1.13", false)&gt;]</AttributeName>
     </Attribute>
@@ -70,6 +72,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -101,6 +104,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -139,6 +143,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

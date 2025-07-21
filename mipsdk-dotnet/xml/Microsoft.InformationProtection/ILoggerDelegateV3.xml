@@ -1,9 +1,13 @@
 <Type Name="ILoggerDelegateV3" FullName="Microsoft.InformationProtection.ILoggerDelegateV3">
-  <TypeSignature Language="C#" Value="public interface ILoggerDelegateV3 : Microsoft.InformationProtection.ILoggerDelegateV2" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILoggerDelegateV3 implements class Microsoft.InformationProtection.ILoggerDelegate, class Microsoft.InformationProtection.ILoggerDelegateV2" />
+  <TypeSignature Language="C#" Value="public interface ILoggerDelegateV3 : Microsoft.InformationProtection.ILoggerDelegateV2" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract ILoggerDelegateV3 implements class Microsoft.InformationProtection.ILoggerDelegate, class Microsoft.InformationProtection.ILoggerDelegateV2" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16" />
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.ILoggerDelegateV3" />
-  <TypeSignature Language="VB.NET" Value="Public Interface ILoggerDelegateV3&#xA;Implements ILoggerDelegateV2" />
-  <TypeSignature Language="F#" Value="type ILoggerDelegateV3 = interface&#xA;    interface ILoggerDelegateV2&#xA;    interface ILoggerDelegate" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ILoggerDelegateV3&#xA;Implements ILoggerDelegateV2" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16" />
+  <TypeSignature Language="F#" Value="type ILoggerDelegateV3 = interface&#xA;    interface ILoggerDelegateV2&#xA;    interface ILoggerDelegate" FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16" />
+  <TypeSignature Language="C#" Value="public interface ILoggerDelegateV3 : Microsoft.InformationProtection.ILoggerDelegate" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ILoggerDelegateV3 implements class Microsoft.InformationProtection.ILoggerDelegate" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
+  <TypeSignature Language="VB.NET" Value="Public Interface ILoggerDelegateV3&#xA;Implements ILoggerDelegate" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
+  <TypeSignature Language="F#" Value="type ILoggerDelegateV3 = interface&#xA;    interface ILoggerDelegate" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
@@ -14,12 +18,13 @@
     <AssemblyVersion>1.15.104.0</AssemblyVersion>
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
     <AssemblyVersion>1.16.126.0</AssemblyVersion>
+    <AssemblyVersion>1.17.154.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
       <InterfaceName>Microsoft.InformationProtection.ILoggerDelegate</InterfaceName>
     </Interface>
-    <Interface>
+    <Interface FrameworkAlternate="mipsdk-dotnet-1.12;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16">
       <InterfaceName>Microsoft.InformationProtection.ILoggerDelegateV2</InterfaceName>
     </Interface>
   </Interfaces>
@@ -43,6 +48,7 @@
         <AssemblyVersion>1.14.150.0</AssemblyVersion>
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
+        <AssemblyVersion>1.17.154.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
