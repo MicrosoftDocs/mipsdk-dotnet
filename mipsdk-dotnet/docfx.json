@@ -52,7 +52,7 @@
         "api/**.yml": "dotnet-bot"
       },
       "ms.service": {
-        "api/Microsoft.InformationProtection*.yml": "information-protection"
+        "api/Microsoft.InformationProtection*.yml": "azure-information-protection"
       }
     },
     "template": [],
