@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Framework Name="mipsdk-dotnet-1.13">
   <Assemblies>
-    <Assembly Name="Microsoft.InformationProtection" Version="1.17.154.0" />
+    <Assembly Name="Microsoft.InformationProtection" Version="1.18.75.0" />
   </Assemblies>
   <Namespace Name="Microsoft.InformationProtection">
     <Type Name="Microsoft.InformationProtection.ActionSource" Id="T:Microsoft.InformationProtection.ActionSource">
@@ -173,6 +173,7 @@
       <Member Id="F:Microsoft.InformationProtection.EventPropertyType.String" />
     </Type>
     <Type Name="Microsoft.InformationProtection.FlightingFeature" Id="T:Microsoft.InformationProtection.FlightingFeature">
+      <Member Id="F:Microsoft.InformationProtection.FlightingFeature.AlwaysConvertHtmlToRtf" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.AuthInfoCache" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.CacheDnsResults" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.CloudAutoDiscovery" />
@@ -207,6 +208,7 @@
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.UrlRedirectCache" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.UseCbcForOfficeFileEncryption" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.UseSubstrateLabelPolicyEndpoints" />
+      <Member Id="F:Microsoft.InformationProtection.FlightingFeature.ValidatePublishingLicenseSignatureTop" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.VariablePolicyTtl" />
       <Member Id="F:Microsoft.InformationProtection.FlightingFeature.VariableTextMarking" />
     </Type>
@@ -264,6 +266,9 @@
       <Member Id="P:Microsoft.InformationProtection.Label.CustomSettings" />
       <Member Id="P:Microsoft.InformationProtection.Label.Description" />
       <Member Id="P:Microsoft.InformationProtection.Label.DoubleKeyUrl" />
+      <Member Id="P:Microsoft.InformationProtection.Label.HasAdhocProtection" />
+      <Member Id="P:Microsoft.InformationProtection.Label.HasDoNotForwardProtection" />
+      <Member Id="P:Microsoft.InformationProtection.Label.HasEncryptOnlyProtection" />
       <Member Id="P:Microsoft.InformationProtection.Label.HasRightsManagementPolicy" />
       <Member Id="P:Microsoft.InformationProtection.Label.Id" />
       <Member Id="P:Microsoft.InformationProtection.Label.IsActive" />
@@ -573,6 +578,8 @@
       <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.CreateFileHandlerAsync(System.IO.Stream,System.String,System.Boolean,Microsoft.InformationProtection.File.FileExecutionState,System.Boolean)" />
       <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.CreateFileHandlerAsync(System.String,System.String,System.Boolean,Microsoft.InformationProtection.File.FileExecutionState,System.Boolean)" />
       <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.GetLabelById(System.String)" />
+      <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.GetRightsForLabelId(System.String,System.String,System.String,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
+      <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.GetRightsForLabelIdAsync(System.String,System.String,System.String,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
       <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.HasWorkloadConsent(Microsoft.InformationProtection.Workload)" />
       <Member Id="M:Microsoft.InformationProtection.File.IFileEngine.SendApplicationAuditEvent(System.String,System.String,System.String)" />
       <Member Id="P:Microsoft.InformationProtection.File.IFileEngine.CustomSettings" />
@@ -1098,10 +1105,12 @@
     </Type>
     <Type Name="Microsoft.InformationProtection.Protection.PublishingSettings" Id="T:Microsoft.InformationProtection.Protection.PublishingSettings">
       <Member Id="M:Microsoft.InformationProtection.Protection.PublishingSettings.#ctor(Microsoft.InformationProtection.ProtectionDescriptor)" />
+      <Member Id="M:Microsoft.InformationProtection.Protection.PublishingSettings.#ctor(Microsoft.InformationProtection.ProtectionDescriptor,Microsoft.InformationProtection.Protection.IProtectionHandler)" />
       <Member Id="M:Microsoft.InformationProtection.Protection.PublishingSettings.#ctor(Microsoft.InformationProtection.ProtectionDescriptor,System.Collections.Generic.List{System.Byte})" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.DelegatedUserEmail" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.IsAuditedExtractionAllowed" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.IsDeprecatedAlgorithmPreferred" />
+      <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.OriginalProtectionHandler" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.PreLicenseRequest" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.PreLicenseUserEmail" />
       <Member Id="P:Microsoft.InformationProtection.Protection.PublishingSettings.ProtectionDescriptor" />
@@ -1117,18 +1126,24 @@
     <Type Name="Microsoft.InformationProtection.Protection.Rights" Id="T:Microsoft.InformationProtection.Protection.Rights">
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.AuditedExtract" />
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.Comment" />
+      <Member Id="F:Microsoft.InformationProtection.Protection.Rights.DocumentEdit" />
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.Edit" />
+      <Member Id="F:Microsoft.InformationProtection.Protection.Rights.EditRightsData" />
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.Export" />
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.Extract" />
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.Forward" />
+      <Member Id="F:Microsoft.InformationProtection.Protection.Rights.ObjectModel" />
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.Owner" />
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.Print" />
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.Reply" />
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.ReplyAll" />
       <Member Id="F:Microsoft.InformationProtection.Protection.Rights.View" />
+      <Member Id="F:Microsoft.InformationProtection.Protection.Rights.ViewRightsData" />
       <Member Id="M:Microsoft.InformationProtection.Protection.Rights.CommonRights" />
+      <Member Id="M:Microsoft.InformationProtection.Protection.Rights.DoNotForwardRights" />
       <Member Id="M:Microsoft.InformationProtection.Protection.Rights.EditableDocumentRights" />
       <Member Id="M:Microsoft.InformationProtection.Protection.Rights.EmailRights" />
+      <Member Id="M:Microsoft.InformationProtection.Protection.Rights.EncryptOnlyRights" />
     </Type>
     <Type Name="Microsoft.InformationProtection.Protection.Roles" Id="T:Microsoft.InformationProtection.Protection.Roles">
       <Member Id="F:Microsoft.InformationProtection.Protection.Roles.Author" />
@@ -1142,6 +1157,11 @@
       <Member Id="P:Microsoft.InformationProtection.Protection.TemplateDescriptor.Id" />
       <Member Id="P:Microsoft.InformationProtection.Protection.TemplateDescriptor.Name" />
       <Member Id="P:Microsoft.InformationProtection.Protection.TemplateDescriptor.SerializedTemplate" />
+    </Type>
+  </Namespace>
+  <Namespace Name="Microsoft.InformationProtection.Utils">
+    <Type Name="Microsoft.InformationProtection.Utils.NativeKeepAlive`1" Id="T:Microsoft.InformationProtection.Utils.NativeKeepAlive`1">
+      <Member Id="M:Microsoft.InformationProtection.Utils.NativeKeepAlive`1.Attach(`0,System.Object,System.Object)" />
     </Type>
   </Namespace>
 </Framework>

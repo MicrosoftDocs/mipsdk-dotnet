@@ -33,6 +33,7 @@
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
     <AssemblyVersion>1.16.126.0</AssemblyVersion>
     <AssemblyVersion>1.17.154.0</AssemblyVersion>
+    <AssemblyVersion>1.18.75.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -69,6 +70,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -104,6 +106,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -139,6 +142,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
@@ -147,6 +151,51 @@
       <Docs>
         <summary>
             All common rights
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <return>A list of rights</return>
+      </Docs>
+    </Member>
+    <Member MemberName="DocumentEdit">
+      <MemberSignature Language="C#" Value="public const string DocumentEdit;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string DocumentEdit" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.DocumentEdit" />
+      <MemberSignature Language="VB.NET" Value="Public Const DocumentEdit As String " />
+      <MemberSignature Language="F#" Value="val mutable DocumentEdit : string" Usage="Microsoft.InformationProtection.Protection.Rights.DocumentEdit" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            'Document edit' right
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="DoNotForwardRights">
+      <MemberSignature Language="C#" Value="public static System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt; DoNotForwardRights ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;string&gt; DoNotForwardRights() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.Rights.DoNotForwardRights" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DoNotForwardRights () As ReadOnlyCollection(Of String)" />
+      <MemberSignature Language="F#" Value="static member DoNotForwardRights : unit -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt;" Usage="Microsoft.InformationProtection.Protection.Rights.DoNotForwardRights " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            All rights relevant for do not forward emails 
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -177,6 +226,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -212,6 +262,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
@@ -224,6 +275,27 @@
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
         <return>A list of rights</return>
+      </Docs>
+    </Member>
+    <Member MemberName="EditRightsData">
+      <MemberSignature Language="C#" Value="public const string EditRightsData;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string EditRightsData" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.EditRightsData" />
+      <MemberSignature Language="VB.NET" Value="Public Const EditRightsData As String " />
+      <MemberSignature Language="F#" Value="val mutable EditRightsData : string" Usage="Microsoft.InformationProtection.Protection.Rights.EditRightsData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            'Edit rights data' right
+            </summary>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="EmailRights">
@@ -250,6 +322,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
@@ -258,6 +331,30 @@
       <Docs>
         <summary>
             All rights relevant for email 
+            </summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+        <return>A list of rights</return>
+      </Docs>
+    </Member>
+    <Member MemberName="EncryptOnlyRights">
+      <MemberSignature Language="C#" Value="public static System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt; EncryptOnlyRights ();" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;string&gt; EncryptOnlyRights() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.Protection.Rights.EncryptOnlyRights" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function EncryptOnlyRights () As ReadOnlyCollection(Of String)" />
+      <MemberSignature Language="F#" Value="static member EncryptOnlyRights : unit -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt;" Usage="Microsoft.InformationProtection.Protection.Rights.EncryptOnlyRights " />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>
+            All rights relevant for encrypt only emails 
             </summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
@@ -288,6 +385,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -323,6 +421,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -358,6 +457,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -365,6 +465,27 @@
       <Docs>
         <summary>
             'Forward' right
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ObjectModel">
+      <MemberSignature Language="C#" Value="public const string ObjectModel;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ObjectModel" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.ObjectModel" />
+      <MemberSignature Language="VB.NET" Value="Public Const ObjectModel As String " />
+      <MemberSignature Language="F#" Value="val mutable ObjectModel : string" Usage="Microsoft.InformationProtection.Protection.Rights.ObjectModel" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            'Object model' right
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
@@ -393,6 +514,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -428,6 +550,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -463,6 +586,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -498,6 +622,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -533,6 +658,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -540,6 +666,27 @@
       <Docs>
         <summary>
             'View' right
+            </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="ViewRightsData">
+      <MemberSignature Language="C#" Value="public const string ViewRightsData;" />
+      <MemberSignature Language="ILAsm" Value=".field public static literal string ViewRightsData" />
+      <MemberSignature Language="DocId" Value="F:Microsoft.InformationProtection.Protection.Rights.ViewRightsData" />
+      <MemberSignature Language="VB.NET" Value="Public Const ViewRightsData As String " />
+      <MemberSignature Language="F#" Value="val mutable ViewRightsData : string" Usage="Microsoft.InformationProtection.Protection.Rights.ViewRightsData" />
+      <MemberType>Field</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.String</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>
+            'View rights data' right
             </summary>
         <remarks>To be added.</remarks>
       </Docs>
