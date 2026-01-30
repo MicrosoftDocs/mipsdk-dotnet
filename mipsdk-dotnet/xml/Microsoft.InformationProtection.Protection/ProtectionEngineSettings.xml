@@ -27,6 +27,7 @@
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
     <AssemblyVersion>1.16.126.0</AssemblyVersion>
     <AssemblyVersion>1.17.154.0</AssemblyVersion>
+    <AssemblyVersion>1.18.75.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -59,6 +60,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="engineId" Type="System.String" />
@@ -95,6 +97,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -127,6 +130,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -159,6 +163,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Cloud</ReturnType>
@@ -192,6 +197,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -225,6 +231,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -251,6 +258,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.DataBoundary</ReturnType>
@@ -283,6 +291,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -315,6 +324,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Identity</ReturnType>
@@ -347,6 +357,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -376,6 +387,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Object</ReturnType>
@@ -408,6 +420,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -434,6 +447,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int32&gt;</ReturnType>
@@ -461,6 +475,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -494,6 +509,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

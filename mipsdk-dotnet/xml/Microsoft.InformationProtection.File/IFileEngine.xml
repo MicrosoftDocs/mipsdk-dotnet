@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.IFileEngine" />
   <TypeSignature Language="VB.NET" Value="Public Interface IFileEngine&#xA;Implements IDisposable" />
   <TypeSignature Language="F#" Value="type IFileEngine = interface&#xA;    interface IDisposable" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IFileEngine implements class System.IDisposable" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IFileEngine implements class System.IDisposable" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18" />
   <AssemblyInfo>
     <AssemblyName>mip_dotnet_api</AssemblyName>
     <AssemblyVersion>1.1.210.0</AssemblyVersion>
@@ -34,6 +34,7 @@
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
     <AssemblyVersion>1.16.126.0</AssemblyVersion>
     <AssemblyVersion>1.17.154.0</AssemblyVersion>
+    <AssemblyVersion>1.18.75.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -131,16 +132,17 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="inputFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputStream" Type="System.IO.Stream" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="inputStream">A stream that represents the file.</param>
@@ -173,16 +175,17 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;Microsoft.InformationProtection.File.IFileHandler&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="inputFilePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="actualFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
-        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="inputFilePath" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="actualFilePath" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isAuditDiscoveryEnabled" Type="System.Boolean" Index="2" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="fileExecutionState" Type="Microsoft.InformationProtection.File.FileExecutionState" Index="3" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
+        <Parameter Name="isGetSensitivityLabelAuditDiscoveryEnabled" Type="System.Boolean" Index="4" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18;mipsdk-dotnet-1.8;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="inputFilePath">The file to open. The path must include the file name and, if one exists, the file extension. </param>
@@ -221,6 +224,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
@@ -253,6 +257,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -285,6 +290,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.Label</ReturnType>
@@ -298,6 +304,70 @@
             Gets the label according to the provided id.
             </summary>
         <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRightsForLabelId">
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;string&gt; GetRightsForLabelId (string documentId, string labelId, string ownerEmail, Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.List`1&lt;string&gt; GetRightsForLabelId(string documentId, string labelId, string ownerEmail, class Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileEngine.GetRightsForLabelId(System.String,System.String,System.String,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRightsForLabelId (documentId As String, labelId As String, ownerEmail As String, Optional settings As ProtectionCommonSettings = Nothing) As List(Of String)" />
+      <MemberSignature Language="F#" Value="abstract member GetRightsForLabelId : string * string * string * Microsoft.InformationProtection.Protection.ProtectionCommonSettings -&gt; System.Collections.Generic.List&lt;string&gt;" Usage="iFileEngine.GetRightsForLabelId (documentId, labelId, ownerEmail, settings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Collections.Generic.List&lt;System.String&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="documentId" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.18" />
+        <Parameter Name="labelId" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.18" />
+        <Parameter Name="ownerEmail" Type="System.String" Index="2" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.18" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="3" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.18" />
+      </Parameters>
+      <Docs>
+        <param name="documentId">Document ID associated with the document metadata.</param>
+        <param name="labelId">Label ID associated with the document metadata with which the document created.</param>
+        <param name="ownerEmail">Owner of the document.</param>
+        <param name="settings">Common settings for protection</param>
+        <summary>
+            Get collection of rights available to a user for a label ID.
+            </summary>
+        <returns>List of rights.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="GetRightsForLabelIdAsync">
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt; GetRightsForLabelIdAsync (string documentId, string labelId, string ownerEmail, Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings = default);" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Threading.Tasks.Task`1&lt;class System.Collections.Generic.List`1&lt;string&gt;&gt; GetRightsForLabelIdAsync(string documentId, string labelId, string ownerEmail, class Microsoft.InformationProtection.Protection.ProtectionCommonSettings settings) cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.InformationProtection.File.IFileEngine.GetRightsForLabelIdAsync(System.String,System.String,System.String,Microsoft.InformationProtection.Protection.ProtectionCommonSettings)" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetRightsForLabelIdAsync (documentId As String, labelId As String, ownerEmail As String, Optional settings As ProtectionCommonSettings = Nothing) As Task(Of List(Of String))" />
+      <MemberSignature Language="F#" Value="abstract member GetRightsForLabelIdAsync : string * string * string * Microsoft.InformationProtection.Protection.ProtectionCommonSettings -&gt; System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;string&gt;&gt;" Usage="iFileEngine.GetRightsForLabelIdAsync (documentId, labelId, ownerEmail, settings)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.InformationProtection</AssemblyName>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Tasks.Task&lt;System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="documentId" Type="System.String" Index="0" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.18" />
+        <Parameter Name="labelId" Type="System.String" Index="1" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.18" />
+        <Parameter Name="ownerEmail" Type="System.String" Index="2" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.18" />
+        <Parameter Name="settings" Type="Microsoft.InformationProtection.Protection.ProtectionCommonSettings" Index="3" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.18" />
+      </Parameters>
+      <Docs>
+        <param name="documentId">Document ID associated with the document metadata.</param>
+        <param name="labelId">Label ID associated with the document metadata with which the document created.</param>
+        <param name="ownerEmail">Owner of the document.</param>
+        <param name="settings">Common settings for protection</param>
+        <summary>
+            Starts getting collection of rights available to a user for a label ID.
+            </summary>
+        <returns>A task that represents the asynchronous create operation. The value of the <c>TResult</c> parameter contains the list of rights.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -321,6 +391,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -350,12 +421,13 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="workload" Type="Microsoft.InformationProtection.Workload" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.9" />
+        <Parameter Name="workload" Type="Microsoft.InformationProtection.Workload" Index="0" FrameworkAlternate="mipsdk-dotnet-1.10;mipsdk-dotnet-1.11;mipsdk-dotnet-1.12;mipsdk-dotnet-1.13;mipsdk-dotnet-1.14;mipsdk-dotnet-1.15;mipsdk-dotnet-1.16;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18;mipsdk-dotnet-1.9" />
       </Parameters>
       <Docs>
         <param name="workload">To be added.</param>
@@ -390,6 +462,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -422,6 +495,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTime</ReturnType>
@@ -458,6 +532,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -490,6 +565,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -522,6 +598,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -558,6 +635,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -601,6 +679,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Label&gt;</ReturnType>
@@ -637,6 +716,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;Microsoft.InformationProtection.Policy.SensitivityTypesRulePackage&gt;</ReturnType>
@@ -669,6 +749,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -705,6 +786,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.File.FileEngineSettings</ReturnType>

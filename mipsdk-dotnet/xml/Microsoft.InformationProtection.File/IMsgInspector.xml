@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.File.IMsgInspector" />
   <TypeSignature Language="VB.NET" Value="Public Interface IMsgInspector&#xA;Implements IDisposable, IFileInspector" />
   <TypeSignature Language="F#" Value="type IMsgInspector = interface&#xA;    interface IFileInspector&#xA;    interface IDisposable" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IMsgInspector implements class Microsoft.InformationProtection.File.IFileInspector, class System.IDisposable" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit IMsgInspector implements class Microsoft.InformationProtection.File.IFileInspector, class System.IDisposable" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.6.113.0</AssemblyVersion>
@@ -28,6 +28,7 @@
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
     <AssemblyVersion>1.16.126.0</AssemblyVersion>
     <AssemblyVersion>1.17.154.0</AssemblyVersion>
+    <AssemblyVersion>1.18.75.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces>
     <Interface>
@@ -64,6 +65,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;Microsoft.InformationProtection.File.IMsgAttachmentData&gt;</ReturnType>
@@ -96,6 +98,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.List&lt;System.Byte&gt;</ReturnType>
@@ -128,6 +131,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>Microsoft.InformationProtection.File.BodyType</ReturnType>
@@ -159,6 +163,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
