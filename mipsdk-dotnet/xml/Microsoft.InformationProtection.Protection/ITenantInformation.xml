@@ -4,7 +4,7 @@
   <TypeSignature Language="DocId" Value="T:Microsoft.InformationProtection.Protection.ITenantInformation" />
   <TypeSignature Language="VB.NET" Value="Public Interface ITenantInformation" />
   <TypeSignature Language="F#" Value="type ITenantInformation = interface" />
-  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ITenantInformation" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17" />
+  <TypeSignature Language="ILAsm" Value=".class public interface auto ansi abstract beforefieldinit ITenantInformation" FrameworkAlternate="mipsdk-dotnet-1.13;mipsdk-dotnet-1.17;mipsdk-dotnet-1.18" />
   <AssemblyInfo>
     <AssemblyName>Microsoft.InformationProtection</AssemblyName>
     <AssemblyVersion>1.12.61.0</AssemblyVersion>
@@ -16,6 +16,7 @@
     <AssemblyVersion>1.15.107.0</AssemblyVersion>
     <AssemblyVersion>1.16.126.0</AssemblyVersion>
     <AssemblyVersion>1.17.154.0</AssemblyVersion>
+    <AssemblyVersion>1.18.75.0</AssemblyVersion>
   </AssemblyInfo>
   <Interfaces />
   <Docs>
@@ -39,6 +40,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -65,6 +67,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -92,6 +95,7 @@
         <AssemblyVersion>1.15.107.0</AssemblyVersion>
         <AssemblyVersion>1.16.126.0</AssemblyVersion>
         <AssemblyVersion>1.17.154.0</AssemblyVersion>
+        <AssemblyVersion>1.18.75.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
